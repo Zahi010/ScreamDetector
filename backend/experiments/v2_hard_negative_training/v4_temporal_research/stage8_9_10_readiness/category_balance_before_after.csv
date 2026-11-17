@@ -1,0 +1,10 @@
+target_category,v3_train,quarantined_train,eligible_train,v3_val,quarantined_val,eligible_val,v3_test,quarantined_test,eligible_test,v3_total,quarantined_total,eligible_total,retention_pct
+crowd_chant_cheering,154,26,128,44,6,38,42,4,38,240,36,204,85.0
+general_environmental,54,0,54,35,0,35,26,0,26,115,0,115,100.0
+infant_crying,36,4,32,19,2,17,15,3,12,70,9,61,87.1
+masked_distant_screams,61,4,57,28,0,28,36,0,36,125,4,121,96.8
+scream,111,9,102,51,2,49,66,2,64,228,13,215,94.3
+sfx_sirens_fireworks,40,1,39,12,0,12,28,1,27,80,2,78,97.5
+shouting_and_speech,197,65,132,74,7,67,49,16,33,320,88,232,72.5
+whistles_and_squeaks,88,6,82,30,1,29,32,2,30,150,9,141,94.0
+OVERALL_ALL_CATEGORIES,741,115,626,293,18,275,294,28,266,1328,161,1167,87.9

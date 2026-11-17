@@ -1,0 +1,11 @@
+{
+  "input_dim": 1024,
+  "hidden_dim": 256,
+  "proj_dim": 128,
+  "temperature": 0.1,
+  "learning_rate": 0.001,
+  "batch_size": 64,
+  "epochs": 35,
+  "weight_decay": 0.0001,
+  "hard_negative_sampling_boost": 2.0
+}

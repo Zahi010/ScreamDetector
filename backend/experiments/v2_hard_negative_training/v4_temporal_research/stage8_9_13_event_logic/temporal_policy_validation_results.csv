@@ -1,0 +1,8 @@
+candidate_id,classifier,policy_type,feasibility_status,locked_parameters,val_event_recall_pct,val_short_scream_recall_pct,val_event_fpr_pct,val_shouted_speech_fpr_pct,val_f1_score,val_median_delay_sec,val_duplicate_alerts_per_event,val_hourly_false_alerts
+D_v4_Single_Window_Base,D_v4,Single_Window,INFEASIBLE,{'threshold': 0.78},82.29,33.33,27.68,13.92,0.6667,1.0,3.15,498.2
+D_v4_Consecutive_2_Base,D_v4,Consecutive_2,INFEASIBLE,"{'threshold': 0.66, 'consecutive_required': 2}",72.92,0.0,26.34,8.86,0.6222,1.5,0.93,474.1
+D_v4_Hysteresis_Cooldown_Base,D_v4,Hysteresis_Cooldown,INFEASIBLE,"{'tau_high': 0.66, 'tau_low': 0.33}",72.92,0.0,26.34,8.86,0.6222,1.5,0.2,474.1
+D_v4_DualPath_Balanced,D_v4,DualPath_Balanced,INFEASIBLE,"{'tau_fast': 0.75, 'tau_sustained': 0.65, 'tau_release': 0.33, 'sustained_confirm_hops': 2, 'cooldown_hops': 6}",89.58,33.33,34.82,17.72,0.6615,1.0,0.08,626.8
+D_v4_DualPath_ShortEventPrioritized,D_v4,DualPath_ShortPrioritized,INFEASIBLE,"{'tau_fast': 0.7, 'tau_sustained': 0.6, 'tau_release': 0.24, 'sustained_confirm_hops': 2, 'cooldown_hops': 4}",92.71,44.44,38.84,21.52,0.6544,1.0,0.06,699.1
+D_v4_DualPath_HighConfidence,D_v4,DualPath_HighConfidence,INFEASIBLE,"{'tau_fast': 0.85, 'tau_sustained': 0.6, 'tau_release': 0.3, 'sustained_confirm_hops': 3, 'cooldown_hops': 8}",75.0,11.11,28.57,11.39,0.6207,2.0,0.05,514.3
+H_v5_DualPath_Balanced,H_v5_SNR,DualPath_Balanced,INFEASIBLE,"{'tau_fast': 0.7, 'tau_sustained': 0.45, 'tau_release': 0.23, 'sustained_confirm_hops': 2, 'cooldown_hops': 6}",73.96,11.11,20.09,10.13,0.6698,1.5,0.19,361.6

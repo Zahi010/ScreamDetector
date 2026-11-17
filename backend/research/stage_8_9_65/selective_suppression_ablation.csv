@@ -1,0 +1,7 @@
+candidate_id,overall_recall,gate1_pass,fpr_dev,gate2_pass,shouted_speech_fpr,gate3_pass,short_scream_recall,gate4_pass,ultra_short_recall,sustained_recall,f1_score,roc_auc,pr_auc,tp,fp,fn,tn,tp_short,n_short,tp_ultra,n_ultra,tp_sust,n_sust,fp_shouted,n_shouted,all_gates_pass
+Candidate_65_A_Baseline_Reference,0.9436,False,0.2137,False,1.0,False,0.985,True,1.0,0.8548,0.9109,0.9194,0.9203,184,25,11,92,131,133,51,51,53,62,5,5,False
+Candidate_65_B_Variant_6_Full_Stack,0.8769,False,0.0427,True,0.0,True,0.9398,True,1.0,0.7419,0.9218,0.9342,0.9686,171,5,24,112,125,133,51,51,46,62,0,5,False
+Candidate_65_C_Branch_Aware_Selective,0.9436,False,0.1966,False,1.0,False,0.985,True,1.0,0.8548,0.9154,0.9334,0.9517,184,23,11,94,131,133,51,51,53,62,5,5,False
+Candidate_65_D_Calibrated_HNR_Selective,0.9436,False,0.188,False,1.0,False,0.985,True,1.0,0.8548,0.9177,0.9371,0.9531,184,22,11,95,131,133,51,51,53,62,5,5,False
+Candidate_65_E_Contrastive_Refinement,0.9333,False,0.1966,False,1.0,False,0.9699,True,1.0,0.8548,0.91,0.9308,0.9506,182,23,13,94,129,133,51,51,53,62,5,5,False
+Candidate_65_F_Combined_Selective,0.9436,False,0.0598,False,0.2,False,0.985,True,1.0,0.8548,0.9534,0.9622,0.9785,184,7,11,110,131,133,51,51,53,62,1,5,False

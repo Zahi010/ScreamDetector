@@ -1,0 +1,102 @@
+{
+  "Full_Architecture": {
+    "description": "Full SDDFR Two-Tier Architecture",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.03,
+    "shouting_fpr": 20.24,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 95.59,
+    "roc_auc": 0.9351,
+    "forensic_notes": "Complete System Baseline"
+  },
+  "Abl1_No_SNR_Routing": {
+    "description": "Without SNR Routing (Fixed Weights)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.55,
+    "shouting_fpr": 21.43,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 95.59,
+    "roc_auc": 0.9284,
+    "forensic_notes": "Shouting FPR increases (+1.19%) due to over-trusting HNR in noise"
+  },
+  "Abl2_No_Pitch_Conditioning": {
+    "description": "Without Pitch Conditioning (Raw Pitch Failure)",
+    "event_recall": 76.92,
+    "hard_negative_fpr": 8.59,
+    "shouting_fpr": 23.81,
+    "short_scream_recall": 81.82,
+    "supplementary_short_scream_recall": 91.18,
+    "roc_auc": 0.912,
+    "forensic_notes": "Scream Recall drops (-1.29%) and Shouting FPR rises (+3.57%)"
+  },
+  "Abl3_No_SHR": {
+    "description": "Without Subharmonic Features (SHR)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.29,
+    "shouting_fpr": 20.24,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 95.59,
+    "roc_auc": 0.9312,
+    "forensic_notes": "Minor ROC-AUC loss (-0.0039); biphonation confirmation removed"
+  },
+  "Abl4_No_HNR": {
+    "description": "Without Harmonic-to-Noise Ratio (HNR)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.81,
+    "shouting_fpr": 22.62,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 95.59,
+    "roc_auc": 0.9245,
+    "forensic_notes": "Shouting FPR increases (+2.38%) because modal harmonicity is lost"
+  },
+  "Abl5_No_Enhanced_Stream": {
+    "description": "Without Enhanced Stream (Original Only)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.29,
+    "shouting_fpr": 20.24,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 100.0,
+    "roc_auc": 0.9348,
+    "forensic_notes": "Short scream recall reaches 100%; zero risk of onset suppression"
+  },
+  "Abl6_No_Formants": {
+    "description": "Without Formants (No Formant Dispersion)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.81,
+    "shouting_fpr": 23.81,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 95.59,
+    "roc_auc": 0.9261,
+    "forensic_notes": "Shouting FPR increases (+3.57%) on open shouted vowels (NOOO/HEYYY)"
+  },
+  "Abl7_No_YAMNet_Mean": {
+    "description": "Without YAMNet Mean (Max-Only Pooling)",
+    "event_recall": 74.36,
+    "hard_negative_fpr": 9.64,
+    "shouting_fpr": 25.0,
+    "short_scream_recall": 81.82,
+    "supplementary_short_scream_recall": 89.71,
+    "roc_auc": 0.8845,
+    "forensic_notes": "Severe degradation across all metrics (-3.85% Recall, +4.76% Shouting FPR)"
+  },
+  "Abl8_No_Tier2": {
+    "description": "Without Tier 2 Verifier (Tier 1 Direct)",
+    "event_recall": 78.21,
+    "hard_negative_fpr": 7.03,
+    "shouting_fpr": 20.24,
+    "short_scream_recall": 86.36,
+    "supplementary_short_scream_recall": 100.0,
+    "roc_auc": 0.951,
+    "forensic_notes": "Higher raw AUC, but loses tri-state explainability and noise gating"
+  },
+  "Abl9_No_Confidence_Weighting": {
+    "description": "Without Confidence Weighting (Hard Thresholds)",
+    "event_recall": 75.64,
+    "hard_negative_fpr": 8.07,
+    "shouting_fpr": 21.43,
+    "short_scream_recall": 81.82,
+    "supplementary_short_scream_recall": 88.24,
+    "roc_auc": 0.918,
+    "forensic_notes": "Short screams suppressed (-7.35% supp recall) due to rigid thresholding"
+  }
+}

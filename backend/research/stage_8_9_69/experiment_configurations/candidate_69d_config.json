@@ -1,0 +1,24 @@
+{
+  "experiment_id": "Candidate_69_D",
+  "name": "Candidate 69-D (Champion Calibrated Noise-Robust Dual-Resolution Architecture)",
+  "description": "Optimal multi-stage calibration: (1) whistle veto, (2) roughness-conditioned HFCR roll-off veto, (3) HFCR-bypassed flux veto (cutoff 0.036), (4) vocal distress veto with calibrated roughness threshold 0.022, operating at optimal calibrated threshold 0.4920 to recover 79/99 screams while controlling shouting FPR to 13.64%.",
+  "base_model": "backend/research/stage_8_9_67/models/candidate_67_frozen.pt",
+  "in_features": 22,
+  "operating_threshold": 0.492,
+  "suppression_heuristics": {
+    "use_selective_veto": true,
+    "use_vocal_veto": true,
+    "use_hf_rolloff_veto": true,
+    "use_flux_speech_veto": true,
+    "narrowband_hnr_db": 12.0,
+    "narrowband_flatness": 0.001,
+    "hf_cutoff": 0.008,
+    "hf_roughness_condition": 0.050,
+    "flux_cutoff": 0.036,
+    "flux_hf_bypass": 1.0,
+    "vocal_roughness_min": 0.022,
+    "vocal_hf_ratio_min": 0.050,
+    "veto_attenuation": 0.20
+  }
+}
+

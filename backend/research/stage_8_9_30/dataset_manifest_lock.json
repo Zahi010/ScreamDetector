@@ -1,0 +1,11 @@
+{
+  "stage": "8.9.30",
+  "lock_timestamp": "2026-11-02T10:27:05.705506+00:00",
+  "manifest_file": "metadata/recording_manifest.csv",
+  "manifest_sha256": "3d547f744c6545603db8c6e223a9e956e99d1f4fe2fdf44087375921788b2ede",
+  "total_recordings_locked": 204,
+  "total_positive_screams_locked": 137,
+  "total_hard_negatives_locked": 67,
+  "total_source_groups_locked": 49,
+  "status": "CRYPTOGRAPHICALLY_LOCKED"
+}

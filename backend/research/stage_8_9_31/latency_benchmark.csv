@@ -1,0 +1,6 @@
+pipeline_stage,sample_count,mean_ms,median_p50_ms,p95_ms,p99_ms,max_ms,min_ms,meets_p95_25ms_target
+Window Generation,100,0.043,0.041,0.057,0.068,0.068,0.007,True
+Feature Extraction & Inference,100,23.543,22.709,25.527,27.750,158.398,0.000,False
+Fusion Evaluation,100,0.012,0.011,0.016,0.021,0.021,0.001,True
+Event Decision,100,0.000,0.000,0.001,0.001,0.001,0.000,True
+Total End-to-End Pipeline,100,23.598,22.761,25.582,27.805,158.449,0.009,False

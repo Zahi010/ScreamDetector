@@ -1,0 +1,50 @@
+[
+  {
+    "candidate_id": "Config-B-v5",
+    "architecture": "DualEncoderAcousticModel",
+    "checkpoint": "config_b_v5.pt",
+    "selected_threshold": 0.82,
+    "val_auc": 0.9458,
+    "val_ap": 0.8379,
+    "val_f1": 0.7463,
+    "val_recall": 64.1,
+    "val_hn_fpr": 2.6,
+    "val_shouted_speech_fpr": 5.49
+  },
+  {
+    "candidate_id": "CNN-LogMel-v5",
+    "architecture": "CustomLogMelCNN",
+    "checkpoint": "cnn_logmel_v5.pt",
+    "selected_threshold": 0.9199999999999999,
+    "val_auc": 0.9547,
+    "val_ap": 0.8879,
+    "val_f1": 0.7591,
+    "val_recall": 66.67,
+    "val_hn_fpr": 3.03,
+    "val_shouted_speech_fpr": 3.3
+  },
+  {
+    "candidate_id": "CNN-MultiScale-v5",
+    "architecture": "CustomMultiScaleCNN",
+    "checkpoint": "cnn_multiscale_v5.pt",
+    "selected_threshold": 0.5,
+    "val_auc": 0.9494,
+    "val_ap": 0.8546,
+    "val_f1": 0.0,
+    "val_recall": 0.0,
+    "val_hn_fpr": 0.0,
+    "val_shouted_speech_fpr": 0.0
+  },
+  {
+    "candidate_id": "CNN-Temporal-v5",
+    "architecture": "CustomTemporalCNN",
+    "checkpoint": "cnn_temporal_v5.pt",
+    "selected_threshold": 0.9099999999999999,
+    "val_auc": 0.9454,
+    "val_ap": 0.8399,
+    "val_f1": 0.7153,
+    "val_recall": 62.82,
+    "val_hn_fpr": 4.33,
+    "val_shouted_speech_fpr": 6.59
+  }
+]

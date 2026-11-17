@@ -1,0 +1,96 @@
+{
+  "hardware_environment": {
+    "platform": "Windows-10-10.0.26100-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "python_version": "3.11.17",
+    "sample_rate_input_hz": 44100,
+    "sample_rate_target_hz": 16000,
+    "window_duration_seconds": 1.0,
+    "hop_interval_seconds": 0.5,
+    "timed_iterations": 50,
+    "warmup_iterations": 10
+  },
+  "stage_breakdown_ms": {
+    "stage_1_decoding": {
+      "median_ms": 0.131,
+      "p95_ms": 0.147,
+      "min_ms": 0.082,
+      "max_ms": 0.201
+    },
+    "stage_2_resampling": {
+      "median_ms": 3.469,
+      "p95_ms": 3.959,
+      "min_ms": 2.113,
+      "max_ms": 12.63
+    },
+    "stage_3_yamnet": {
+      "median_ms": 10.282,
+      "p95_ms": 12.414,
+      "min_ms": 8.303,
+      "max_ms": 13.187
+    },
+    "stage_4_physics_turbulence": {
+      "median_ms": 39.314,
+      "p95_ms": 49.015,
+      "min_ms": 23.844,
+      "max_ms": 50.183
+    },
+    "stage_5_classifier_hv5": {
+      "median_ms": 3.33,
+      "p95_ms": 3.729,
+      "min_ms": 1.934,
+      "max_ms": 3.842
+    },
+    "stage_5_classifier_d_v4": {
+      "median_ms": 2.895,
+      "p95_ms": 3.338,
+      "min_ms": 1.681,
+      "max_ms": 3.56
+    },
+    "stage_6_output_alert": {
+      "median_ms": 0.095,
+      "p95_ms": 0.113,
+      "min_ms": 0.058,
+      "max_ms": 0.255
+    }
+  },
+  "pipeline_comparison": {
+    "classifier_only_latency_ms": {
+      "Model_D_v4": {
+        "median_ms": 2.895,
+        "p95_ms": 3.338,
+        "min_ms": 1.681,
+        "max_ms": 3.56
+      },
+      "Model_H_v5_SNR": {
+        "median_ms": 3.33,
+        "p95_ms": 3.729,
+        "min_ms": 1.934,
+        "max_ms": 3.842
+      }
+    },
+    "total_end_to_end_latency_ms": {
+      "Model_D_v4_Pipeline": {
+        "median_ms": 16.982,
+        "p95_ms": 19.171,
+        "min_ms": 12.308,
+        "max_ms": 27.133
+      },
+      "Model_H_v5_SNR_Pipeline": {
+        "median_ms": 60.076,
+        "p95_ms": 68.961,
+        "min_ms": 38.752,
+        "max_ms": 72.898
+      }
+    },
+    "edge_budget_ms": 25.0,
+    "is_within_edge_budget": false
+  },
+  "resource_footprint": {
+    "model_h_v5_snr_size_bytes": 145829,
+    "model_h_v5_snr_size_kb": 142.41,
+    "model_d_v4_size_bytes": 87701,
+    "model_d_v4_size_kb": 85.65,
+    "peak_inference_memory_kb": 2011.56
+  }
+}

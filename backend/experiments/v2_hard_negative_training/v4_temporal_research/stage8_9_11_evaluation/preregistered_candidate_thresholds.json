@@ -1,0 +1,98 @@
+{
+  "D_v4": {
+    "is_feasible": false,
+    "selected_threshold": 0.38,
+    "feasible_threshold_count": 0,
+    "best_feasible_f1": null,
+    "best_overall_f1": 0.7573,
+    "metrics_at_selected_thresh": {
+      "accuracy": 0.8438,
+      "precision": 0.7091,
+      "recall": 0.8125,
+      "specificity": 0.8571,
+      "fpr": 0.1429,
+      "f1_score": 0.7573,
+      "roc_auc": 0.9001,
+      "pr_auc": 0.8015,
+      "brier_score": 0.1099,
+      "confusion_matrix": {
+        "tn": 192,
+        "fp": 32,
+        "fn": 18,
+        "tp": 78
+      }
+    }
+  },
+  "T1_v4": {
+    "is_feasible": false,
+    "selected_threshold": 0.53,
+    "feasible_threshold_count": 0,
+    "best_feasible_f1": null,
+    "best_overall_f1": 0.7742,
+    "metrics_at_selected_thresh": {
+      "accuracy": 0.8688,
+      "precision": 0.8,
+      "recall": 0.75,
+      "specificity": 0.9196,
+      "fpr": 0.0804,
+      "f1_score": 0.7742,
+      "roc_auc": 0.9048,
+      "pr_auc": 0.8424,
+      "brier_score": 0.1022,
+      "confusion_matrix": {
+        "tn": 206,
+        "fp": 18,
+        "fn": 24,
+        "tp": 72
+      }
+    }
+  },
+  "H_v4_Commercial": {
+    "is_feasible": false,
+    "selected_threshold": 0.42,
+    "feasible_threshold_count": 0,
+    "best_feasible_f1": null,
+    "best_overall_f1": 0.7513,
+    "metrics_at_selected_thresh": {
+      "accuracy": 0.8531,
+      "precision": 0.7634,
+      "recall": 0.7396,
+      "specificity": 0.9018,
+      "fpr": 0.0982,
+      "f1_score": 0.7513,
+      "roc_auc": 0.8963,
+      "pr_auc": 0.7873,
+      "brier_score": 0.1108,
+      "confusion_matrix": {
+        "tn": 202,
+        "fp": 22,
+        "fn": 25,
+        "tp": 71
+      }
+    }
+  },
+  "H_v5_SNR": {
+    "is_feasible": false,
+    "selected_threshold": 0.51,
+    "feasible_threshold_count": 0,
+    "best_feasible_f1": null,
+    "best_overall_f1": 0.765,
+    "metrics_at_selected_thresh": {
+      "accuracy": 0.8656,
+      "precision": 0.8046,
+      "recall": 0.7292,
+      "specificity": 0.9241,
+      "fpr": 0.0759,
+      "f1_score": 0.765,
+      "roc_auc": 0.9085,
+      "pr_auc": 0.8156,
+      "brier_score": 0.1045,
+      "confusion_matrix": {
+        "tn": 207,
+        "fp": 17,
+        "fn": 26,
+        "tp": 70
+      }
+    }
+  }
+}

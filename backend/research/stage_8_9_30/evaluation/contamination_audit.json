@@ -1,0 +1,12 @@
+{
+  "stage": "8.9.30",
+  "audit_timestamp": "2026-11-02T10:25:55.233384+00:00",
+  "total_manifest_recordings": 204,
+  "unique_source_groups": 49,
+  "stage_5_historical_test_overlaps": 0,
+  "stage_5_test_overlap_pct": 0.0,
+  "stage_8_9_27_independent_manifest_overlaps": 0,
+  "internal_duplicate_collisions": 1,
+  "data_leakage_status": "ZERO_DATA_LEAKAGE_VERIFIED",
+  "notes": "All historical test recordings and previously audited independent files strictly excluded."
+}

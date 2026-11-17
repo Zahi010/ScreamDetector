@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate A (Config-B-v5-baseline)",
+  "candidate_tag": "config_b_v5_baseline",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_v5_baseline.pt",
+  "selected_threshold": 0.82,
+  "val_auc": 0.9458,
+  "val_ap": 0.8379,
+  "val_f1": 0.7463,
+  "val_recall": 64.1,
+  "val_hn_fpr": 2.6,
+  "val_shouted_speech_fpr": 5.49,
+  "val_brier_score": 0.0962,
+  "val_ece": 0.0979,
+  "train_samples": 1198,
+  "train_pos": 401,
+  "train_neg": 797
+}

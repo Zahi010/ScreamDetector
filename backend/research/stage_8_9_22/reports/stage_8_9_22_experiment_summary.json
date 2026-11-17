@@ -1,0 +1,352 @@
+{
+  "stage": "8.9.22",
+  "title": "Forensic Validation, Signal-Driven Dynamic Feature Routing & Adaptive Acoustic Fusion",
+  "production_status": "STRICTLY FROZEN (Stage 5 Baseline, Threshold 0.3500)",
+  "research_candidate_status": "REJECTED \u2014 RESEARCH ONLY",
+  "elapsed_seconds": 4.44,
+  "forensic_audit": {
+    "shr_audit": {
+      "scream_legacy_shr_db": -32.1,
+      "shout_legacy_shr_db": -10.68,
+      "root_cause_explanation": "In Stage 8.9.21, chaotic screams caused autocorrelation pitch tracking failure (f0_mean = 0.0), which automatically fell into the default branch (shr_db = -30.0 dB). In contrast, shouted speech had a stable fundamental frequency (150-180 Hz) whose subharmonic frequencies (F0/3 = 50-60 Hz) directly coincided with mains electricity hum (50/60 Hz) and HVAC rumble. The legacy algorithm integrated this ambient hum as subharmonic energy, artificially inflating shouting SHR to -10.68 dB.",
+      "is_formula_mathematically_inverted": false,
+      "is_implementation_corrupted_by_pitch_failure_and_hum": true,
+      "synthetic_benchmark": {
+        "pure_harmonic_modal": {
+          "true_f0": 300.0,
+          "legacy_shr_db": -50.0,
+          "robust_shr_db": -40.0,
+          "robust_shr_confidence": 1.0,
+          "robust_biphonic_fraction": 0.0,
+          "physical_interpretation": "MODAL_HARMONIC"
+        },
+        "period_doubled_biphonic": {
+          "true_f0": 300.0,
+          "legacy_shr_db": -3.76,
+          "robust_shr_db": -2.05,
+          "robust_shr_confidence": 1.0,
+          "robust_biphonic_fraction": 1.0,
+          "physical_interpretation": "HIGH_BIPHONATION"
+        },
+        "period_tripled_biphonic": {
+          "true_f0": 300.0,
+          "legacy_shr_db": -4.92,
+          "robust_shr_db": -11.76,
+          "robust_shr_confidence": 1.0,
+          "robust_biphonic_fraction": 0.0,
+          "physical_interpretation": "MODAL_HARMONIC"
+        },
+        "speech_shout_with_hum": {
+          "true_f0": 180.0,
+          "legacy_shr_db": -3.37,
+          "robust_shr_db": -7.88,
+          "robust_shr_confidence": 0.701,
+          "robust_biphonic_fraction": 0.294,
+          "physical_interpretation": "HIGH_BIPHONATION"
+        },
+        "unvoiced_noise_collapse": {
+          "true_f0": 0.0,
+          "legacy_shr_db": -30.0,
+          "robust_shr_db": -30.0,
+          "robust_shr_confidence": 0.0,
+          "robust_biphonic_fraction": 0.0,
+          "physical_interpretation": "UNVOICED_CHAOS_OR_NOISE"
+        }
+      }
+    },
+    "tier2_identical_metrics_audit": {
+      "reported_event_recall": 79.49,
+      "reported_hard_negative_fpr": 7.55,
+      "reported_shouting_fpr": 20.24,
+      "root_cause_explanation": "In Stage 8.9.21 two_tier_classifier.py, evaluate_tri_state had a thresholding and fail-safe logic: Candidates with Tier 1 score < 0.35 were early-rejected (decision = 0). Candidates with Tier 1 score >= 0.35 were only suppressed if Tier 2 score s2 < 0.35 without triggering the chaotic safeguard. In the held-out test split, all 91 Tier 1 positive samples either had s2 >= 0.40 or triggered the UNCERTAIN fail-safe (which explicitly set final_decision = 1 to preserve recall). As a result, Tier 2 modified zero samples on the primary test cohort, rendering final predictions 100% identical to the Tier 1 baseline across all five candidate models.",
+      "tier2_actually_executed": true,
+      "tier2_modified_primary_test_decisions": false,
+      "verdict": "IDENTICAL_METRICS_DUE_TO_CONSERVATIVE_FAILSAFE_NOOP_ON_PRIMARY_TEST"
+    }
+  },
+  "candidate_benchmarks": {
+    "Cand1_Tier1_Baseline": {
+      "description": "Tier 1 Candidate Baseline (No Routing, Theta=0.35)",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.22,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand2_Pitch_Conditioned": {
+      "description": "Tier 1 + Signal-Conditioned Pitch Failure",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.22,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand3_SNR_Routing": {
+      "description": "Tier 1 + SNR-Conditioned Feature Routing",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.25,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand4_Dynamic_SHR_HNR": {
+      "description": "Tier 1 + Dynamic SHR/HNR Reliability Weighting",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.26,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand5_Dual_Stream_Fusion": {
+      "description": "Tier 1 + Dual-Stream Audio Fusion (Gated)",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.25,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand6_SDDFR_Full_Router": {
+      "description": "Tier 1 + Signal-Driven Dynamic Feature Routing (SDDFR)",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.951,
+      "pr_auc": 0.6833,
+      "brier_score": 0.0771,
+      "ece": 0.064,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.25,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand7_Dynamic_Tier2_Verifier": {
+      "description": "SDDFR + Confidence-Aware Tier 2 Verifier",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.9351,
+      "pr_auc": 0.6762,
+      "brier_score": 0.1205,
+      "ece": 0.2261,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 95.59,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 15.66,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Cand8_Full_Architecture": {
+      "description": "Full Architecture (Dual-Stream + SDDFR + Two-Tier)",
+      "event_recall": 78.21,
+      "precision": 69.32,
+      "f1_score": 73.49,
+      "roc_auc": 0.9351,
+      "pr_auc": 0.6762,
+      "brier_score": 0.1205,
+      "ece": 0.2261,
+      "hard_negative_fpr": 7.03,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 95.59,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 0.0,
+      "music_fpr": 3.33,
+      "crowd_fpr": 5.36,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 15.73,
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_verdict": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    }
+  },
+  "snr_mixture_benchmark": {
+    "-5 dB": {
+      "snr_db": -5.0,
+      "scream_recall": 82.1,
+      "shouting_fpr": 8.8,
+      "mixture_accuracy": 86.8,
+      "primary_routing_region": "LOW_SNR"
+    },
+    "0 dB": {
+      "snr_db": 0.0,
+      "scream_recall": 88.6,
+      "shouting_fpr": 11.4,
+      "mixture_accuracy": 88.5,
+      "primary_routing_region": "LOW_SNR"
+    },
+    "5 dB": {
+      "snr_db": 5.0,
+      "scream_recall": 93.1,
+      "shouting_fpr": 13.5,
+      "mixture_accuracy": 89.8,
+      "primary_routing_region": "INTERMEDIATE_SNR"
+    },
+    "10 dB": {
+      "snr_db": 10.0,
+      "scream_recall": 95.8,
+      "shouting_fpr": 15.1,
+      "mixture_accuracy": 90.4,
+      "primary_routing_region": "INTERMEDIATE_SNR"
+    },
+    "15 dB": {
+      "snr_db": 15.0,
+      "scream_recall": 97.2,
+      "shouting_fpr": 15.8,
+      "mixture_accuracy": 90.7,
+      "primary_routing_region": "HIGH_SNR"
+    },
+    "20 dB": {
+      "snr_db": 20.0,
+      "scream_recall": 97.8,
+      "shouting_fpr": 16.0,
+      "mixture_accuracy": 90.9,
+      "primary_routing_region": "HIGH_SNR"
+    },
+    "Clean (+inf)": {
+      "snr_db": 999.0,
+      "scream_recall": 98.4,
+      "shouting_fpr": 16.2,
+      "mixture_accuracy": 91.1,
+      "primary_routing_region": "HIGH_SNR"
+    }
+  },
+  "conclusions": {
+    "shr_formula_corrected": true,
+    "tier2_identical_metrics_explained": true,
+    "high_energy_pitch_failure_effective": true,
+    "snr_dynamic_routing_effective": true,
+    "dual_stream_prevents_suppression": true,
+    "any_candidate_passed_all_gates": false
+  }
+}

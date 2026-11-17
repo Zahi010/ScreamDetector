@@ -1,0 +1,320 @@
+{
+  "cohort": "v4_reserved_expansion_test",
+  "n_total": 102,
+  "candidate_b": {
+    "optimal_threshold": {
+      "threshold": 0.24,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    },
+    "balanced_threshold": {
+      "threshold": 0.24,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    },
+    "ref_threshold_0_35": {
+      "threshold": 0.35,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    }
+  },
+  "candidate_d": {
+    "optimal_threshold": {
+      "threshold": 0.34,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    },
+    "balanced_threshold": {
+      "threshold": 0.32,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    },
+    "ref_threshold_0_35": {
+      "threshold": 0.35,
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.96",
+        "status": "PASS"
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ],
+        "target": "<= 0.05",
+        "status": "PASS"
+      },
+      "shouted_speech_fpr": {
+        "value": 0.0,
+        "fraction": "0/16",
+        "ci95": [
+          0.0,
+          0.1936
+        ],
+        "target": "<= 0.15",
+        "status": "PASS"
+      },
+      "short_scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "target": ">= 0.90",
+        "status": "PASS"
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "all_gates_passed": true
+    }
+  }
+}

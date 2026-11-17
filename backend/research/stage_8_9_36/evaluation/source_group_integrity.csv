@@ -1,0 +1,4 @@
+split,total_recordings,screams,hard_negatives,ambiguous,unique_source_groups,unique_creators,mean_files_per_group,leakage_count_with_test
+train,741,172,567,2,294,341,2.52,0
+val,293,79,214,0,98,125,2.99,0
+test,294,102,191,1,111,145,2.65,0

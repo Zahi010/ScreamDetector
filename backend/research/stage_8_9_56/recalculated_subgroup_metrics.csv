@@ -1,0 +1,18 @@
+subgroup_type,subgroup_name,sample_count,unique_source_groups,status,e1_hits,e1_rate_pct,e1_ci,b_hits,b_rate_pct,b_ci,bd_hits,bd_rate_pct,delta_e1_b_pct
+POSITIVE_SCREAM,Overall Scream-Like,150,77,EVALUATED,109,72.6667,"[65.04%, 79.17%]",83,55.3333,"[47.34%, 63.06%]",80,53.3333,17.3333
+POSITIVE_SCREAM,Short Screams (<1.0s),36,17,EVALUATED,30,83.3333,"[68.11%, 92.13%]",24,66.6667,"[50.33%, 79.79%]",23,63.8889,16.6667
+POSITIVE_SCREAM,Ultra-Short Screams (<=0.5s),0,0,INSUFFICIENT EVIDENCE (N=0),0,,,0,,,0,,
+POSITIVE_SCREAM,Sustained Screams (>=1.0s),114,71,EVALUATED,79,69.2982,"[60.32%, 77.02%]",59,51.7544,"[42.68%, 60.72%]",57,50.0,17.5439
+POSITIVE_SCREAM,Low-Intensity Screams,11,8,EVALUATED,2,18.1818,"[5.14%, 47.70%]",0,0.0,"[0.00%, 25.88%]",0,0.0,18.1818
+POSITIVE_SCREAM,Muffled Screams,94,56,EVALUATED,72,76.5957,"[67.10%, 84.01%]",53,56.383,"[46.30%, 65.96%]",52,55.3191,20.2128
+POSITIVE_SCREAM,Crowd-Masked Screams,112,64,EVALUATED,81,72.3214,"[63.40%, 79.76%]",61,54.4643,"[45.25%, 63.39%]",59,52.6786,17.8571
+POSITIVE_SCREAM,Distant Screams,6,5,EVALUATED,0,0.0,"[0.00%, 39.03%]",0,0.0,"[0.00%, 39.03%]",0,0.0,0.0
+NEGATIVE_HARD,Overall Hard Negatives,300,191,EVALUATED,19,6.3333,"[4.09%, 9.68%]",20,6.6667,"[4.36%, 10.07%]",20,6.6667,-0.3333
+NEGATIVE_HARD,Shouted Speech,60,39,EVALUATED,4,6.6667,"[2.62%, 15.93%]",3,5.0,"[1.71%, 13.70%]",3,5.0,1.6667
+NEGATIVE_HARD,Crowd Cheering,50,40,EVALUATED,0,0.0,"[0.00%, 7.13%]",2,4.0,"[1.10%, 13.46%]",2,4.0,-4.0
+NEGATIVE_HARD,Infant / Child Crying,50,37,EVALUATED,4,8.0,"[3.15%, 18.84%]",2,4.0,"[1.10%, 13.46%]",2,4.0,4.0
+NEGATIVE_HARD,Whistle / Referee Trill,0,0,INSUFFICIENT EVIDENCE (N=0),0,,,0,,,0,,
+NEGATIVE_HARD,Sirens & Alarms,35,34,EVALUATED,2,5.7143,"[1.58%, 18.61%]",3,8.5714,"[2.96%, 22.38%]",3,8.5714,-2.8571
+NEGATIVE_HARD,Music & Singing,35,28,EVALUATED,4,11.4286,"[4.54%, 25.95%]",8,22.8571,"[12.07%, 39.02%]",8,22.8571,-11.4286
+NEGATIVE_HARD,Ordinary Speech,100,63,EVALUATED,7,7.0,"[3.43%, 13.75%]",4,4.0,"[1.57%, 9.84%]",4,4.0,3.0
+NEGATIVE_HARD,Other Vocal / Ambient,30,29,EVALUATED,2,6.6667,"[1.85%, 21.32%]",1,3.3333,"[0.59%, 16.67%]",1,3.3333,3.3333

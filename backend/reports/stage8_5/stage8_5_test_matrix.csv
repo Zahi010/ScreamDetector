@@ -1,0 +1,35 @@
+test_id,category,scenario,method,expected_result,actual_result,status,notes
+TM-01,Integrity,Stage 5 Classifier Artifact Hash,SHA-256 Checksum,Match ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f,Checksum identical (ad6e428d05d2...),PASS,Zero weight changes permitted
+TM-02,Integrity,Stage 5 Model Metadata Hash,SHA-256 Checksum,Match 30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60,Checksum identical (30c1c75d81ad...),PASS,Baseline metadata immutable
+TM-03,Lifecycle,Repeated Start/Stop Cycles,Pytest (5 consecutive cycles),No thread leaks or duplicate background workers,Initial threads preserved (delta <= 1),PASS,Clean worker thread join
+TM-04,Lifecycle,Start Request Idempotency,Pytest / REST API,Second start returns already running without duplicate streams,Idempotent response with active status,PASS,Safe against duplicate triggers
+TM-05,Lifecycle,Stop Request Idempotency,Pytest / REST API,Second stop returns already stopped cleanly,Idempotent response with stopped status,PASS,No exceptions raised
+TM-06,Audio,Rolling Audio Buffer Bounded Memory,Pytest (write 5x buffer capacity),Memory strictly bounded at max_capacity_samples,Buffer capped at 2.0s (32000 samples),PASS,Circular overwrite logic verified
+TM-07,Audio,Audio Chunk Format Normalization,Pytest (1D 2D stereo int16 float64),Normalized to 1D float32 array,All formats normalized and written,PASS,Audio preprocessor normalization
+TM-08,Audio,Prolonged Silence Robustness,Pytest (2s zero amplitude audio),Zero false alarms score < 0.15 state IDLE,Scores < 0.10 state remained IDLE 0 alerts,PASS,Ambient silence safe
+TM-09,Audio,Clean Real WAV Stream Processing,Pytest (1.5s 16kHz stream),Correct window extraction zero dropped samples,Processed 2 windows 0 dropped samples,PASS,Offline inference verified
+TM-10,Audio,Corrupted / NaN Audio Resilience,Pytest (chunks with NaNs/infs),Sanitized without classifier crash,Inference executed without NaN propagation,PASS,Input sanitization verified
+TM-11,StateMachine,Full State Machine Transition Cycle,Deterministic sequence test,IDLE -> CANDIDATE -> ALERT_ACTIVE -> COOLDOWN -> IDLE,All 4 state transitions observed in sequence,PASS,Exhaustive state tracking
+TM-12,StateMachine,Single-Window Transient Spike Suppression,Deterministic score test,Single high spike broken by negative window -> IDLE,Candidate streak broken 0 alerts emitted,PASS,Temporal smoothing verified
+TM-13,StateMachine,Cooldown Duplicate Alert Suppression,Deterministic score test,High score during cooldown suppressed,Alarm muted total_alerts_suppressed incremented,PASS,Prevents operator notification spam
+TM-14,StateMachine,Inference Exception Recovery,Pytest (injected RuntimeError),Catches error increments error counter resets to IDLE,State reset error logged subsequent windows succeed,PASS,Fault-tolerant processing
+TM-15,WebSocket,Multi-Client Broadcast Concurrency,Pytest (concurrent WebSocket clients),All connected clients receive simultaneous alerts,Both clients received alert_triggered synchronously,PASS,Safe asyncio broadcast
+TM-16,WebSocket,Slow-Client Bounded Queue Drop,Unit Test (saturate queue with 120 msgs),Oldest 70 messages dropped client queue bounded at 50,Queue size 50 dropped_count 70,PASS,Slow clients isolated
+TM-17,WebSocket,Reconnect State Reconciliation,Pytest (disconnect REST patch reconnect),Reconnected client receives fresh status snapshot,Initial snapshot reflected threshold 0.42,PASS,State consistency maintained
+TM-18,Logging,Event Logger Restart Persistence,Pytest (write restart read),Historical events reload correctly from JSONL,Loaded 1 event with matching peak prob,PASS,JSON Lines integrity verified
+TM-19,Logging,Corrupted JSONL Graceful Recovery,Pytest (corrupt lines in file),Skips malformed records loads valid records,Successfully parsed valid record skipped corrupt line,PASS,Robust log ingestion
+TM-20,Logging,Unwritable Event Log File Resilience,Pytest (unwritable directory as file),Logs error internally does not crash stream,Permission error handled audio unaffected,PASS,Disk failure safety
+TM-21,Privacy,No Raw Audio Persisted by Default,Pytest (inspect JSONL records),raw_audio_saved=False no PCM samples in log,Confirmed raw_audio_saved=False zero audio stored,PASS,Venue privacy compliant
+TM-22,API,Health Check Endpoint,REST GET /api/health,HTTP 200 model status and version,HTTP 200 healthy YAMNet and Stage 5 ready,PASS,Readiness probe functional
+TM-23,API,Status Endpoint,REST GET /api/status,HTTP 200 stream state and config,HTTP 200 state IDLE threshold 0.35,PASS,Dashboard state polling
+TM-24,API,Metrics Endpoint,REST GET /api/metrics,HTTP 200 latency throughput errors,HTTP 200 real latency and window counters,PASS,Non-fabricated metrics
+TM-25,API,Config Boundary Validation,REST PATCH /api/config,Valid values accepted invalid return HTTP 422,Valid saved invalid threshold 1.5 rejected 422,PASS,Strict input boundaries
+TM-26,API,Missing Microphone Handling,REST POST /api/detector/start,Graceful error mic_status=unavailable server alive,HTTP 200 success=True mic_status=unavailable,PASS,Hardware fault tolerant
+TM-27,API,Audio Devices Listing,REST GET /api/devices,HTTP 200 list of PortAudio devices,HTTP 200 returned 24 audio devices,PASS,Device discovery working
+TM-28,API,Event Acknowledgment Workflow,REST POST /api/events/{id}/acknowledge,HTTP 200 records operator note and timestamp,HTTP 200 acknowledged=True note saved,PASS,Human operator audit trail
+TM-29,Endurance,1-Minute Real Microphone Smoke Run,run_endurance_test.py (mic mode 60s),120+ windows processed 0 errors 0 dropped windows,121 windows 10.14ms latency 0 errors 0 dropped windows,PASS,Real PortAudio input captured
+TM-30,Endurance,2-Minute Simulated Stream Run,run_endurance_test.py (simulate mode 120s),Continuous stream processed without memory leak,191 windows processed stable memory (552.9MB flat) 0 errors,PASS,Continuous stream stable
+TM-31,Latency,Component Micro-Benchmark Profiling,benchmark_pipeline.py (20 iters),P95 latency comfortably below 487.5ms hop budget,P95 12.36ms (97.5% headroom surplus),PASS,Real-time execution certified
+TM-32,Endurance,10-Minute Physical Microphone Functional Test,run_endurance_test.py (mic mode 600s),600s physical microphone capture,Not executed in this turn,NOT MEASURED,Executable with --duration 600
+TM-33,Endurance,30-Minute Physical Microphone Functional Test,run_endurance_test.py (mic mode 1800s),1800s continuous microphone capture,Not executed in this turn,NOT MEASURED,Executable with --duration 1800
+TM-34,Recovery,Physical Microphone Hardware Unplug During Stream,Physical cable disconnect,Visible error status and cleanup,Hardware disconnected during test requires manual intervention,BLOCKED,Requires physical cable unplug

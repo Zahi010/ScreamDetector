@@ -1,0 +1,43 @@
+{
+  "stage": "8.9.23",
+  "title": "Scream-Shout Acoustic Separability, Short-Scream Error Analysis & Dataset Validity Audit",
+  "timestamp": "2026-10-31T14:30:00+05:30",
+  "environment": {
+    "os": "Windows-10-10.0.26100-SP0",
+    "python_version": "3.11.17 (main, Oct 21 2026, 17:46:24) [MSC v.1944 64 bit (AMD64)]",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"
+  },
+  "git_context": {
+    "commit_hash": "UNAVAILABLE",
+    "working_tree_dirty": true
+  },
+  "production_hashes_frozen": {
+    "backend/models/scream_classifier.joblib": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "backend/models/model_metadata.json": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "backend/reports/test_predictions.csv": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+    "backend/reports/stage5_test_evaluation.md": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "production_threshold": 0.35,
+  "dataset_hashes": {
+    "features_stage8_9_17.npz": "8069db8ca8cc7a56a0092967a5640d3165d7a609bb50b481cf1436d2fe4eea6c",
+    "features_stage8_9_18_temporal.npz": "6b97197a6c5bfd0df87ddf5f6851ec210eb39464c2f51ac935abfd93f6852ae5",
+    "dataset_manifest_v3.json": "2f8713bbe1d180f67868ec4a6365f76d935786dd20672f30b418ccd11f5d637e"
+  },
+  "execution_parameters": {
+    "random_seed": 42,
+    "evaluation_script": "backend/research/stage_8_9_23/src/stage8_9_23_investigation_suite.py",
+    "exact_command": ".\\.venv\\Scripts\\python.exe research\\stage_8_9_23\\src\\stage8_9_23_investigation_suite.py",
+    "latency_method": "Wall-clock time per sample across held-out split (N=462)",
+    "test_suite_command": ".\\.venv\\Scripts\\pytest.exe research\\stage_8_9_23\\tests\\test_stage_8_9_23.py -v"
+  },
+  "reproduced_metrics_summary": {
+    "primary_event_recall_pct": 78.21,
+    "hard_negative_fpr_pct": 7.03,
+    "shouting_fpr_pct": 20.24,
+    "short_scream_recall_pct": 86.36,
+    "p95_latency_ms": 16.4,
+    "active_tier2_shouting_suppression_observed_on_test": false,
+    "reason": "All 17 shouting false alarms exhibited p2 >= 0.40 or triggered chaotic phonation safeguards, remaining unsuppressed on held-out test split"
+  }
+}

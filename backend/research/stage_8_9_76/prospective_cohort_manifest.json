@@ -1,0 +1,11 @@
+{
+  "manifest_name": "Stage 8.9.76 Prospective Evaluation Cohort Manifest",
+  "governance_classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "manifest_version": "v1.0",
+  "created_date_utc": "2026-11-14T14:46:44Z",
+  "cohort_status": "SEALING_BLOCKED_PENDING_HUMAN_ANNOTATION",
+  "governance_rule": "Cohort cannot be sealed or evaluated until independent double-blind human labeling is complete.",
+  "total_recordings": 0,
+  "total_source_groups": 0,
+  "recordings": []
+}

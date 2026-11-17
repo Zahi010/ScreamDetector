@@ -1,0 +1,6 @@
+input_snr_db,array_elements,array_spacing_m,mean_beamforming_gain_db,mean_doa_error_deg,target_angle_deg,interference_angle_deg,synthetic_label
+10.0,2,0.05,-2.24,77.04,45.0,135.0,SYNTHETIC_SIMULATION_ONLY
+5.0,2,0.05,0.17,50.04,45.0,135.0,SYNTHETIC_SIMULATION_ONLY
+0.0,2,0.05,1.91,30.63,45.0,135.0,SYNTHETIC_SIMULATION_ONLY
+-3.0,2,0.05,2.09,27.82,45.0,135.0,SYNTHETIC_SIMULATION_ONLY
+-5.0,2,0.05,2.1,27.54,45.0,135.0,SYNTHETIC_SIMULATION_ONLY

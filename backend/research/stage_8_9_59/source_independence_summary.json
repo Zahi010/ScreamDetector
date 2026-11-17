@@ -1,0 +1,49 @@
+{
+  "exact_file_hash_leakage": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "pcm_hash_leakage": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "source_group_id_leakage": {
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "multi_crop_parent_recordings": 132,
+  "cross_partition_parent_leaks": 0,
+  "creator_uploader_leakage": {
+    "train_val_count": 7,
+    "train_test_count": 10,
+    "val_test_count": 2,
+    "shared_train_val": [
+      "11linda",
+      "LanDub",
+      "Reitanna",
+      "ZyryTSounds",
+      "chrillz3r",
+      "ecfike",
+      "peridactyloptrix"
+    ],
+    "shared_train_test": [
+      "Ryding",
+      "SoundCollectah",
+      "annatabernero",
+      "jorickhoofd",
+      "qubodup",
+      "saraonsins",
+      "schafferdavid",
+      "thanvannispen",
+      "univ_lyon3",
+      "xtrgamr"
+    ],
+    "shared_val_test": [
+      "RutgerMuller",
+      "arjanvanhoorn0181"
+    ]
+  }
+}

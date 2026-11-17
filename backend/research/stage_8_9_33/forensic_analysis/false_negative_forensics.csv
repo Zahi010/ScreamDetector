@@ -1,0 +1,13 @@
+file_id,category,source_group_id,duration_est_sec,rms_energy_est,f0_est_hz,harmonicity_ratio,spectral_centroid_hz,spectral_rolloff_hz,crest_factor,baseline_b_prob,contrastive_b_prob,acoustic_failure_mechanism
+v2_nigens_242607__reitanna__gasp-oooh,scream,nigens_reitanna,0.000,10.45,0.7,0.411,0.0,0.0,0.00,0.0390,0.1807,LOW_ENERGY_TRANSIENT
+v2_nigens_242644__reitanna__another-surprised-oooh,scream,nigens_reitanna,0.000,8.00,0.8,0.367,0.0,0.0,0.00,0.2021,0.1955,LOW_ENERGY_TRANSIENT
+v2_synth_scream_028_snr-06db,masked_distant_screams,nigens_saraonsins,0.004,5.77,0.1,0.041,0.0,0.0,0.01,0.1134,0.1795,MASKED_OR_DISTANT
+v2_synth_scream_032_snr-06db,masked_distant_screams,nigens_freqman,0.003,8.92,0.2,0.073,0.0,0.0,0.01,0.2633,0.3258,MASKED_OR_DISTANT
+v2_synth_scream_052_snr-06db,masked_distant_screams,openslr_speaker_OZDT,0.001,5.99,0.2,0.054,0.1,0.2,0.00,0.3165,0.3828,MASKED_OR_DISTANT
+v3_fsd50k_9433,scream,fsd50k_uploader_thanvannispen,0.001,9.10,0.8,0.468,0.0,0.0,0.00,0.5162,0.3444,LOW_ENERGY_TRANSIENT
+v3_fsd50k_29849,scream,fsd50k_uploader_thanvannispen,0.004,5.36,1.0,0.190,0.0,0.0,0.02,0.3549,0.1155,LOW_ENERGY_TRANSIENT
+v3_fsd50k_166621,scream,fsd50k_uploader_j.zazvurek,0.000,9.76,0.0,0.010,0.1,0.1,0.00,0.0528,0.4619,LOW_ENERGY_TRANSIENT
+v3_synth_scream_012_snr-03db,masked_distant_screams,nigens_sangtao,0.002,6.42,0.3,0.264,0.0,0.0,0.00,0.2011,0.1411,MASKED_OR_DISTANT
+v3_synth_scream_018_snr+00db,masked_distant_screams,openslr_speaker_7IOA,0.002,5.20,0.5,0.232,0.0,0.0,0.01,0.1318,0.4278,MASKED_OR_DISTANT
+v3_synth_scream_022_snr-03db,masked_distant_screams,fsd50k_uploader_j.zazvurek,0.001,4.83,0.0,0.027,0.2,0.2,0.00,0.3319,0.5615,MASKED_OR_DISTANT
+v3_synth_scream_029_snr+03db,masked_distant_screams,openslr_speaker_QLQX,0.004,4.79,0.7,0.316,0.0,0.0,0.01,0.3470,0.3968,MASKED_OR_DISTANT

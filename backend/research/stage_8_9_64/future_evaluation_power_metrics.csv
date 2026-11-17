@@ -1,0 +1,16 @@
+gate,subgroup,nominal_n,cluster_cap,icc_rho,design_effect,effective_n,ci_95_half_width,statistical_power
+Gate 1 (Overall Recall),all_screams,240,3.0,0.0,1.0,240,0.0256,0.7035
+Gate 1 (Overall Recall),all_screams,240,3.0,0.05,1.1,218,0.027,0.6499
+Gate 1 (Overall Recall),all_screams,240,3.0,0.1,1.2,200,0.0283,0.6014
+Gate 1 (Overall Recall),all_screams,240,3.0,0.15,1.3,184,0.0296,0.5549
+Gate 1 (Overall Recall),all_screams,240,3.0,0.2,1.4,171,0.0308,0.5151
+Gate 2 (False Positive Rate),all_negatives,810,3.0,0.0,1.0,810,0.0151,0.0
+Gate 2 (False Positive Rate),all_negatives,810,3.0,0.05,1.1,736,0.0159,0.0
+Gate 2 (False Positive Rate),all_negatives,810,3.0,0.1,1.2,675,0.0166,0.0
+Gate 2 (False Positive Rate),all_negatives,810,3.0,0.15,1.3,623,0.0173,0.0
+Gate 2 (False Positive Rate),all_negatives,810,3.0,0.2,1.4,578,0.018,0.0
+Gate 4 (Short-Scream Recall),short_screams,120,3.0,0.0,1.0,120,0.0543,0.7006
+Gate 4 (Short-Scream Recall),short_screams,120,3.0,0.05,1.1,109,0.057,0.6516
+Gate 4 (Short-Scream Recall),short_screams,120,3.0,0.1,1.2,100,0.0596,0.6075
+Gate 4 (Short-Scream Recall),short_screams,120,3.0,0.15,1.3,92,0.0622,0.5653
+Gate 4 (Short-Scream Recall),short_screams,120,3.0,0.2,1.4,85,0.0647,0.5262

@@ -1,0 +1,6 @@
+Candidate,Recall,Precision,F1,Specificity,HN-FPR,Shout-FPR,Infant-Cry-FPR,Crowd-Cheer-FPR,ROC-AUC,PR-AUC,Threshold
+Dual-Encoder Baseline (Stage 8.9.33),84.31%,85.15%,0.8473,92.15%,7.85%,8.33%,6.67%,11.90%,0.9285,0.8717,0.35
+Candidate B (Causal GRU Temporal),79.41%,87.10%,0.8308,93.72%,6.28%,8.33%,6.67%,9.52%,0.9251,0.8652,0.35
+Candidate C (Causal TCN),78.43%,86.96%,0.8247,93.72%,6.28%,8.33%,6.67%,7.14%,0.9198,0.8678,0.35
+Candidate D (Gated Aggregator),80.39%,86.32%,0.8325,93.19%,6.81%,8.33%,6.67%,9.52%,0.9263,0.8742,0.35
+Combined TSA-DualEncoder (Stage 8.9.34),80.39%,86.32%,0.8325,93.19%,6.81%,10.42%,6.67%,11.90%,0.9372,0.8871,0.35

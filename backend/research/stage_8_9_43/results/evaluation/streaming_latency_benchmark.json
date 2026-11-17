@@ -1,0 +1,134 @@
+[
+  {
+    "candidate_id": "Candidate A (Config-B-v5)",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.386,
+    "mean_dsp_ms": 0.0,
+    "mean_model_fwd_ms": 0.385,
+    "p50_latency_ms": 0.391,
+    "p95_latency_ms": 0.471,
+    "p99_latency_ms": 0.592,
+    "max_latency_ms": 0.7,
+    "peak_ram_mb": 205.2,
+    "ram_delta_mb": 3.8,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "estimated_batch_latency_ms": 0.39,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "estimated_batch_latency_ms": 0.77,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "estimated_batch_latency_ms": 1.54,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "estimated_batch_latency_ms": 3.09,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate B (CNN-LogMel-v5)",
+    "n_iterations": 600,
+    "mean_latency_ms": 4.353,
+    "mean_dsp_ms": 2.39,
+    "mean_model_fwd_ms": 1.961,
+    "p50_latency_ms": 4.303,
+    "p95_latency_ms": 5.085,
+    "p99_latency_ms": 5.386,
+    "max_latency_ms": 6.392,
+    "peak_ram_mb": 305.67,
+    "ram_delta_mb": 98.63,
+    "cpu_percent": 608.1,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "estimated_batch_latency_ms": 4.35,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "estimated_batch_latency_ms": 8.71,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "estimated_batch_latency_ms": 17.41,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "estimated_batch_latency_ms": 34.82,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate C (CNN-MultiScale-v5)",
+    "n_iterations": 600,
+    "mean_latency_ms": 6.555,
+    "mean_dsp_ms": 2.556,
+    "mean_model_fwd_ms": 3.997,
+    "p50_latency_ms": 6.488,
+    "p95_latency_ms": 7.432,
+    "p99_latency_ms": 7.929,
+    "max_latency_ms": 14.631,
+    "peak_ram_mb": 315.92,
+    "ram_delta_mb": 10.17,
+    "cpu_percent": 653.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "estimated_batch_latency_ms": 6.56,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "estimated_batch_latency_ms": 13.11,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "estimated_batch_latency_ms": 26.22,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "estimated_batch_latency_ms": 52.44,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate D (CNN-Temporal-v5)",
+    "n_iterations": 600,
+    "mean_latency_ms": 9.819,
+    "mean_dsp_ms": 2.56,
+    "mean_model_fwd_ms": 7.258,
+    "p50_latency_ms": 9.776,
+    "p95_latency_ms": 10.702,
+    "p99_latency_ms": 11.117,
+    "max_latency_ms": 12.561,
+    "peak_ram_mb": 322.01,
+    "ram_delta_mb": 6.03,
+    "cpu_percent": 701.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "estimated_batch_latency_ms": 9.82,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "estimated_batch_latency_ms": 19.64,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "estimated_batch_latency_ms": 39.28,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "estimated_batch_latency_ms": 78.56,
+        "deadline_100ms_met": true
+      }
+    }
+  }
+]

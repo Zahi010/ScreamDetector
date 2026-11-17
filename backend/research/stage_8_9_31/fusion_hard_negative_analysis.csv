@@ -1,0 +1,9 @@
+category,audited_ground_truth,metric_type,sample_count,cand_a_baseline_macro_rate_pct,cand_a_baseline_macro_hits,cand_b_cand_g_dominant_rate_pct,cand_b_cand_g_dominant_hits,cand_c_duration_aware_rate_pct,cand_c_duration_aware_hits,cand_d_dual_resolution_rate_pct,cand_d_dual_resolution_hits,cand_e_padding_aware_rate_pct,cand_e_padding_aware_hits,cand_f_conservative_agreement_rate_pct,cand_f_conservative_agreement_hits
+BABY_CRYING,NEGATIVE (0),FPR,14,85.71%,12/14,100.00%,14/14,85.71%,12/14,71.43%,10/14,92.86%,13/14,64.29%,9/14
+GENUINE_SCREAM,NEGATIVE (0),FPR,106,86.79%,92/106,96.23%,102/106,89.62%,95/106,80.19%,85/106,90.57%,96/106,83.96%,89/106
+HARD_NEGATIVE_CONTROL,NEGATIVE (0),FPR,14,92.86%,13/14,100.00%,14/14,92.86%,13/14,92.86%,13/14,92.86%,13/14,92.86%,13/14
+NON_VOCAL_NOISE,NEGATIVE (0),FPR,1,100.00%,1/1,100.00%,1/1,100.00%,1/1,100.00%,1/1,100.00%,1/1,100.00%,1/1
+NORMAL_SPEECH,NEGATIVE (0),FPR,26,3.85%,1/26,80.77%,21/26,3.85%,1/26,0.00%,0/26,7.69%,2/26,3.85%,1/26
+SHOUTING_COMMAND,NEGATIVE (0),FPR,2,100.00%,2/2,100.00%,2/2,100.00%,2/2,50.00%,1/2,100.00%,2/2,50.00%,1/2
+SIREN_ALARM,NEGATIVE (0),FPR,13,38.46%,5/13,69.23%,9/13,38.46%,5/13,23.08%,3/13,38.46%,5/13,23.08%,3/13
+STADIUM_CHEERING,NEGATIVE (0),FPR,28,78.57%,22/28,96.43%,27/28,78.57%,22/28,60.71%,17/28,82.14%,23/28,67.86%,19/28

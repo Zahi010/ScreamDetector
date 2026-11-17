@@ -1,0 +1,3 @@
+model_architecture,shouted_speech_definition,sample_size,source_groups,false_positives,true_negatives,shouted_speech_fpr,wilson_95_ci_low,wilson_95_ci_high,cluster_boot_ci_low,cluster_boot_ci_high,gate_3_threshold,gate_3_status
+Baseline_Dual_Resolution_Gated,Nominal_Manifest (target_category == shouted_speech),1,1,1,0,1.0,0.2065,1.0,0.2065,1.0,0.15,FAIL (100.0% FPR > 15.0%)
+Baseline_Dual_Resolution_Gated,Forensically_Audited_Vocal_Outcries (N=5),5,5,5,0,1.0,0.5655,1.0,1.0,1.0,0.15,FAIL (100.0% FPR > 15.0%)

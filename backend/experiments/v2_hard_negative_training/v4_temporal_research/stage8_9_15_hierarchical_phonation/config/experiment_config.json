@@ -1,0 +1,99 @@
+{
+  "stage": "8.9.15",
+  "title": "Hierarchical Vocal Distress Detection and Nonlinear Phonation Discrimination",
+  "random_seed": 42,
+  "operating_mode": "EXPERIMENTAL_RESEARCH_ONLY",
+  "production_baseline": {
+    "classifier_path": "backend/models/scream_classifier.joblib",
+    "metadata_path": "backend/models/model_metadata.json",
+    "operating_threshold": 0.35,
+    "review_db_path": "backend/database/stage8_9_reviews.db",
+    "review_db_total_records": 343,
+    "review_db_anchor": "fsd50k_349401"
+  },
+  "acceptance_gates": {
+    "event_level_scream_recall_min": 0.96,
+    "short_scream_recall_min": 0.90,
+    "hard_negative_event_fpr_max": 0.05,
+    "shouted_speech_fpr_max": 0.15,
+    "end_to_end_latency_ms_max": 25.0
+  },
+  "datasets": {
+    "total_recordings": 1384,
+    "splits": {
+      "train": 757,
+      "val": 320,
+      "test": 307
+    },
+    "feature_caches": {
+      "yamnet_concat_3072": "experiments/v2_hard_negative_training/v4_temporal_research/stage8_9_11_evaluation/features/stage8_9_11_features.npz",
+      "acoustic_30": "experiments/v2_hard_negative_training/v4_temporal_research/stage8_9_14_acoustic_discriminability/stage8_9_14_acoustic_features.npz"
+    }
+  },
+  "stage1_distress_gate_candidates": [
+    {
+      "gate_id": "Gate_A_ExtraTrees",
+      "algorithm": "ExtraTreesClassifier",
+      "n_estimators": 100,
+      "max_depth": 16,
+      "class_weight": "balanced",
+      "input_features": "YAMNet_3072_plus_Acoustic_30"
+    },
+    {
+      "gate_id": "Gate_B_HistGradientBoosting",
+      "algorithm": "HistGradientBoostingClassifier",
+      "max_iter": 100,
+      "max_depth": 8,
+      "class_weight": "balanced",
+      "input_features": "YAMNet_3072_plus_Acoustic_30"
+    },
+    {
+      "gate_id": "Gate_C_RandomForest",
+      "algorithm": "RandomForestClassifier",
+      "n_estimators": 100,
+      "max_depth": 16,
+      "class_weight": "balanced",
+      "input_features": "YAMNet_3072_plus_Acoustic_30"
+    }
+  ],
+  "stage2_phonation_discriminator_candidates": [
+    {
+      "model_id": "Model_A_Compact_MLP",
+      "architecture": "MLPClassifier",
+      "hidden_layer_sizes": [128, 32],
+      "activation": "relu",
+      "alpha": 0.01,
+      "max_iter": 300,
+      "input_features": "YAMNet_3072_plus_Acoustic_30"
+    },
+    {
+      "model_id": "Model_B_Temporal_CNN",
+      "architecture": "Keras_1D_Dilated_CNN",
+      "input_shape": [70, 1024],
+      "conv_filters": [64, 32],
+      "kernel_sizes": [3, 3],
+      "dilation_rates": [1, 2],
+      "dense_units": 32,
+      "dropout": 0.3
+    },
+    {
+      "model_id": "Model_C_Hierarchical_Fusion",
+      "architecture": "HierarchicalLearnedFusion",
+      "components": [
+        "Stage1_Gate_Probability",
+        "Stage2_Phonation_Probability",
+        "Top_Physical_Acoustic_Features",
+        "YAMNet_P10_Embedding"
+      ]
+    }
+  ],
+  "uncertainty_policy": {
+    "enabled": true,
+    "lower_abstention_margin": 0.10,
+    "classes": [
+      "SCREAM_CANDIDATE",
+      "NON_SCREAM",
+      "UNCERTAIN_REQUIRES_HUMAN_REVIEW"
+    ]
+  }
+}

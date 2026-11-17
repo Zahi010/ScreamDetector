@@ -1,0 +1,7 @@
+configuration,true_positives,false_negatives,overall_recall,hard_neg_false_positives,hard_neg_true_negatives,hard_neg_fpr,shouted_speech_false_positives,shouted_speech_true_negatives,shouted_speech_fpr,short_scream_recall,prediction_flips_vs_baseline,notes
+A_full_candidate_71d,82,17,82.83,10,114,8.06,13,75,14.77,94.87,0,Full Candidate 71-D with flux-conditioned resonance rescue (flux > 0.040)
+B_no_rescue,79,20,79.8,10,114,8.06,12,76,13.64,92.31,4,Candidate 71-D without rescue mechanism; loses 3 true positive screams
+C_unconditioned_rescue,82,17,82.83,12,112,9.68,13,75,14.77,94.87,2,Candidate 70-D unconditioned rescue; rescues 3 screams but adds 2 false alarms
+D1_permissive_flux_020,82,17,82.83,11,113,8.87,13,75,14.77,94.87,1,Permissive flux threshold (flux > 0.020); fails to suppress stationary non-scream rescues
+D2_restrictive_flux_060,81,18,81.82,10,114,8.06,13,75,14.77,94.87,1,Restrictive flux threshold (flux > 0.060); suppresses 2 genuine screams (80/99 TP)
+E_learned_agreement_scaling,80,19,80.81,10,114,8.06,14,74,15.91,92.31,3,"Learned continuous bilinear agreement scaling; achieves 80/99 TP, 8.06% HN FPR"

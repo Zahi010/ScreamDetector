@@ -1,0 +1,57 @@
+{
+  "model_type": "LogisticRegression",
+  "version": "v1.0.0",
+  "created_at": "2026-10-24T15:04:08.980550",
+  "random_seed": 42,
+  "feature_representation": "max_pooled",
+  "feature_dimension": 1024,
+  "pipeline_steps": [
+    "scaler",
+    "clf"
+  ],
+  "hyperparameters": {
+    "C": 10.0,
+    "class_weight": "balanced"
+  },
+  "class_mapping": {
+    "0": "non_scream",
+    "1": "scream"
+  },
+  "selected_threshold": 0.35,
+  "threshold_selection_objective": "Require Recall >= 0.85 while maximizing F1 and Precision on validation split",
+  "threshold_uncertainty_note": "Validation split contains 19 scream recordings from 11 independent sources. Each individual classification changes validation recall by ~5.26%. Conservative threshold must be monitored during live ambient testing.",
+  "validation_metrics": {
+    "roc_auc": 0.9981,
+    "pr_auc": 0.9808,
+    "precision": 0.9,
+    "recall": 0.9474,
+    "f1_score": 0.9231,
+    "specificity": 0.9911,
+    "confusion_matrix": {
+      "tp": 18,
+      "fp": 2,
+      "fn": 1,
+      "tn": 223
+    }
+  },
+  "training_data": {
+    "total_recordings": 1134,
+    "scream_count": 89,
+    "non_scream_count": 1045
+  },
+  "validation_data": {
+    "total": 244,
+    "scream": 19,
+    "non_scream": 225
+  },
+  "manifest_hashes": {
+    "split_manifest": "ff85e58ee09102a1305416d2a0d97cefae03d99977afd463dc93f191704a3263",
+    "embedding_manifest": "cc880cb577cc1628ad3ecfce39c79bab54e6efcea1d3ab9a0e707cc2efabd223"
+  },
+  "dependency_versions": {
+    "scikit_learn": "1.9.1",
+    "numpy": "1.26.4",
+    "joblib": "1.6.0",
+    "python": "3.11.17"
+  }
+}

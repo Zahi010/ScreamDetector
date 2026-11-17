@@ -1,0 +1,5 @@
+concurrent_streams,total_iterations,hop_deadline_ms,batch_p50_ms,batch_p90_ms,batch_p95_ms,batch_p99_ms,batch_max_ms,per_stream_p95_ms,throughput_streams_per_sec,deadline_misses_count,deadline_miss_rate_pct,dropped_windows_count,buffer_overruns_count,memory_growth_kb,peak_memory_kb,status
+1,300,250.0,9.1358,10.494,11.1228,11.8375,13.4319,11.1228,109.46,0,0.0,0,0,261.56,826.17,PASS
+2,300,250.0,18.5158,19.8549,20.4554,21.5907,30.6444,10.2277,108.02,0,0.0,0,0,155.13,719.77,PASS
+4,300,250.0,36.5709,39.1703,39.8801,40.7218,41.9383,9.97,109.38,0,0.0,0,0,166.54,731.28,PASS
+8,300,250.0,72.9391,78.1703,79.3928,93.8397,192.9237,9.9241,109.68,0,0.0,0,0,172.24,737.17,PASS

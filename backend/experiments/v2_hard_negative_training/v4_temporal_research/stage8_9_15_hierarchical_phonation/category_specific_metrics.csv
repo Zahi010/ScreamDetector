@@ -1,0 +1,5 @@
+model_id,shouted_speech_fpr_pct,crowd_chant_cheer_fpr_pct,siren_sfx_fpr_pct,infant_crying_fpr_pct,whistle_squeak_fpr_pct,general_environmental_fpr_pct
+Model_A_Compact_MLP,7.14,9.3,0.0,20.0,3.03,0.0
+Model_B_Temporal_CNN,21.43,25.58,12.12,20.0,21.21,0.0
+Model_C_Hybrid_Fusion,7.14,20.93,3.03,20.0,6.06,0.0
+Model_C_Gated_Cascade,4.76,20.93,3.03,20.0,6.06,0.0

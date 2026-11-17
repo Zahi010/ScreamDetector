@@ -1,0 +1,32 @@
+{
+  "timestamp_iso": "2026-10-24T17:00:51.774059",
+  "status": "PASS",
+  "mode": "simulate",
+  "is_real_microphone": false,
+  "requested_duration_seconds": 120,
+  "actual_duration_seconds": 120.02,
+  "windows_processed": 191,
+  "audio_seconds_processed": 93.112,
+  "total_alerts_emitted": 0,
+  "total_alerts_suppressed": 0,
+  "inference_errors": 0,
+  "dropped_samples": 1259200,
+  "latency_ms": {
+    "mean": 9.11,
+    "min": 5.75,
+    "max": 232.43,
+    "p95": 10.51,
+    "samples_timed": 191
+  },
+  "realtime_factor": 0.0187,
+  "cpu_percent": {
+    "mean": 6.77,
+    "max": 101.5
+  },
+  "memory_rss_mb": {
+    "start": 351.88,
+    "peak": 552.91,
+    "end": 552.88,
+    "delta": 201.0
+  }
+}

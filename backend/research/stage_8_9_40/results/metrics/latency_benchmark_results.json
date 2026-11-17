@@ -1,0 +1,332 @@
+{
+  "hardware_environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 16,
+    "cpu_count_physical": 8,
+    "pytorch_version": "2.14.1+cpu",
+    "torch_threads": 8,
+    "ram_gb": 15.86
+  },
+  "protocol": {
+    "measurement_hops": 600,
+    "warmup_hops": 50,
+    "audio_hop_size_samples": 1600,
+    "audio_window_size_samples": 15600,
+    "audio_hop_deadline_ms": 100.0,
+    "gate_5_p95_forward_limit_ms": 25.0
+  },
+  "stage_breakdown": {
+    "Stage1_RingBufferWindowing": {
+      "mean_ms": 0.003,
+      "std_ms": 0.001,
+      "p50_ms": 0.003,
+      "p90_ms": 0.003,
+      "p95_ms": 0.003,
+      "p99_ms": 0.004,
+      "min_ms": 0.003,
+      "max_ms": 0.016
+    },
+    "Stage2_AudioNormalization": {
+      "mean_ms": 0.038,
+      "std_ms": 0.014,
+      "p50_ms": 0.037,
+      "p90_ms": 0.046,
+      "p95_ms": 0.057,
+      "p99_ms": 0.083,
+      "min_ms": 0.026,
+      "max_ms": 0.25
+    },
+    "Stage3_YAMNetInference": {
+      "mean_ms": 5.316,
+      "std_ms": 0.37,
+      "p50_ms": 5.311,
+      "p90_ms": 5.793,
+      "p95_ms": 5.893,
+      "p99_ms": 6.189,
+      "min_ms": 4.556,
+      "max_ms": 6.382
+    },
+    "Stage4_PhonationSlicing": {
+      "mean_ms": 0.074,
+      "std_ms": 0.01,
+      "p50_ms": 0.072,
+      "p90_ms": 0.077,
+      "p95_ms": 0.083,
+      "p99_ms": 0.102,
+      "min_ms": 0.07,
+      "max_ms": 0.249
+    },
+    "Stage5_SubbandFilterbankDSP": {
+      "mean_ms": 11.257,
+      "std_ms": 1.577,
+      "p50_ms": 10.953,
+      "p90_ms": 13.503,
+      "p95_ms": 14.396,
+      "p99_ms": 15.661,
+      "min_ms": 8.626,
+      "max_ms": 18.42
+    },
+    "Stage6_TensorConversion_ConfigB": {
+      "mean_ms": 0.012,
+      "std_ms": 0.008,
+      "p50_ms": 0.009,
+      "p90_ms": 0.017,
+      "p95_ms": 0.019,
+      "p99_ms": 0.028,
+      "min_ms": 0.008,
+      "max_ms": 0.151
+    },
+    "Stage6_TensorConversion_ConfigD": {
+      "mean_ms": 0.016,
+      "std_ms": 0.007,
+      "p50_ms": 0.012,
+      "p90_ms": 0.023,
+      "p95_ms": 0.026,
+      "p99_ms": 0.037,
+      "min_ms": 0.012,
+      "max_ms": 0.091
+    },
+    "Stage7_ModelForward_ConfigB": {
+      "mean_ms": 0.38,
+      "std_ms": 0.106,
+      "p50_ms": 0.332,
+      "p90_ms": 0.524,
+      "p95_ms": 0.587,
+      "p99_ms": 0.693,
+      "min_ms": 0.284,
+      "max_ms": 0.96
+    },
+    "Stage7_ModelForward_ConfigD": {
+      "mean_ms": 0.522,
+      "std_ms": 0.152,
+      "p50_ms": 0.46,
+      "p90_ms": 0.713,
+      "p95_ms": 0.777,
+      "p99_ms": 0.935,
+      "min_ms": 0.392,
+      "max_ms": 1.742
+    },
+    "Stage8_PlattCalibration_ConfigB": {
+      "mean_ms": 0.123,
+      "std_ms": 0.035,
+      "p50_ms": 0.108,
+      "p90_ms": 0.161,
+      "p95_ms": 0.195,
+      "p99_ms": 0.284,
+      "min_ms": 0.102,
+      "max_ms": 0.335
+    },
+    "Stage8_PlattCalibration_ConfigD": {
+      "mean_ms": 0.123,
+      "std_ms": 0.038,
+      "p50_ms": 0.108,
+      "p90_ms": 0.163,
+      "p95_ms": 0.205,
+      "p99_ms": 0.282,
+      "min_ms": 0.101,
+      "max_ms": 0.449
+    },
+    "Stage9_DecisionLogic_ConfigB": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "p50_ms": 0.0,
+      "p90_ms": 0.0,
+      "p95_ms": 0.0,
+      "p99_ms": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.001
+    },
+    "Stage9_DecisionLogic_ConfigD": {
+      "mean_ms": 0.0,
+      "std_ms": 0.0,
+      "p50_ms": 0.0,
+      "p90_ms": 0.0,
+      "p95_ms": 0.0,
+      "p99_ms": 0.0,
+      "min_ms": 0.0,
+      "max_ms": 0.004
+    }
+  },
+  "concurrent_streaming_verification": {
+    "b": {
+      "1_streams": {
+        "n_concurrent_streams": 1,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 11.8,
+        "memory_rss_mb": 321.04,
+        "latency_percentiles": {
+          "mean_ms": 7.229,
+          "std_ms": 0.599,
+          "p50_ms": 7.168,
+          "p90_ms": 7.801,
+          "p95_ms": 8.027,
+          "p99_ms": 9.043,
+          "min_ms": 5.956,
+          "max_ms": 13.202
+        },
+        "deadline_status": "PASS"
+      },
+      "2_streams": {
+        "n_concurrent_streams": 2,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 8.89,
+        "memory_rss_mb": 321.61,
+        "latency_percentiles": {
+          "mean_ms": 8.127,
+          "std_ms": 0.471,
+          "p50_ms": 8.107,
+          "p90_ms": 8.673,
+          "p95_ms": 8.91,
+          "p99_ms": 9.282,
+          "min_ms": 6.632,
+          "max_ms": 10.742
+        },
+        "deadline_status": "PASS"
+      },
+      "4_streams": {
+        "n_concurrent_streams": 4,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 14.37,
+        "memory_rss_mb": 322.69,
+        "latency_percentiles": {
+          "mean_ms": 10.643,
+          "std_ms": 0.991,
+          "p50_ms": 10.563,
+          "p90_ms": 11.194,
+          "p95_ms": 11.444,
+          "p99_ms": 12.696,
+          "min_ms": 9.138,
+          "max_ms": 25.922
+        },
+        "deadline_status": "PASS"
+      },
+      "8_streams": {
+        "n_concurrent_streams": 8,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 15.81,
+        "memory_rss_mb": 324.61,
+        "latency_percentiles": {
+          "mean_ms": 15.48,
+          "std_ms": 0.547,
+          "p50_ms": 15.461,
+          "p90_ms": 16.206,
+          "p95_ms": 16.432,
+          "p99_ms": 16.909,
+          "min_ms": 14.1,
+          "max_ms": 17.252
+        },
+        "deadline_status": "PASS"
+      }
+    },
+    "d": {
+      "1_streams": {
+        "n_concurrent_streams": 1,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 12.02,
+        "memory_rss_mb": 324.38,
+        "latency_percentiles": {
+          "mean_ms": 18.516,
+          "std_ms": 1.915,
+          "p50_ms": 18.0,
+          "p90_ms": 21.241,
+          "p95_ms": 22.696,
+          "p99_ms": 24.484,
+          "min_ms": 15.644,
+          "max_ms": 25.475
+        },
+        "deadline_status": "PASS"
+      },
+      "2_streams": {
+        "n_concurrent_streams": 2,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 14.13,
+        "memory_rss_mb": 324.04,
+        "latency_percentiles": {
+          "mean_ms": 32.746,
+          "std_ms": 2.317,
+          "p50_ms": 32.147,
+          "p90_ms": 36.389,
+          "p95_ms": 38.038,
+          "p99_ms": 40.204,
+          "min_ms": 28.651,
+          "max_ms": 41.33
+        },
+        "deadline_status": "PASS"
+      },
+      "4_streams": {
+        "n_concurrent_streams": 4,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 0,
+        "deadline_miss_rate": 0.0,
+        "cpu_utilization_pct": 15.53,
+        "memory_rss_mb": 325.42,
+        "latency_percentiles": {
+          "mean_ms": 59.54,
+          "std_ms": 3.838,
+          "p50_ms": 58.409,
+          "p90_ms": 65.532,
+          "p95_ms": 67.828,
+          "p99_ms": 71.867,
+          "min_ms": 53.718,
+          "max_ms": 86.84
+        },
+        "deadline_status": "PASS"
+      },
+      "8_streams": {
+        "n_concurrent_streams": 8,
+        "n_hops": 500,
+        "deadline_ms": 100.0,
+        "deadline_misses": 500,
+        "deadline_miss_rate": 1.0,
+        "cpu_utilization_pct": 17.83,
+        "memory_rss_mb": 329.33,
+        "latency_percentiles": {
+          "mean_ms": 114.976,
+          "std_ms": 8.56,
+          "p50_ms": 111.866,
+          "p90_ms": 127.292,
+          "p95_ms": 132.221,
+          "p99_ms": 144.754,
+          "min_ms": 102.892,
+          "max_ms": 159.59
+        },
+        "deadline_status": "FAIL"
+      }
+    }
+  },
+  "gate_5_verification": {
+    "candidate_b": {
+      "forward_pass_p95_ms": 0.587,
+      "forward_pass_p99_ms": 0.693,
+      "target_ms": "<= 25.0",
+      "gate_5_status": "PASS"
+    },
+    "candidate_d": {
+      "forward_pass_p95_ms": 0.777,
+      "forward_pass_p99_ms": 0.935,
+      "target_ms": "<= 25.0",
+      "gate_5_status": "PASS"
+    }
+  }
+}

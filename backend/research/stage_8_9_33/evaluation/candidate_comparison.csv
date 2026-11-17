@@ -1,0 +1,6 @@
+Candidate,Recall,Precision,F1,Specificity,HN-FPR,Shout-FPR,ROC-AUC,PR-AUC,Threshold
+Candidate A (Baseline LR),79.41%,81.82%,0.8060,90.58%,9.42%,12.50%,0.9389,0.8709,0.35
+Candidate B (Weighted LR),90.20%,76.03%,0.8251,84.82%,15.18%,18.75%,0.9412,0.8783,0.35
+Candidate C (Random Forest),81.37%,84.69%,0.8300,92.15%,7.85%,14.58%,0.9371,0.8710,0.35
+Contrastive Model B,79.41%,83.51%,0.8141,91.62%,8.38%,10.42%,0.9168,0.8570,0.35
+Dual-Encoder Research Model,84.31%,85.15%,0.8473,92.15%,7.85%,8.33%,0.9283,0.8717,0.35

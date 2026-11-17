@@ -1,0 +1,28 @@
+{
+    "files":  {
+                  "models/scream_classifier.joblib":  {
+                                                          "expected":  "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+                                                          "match":  true,
+                                                          "computed":  "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f"
+                                                      },
+                  "models/model_metadata.json":  {
+                                                     "expected":  "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+                                                     "match":  true,
+                                                     "computed":  "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60"
+                                                 },
+                  "reports/stage5_test_evaluation.md":  {
+                                                            "expected":  "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+                                                            "match":  true,
+                                                            "computed":  "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+                                                        },
+                  "reports/test_predictions.csv":  {
+                                                       "expected":  "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+                                                       "match":  true,
+                                                       "computed":  "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d"
+                                                   }
+              },
+    "timestamp":  "2026-10-31T15:06:48+05:30",
+    "production_threshold":  0.35,
+    "stage":  "8.9.25",
+    "all_matched":  true
+}

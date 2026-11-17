@@ -1,0 +1,74 @@
+{
+  "R5_Ratio_0P_100A": {
+    "candidate_id": "Candidate R5 (Ratio-0P-100A)",
+    "role": "PRIMARY_CANDIDATE",
+    "checkpoint_path": "backend/research/stage_8_9_46/models/config_b_ratio_0p_100a.pt",
+    "checkpoint_sha256": "1ab0cc43d043b7c4063240c26f80f053fc2e6eabcc0287a1ed3ebd5afd244223",
+    "frozen_operating_threshold": 0.87,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "calibration_hn_fpr_target": "<= 5.0%",
+    "stage_8_9_46_holdout_recall": 75.36,
+    "stage_8_9_46_holdout_hn_fpr": 2.21,
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "R3_Ratio_50P_50A": {
+    "candidate_id": "Candidate R3 (Ratio-50P-50A)",
+    "role": "SECONDARY_CANDIDATE",
+    "checkpoint_path": "backend/research/stage_8_9_46/models/config_b_ratio_50p_50a.pt",
+    "checkpoint_sha256": "a8727b0d09d8340f56905a0bce34f481f3ccfcea988cdf24f59644977f13661a",
+    "frozen_operating_threshold": 0.84,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "calibration_hn_fpr_target": "<= 5.0%",
+    "stage_8_9_46_holdout_recall": 71.01,
+    "stage_8_9_46_holdout_hn_fpr": 2.21,
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "R1_Ratio_100P_0A": {
+    "candidate_id": "Candidate R1 (Ratio-100P-0A)",
+    "role": "REFERENCE_PRISTINE",
+    "checkpoint_path": "backend/research/stage_8_9_46/models/config_b_ratio_100p_0a.pt",
+    "checkpoint_sha256": "3804d2cdd930f32bbfd5e273302221fa18f22e6dcc1bdf059a5653681be56584",
+    "frozen_operating_threshold": 0.87,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "calibration_hn_fpr_target": "<= 5.0%",
+    "stage_8_9_46_holdout_recall": 73.91,
+    "stage_8_9_46_holdout_hn_fpr": 4.41,
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "Cand_A_Config_B_v5_Baseline": {
+    "candidate_id": "Candidate A (Config-B-v5-baseline)",
+    "role": "HISTORICAL_BASELINE",
+    "checkpoint_path": "backend/research/stage_8_9_44/models/config_b_v5_baseline.pt",
+    "checkpoint_sha256": "516d53b0877e097e173858e81b59f83cf1b3a2a1f5d5024265abff0e03896c34",
+    "frozen_operating_threshold": 0.65,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "Cand_B_Config_B_Mask_v6": {
+    "candidate_id": "Candidate B (Config-B-Mask-v6)",
+    "role": "HISTORICAL_CONTINUOUS_MASK",
+    "checkpoint_path": "backend/research/stage_8_9_44/models/config_b_mask.pt",
+    "checkpoint_sha256": "f40c8342ae1b2ff588d8a6649fc5e5c2a19d1db6ae3e4f5cc894f1e3353c1378",
+    "frozen_operating_threshold": 0.8,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "Cand_F_Config_B_MaskEarlyRIR": {
+    "candidate_id": "Candidate F (Config-B-MaskEarlyRIR)",
+    "role": "HISTORICAL_RIR_MASK",
+    "checkpoint_path": "backend/research/stage_8_9_45/models/config_b_mask_early_rir.pt",
+    "checkpoint_sha256": "f154ecb6cab1398a549105cc7dea42f683f099352520254fc81d3bfbdc8ed8f4",
+    "frozen_operating_threshold": 0.82,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "architecture": "DualEncoderAcousticModel"
+  },
+  "Cand_G_Config_B_ProbMixed_v7": {
+    "candidate_id": "Candidate G (Config-B-ProbMixed-v7)",
+    "role": "HISTORICAL_PROB_MIXED",
+    "checkpoint_path": "backend/research/stage_8_9_45/models/config_b_prob_mixed.pt",
+    "checkpoint_sha256": "61a489aca90b847aefcbd493ce12af75ce4bae8c48b9ae0e4e73a928c769de7a",
+    "frozen_operating_threshold": 0.85,
+    "threshold_calibration_source": "v5_validation (N=309)",
+    "architecture": "DualEncoderAcousticModel"
+  }
+}

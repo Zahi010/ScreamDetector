@@ -1,0 +1,17 @@
+{
+    "target_short_screams": 150,
+    "acquired_short_screams": 133,
+    "acquisition_target_met": false,
+    "target_status": "INCOMPLETE",
+    "evidence_designation": "INSUFFICIENT_DEVELOPMENT_EVIDENCE",
+    "independent_source_groups": 86,
+    "raw_annotation_agreement": 0.9098,
+    "cohen_kappa": 0.8553,
+    "mean_onset_disagreement_ms": 17.08,
+    "mean_duration_disagreement_ms": 25.81,
+    "total_development_recordings": 312,
+    "dev_short_screams": 133,
+    "dev_sustained_screams": 62,
+    "dev_hard_negatives": 117,
+    "manifest_sha256": "a33e37ecf1bef23bf610baf2a5b42d5e800152dbc518be00a0d4fb5a8229df51"
+}

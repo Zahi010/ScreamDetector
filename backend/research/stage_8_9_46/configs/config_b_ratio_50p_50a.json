@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate R3 (Ratio-50P-50A)",
+  "candidate_tag": "config_b_ratio_50p_50a",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_ratio_50p_50a.pt",
+  "selected_threshold": 0.84,
+  "val_auc": 0.938,
+  "val_ap": 0.7941,
+  "val_f1": 0.6815,
+  "val_recall": 58.97,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 12.09,
+  "val_brier_score": 0.094,
+  "val_ece": 0.069,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

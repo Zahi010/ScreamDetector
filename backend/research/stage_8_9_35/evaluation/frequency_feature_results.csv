@@ -1,0 +1,3 @@
+model_name,test_recall,test_hn_fpr,test_shout_fpr,test_infant_cry_fpr,test_crowd_cheer_fpr,test_f1
+Subband_Random_Forest,76.47%,20.83%,22.45%,20.00%,21.43%,0.7091
+Subband_Logistic_Regression,85.29%,37.50%,38.78%,20.00%,52.38%,0.6667

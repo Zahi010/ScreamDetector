@@ -1,0 +1,108 @@
+{
+  "experiment_name": "Stage_8_9_39_Controlled_Retraining",
+  "staging_stage": "8.9.38",
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE",
+  "production_protection": {
+    "status": "STRICTLY_FROZEN",
+    "production_classifier": "backend/models/scream_classifier.joblib",
+    "production_threshold": 0.3500,
+    "promotion_permitted": false
+  },
+  "dataset_manifest": "backend/research/stage_8_9_38/manifests/research_split_v4.csv",
+  "dataset_version": "v4_research_split",
+  "source_group_split_manifest": "backend/research/stage_8_9_38/manifests/source_group_split_manifest.csv",
+  "manifest_checksum": "27fb26137ea27f8d418bbf558f696be80ebefc5887854351a18e14490b78a469",
+  "partitions": {
+    "training_cohort": {
+      "split_identifier": "v4_train",
+      "total_active_clips": 820,
+      "screams": 180,
+      "non_screams": 640,
+      "source_groups": 324
+    },
+    "validation_cohort": {
+      "split_identifier": "v4_val",
+      "total_active_clips": 339,
+      "screams": 83,
+      "non_screams": 256,
+      "source_groups": 114
+    },
+    "historical_test_cohort": {
+      "split_identifier": "v4_historical_test",
+      "total_active_clips": 293,
+      "screams": 102,
+      "non_screams": 191,
+      "source_groups": 111,
+      "purpose": "Historical benchmark comparison with Stage 5, 8.9.33, 8.9.35, 8.9.37"
+    },
+    "reserved_expansion_test_cohort": {
+      "split_identifier": "v4_reserved_expansion_test",
+      "total_active_clips": 102,
+      "short_screams": 65,
+      "non_screams": 37,
+      "source_groups": 49,
+      "reserved_short_scream_groups": 35,
+      "purpose": "Independent high-powered evaluation of short screams and hard negatives"
+    },
+    "quarantined_cohort": {
+      "split_identifier": "quarantined",
+      "total_clips": 24,
+      "reasons": [
+        "21 CC BY-NC 4.0 Non-Commercial Clause",
+        "3 Ambiguous Historical Label Classifications"
+      ]
+    }
+  },
+  "primary_comparison": {
+    "candidate_b": {
+      "name": "Configuration B: Dual-Encoder Phonation Baseline",
+      "spec_file": "backend/research/stage_8_9_38/experiment_configs/config_b_dual_encoder_spec.json",
+      "inputs": ["1024-d YAMNet mean embeddings", "12-d vocal phonation features + validity mask"],
+      "head_architecture": "SemanticProjectionHead(1024->128) + PhonationMaskedHead(12->32) -> Linear(160->1)"
+    },
+    "candidate_d": {
+      "name": "Configuration D: MP-FS-DualEncoder (Multi-Pathway Fusion)",
+      "spec_file": "backend/research/stage_8_9_38/experiment_configs/config_d_multipathway_spec.json",
+      "inputs": ["1024-d YAMNet mean embeddings", "12-d vocal phonation features + validity mask", "11-d frequency subband energy/ratio features"],
+      "head_architecture": "SemanticProjectionHead(1024->128) + PhonationMaskedHead(12->32) + FrequencySubbandHead(11->16) -> Linear(176->1)"
+    }
+  },
+  "training_hyperparameters": {
+    "random_seed": 42,
+    "framework": "PyTorch 2.14+",
+    "optimizer": "AdamW",
+    "learning_rate": 0.001,
+    "weight_decay": 0.0001,
+    "batch_size": 64,
+    "max_epochs": 35,
+    "loss": "BCEWithLogitsLoss + SupConLoss(temperature=0.05)",
+    "early_stopping": {
+      "monitor": "val_f1_score",
+      "patience": 8,
+      "mode": "max"
+    }
+  },
+  "evaluation_and_threshold_protocol": {
+    "validation_sweep_range": [0.05, 0.95],
+    "validation_sweep_step": 0.01,
+    "operating_points": [
+      "Operating Point A: Maximum Validation F1",
+      "Operating Point B: Recall-Oriented (Recall >= 90% with minimum HN-FPR)",
+      "Operating Point C: False-Alarm-Oriented (Minimum HN-FPR with Recall >= 80%)",
+      "Operating Point D: Balanced Operational Point (Minimum distance to (Recall=1, HN-FPR=0))"
+    ],
+    "calibration_protocol": {
+      "method": "Platt Scaling (Logistic Regression)",
+      "fitting_data": "Validation cohort ONLY (N=339)",
+      "test_calibration_policy": "FROZEN_TRANSFORM_ONLY_NO_TEST_FITTING",
+      "metrics_reported": ["Brier Score", "Expected Calibration Error (ECE)"]
+    },
+    "acceptance_gates": {
+      "gate_1": "Overall scream recall >= 96%",
+      "gate_2": "Hard-negative false-positive rate <= 5%",
+      "gate_3": "Shouted-speech false-positive rate <= 15%",
+      "gate_4": "Short-scream recall >= 90%",
+      "gate_5": "Computational P95 inference latency <= 25 ms"
+    }
+  }
+}

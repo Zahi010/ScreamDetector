@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate R6 (Dynamic-50P-50A)",
+  "candidate_tag": "config_b_dynamic_50p_50a",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_dynamic_50p_50a.pt",
+  "selected_threshold": 0.93,
+  "val_auc": 0.9393,
+  "val_ap": 0.7961,
+  "val_f1": 0.6818,
+  "val_recall": 57.69,
+  "val_hn_fpr": 3.9,
+  "val_shouted_speech_fpr": 9.89,
+  "val_brier_score": 0.1052,
+  "val_ece": 0.1003,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

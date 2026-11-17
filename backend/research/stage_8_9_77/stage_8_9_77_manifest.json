@@ -1,0 +1,78 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.77",
+  "timestamp_utc": "2026-11-14T15:15:00Z",
+  "total_deliverables": 15,
+  "deliverables": {
+    "STAGE_8_9_77_COMPLETION_REPORT.md": {
+      "relative_path": "backend/research/stage_8_9_77/STAGE_8_9_77_COMPLETION_REPORT.md",
+      "size_bytes": 21243,
+      "sha256": "528972b092cc148d2cfea4cb16bb9e6e8208e841272cb18416c5033d75dfbfcc"
+    },
+    "stage76_arithmetic_reconciliation.csv": {
+      "relative_path": "backend/research/stage_8_9_77/stage76_arithmetic_reconciliation.csv",
+      "size_bytes": 19692,
+      "sha256": "0f48fc2502657a65199e159c7a2d93c5810ae14ddcd713a0ec4372f770b5e437"
+    },
+    "uploader_blacklist_reconciliation.csv": {
+      "relative_path": "backend/research/stage_8_9_77/uploader_blacklist_reconciliation.csv",
+      "size_bytes": 55491,
+      "sha256": "bf0cc40e88e51b72f9a3a3d02023f4cb5f3fbd3ed1fee3f32bacbade2d1e0ad8"
+    },
+    "historical_hash_coverage_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_77/historical_hash_coverage_audit.csv",
+      "size_bytes": 1302,
+      "sha256": "fb25814dde40a80b1af4a9efc3da8c159471c069d7228ed4050095781396c2e5"
+    },
+    "stage76_audio_integrity_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_77/stage76_audio_integrity_audit.csv",
+      "size_bytes": 11313,
+      "sha256": "b1b0a1648ffa0cf7a0489590677be860d608c18f0c6743376e9c953b5b00839e"
+    },
+    "annotation_workflow_design.md": {
+      "relative_path": "backend/research/stage_8_9_77/annotation_workflow_design.md",
+      "size_bytes": 7953,
+      "sha256": "e4e8d6505ac690edba5b0254f503ba5de6c16616b34cecd4b942a3fe6c45b5dc"
+    },
+    "annotation_reviewer_instructions.md": {
+      "relative_path": "backend/research/stage_8_9_77/annotation_reviewer_instructions.md",
+      "size_bytes": 5674,
+      "sha256": "a923d5d7168b8a33547c82d30140b070a56b93247c34ce2e261a5fc28fcaec67"
+    },
+    "annotation_assignment_status.csv": {
+      "relative_path": "backend/research/stage_8_9_77/annotation_assignment_status.csv",
+      "size_bytes": 9294,
+      "sha256": "36d91e4c4efab2fe2f79d4f87d77c1db9a0948e04d18460424dfecd9fadfefb8"
+    },
+    "inter_rater_agreement_report.md": {
+      "relative_path": "backend/research/stage_8_9_77/inter_rater_agreement_report.md",
+      "size_bytes": 3870,
+      "sha256": "d61667ac220941a69f4a1813c1ceece13ee4e2b5cee4b357f00496ea0ae1adbb"
+    },
+    "adjudication_status.csv": {
+      "relative_path": "backend/research/stage_8_9_77/adjudication_status.csv",
+      "size_bytes": 5257,
+      "sha256": "0f814f5908a8cc206d44db54fa819dff2e001d683690fc7b943448cbf25389dd"
+    },
+    "prospective_eligibility_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_77/prospective_eligibility_audit.csv",
+      "size_bytes": 6104,
+      "sha256": "46e394c62b1d62229b9e571e4db96320cd4d38ea306f1bd3fc789b9820ae3515"
+    },
+    "prospective_evaluation_manifest.json": {
+      "relative_path": "backend/research/stage_8_9_77/prospective_evaluation_manifest.json",
+      "size_bytes": 589,
+      "sha256": "d8329f1c4f684c9738120a3bd3b193f2509b004e6a14d9259a68f782a5c65aed"
+    },
+    "protected_asset_hashes_before_after.json": {
+      "relative_path": "backend/research/stage_8_9_77/protected_asset_hashes_before_after.json",
+      "size_bytes": 2236,
+      "sha256": "855804ab3e6b16322b0e3953a6686fc0bec4d20d55528dd2ca2085cb6765aa6b"
+    },
+    "test_results.md": {
+      "relative_path": "backend/research/stage_8_9_77/test_results.md",
+      "size_bytes": 4285,
+      "sha256": "2bce1c9ea75c05de88de487267101cc7aede24f76dfc7dfae2ac0cc38e9c1428"
+    }
+  }
+}

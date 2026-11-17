@@ -1,0 +1,51 @@
+{
+  "stage": "8.9.37",
+  "stage_name": "Per-Model Threshold Optimization, Calibration Audit & Dataset Expansion",
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE",
+  "production_status": "STRICTLY FROZEN",
+  "production_threshold": 0.3500,
+  "candidates": [
+    {
+      "candidate_id": "config_a_yamnet_only",
+      "name": "Configuration A (YAMNet-Only)",
+      "features": ["yamnet_mean_1024d"],
+      "model_type": "Linear / MLP on L2-normalized 128d projection"
+    },
+    {
+      "candidate_id": "config_b_dual_encoder",
+      "name": "Configuration B (YAMNet + Phonation Baseline)",
+      "features": ["yamnet_mean_1024d", "vocal_features_6d", "vocal_mask_6d"],
+      "model_type": "Dual-Encoder (Stage 8.9.33 best_dual_encoder.pt)"
+    },
+    {
+      "candidate_id": "config_c_yamnet_subband",
+      "name": "Configuration C (YAMNet + Subband)",
+      "features": ["yamnet_mean_1024d", "subband_features_11d"],
+      "model_type": "Dual-Pathway Fusion"
+    },
+    {
+      "candidate_id": "config_d_mp_fs_dual_encoder",
+      "name": "Configuration D (MP-FS-DualEncoder)",
+      "features": ["yamnet_mean_1024d", "vocal_features_6d", "vocal_mask_6d", "subband_features_11d"],
+      "model_type": "MultiPathwayFusionModel (mp_fs_dual_encoder_model.pt)"
+    }
+  ],
+  "sweep_parameters": {
+    "min_threshold": 0.05,
+    "max_threshold": 0.95,
+    "step": 0.01
+  },
+  "operating_points": {
+    "A_max_f1": "Threshold maximizing F1 on validation split",
+    "B_recall_oriented": "Maximize recall subject to Val HN-FPR <= 15% and Val Shout-FPR <= 20%",
+    "C_false_alarm_oriented": "Minimize HN-FPR subject to Val Recall >= 80%",
+    "D_balanced": "Minimize (Val_HN_FPR + (1 - Val_Recall))"
+  },
+  "acceptance_gates": {
+    "gate_1_overall_recall_min": 0.9600,
+    "gate_2_hn_fpr_max": 0.0500,
+    "gate_3_shout_fpr_max": 0.1500,
+    "gate_4_short_scream_recall_min": 0.9000,
+    "gate_5_p95_latency_max_ms": 25.00
+  }
+}

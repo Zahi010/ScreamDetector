@@ -1,0 +1,7 @@
+recording_id,duration_sec,pre_screener_status,model_c_status,candidate_g_status,model_e_status,fusion_status,primary_failure_stage,diagnostic_explanation
+S8930_FS_686340,0.3947,PASS,SUB_THRESHOLD,SUB_THRESHOLD,SUB_THRESHOLD,SUB_THRESHOLD,FEATURE_TEMPORAL_DILUTION,"All models output sub-threshold scores (0.0258, 0.2775) due to 50-60% zero-padding in 0.975s window."
+S8930_FS_222582,0.7185,PASS,SUB_THRESHOLD,PASS,SUB_THRESHOLD,SUB_THRESHOLD,FUSION_SUPPRESSION_OR_DILUTION,"Candidate G fired (0.5008 >= 0.35), but Model C (0.0001) and zero-padding pulled fused score to 0.2809."
+S8930_FS_382990,0.4210,PASS,SUB_THRESHOLD,PASS,SUB_THRESHOLD,SUB_THRESHOLD,FUSION_SUPPRESSION_OR_DILUTION,"Candidate G fired (0.3691 >= 0.35), but Model C (0.0045) and zero-padding pulled fused score to 0.2594."
+S8930_FS_547188,0.7659,PASS,SUB_THRESHOLD,PASS,SUB_THRESHOLD,SUB_THRESHOLD,FUSION_SUPPRESSION_OR_DILUTION,"Candidate G fired (0.4009 >= 0.35), but Model C (0.0599) and zero-padding pulled fused score to 0.3381."
+S8930_FS_788867,0.6502,PASS,PASS,PASS,PASS,PASS,STREAMING_HARNESS_ONLY,Detected (score=0.7578) once padded to window. Failure was 100% harness buffer underflow.
+S8930_NIGENS_HUMAN-SCREAM_GEN-HDF-15246,0.4993,PASS,SUB_THRESHOLD,PASS,SUB_THRESHOLD,SUB_THRESHOLD,FUSION_SUPPRESSION_OR_DILUTION,"Candidate G fired (0.3725 >= 0.35), but Model C (0.0476) and zero-padding pulled fused score to 0.2808."

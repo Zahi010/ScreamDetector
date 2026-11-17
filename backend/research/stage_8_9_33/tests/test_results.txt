@@ -1,0 +1,16 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 7 items
+
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_production_artifact_immutability PASSED [ 14%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_dataset_manifest_integrity_and_splits PASSED [ 28%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_missing_pitch_and_nan_inf_protection PASSED [ 42%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_dual_encoder_model_checkpoint PASSED [ 57%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_eof_flushing_and_residual_padding PASSED [ 71%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_inference_latency_gate PASSED [ 85%]
+backend/research/stage_8_9_33/tests/test_stage_8_9_33.py::test_evaluation_metrics_calculator PASSED [100%]
+
+============================== 7 passed in 4.10s ==============================

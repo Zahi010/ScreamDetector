@@ -1,0 +1,12 @@
+{
+  "candidate_id": "CNN-LogMel-v5",
+  "architecture": "CustomLogMelCNN",
+  "checkpoint": "cnn_logmel_v5.pt",
+  "selected_threshold": 0.9199999999999999,
+  "val_auc": 0.9547,
+  "val_ap": 0.8879,
+  "val_f1": 0.7591,
+  "val_recall": 66.67,
+  "val_hn_fpr": 3.03,
+  "val_shouted_speech_fpr": 3.3
+}

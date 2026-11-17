@@ -1,0 +1,5 @@
+source_provider,total_candidates,cc0_verified,cc_by_verified,noncommercial_only,restricted_or_youtube,requires_review,unknown,commercially_eligible_count,commercial_eligibility_rate
+audioset,22,0,0,0,22,0,0,0,0.0%
+curated_permissive,9,9,0,0,0,0,0,9,100.0%
+freesound,19,11,8,0,0,0,0,19,100.0%
+fsd50k,320,311,8,1,0,0,0,319,99.7%

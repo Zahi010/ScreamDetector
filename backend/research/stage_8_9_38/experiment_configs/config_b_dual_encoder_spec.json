@@ -1,0 +1,25 @@
+{
+  "model_code": "Config_B",
+  "model_name": "DualEncoderAcousticModel",
+  "historical_stage": "Stage 8.9.33 / Stage 8.9.34",
+  "input_features": {
+    "semantic_path": {
+      "feature_type": "YAMNet mean embeddings",
+      "dimension": 1024,
+      "normalization": "L2 unit norm"
+    },
+    "phonation_path": {
+      "feature_type": "Acoustic vocal phonation (pitch, voicing, jitter, shimmer, HNR, F0 mean) + validity mask",
+      "dimension": 12,
+      "normalization": "NaN to 0.0 + concatenated binary validity mask"
+    }
+  },
+  "subband_path": null,
+  "projection_architecture": {
+    "semantic_head": "Linear(1024, 256) -> BatchNorm1d -> ReLU -> Dropout(0.15) -> Linear(256, 128) -> L2_norm",
+    "phonation_head": "Linear(12, 64) -> BatchNorm1d -> ReLU -> Dropout(0.10) -> Linear(64, 32) -> L2_norm",
+    "fusion_classifier": "Linear(160, 64) -> ReLU -> Dropout(0.10) -> Linear(64, 1)"
+  },
+  "loss_definition": "BCEWithLogitsLoss(y_pred, y_true) + 0.5 * SupConLoss(z_sem, z_acoust)",
+  "baseline_checkpoint": "backend/research/stage_8_9_33/models/dual_encoder_model.pt"
+}

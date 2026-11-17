@@ -1,0 +1,15 @@
+metric_name,stage_30_reported,audited_reproduced_reported_labels,audited_reproduced_true_labels,reproduction_status
+Total Samples,204,204,204,EXACT_MATCH
+Positive Screams (P),137,137,106,EXACT_MATCH_ON_REPORTED (REVISED_TO_106_AUDITED)
+Negative Controls (N),67,67,98,EXACT_MATCH_ON_REPORTED (REVISED_TO_98_AUDITED)
+True Positives (TP),114,114,89,EXACT_MATCH
+False Negatives (FN),23,23,17,EXACT_MATCH
+True Negatives (TN),37,37,43,EXACT_MATCH
+False Positives (FP),30,30,55,EXACT_MATCH
+Recall (%),83.21%,83.21%,83.96%,EXACT_MATCH
+False Positive Rate (FPR %),44.78%,44.78%,56.12%,EXACT_MATCH_ON_REPORTED (HIGHER_ON_AUDITED: 56.12%)
+Specificity (%),55.22%,55.22%,43.88%,EXACT_MATCH
+Precision (%),79.17%,79.17%,61.81%,EXACT_MATCH
+F1-Score,0.8114,0.8114,0.7120,EXACT_MATCH
+ROC-AUC,N/A,0.7217,0.6999,VERIFIED_COMPUTED
+PR-AUC,N/A,0.8265,0.6907,VERIFIED_COMPUTED

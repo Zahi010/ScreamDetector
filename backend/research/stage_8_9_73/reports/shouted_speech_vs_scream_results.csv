@@ -1,0 +1,6 @@
+metric_or_feature,screams_value,shouted_speech_value,discriminative_power_auc,acoustic_mechanism
+Sample Count (N),99.0,88.0,N/A,Target screams vs high-effort vocal projection
+Spectral Flux Dynamics,0.1281,0.0765,0.7005,Screams display rapid spectral shifts (AUC 0.7005)
+High-Frequency Ratio,0.4039,0.097,0.7633,Screams have 4.16x higher HF energy ratio than shouts
+Auditory Roughness (30-150Hz),0.0924,0.0525,0.5954,Non-linear vocal fold desynchronization in screams
+Spectral Flatness,0.046527,0.034015,0.6749,Broader noisier spectrum in chaotic screams

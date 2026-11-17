@@ -1,0 +1,9 @@
+source_dataset,total_recordings,file_sha256_populated,file_sha256_null,file_sha256_coverage_pct,file_sha256_unique_count,pcm_sha256_populated,pcm_sha256_null,pcm_sha256_coverage_pct,pcm_sha256_unique_count,pcm_internal_collisions,audit_observations
+FSD50K,423,423,0,100.0,423,423,0,100.0,423,0,100% complete file and PCM waveform coverage.
+NIGENS,974,974,0,100.0,897,974,0,100.0,973,1,100% complete file and PCM waveform coverage.
+OpenSLR99,778,778,0,100.0,727,778,0,100.0,778,0,100% complete file and PCM waveform coverage.
+Stage8_9_Reviewed,343,343,0,100.0,343,343,0,100.0,343,0,100% complete file and PCM waveform coverage.
+Synthesized_Masked_Scream,75,75,0,100.0,75,75,0,100.0,75,0,100% complete file and PCM waveform coverage.
+stage_8_9_60_evaluation_cohort,700,0,700,0.0,0,700,0,100.0,700,0,Legacy format omitting raw file SHA-256 for 700 clips; PCM waveform 100% fingerprinted.
+stage_8_9_64_short_screams,401,0,401,0.0,0,401,0,100.0,401,0,Legacy format omitting raw file SHA-256 for 401 clips; PCM waveform 100% fingerprinted.
+TOTAL_HISTORICAL_INVENTORY,3694,2593,1101,70.19,2465,3694,0,100.0,3689,5,"Exact reconciliation: 2,593 populated file hashes (2,465 unique, 128 multi-split duplicate files); 3,694 populated PCM hashes (3,689 unique, 5 duplicate waveform pairs across splits)."

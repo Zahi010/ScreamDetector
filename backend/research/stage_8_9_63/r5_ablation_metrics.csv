@@ -1,0 +1,6 @@
+variant_id,feature_dim,tp,fn,fp,tn,overall_recall,short_scream_recall,sustained_recall,hard_negative_fpr,shouted_speech_fpr,precision,f1,roc_auc,pr_auc,model_only_p95_ms,complete_pipeline_p95_ms
+R5_Variant_1_Full_Architecture,17,174,21,15,102,0.8923,0.9323,0.8065,0.1282,1.0,0.9206,0.9062,0.9266,0.9469,0.003,8.606
+R5_Variant_2_No_VAD,17,175,20,22,95,0.8974,0.9398,0.8065,0.188,1.0,0.8883,0.8929,0.9033,0.9105,0.003,14.11
+R5_Variant_3_No_Active_Pooling,17,171,24,15,102,0.8769,0.9398,0.7419,0.1282,1.0,0.9194,0.8976,0.8963,0.8832,0.003,5.634
+R5_Variant_4_No_Phonation_Branch,11,175,20,16,101,0.8974,0.9323,0.8226,0.1368,1.0,0.9162,0.9067,0.924,0.9364,0.008,8.438
+R5_Variant_5_Standard_Fixed_C5,17,171,24,15,102,0.8769,0.9398,0.7419,0.1282,1.0,0.9194,0.8976,0.8963,0.8832,0.004,5.499

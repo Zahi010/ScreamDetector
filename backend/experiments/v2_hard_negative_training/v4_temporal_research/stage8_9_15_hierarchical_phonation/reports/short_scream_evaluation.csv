@@ -1,0 +1,7 @@
+duration_bracket,total_scream_recordings,detected_screams,scream_recall_pct,masked_screams_total,masked_screams_detected,masked_scream_recall_pct,hard_negatives_total,hard_negatives_false_positives,hard_negative_fpr_pct,target_recall_met_90
+Ultra-Short (< 0.5s),0,0,100.0,0,0,100.0,2,0,0.0,PASS
+Short (0.5s - 0.99s),5,4,80.0,1,1,100.0,7,1,14.29,FAIL
+Subtotal (< 1.0s),5,4,80.0,1,1,100.0,9,1,11.11,FAIL
+Moderate Brief (1.0s - 1.5s),21,19,90.48,9,9,100.0,3,1,33.33,PASS
+Total Brief (<= 1.5s),26,23,88.46,10,10,100.0,12,2,16.67,FAIL
+Sustained (> 1.5s),83,78,93.98,33,29,87.88,186,16,8.6,PASS

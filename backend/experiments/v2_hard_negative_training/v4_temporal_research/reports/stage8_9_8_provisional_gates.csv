@@ -1,0 +1,7 @@
+gate_name,target,point_estimate,ci_95,status,certification,rationale
+Gate 1: Overall Scream Recall >= 96.0%,>= 0.9600,82.35%,"[0.7382, 0.8854]",FAIL,NOT CERTIFIED,"Measured recall is 82.3% (84/102), below 96.0% target."
+Gate 2: Overall Hard-Negative FPR <= 5.0%,<= 0.0500,7.33%,"[0.0442, 0.1193]",FAIL,NOT CERTIFIED,Measured hard-negative FPR is 7.3% (14/191).
+Gate 3: Shouted-Speech FPR <= 15.0%,<= 0.1500,12.50%,"[0.0586, 0.2470]",PASS,CERTIFIED,Measured shouting FPR is 12.5% (6/48).
+Gate 4: Meaningful PR-AUC Improvement,> 0.8910 (Model D baseline),0.9077,"[0.8533, 0.9537]",PASS,NOT CERTIFIED,"PR-AUC is 0.9077 vs Model D 0.8910 (Delta: 0.0167, 95% CI [-0.0060, 0.0428])."
+Gate 5: No Regression in Masked/Distant Scream Recall,>= Baseline recall (76.5%),82.35%,"[0.7382, 0.8854]",PASS,CERTIFIED,Model H_v4 recall exceeds frozen baseline (76.5%) without regression.
+Gate 6: Edge Hardware Latency & Footprint,"< 25 ms inference, < 50 MB RAM","< 5 ms per window, 22 KB classifier",Deterministic,PASS,CERTIFIED,"Compact 5,145 parameter linear fusion layer with sub-5ms latency and negligible RAM."

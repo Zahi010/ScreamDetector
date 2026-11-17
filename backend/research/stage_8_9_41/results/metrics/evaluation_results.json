@@ -1,0 +1,193 @@
+{
+  "candidate": "Configuration B (DualEncoderAcousticModel)",
+  "frozen_threshold": 0.24,
+  "standalone_stage_8_9_41_positive_cohort": {
+    "total_clips": 57,
+    "total_source_groups": 41,
+    "true_positives": 20,
+    "false_negatives": 37,
+    "recall": 0.3509,
+    "ci95_wilson": [
+      0.24,
+      0.4806
+    ],
+    "ci95_cluster_bootstrap": [
+      0.2424,
+      0.4595
+    ],
+    "source_group_level_recall": {
+      "detected": 16,
+      "total": 41,
+      "recall": 0.3902,
+      "ci95": [
+        0.2566,
+        0.5427
+      ]
+    },
+    "duration_stratification": [
+      {
+        "stratum": "<0.5s (Ultra-short)",
+        "total_clips": 11,
+        "detected_tp": 0,
+        "recall": 0.0,
+        "ci95_low": 0.0,
+        "ci95_high": 0.2588,
+        "fraction": "0/11"
+      },
+      {
+        "stratum": "0.5s-1.0s (Short)",
+        "total_clips": 20,
+        "detected_tp": 2,
+        "recall": 0.1,
+        "ci95_low": 0.0279,
+        "ci95_high": 0.301,
+        "fraction": "2/20"
+      },
+      {
+        "stratum": "1.0s-2.0s (Medium)",
+        "total_clips": 23,
+        "detected_tp": 16,
+        "recall": 0.6957,
+        "ci95_low": 0.4913,
+        "ci95_high": 0.844,
+        "fraction": "16/23"
+      },
+      {
+        "stratum": ">2.0s (Sustained)",
+        "total_clips": 3,
+        "detected_tp": 2,
+        "recall": 0.6667,
+        "ci95_low": 0.2077,
+        "ci95_high": 0.9385,
+        "fraction": "2/3"
+      }
+    ],
+    "subtype_stratification": [
+      {
+        "subtype": "short_scream",
+        "total_clips": 26,
+        "detected_tp": 0,
+        "recall": 0.0,
+        "ci95": [
+          0.0,
+          0.1287
+        ],
+        "fraction": "0/26"
+      },
+      {
+        "subtype": "distant_scream",
+        "total_clips": 11,
+        "detected_tp": 10,
+        "recall": 0.9091,
+        "ci95": [
+          0.6226,
+          0.9838
+        ],
+        "fraction": "10/11"
+      },
+      {
+        "subtype": "low_intensity_scream",
+        "total_clips": 10,
+        "detected_tp": 6,
+        "recall": 0.6,
+        "ci95": [
+          0.3127,
+          0.8318
+        ],
+        "fraction": "6/10"
+      },
+      {
+        "subtype": "masked_scream",
+        "total_clips": 8,
+        "detected_tp": 4,
+        "recall": 0.5,
+        "ci95": [
+          0.2152,
+          0.7848
+        ],
+        "fraction": "4/8"
+      },
+      {
+        "subtype": "sustained_scream",
+        "total_clips": 2,
+        "detected_tp": 0,
+        "recall": 0.0,
+        "ci95": [
+          0.0,
+          0.6576
+        ],
+        "fraction": "0/2"
+      }
+    ]
+  },
+  "combined_positive_suite": {
+    "total_clips": 122,
+    "total_source_groups": 76,
+    "true_positives": 85,
+    "false_negatives": 37,
+    "recall": 0.6967,
+    "ci95_wilson": [
+      0.6102,
+      0.7713
+    ]
+  },
+  "acceptance_gates_audit": {
+    "gate_1_overall_scream_recall": {
+      "target": ">= 0.96",
+      "evaluation_cohort": "Combined Positive Suite (N=122)",
+      "value": 0.6967,
+      "fraction": "85/122",
+      "ci95": [
+        0.6102,
+        0.7713
+      ],
+      "point_pass": false,
+      "statistically_established": false,
+      "status": "FAIL"
+    },
+    "gate_2_hard_negative_fpr": {
+      "target": "<= 0.05",
+      "evaluation_cohort": "Stage 8.9.40 Independent Negative Cohort (N=145)",
+      "value": 0.0069,
+      "fraction": "1/145",
+      "ci95": [
+        0.0012,
+        0.038
+      ],
+      "point_pass": true,
+      "statistically_established": true,
+      "status": "PASS"
+    },
+    "gate_3_shouted_speech_fpr": {
+      "target": "<= 0.15",
+      "evaluation_cohort": "Stage 8.9.40 Shouted Speech Subset (N=54)",
+      "value": 0.0,
+      "fraction": "0/54",
+      "ci95": [
+        0.0,
+        0.0664
+      ],
+      "point_pass": true,
+      "statistically_established": true,
+      "status": "PASS"
+    },
+    "gate_4_short_scream_recall": {
+      "target": ">= 0.90",
+      "evaluation_cohort": "Combined Short Screams (N=96)",
+      "value": 0.6979,
+      "fraction": "67/96",
+      "ci95": [
+        0.5999,
+        0.7807
+      ],
+      "point_pass": true,
+      "statistically_established": true,
+      "status": "PASS"
+    },
+    "gate_5_p95_inference_latency": {
+      "target": "<= 25.0 ms",
+      "value_ms": 0.516,
+      "status": "PASS"
+    }
+  }
+}

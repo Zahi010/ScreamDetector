@@ -1,0 +1,25 @@
+test_id,category,scenario,method,expected_result,actual_result,status,notes
+TM-8.6-01,Integrity,Stage 5 Classifier Artifact Hash,SHA-256 Checksum,Match ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f,Checksum identical (ad6e428d05d2...),PASS,Zero weight changes permitted
+TM-8.6-02,Integrity,Stage 5 Model Metadata Hash,SHA-256 Checksum,Match 30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60,Checksum identical (30c1c75d81ad...),PASS,Baseline metadata immutable
+TM-8.6-03,Integrity,Operational Threshold Immutability,Config and Metadata Verification,Threshold preserved strictly at 0.35,DEFAULT_SCREAM_THRESHOLD=0.35,PASS,Decision boundary preserved
+TM-8.6-04,Schema,Recording Record Schema Validation,Unit Test (build_recording_record),Produces schema-compliant dictionary with all 24 fields,All fields populated correctly with type casting,PASS,Strict metadata compliance
+TM-8.6-05,Schema,Rejection of Invalid Ground-Truth Labels,Unit Test (ValueError injection),Rejects non-taxonomy labels,Raises ValueError with allowed label list,PASS,Taxonomy integrity enforced
+TM-8.6-06,Manifest,Manifest JSON and CSV Serialization Round-Trip,Unit Test (save and load round-trip),Identical records after serialization and deserialization,Records match exactly in JSON and CSV,PASS,Storage format parity
+TM-8.6-07,Audit,Human Review Audit Trail Logging,Unit Test (append_label_audit),Appends timestamped immutable revision history,Recorded both initial review and revision actions,PASS,Auditability guaranteed
+TM-8.6-08,Hashing,File and PCM SHA-256 Content Hashing,Unit Test (synthetic audio),Deterministic 64-char hex digests for file and PCM,Exact matching digests on repeated calls,PASS,Deduplication foundation
+TM-8.6-09,Quality,Dataset Quality Control on Healthy Audio,Unit Test (check_dataset_quality),Zero issues found for valid 16kHz mono audio,Reported total_issues_found=0,PASS,Clean audio verified
+TM-8.6-10,Quality,Dataset Quality Control on Missing Audio File,Unit Test (nonexistent path),Flags missing audio with CRITICAL severity,Reported missing_files=1 with detail,PASS,Filesystem fault tolerance
+TM-8.6-11,Quality,Dataset Quality Control on Zero-Length Audio,Unit Test (0-byte file),Flags zero-length audio with CRITICAL severity,Reported zero_duration_files=1,PASS,Prevents corrupted inputs
+TM-8.6-12,Quality,Dataset Quality Control on Near-Silent Audio,Unit Test (silent array),Flags low RMS amplitude (<0.0001) as WARNING,Reported silent_files=1,PASS,Detects mic gain failures
+TM-8.6-13,Quality,Dataset Quality Control on Duplicate Audio,Unit Test (identical PCM files),Flags exact duplicate file and PCM hashes,Reported duplicate_files=1,PASS,Redundant data prevention
+TM-8.6-14,Quality,Dataset Quality Control on Historical Split Leakage,Unit Test (hash in Stage 4 split),Flags collision with historical Stage 4 split manifest,Reported historical_leakage_files=1,PASS,Cohort separation guaranteed
+TM-8.6-15,Metrics,Evaluation Metrics on Balanced Sample,Unit Test (calculate_evaluation_metrics),Calculates TP FP TN FN precision recall F1 accuracy AUC,Exact matching metrics (precision=0.6667 recall=0.6667),PASS,Scientific metric accuracy
+TM-8.6-16,Metrics,Evaluation Metrics on Zero Reviewed Samples,Unit Test (empty prediction list),Returns status=NOT_AVAILABLE without divide-by-zero,Handled cleanly with descriptive reason,PASS,Initial state resilience
+TM-8.6-17,Metrics,Evaluation Metrics on Single-Class Sample,Unit Test (all non-scream),Handles missing class gracefully without inventing AUC,Reported roc_auc=None with note,PASS,No fabricated values
+TM-8.6-18,Integration,Stage 6 Hard-Negative Export Bridge,Unit Test (export_reviewed_to_hard_negatives),Copies approved non_scream audio with companion sidecar,Exported 1 clip with sidecar skipped 1 scream,PASS,Stage 6 pipeline synergy
+TM-8.6-19,Hardware,Audio Input Device Discovery,Unit Test (list_audio_input_devices),Returns discovered PortAudio devices with channel counts,Discovered 10 input endpoints on host,PASS,Hardware enumeration
+TM-8.6-20,Tooling,Recording Tool CLI Device Listing,CLI execution (--list-devices),Prints tabular device index channels SR host API,Printed discovered devices exit code 0,PASS,Operator device inspection
+TM-8.6-21,Tooling,Live Evaluation Telemetry Script,CLI execution (--help),Displays available parameters and defaults,Printed help cleanly exit code 0,PASS,Ready for operator runs
+TM-8.6-22,Tooling,Human Audio Review Script Listing,CLI execution (--list),Lists recordings cleanly on empty/populated manifests,Printed table with 0 recordings exit code 0,PASS,Initial state verified
+TM-8.6-23,Pipeline,Full Real-World Evaluation Pipeline Run,CLI execution (evaluate_real_world_audio.py),Verifies baseline hashes produces quality and metric reports,Generated all 5 report artifacts exit code 0,PASS,End-to-end pipeline certified
+TM-8.6-24,Regression,Frontend Dashboard Integration & Build,Vitest and Vite Build,All 10 dashboard tests pass and build succeeds,10/10 Vitest passed build completed in 185ms,PASS,Zero regression to UI

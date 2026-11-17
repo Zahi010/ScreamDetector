@@ -1,0 +1,4 @@
+Dataset_Split,Total_Authentic_Positives,Low_Intensity_Muffled_Count,Low_Intensity_Muffled_Pct,Crowd_Masked_Count,Crowd_Masked_Pct,Distant_Reverberant_Count,Distant_Reverberant_Pct,Sustained_Scream_Count,Short_UltraShort_Count,Total_Difficult_Acoustic_Positives,Difficult_Acoustic_Ratio_Pct,Mean_YAMNet_Scream_Score,Mean_YAMNet_Vocal_Score,Mean_YAMNet_Crowd_Score
+"Dev Split (Training, N=200)",80,6,7.5%,10,12.5%,10,12.5%,18,36,26,32.5,0.0007057858747430146,0.007818230427801609,0.0614820197224617
+"Val Split (Validation, N=120)",48,4,8.3%,6,12.5%,6,12.5%,10,22,16,33.33333333333333,0.0007485581445507705,0.007366098929196596,0.051294151693582535
+"Independent Cohort (Evaluation, N=480)",160,15,9.4%,20,12.5%,20,12.5%,35,70,55,34.375,0.0010800902964547276,0.008471990004181862,0.04131973162293434

@@ -1,0 +1,212 @@
+{
+  "exact_file_duplicates": [
+    {
+      "sha256": "775c8d302ef349ebd87da3658477f9e84d3779f839b63d98961520fc735104ad",
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_fire_Fire_CampfireLoop2_SFX-KIT",
+          "dataset": "NIGENS",
+          "path": "fire/Fire_CampfireLoop2_SFX-KIT.wav",
+          "class": "fire"
+        },
+        {
+          "file_id": "nigens_fire_Fire_Loop12_SFX-KIT",
+          "dataset": "NIGENS",
+          "path": "fire/Fire_Loop12_SFX-KIT.wav",
+          "class": "fire"
+        }
+      ]
+    }
+  ],
+  "exact_pcm_audio_duplicates": [
+    {
+      "pcm_sha256": "f939b528cdac7cec4637ff97c722a811a95c6b0f41e5b9cd82465f1e655d6e33",
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_fire_Fire_CampfireLoop2_SFX-KIT",
+          "dataset": "NIGENS",
+          "path": "fire/Fire_CampfireLoop2_SFX-KIT.wav"
+        },
+        {
+          "file_id": "nigens_fire_Fire_Loop12_SFX-KIT",
+          "dataset": "NIGENS",
+          "path": "fire/Fire_Loop12_SFX-KIT.wav"
+        }
+      ]
+    }
+  ],
+  "near_duplicate_candidates": [
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.123,
+        "peak_amplitude": 1.0
+      },
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_bbac8n",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbac8n.wav",
+          "source_group": "grid_bbac"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_bbaczs",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbaczs.wav",
+          "source_group": "grid_bbac"
+        }
+      ]
+    },
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.128,
+        "peak_amplitude": 1.0
+      },
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_bbac9s",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbac9s.wav",
+          "source_group": "grid_bbac"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_bbad2p",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbad2p.wav",
+          "source_group": "grid_bbad"
+        }
+      ]
+    },
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.095,
+        "peak_amplitude": 1.0
+      },
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_bbad2s",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbad2s.wav",
+          "source_group": "grid_bbad"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_bbak1n",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbak1n.wav",
+          "source_group": "grid_bbak"
+        }
+      ]
+    },
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.149,
+        "peak_amplitude": 1.0
+      },
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_bbad3a",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbad3a.wav",
+          "source_group": "grid_bbad"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_bbak2n",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbak2n.wav",
+          "source_group": "grid_bbak"
+        }
+      ]
+    },
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.163,
+        "peak_amplitude": 1.0
+      },
+      "count": 2,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_bbad9s",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbad9s.wav",
+          "source_group": "grid_bbad"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_bbae1a",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/bbae1a.wav",
+          "source_group": "grid_bbae"
+        }
+      ]
+    },
+    {
+      "fingerprint": {
+        "duration_s": 3.0,
+        "sample_rate": 25000,
+        "rms_energy": 0.097,
+        "peak_amplitude": 1.0
+      },
+      "count": 3,
+      "files": [
+        {
+          "file_id": "nigens_femaleSpeech_swwo6n",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/swwo6n.wav",
+          "source_group": "grid_swwo"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_swwo7s",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/swwo7s.wav",
+          "source_group": "grid_swwo"
+        },
+        {
+          "file_id": "nigens_femaleSpeech_swwo9n",
+          "dataset": "NIGENS",
+          "path": "femaleSpeech/swwo9n.wav",
+          "source_group": "grid_swwo"
+        }
+      ]
+    }
+  ],
+  "files_requiring_review": [
+    {
+      "file_id": "nigens_alarm_Alarm+8001_04.wm",
+      "dataset": "NIGENS",
+      "path": "alarm/Alarm+8001_04.wm.wav",
+      "flags": [
+        "unlisted_watermark_variant_missing_flist_and_annotation"
+      ]
+    },
+    {
+      "file_id": "nigens_general_GunScreamer+1012_47_2",
+      "dataset": "NIGENS",
+      "path": "general/GunScreamer+1012_47_2.wav",
+      "flags": [
+        "general_class_has_screamer_in_filename"
+      ]
+    },
+    {
+      "file_id": "nigens_general_HUMAN-GASP_GEN-HDF-15016",
+      "dataset": "NIGENS",
+      "path": "general/HUMAN-GASP_GEN-HDF-15016.wav",
+      "flags": [
+        "general_class_unannotated_human_gasp"
+      ]
+    }
+  ]
+}

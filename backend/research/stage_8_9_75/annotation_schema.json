@@ -1,0 +1,158 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "AcousticVocalizationAnnotationRecord",
+  "description": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE. Strict schema for independent acoustic event annotations and adjudication records.",
+  "type": "object",
+  "required": [
+    "recording_id",
+    "source_group_id",
+    "annotator_id",
+    "annotation_timestamp_utc",
+    "event_start_seconds",
+    "event_end_seconds",
+    "primary_label",
+    "confidence_score",
+    "ambiguity_flag",
+    "audio_quality_rating",
+    "handbook_version",
+    "review_status",
+    "adjudication_status"
+  ],
+  "properties": {
+    "recording_id": {
+      "type": "string",
+      "pattern": "^[a-zA-Z0-9_-]+$",
+      "description": "Unique identifier of the target audio recording."
+    },
+    "source_group_id": {
+      "type": "string",
+      "description": "Source-group cluster ID to enforce partition isolation."
+    },
+    "annotator_id": {
+      "type": "string",
+      "description": "Pseudonymous identifier of the independent rater (e.g., RATER_A, RATER_B, ADJUDICATOR_LEAD)."
+    },
+    "annotation_timestamp_utc": {
+      "type": "string",
+      "format": "date-time",
+      "description": "ISO 8601 UTC timestamp when annotation was recorded."
+    },
+    "event_start_seconds": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "Onset time of the target acoustic event within the clip."
+    },
+    "event_end_seconds": {
+      "type": "number",
+      "minimum": 0.0,
+      "description": "Offset time of the target acoustic event within the clip."
+    },
+    "primary_label": {
+      "type": "string",
+      "enum": [
+        "SCREAM",
+        "INFANT_CRY",
+        "ADULT_CRY",
+        "SHOUTED_SPEECH",
+        "THEATRICAL_SHOUT",
+        "EXCITED_CHEER",
+        "CROWD_CHANT",
+        "SINGING",
+        "LAUGHTER",
+        "GASP",
+        "WHISTLE",
+        "SIREN",
+        "ANIMAL_VOCALIZATION",
+        "ENVIRONMENTAL_ALARM",
+        "MECHANICAL_SOUND",
+        "MUSIC",
+        "AMBIENT_NOISE",
+        "OTHER_NON_SCREAM",
+        "AMBIGUOUS_VOCALIZATION"
+      ],
+      "description": "Governing operational category assigned under the handbook taxonomy."
+    },
+    "subcategory": {
+      "type": "string",
+      "enum": [
+        "ADULT_HIGH_INTENSITY",
+        "ADULT_LOW_INTENSITY",
+        "CHILD_HIGH_PITCH",
+        "SHORT_STARTLE_UNDER_1S",
+        "SUSTAINED_DISTRESS",
+        "MASKED_DISTANT",
+        "NONE"
+      ],
+      "default": "NONE",
+      "description": "Acoustic subcategory for positive scream events."
+    },
+    "secondary_label": {
+      "type": ["string", "null"],
+      "description": "Optional secondary acoustic element present concurrently (e.g. BACKGROUND_CHEER, SIREN)."
+    },
+    "confidence_score": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Annotator confidence scale: 1=Very Uncertain, 2=Tentative, 3=Moderate, 4=Confident, 5=Absolute Certainty."
+    },
+    "ambiguity_flag": {
+      "type": "boolean",
+      "description": "True if recording exhibits overlapping characteristics of scream and non-scream."
+    },
+    "uncertainty_reason": {
+      "type": "string",
+      "enum": [
+        "NONE",
+        "HEAVY_BACKGROUND_NOISE",
+        "THEATRICAL_OR_EXAGGERATED_ACTING",
+        "ACOUSTIC_DISTORTION_OR_CLIPPING",
+        "TRANSITIONAL_VOCALIZATION_GASP_SHOUT",
+        "LOW_VOLUME_OR_EXCESSIVE_REVERB",
+        "INFANT_CRY_OVERLAP",
+        "OTHER"
+      ],
+      "description": "Primary rationale explaining ground-truth uncertainty."
+    },
+    "audio_quality_rating": {
+      "type": "string",
+      "enum": [
+        "STUDIO_CLEAN",
+        "MODERATE_NOISE",
+        "HEAVILY_DEGRADED",
+        "SEVERE_CLIPPING"
+      ],
+      "description": "Perceptual recording fidelity rating."
+    },
+    "handbook_version": {
+      "type": "string",
+      "pattern": "^v[0-9]+\\.[0-9]+$",
+      "description": "Version string of the governing annotation handbook (e.g., v1.0)."
+    },
+    "review_status": {
+      "type": "string",
+      "enum": [
+        "INDEPENDENT_PENDING_REVIEW",
+        "DOUBLE_BLIND_COMPLETE",
+        "FLAGGED_FOR_ADJUDICATION",
+        "ADJUDICATED_FINAL"
+      ],
+      "description": "Current lifecycle status of the annotation."
+    },
+    "adjudication_status": {
+      "type": "string",
+      "enum": [
+        "UNCONTESTED",
+        "RESOLVED_BY_CONSENSUS",
+        "RESOLVED_BY_ARBITRATOR",
+        "DESIGNATED_PERMANENTLY_AMBIGUOUS"
+      ],
+      "description": "Outcome of adjudication process."
+    },
+    "adjudication_notes": {
+      "type": "string",
+      "description": "Written justification recorded by the adjudicator."
+    }
+  }
+}
+

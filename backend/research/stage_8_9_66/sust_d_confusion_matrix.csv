@@ -1,0 +1,14 @@
+metric,value,gate,gate_threshold,status
+TP,192,N/A,N/A,INFO
+FP,68,Gate 2 (FPR),<= 5.0%,FAIL
+FN,3,Gate 1 (Recall),>= 96.0%,PASS
+TN,49,N/A,N/A,INFO
+overall_recall,0.9846,Gate 1,>= 0.960,PASS
+dev_fpr,0.5812,Gate 2,<= 0.050,FAIL
+shouted_speech_fpr,1.0,Gate 3,<= 0.150,FAIL
+short_scream_recall,1.0,Gate 4,>= 0.900,PASS
+ultra_short_recall,1.0,Secondary,>= 0.950,PASS
+sustained_recall,0.9516,Secondary,>= 0.900,PASS
+f1_score,0.844,Secondary,N/A,INFO
+roc_auc,0.9131,Secondary,N/A,INFO
+pr_auc,0.9102,Secondary,N/A,INFO

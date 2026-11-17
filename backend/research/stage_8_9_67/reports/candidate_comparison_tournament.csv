@@ -1,0 +1,6 @@
+candidate,recall,hn_fpr,shout_fpr,short_recall,ho_short_recall,p95_latency_ms,gate1,gate2,gate3,gate4,gate5
+Candidate 65-F (Frozen Ref),86.87,59.68,48.86,97.44,98.13,0.812,FAIL,FAIL,FAIL,PASS,PASS
+Candidate 67-A (Expansion Retrained),78.79,18.55,36.36,97.44,59.33,0.397,FAIL,FAIL,FAIL,PASS,PASS
+Candidate 67-B (Vocal Feature Fusion),74.75,11.29,25.0,92.31,63.06,0.397,FAIL,FAIL,FAIL,PASS,PASS
+Candidate 67-C (Contrastive Shout Penalty),78.79,13.71,26.14,92.31,63.43,0.397,FAIL,FAIL,FAIL,PASS,PASS
+Candidate 67-D (Champion Calibrated Pipeline),73.74,8.87,13.64,92.31,54.48,0.397,FAIL,FAIL,PASS,PASS,PASS

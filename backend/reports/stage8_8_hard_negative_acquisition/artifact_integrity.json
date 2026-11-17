@@ -1,0 +1,14 @@
+{
+  "verified": true,
+  "classifier_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\models\\scream_classifier.joblib",
+  "classifier_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+  "expected_classifier_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+  "classifier_sha256_match": true,
+  "metadata_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\models\\model_metadata.json",
+  "metadata_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+  "expected_metadata_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+  "metadata_sha256_match": true,
+  "operating_threshold": 0.35,
+  "expected_threshold": 0.35,
+  "threshold_match": true
+}

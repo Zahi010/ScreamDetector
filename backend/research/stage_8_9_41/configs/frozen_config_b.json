@@ -1,0 +1,50 @@
+{
+  "stage": "8.9.41",
+  "candidate_name": "Configuration B (DualEncoderAcousticModel)",
+  "architecture": {
+    "model_class": "DualEncoderAcousticModel",
+    "module": "backend.research.stage_8_9_39.scripts.train_config_b",
+    "parameters": {
+      "sem_dim": 1024,
+      "acoustic_dim": 6,
+      "proj_sem": 128,
+      "proj_acoust": 32,
+      "hidden_dim": 64,
+      "dropout": 0.2
+    }
+  },
+  "checkpoint": {
+    "path": "backend/research/stage_8_9_39/checkpoints/config_b/best_model.pt",
+    "sha256": "037be323c73202b2fb2f95415796ba147ff506bb47f2d66df27d99be41cfe527"
+  },
+  "calibration": {
+    "method": "Platt Scaling (Logistic Regression)",
+    "path": "backend/research/stage_8_9_39/checkpoints/config_b/platt_calibrator.joblib",
+    "sha256": "1818271467d198610e6ca1a68f75b66a99bd02860c02c4c649a1383016267ecd"
+  },
+  "decision_threshold": 0.24,
+  "preprocessing": {
+    "target_sample_rate": 16000,
+    "channels": 1,
+    "peak_normalization_dbfs": -1.0,
+    "dc_offset_removal": true
+  },
+  "feature_extraction": {
+    "semantic_backbone": "YAMNet (frozen weights)",
+    "semantic_embedding_dim": 1024,
+    "semantic_pooling": "mean",
+    "phonation_classes": [0, 1, 2, 3, 6, 7, 8, 13, 14, 16, 17],
+    "crowd_classes": [67, 68, 69],
+    "scream_class_index": 6,
+    "phonation_features": [
+      "vocal_max",
+      "vocal_mean",
+      "crowd_max",
+      "crowd_mean",
+      "scream_max",
+      "scream_mean"
+    ]
+  },
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE"
+}
+

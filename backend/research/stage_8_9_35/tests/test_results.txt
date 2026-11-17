@@ -1,0 +1,19 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 10 items
+
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_production_hashes_immutable PASSED [ 10%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_channel_count_and_hardware_constraint PASSED [ 20%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_dataset_integrity_and_split_isolation PASSED [ 30%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_frequency_subband_filter_stability PASSED [ 40%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_subband_feature_vector_dimension_and_ratios PASSED [ 50%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_spatial_simulation_mechanics PASSED [ 60%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_missing_mask_phonation_protection PASSED [ 70%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_multi_pathway_model_forward_pass_and_unit_norm PASSED [ 80%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_eof_flushing_and_short_window_padding PASSED [ 90%]
+backend/research/stage_8_9_35/tests/test_stage_8_9_35.py::test_candidate_gate_rejection_consistency PASSED [100%]
+
+============================= 10 passed in 4.51s ==============================

@@ -1,0 +1,22 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend
+plugins: anyio-4.15.1
+collecting ... collected 13 items
+
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestProductionImmutability::test_production_file_hash[backend/models/scream_classifier.joblib-ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f] PASSED [  7%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestProductionImmutability::test_production_file_hash[backend/models/model_metadata.json-30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60] PASSED [ 15%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestProductionImmutability::test_production_file_hash[backend/reports/test_predictions.csv-e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d] PASSED [ 23%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestProductionImmutability::test_production_file_hash[backend/reports/stage5_test_evaluation.md-9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2] PASSED [ 30%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestProductionImmutability::test_production_threshold PASSED [ 38%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestSHRAndPitchMechanics::test_shr_pure_tone_vs_biphonation PASSED [ 46%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestSHRAndPitchMechanics::test_pitch_clipping_separation PASSED [ 53%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestSHRAndPitchMechanics::test_near_silence_input PASSED [ 61%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestDynamicRouterAndTwoTier::test_router_weights_gradient PASSED [ 69%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestDynamicRouterAndTwoTier::test_two_tier_tri_state_contract PASSED [ 76%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestDatasetIntegrityAndArtifacts::test_source_group_disjointness PASSED [ 84%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestDatasetIntegrityAndArtifacts::test_candidate_comparison_csv_exists PASSED [ 92%]
+research/stage_8_9_23/tests/test_stage_8_9_23.py::TestDatasetIntegrityAndArtifacts::test_missed_screams_csv_count PASSED [100%]
+
+============================= 13 passed in 1.60s ==============================

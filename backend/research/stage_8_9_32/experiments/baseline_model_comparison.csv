@@ -1,0 +1,5 @@
+model_name,val_recall_pct,val_fpr_pct,val_f1,val_roc_auc,test_recall_pct,test_precision_pct,test_fpr_pct,test_f1,test_roc_auc,test_pr_auc,test_cheering_fpr_pct,test_crying_fpr_pct,test_shouting_fpr_pct,artifact_path
+Baseline_A_LogisticRegression,78.48%,12.15%,0.7425,0.9170,79.41%,81.82%,9.42%,0.8060,0.9389,0.8709,14.29%,6.67%,12.50%,backend/research/stage_8_9_32/models/baselines/Baseline_A_LogisticRegression.joblib
+Baseline_B_ClassWeighted_LR,86.08%,17.76%,0.7351,0.9167,90.20%,76.03%,15.18%,0.8251,0.9412,0.8783,16.67%,13.33%,18.75%,backend/research/stage_8_9_32/models/baselines/Baseline_B_ClassWeighted_LR.joblib
+Baseline_C_RandomForest,72.15%,8.88%,0.7355,0.8762,81.37%,84.69%,7.85%,0.8300,0.9371,0.8710,11.90%,13.33%,14.58%,backend/research/stage_8_9_32/models/baselines/Baseline_C_RandomForest.joblib
+Baseline_D_MLP,75.95%,15.89%,0.6936,0.8942,73.53%,72.82%,14.66%,0.7317,0.9059,0.8337,16.67%,13.33%,25.00%,backend/research/stage_8_9_32/models/baselines/Baseline_D_MLP.joblib

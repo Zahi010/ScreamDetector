@@ -1,0 +1,5 @@
+candidate,stage1_decode_ms,stage2_resample_ms,stage3_yamnet_ms,stage4_physics_ms,stage5_classifier_ms,stage6_state_ms,e2e_median_ms,e2e_p95_ms,e2e_mean_ms,e2e_std_ms,target_budget_ms,budget_met,p95_budget_met,hop_consumption_pct_500ms,model_size_kb,memory_heap_delta_kb,iterations
+D_v4_Baseline,0.141,3.647,10.758,0.868,3.144,0.045,18.871,22.943,18.609,2.455,25.0,True,True,3.77,85.65,628.35,100
+D_v4_Optimized,0.142,3.668,10.696,0.285,3.221,0.043,18.179,22.354,18.028,2.469,25.0,True,True,3.64,85.65,462.44,100
+H_v5_SNR_Baseline,0.144,3.637,10.63,43.635,3.151,0.044,61.056,69.055,61.545,5.049,25.0,False,False,12.21,142.41,488.25,100
+H_v5_SNR_Optimized,0.141,3.609,10.68,26.602,3.089,0.049,44.099,53.315,44.651,6.535,25.0,False,False,8.82,142.41,420.41,100

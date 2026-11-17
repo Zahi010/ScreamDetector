@@ -1,0 +1,21 @@
+target_category,category_display_name,candidate_id,sample_size_n,unique_source_groups,false_positive_count,false_positive_rate,fpr_ci_low,fpr_ci_high,evidence_status
+shouted_speech,Shouted Speech & Shouts,Candidate_E1_Static_C5,150,34,34,0.2267,0.167,0.3,ROBUST_EVIDENCE
+shouted_speech,Shouted Speech & Shouts,Candidate_B_Baseline,150,34,21,0.14,0.0934,0.2046,ROBUST_EVIDENCE
+shouted_speech,Shouted Speech & Shouts,Candidate_B_Intervention_D,150,34,21,0.14,0.0934,0.2046,ROBUST_EVIDENCE
+shouted_speech,Shouted Speech & Shouts,Candidate_E1_Rolling_C5_EMA,150,34,46,0.3067,0.2385,0.3845,ROBUST_EVIDENCE
+referee_whistle,Referee Whistles & Squeaks,Candidate_E1_Static_C5,60,30,14,0.2333,0.1444,0.3544,ROBUST_EVIDENCE
+referee_whistle,Referee Whistles & Squeaks,Candidate_B_Baseline,60,30,6,0.1,0.0466,0.2015,ROBUST_EVIDENCE
+referee_whistle,Referee Whistles & Squeaks,Candidate_B_Intervention_D,60,30,1,0.0167,0.0029,0.0886,ROBUST_EVIDENCE
+referee_whistle,Referee Whistles & Squeaks,Candidate_E1_Rolling_C5_EMA,60,30,15,0.25,0.1578,0.3723,ROBUST_EVIDENCE
+cheering,Cheering & Crowd Chanting,Candidate_E1_Static_C5,50,10,16,0.32,0.2076,0.4581,ROBUST_EVIDENCE
+cheering,Cheering & Crowd Chanting,Candidate_B_Baseline,50,10,18,0.36,0.2414,0.4986,ROBUST_EVIDENCE
+cheering,Cheering & Crowd Chanting,Candidate_B_Intervention_D,50,10,18,0.36,0.2414,0.4986,ROBUST_EVIDENCE
+cheering,Cheering & Crowd Chanting,Candidate_E1_Rolling_C5_EMA,50,10,29,0.58,0.4423,0.7062,ROBUST_EVIDENCE
+infant_crying,Infant Crying,Candidate_E1_Static_C5,19,6,2,0.1053,0.0294,0.3139,LIMITED_SAMPLE_SIZE
+infant_crying,Infant Crying,Candidate_B_Baseline,19,6,1,0.0526,0.0094,0.2464,LIMITED_SAMPLE_SIZE
+infant_crying,Infant Crying,Candidate_B_Intervention_D,19,6,1,0.0526,0.0094,0.2464,LIMITED_SAMPLE_SIZE
+infant_crying,Infant Crying,Candidate_E1_Rolling_C5_EMA,19,6,6,0.3158,0.1536,0.5399,LIMITED_SAMPLE_SIZE
+environmental_sound,Environmental Noise & Sirens,Candidate_E1_Static_C5,221,221,30,0.1357,0.0968,0.1872,ROBUST_EVIDENCE
+environmental_sound,Environmental Noise & Sirens,Candidate_B_Baseline,221,221,33,0.1493,0.1083,0.2023,ROBUST_EVIDENCE
+environmental_sound,Environmental Noise & Sirens,Candidate_B_Intervention_D,221,221,33,0.1493,0.1083,0.2023,ROBUST_EVIDENCE
+environmental_sound,Environmental Noise & Sirens,Candidate_E1_Rolling_C5_EMA,221,221,81,0.3665,0.3058,0.4318,ROBUST_EVIDENCE

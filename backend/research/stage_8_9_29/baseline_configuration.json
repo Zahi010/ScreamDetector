@@ -1,0 +1,63 @@
+{
+  "stage": "8.9.29",
+  "title": "Research Baseline Configuration Snapshot (from Stage 8.9.28)",
+  "timestamp": "2026-10-31T23:34:00+05:30",
+  "environment": {
+    "os": "Windows-11-10.0.26100-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 16,
+    "python_version": "3.13.3",
+    "numpy_version": "2.4.0",
+    "tensorflow_version": "2.21.0",
+    "onnx_version": "1.23.2",
+    "onnxruntime_version": "1.27.0"
+  },
+  "audio_parameters": {
+    "sample_rate_hz": 16000,
+    "channels": 1,
+    "dtype": "float32",
+    "window_sec": 0.975,
+    "window_samples": 15600,
+    "hop_sec": 0.25,
+    "hop_samples": 4000
+  },
+  "detection_pipeline": {
+    "stage1_pre_screener": "RMS/HFR/Spectral Tilt fast acoustic gate",
+    "stage2_model_c": {
+      "architecture": "Temporal 1D-CNN",
+      "input_shape": [
+        null,
+        70,
+        16
+      ],
+      "output_shape": [
+        null,
+        1
+      ],
+      "path": "research\\stage_8_9_25\\models\\model_c_temporal_1d_cnn.keras",
+      "sha256": "f7be230fcaa61e3815a132473735c8365e13b3ab2a6ada49deb704309ef487d2",
+      "compilation": "tf.function(experimental_relax_shapes=True)"
+    },
+    "stage3_candidate_g": {
+      "candidate_e_short": "research\\stage_8_9_24\\models\\candidate_e_short_pathway.joblib",
+      "candidate_f_long": "research\\stage_8_9_24\\models\\candidate_f_long_pathway.joblib"
+    },
+    "stage3_model_e": {
+      "feature_dim": 1058,
+      "path": "research\\stage_8_9_25\\models\\model_e_hybrid_multimodal.joblib",
+      "sha256": "cdb592c01aadd18cc3840141d77adfc266be1b75e0ed7fec63e5f8f6e1780b31",
+      "temporal_features_path": "experiments\\stage8_9_18_temporal_phonation\\data\\features_stage8_9_18_temporal.npz"
+    },
+    "stage3_spectral_resonance": "Welch PSD peak prominence (horn band 2.0-3.5 kHz) & LPC",
+    "stage4_fusion_e": {
+      "logic": "Asymmetric Confidence Fusion E",
+      "decision_threshold": 0.35,
+      "fast_transient_threshold": 0.5,
+      "cooldown_hops": 6
+    }
+  },
+  "production_freeze": {
+    "status": "FROZEN",
+    "threshold": 0.35
+  }
+}

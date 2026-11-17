@@ -1,0 +1,6 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+Crowd 0: Quiet / Studio Baseline (+15 dB SNR),78.79,78,21,13.64,12,8.06,10,92.31,36,59.33,159
+"Crowd 1: Moderate Festival Cheer (+10 dB SNR, flatness +0.015)",75.76,75,24,12.5,11,8.06,10,92.31,36,58.96,158
+"Crowd 2: Loud Music & Cheers (+5 dB SNR, flatness +0.035)",74.75,74,25,11.36,10,8.06,10,92.31,36,58.96,158
+"Crowd 3: Heavy Dense Crowd (0 dB SNR, flatness +0.060)",72.73,72,27,11.36,10,7.26,9,92.31,36,58.58,157
+"Crowd 4: Overwhelming Masking (-5 dB SNR, flatness +0.090)",72.73,72,27,11.36,10,7.26,9,92.31,36,58.21,156

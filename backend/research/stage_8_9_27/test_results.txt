@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 13 items
+
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestProductionIntegrity::test_production_file_hash[backend/models/scream_classifier.joblib-ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f] PASSED [  7%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestProductionIntegrity::test_production_file_hash[backend/models/model_metadata.json-30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60] PASSED [ 15%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestProductionIntegrity::test_production_file_hash[backend/reports/test_predictions.csv-e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d] PASSED [ 23%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestProductionIntegrity::test_production_file_hash[backend/reports/stage5_test_evaluation.md-9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2] PASSED [ 30%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestProductionIntegrity::test_production_threshold_is_0_35 PASSED [ 38%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestManifestLockAndIndependence::test_manifest_checksum_matches_lock PASSED [ 46%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestManifestLockAndIndependence::test_zero_leakage_against_historical_splits PASSED [ 53%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestEvaluationResults::test_blind_results_file_complete PASSED [ 61%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestEvaluationResults::test_short_scream_retention_rate PASSED [ 69%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestEvaluationResults::test_monosyllabic_shouting_false_alarm_rate PASSED [ 76%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestEvaluationResults::test_category_error_analysis_file PASSED [ 84%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestEvaluationResults::test_latency_validation_benchmarks PASSED [ 92%]
+backend/research/stage_8_9_27/tests/test_stage_8_9_27.py::TestReconciliationFindings::test_reconciliation_document_exists PASSED [100%]
+
+============================= 13 passed in 0.65s ==============================

@@ -1,0 +1,4 @@
+gate_id,algorithm,operating_threshold,train_fit_time_sec,val_scream_pass_rate_pct,val_short_scream_pass_rate_pct,val_noise_filtered_pct,val_total_candidates_passed_pct,test_scream_pass_rate_pct,test_short_scream_pass_rate_pct,test_noise_filtered_pct,test_total_candidates_passed_pct,gate_status
+Gate_A_ExtraTrees,ExtraTreesClassifier,0.47,0.1,100.0,100.0,87.65,76.56,98.17,100.0,79.59,73.62,CERTIFIED_PASS
+Gate_B_HistGradientBoosting,HistGradientBoostingClassifier,0.1,0.1,96.88,100.0,82.72,77.19,100.0,100.0,76.53,75.57,REJECTED
+Gate_C_RandomForest,RandomForestClassifier,0.34,0.1,100.0,100.0,80.25,79.06,100.0,100.0,74.49,76.22,CERTIFIED_PASS

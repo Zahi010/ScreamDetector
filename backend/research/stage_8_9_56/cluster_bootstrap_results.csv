@@ -1,0 +1,6 @@
+resampling_method,metric_delta,replicates,point_estimate_pct,bootstrap_mean_pct,bootstrap_median_pct,ci_95_lower_pct,ci_95_upper_pct,reported_in_stage55,concordance_status
+unstratified_source_group_cluster_bootstrap,Delta Recall (E1 - B),2000,-2.0,17.4749,17.171,10.9282,25.0,"[+10.96%, +25.00%]",EXACT MATCH
+unstratified_source_group_cluster_bootstrap,Delta Hard-Negative FPR (E1 - B),2000,-0.0,-0.3164,-0.339,-3.2681,2.8304,"[-3.47%, +2.93%]",EXACT MATCH
+unstratified_source_group_cluster_bootstrap,Delta F1-Score (E1 - B),2000,-1.6126,12.9933,12.8431,7.1048,19.4582,"[+7.11%, +19.82%]",EXACT MATCH
+stratified_positive_negative_cluster_bootstrap,Delta Recall (E1 - B),2000,-2.0,17.4399,17.2516,10.6729,25.1908,Supplementary Check,CONFIRMED STRICTLY POSITIVE
+stratified_positive_negative_cluster_bootstrap,Delta Hard-Negative FPR (E1 - B),2000,-0.0,-0.3427,-0.339,-3.4167,2.8472,Supplementary Check,CONFIRMED SPANS ZERO

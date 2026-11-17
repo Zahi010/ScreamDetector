@@ -1,0 +1,10 @@
+category,total_candidates,binary_evaluated,approved_negatives,scream_positives,ambiguous,unreviewed,true_positives,false_negatives,false_positives,true_negatives,false_positive_rate,mean_score,min_score,max_score
+shouting_and_speech,37,35,34,1,2,0,1,0,18,16,0.5294,0.5042,0.0,1.0
+whistles_and_squeaks,52,43,43,0,0,9,0,0,10,33,0.2326,0.2121,0.0,0.9999
+sfx_sirens_ringing,37,36,36,0,0,1,0,0,5,31,0.1389,0.1099,0.0,0.8735
+fireworks_pyrotechnics,38,36,36,0,0,2,0,0,3,33,0.0833,0.0658,0.0,0.9898
+infant_crying_archival,35,35,35,0,0,0,0,0,3,32,0.0857,0.0896,0.0,1.0
+crowd_cheering_applause,48,40,39,1,1,7,0,1,2,37,0.0513,0.0551,0.0,0.994
+edm_and_synthesizers,44,40,40,0,0,4,0,0,1,39,0.025,0.028,0.0,0.9867
+vuvuzelas_and_horns,40,38,38,0,0,2,0,0,0,38,0.0,0.0005,0.0,0.0086
+wind_and_mic_noise,39,37,37,0,0,2,0,0,0,37,0.0,0.0049,0.0,0.1386

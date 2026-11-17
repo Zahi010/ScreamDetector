@@ -1,0 +1,11 @@
+{
+  "candidate": "Configuration D (MultiPathwayFusionModel)",
+  "best_epoch": 8,
+  "best_val_f1": 0.7727272727272727,
+  "total_epochs_trained": 16,
+  "total_training_time_seconds": 1.95,
+  "parameter_count": 311217,
+  "checkpoint_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\checkpoints\\config_d\\best_model.pt",
+  "val_predictions_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\predictions\\validation\\config_d_val_predictions.csv",
+  "history_csv_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\results\\training\\config_d_training_history.csv"
+}

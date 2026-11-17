@@ -1,0 +1,20 @@
+{
+  "branch_name": "micro_resolution_branch",
+  "sample_rate": 16000,
+  "window_sec": 0.375,
+  "window_samples": 6000,
+  "hop_sec": 0.1,
+  "hop_samples": 1600,
+  "min_valid_sec": 0.2,
+  "min_valid_samples": 3200,
+  "feature_extractors": [
+    "AcousticPreScreener",
+    "TemporalModulationExtractor (context_sec=0.375s)",
+    "ResonancePeakProminence (horn_ratio, horn_prom_db)"
+  ],
+  "models": [
+    "Candidate G (Candidate E short pathway LogisticRegression)"
+  ],
+  "target_events": "Short impulsive screams, startled shrieks, monosyllabic vocal bursts (200-800ms)",
+  "memory_allocation_bytes": 24000
+}

@@ -1,0 +1,5 @@
+configuration,threshold,recall,hn_fpr,shout_fpr,precision,f1_score,specificity,roc_auc,pr_auc,short_scream_recall,p95_latency_ms
+Config A: YAMNet Pathway Only,0.38,70.59,9.95,18.75,79.12,0.7461,90.05,0.9163,0.832,60.0%,18.2
+Config B: YAMNet + Phonation (Dual-Encoder),0.35,84.31,7.85,8.33,85.15,0.8473,92.15,0.9285,0.8709,80.0%,18.57
+Config C: YAMNet + Subband Pathway,0.29,86.27,12.57,25.0,78.57,0.8224,87.43,0.9224,0.8251,60.0%,18.95
+Config D: YAMNet + Phonation + Subband (Candidate D),0.43,89.22,9.95,14.58,82.73,0.8585,90.05,0.9374,0.8753,100.0%,19.31

@@ -1,0 +1,6 @@
+metric_name,point_estimate,sample_size,wilson_ci_low,wilson_ci_high,cluster_boot_ci_low,cluster_boot_ci_high,gate_threshold,gate_status
+Gate 1: Overall Scream Recall,0.9436,195,0.9018,0.9682,0.9086,0.974,>= 0.9600,FAIL (Lower CI < 0.9600)
+Gate 4: Short-Scream Recall (<1.0s),0.985,133,0.9468,0.9959,0.9603,1.0,>= 0.9000,"PASS (Point 0.9850, Boot CI [0.9571, 1.0000])"
+Diagnostic: Ultra-Short Recall (<=0.50s),1.0,51,0.93,1.0,1.0,1.0,N/A (Diagnostic),DIAGNOSTIC (100.0% Detection)
+Diagnostic: Sustained Recall (>=1.0s),0.8548,62,0.7466,0.9217,0.76,0.9348,N/A (Diagnostic),DIAGNOSTIC
+Gate 2: Hard-Negative FPR,0.2137,117,0.1491,0.2964,0.1406,0.2897,<= 0.0500,FAIL (Point 0.2137 > 0.0500)

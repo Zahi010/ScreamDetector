@@ -1,0 +1,3 @@
+reviewer_role,pseudonymous_id,assigned_task_count,onboarding_status,instructions_acknowledged,auth_token_configured,active_session_count,reviewer_isolation_verified,model_blinding_verified,onboarding_notes
+RATER_A,RATER_A,26,AWAITING_EXTERNAL_HUMAN_RECRUITMENT,0,1,0,1,1,Blinded session architecture active. Awaiting recruitment of first independent human reviewer.
+RATER_B,RATER_B,26,AWAITING_EXTERNAL_HUMAN_RECRUITMENT,0,1,0,1,1,Blinded session architecture active. Awaiting recruitment of second independent human reviewer.

@@ -1,0 +1,5 @@
+experiment_id,model_head,infant_crying_fpr,whistle_squeak_fpr,siren_fireworks_fpr,shouting_speech_fpr,overall_recall,gate2_hn_fpr
+EXP_D0_Binary_Only,Single binary logit head (Candidate 71-D),15.00% (3/20),13.64% (3/22),22.22% (2/9),14.77% (13/88),82.83,8.06
+EXP_D1_MultiTask_Auxiliary,Binary head + 8-class auxiliary categorical head (alpha=0.20),10.00% (2/20),13.64% (3/22),11.11% (1/9),13.64% (12/88),80.81,7.26
+EXP_D2_MultiTask_Hierarchical,Hierarchical: P(scream) modulated by [1.0 - P(cry) - P(siren)],5.00% (1/20),13.64% (3/22),11.11% (1/9),14.77% (13/88),78.79,6.45
+EXP_D3_MultiTask_Adversarial_Whistle,Multi-Task + Whistle Discriminator loss weight w=3.0,10.00% (2/20),4.55% (1/22),11.11% (1/9),15.91% (14/88),76.77,5.65

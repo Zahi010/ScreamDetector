@@ -1,0 +1,4 @@
+test_name,target_duration_sec,actual_audio_duration_sec,wall_clock_sec,streams_tested,expected_windows,processed_windows,dropped_windows,p50_ms,p95_ms,p99_ms,mean_ms,max_ms,initial_memory_mb,final_memory_mb,memory_growth_mb,memory_leak_detected
+Short Functional Test (5 min),300.0,300.0,17.01,4,1200,1188,0,13.905,16.528,18.783,14.278,53.335,407.81,414.88,7.07,False
+Medium Stability Test (30 min),1800.0,750.0,42.7,4,3000,2988,0,13.751,16.535,21.29,14.249,68.83,414.88,425.37,10.49,False
+Extended Stability Test (60 min),3600.0,1500.0,85.44,4,6000,5988,0,13.785,16.92,19.944,14.227,49.879,425.37,444.04,18.66,False

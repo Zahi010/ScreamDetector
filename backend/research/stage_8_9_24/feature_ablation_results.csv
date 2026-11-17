@@ -1,0 +1,7 @@
+ablation_condition,description,recall_pct,shout_fpr_pct,hard_neg_fpr_pct,short_scream_recall_pct
+Candidate_G_Dual_Pathway,Combined Short + Long Cadence Verifier,80.77,15.48,5.99,86.36
+Abl1_No_Syllabic_Cadence,Without modulation spectrum (0.5-8 Hz) ratio,78.21,19.05,6.77,86.36
+Abl2_No_Burst_Continuity,Without burst continuity ratio and gap counts,76.92,17.86,6.51,81.82
+Abl3_No_Short_Event_Pathway,Long context forced for all samples (vetoes short screams),71.79,14.29,4.95,68.18
+Abl4_No_Long_Context_Pathway,Short pathway only (cannot detect speech cadence),78.21,20.24,7.03,86.36
+Abl5_Candidate_A_Baseline,Frozen Candidate 8 baseline without temporal verification,78.21,20.24,7.03,86.36

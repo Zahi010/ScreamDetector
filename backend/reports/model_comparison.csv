@@ -1,0 +1,31 @@
+model_id,model_type,feature_type,feature_dim,hyperparameters,fit_time_seconds,val_roc_auc,val_pr_auc,best_val_threshold,val_precision,val_recall,val_f1,val_specificity,val_tp,val_fp,val_fn,val_tn
+logisticregression_max_pooled_25,LogisticRegression,max_pooled,1024,"C=10.0, class_weight=balanced, solver=lbfgs",0.06,0.9981,0.9808,0.35,0.9,0.9474,0.9231,0.9911,18,2,1,223
+logisticregression_max_pooled_24,LogisticRegression,max_pooled,1024,"C=5.0, class_weight=balanced, solver=lbfgs",0.064,0.9977,0.9787,0.53,0.9474,0.9474,0.9474,0.9956,18,1,1,224
+logisticregression_max_pooled_21,LogisticRegression,max_pooled,1024,"C=0.01, class_weight=balanced, solver=lbfgs",0.065,0.9977,0.9743,0.49,0.8261,1.0,0.9048,0.9822,19,4,0,221
+logisticregression_max_pooled_23,LogisticRegression,max_pooled,1024,"C=1.0, class_weight=balanced, solver=lbfgs",0.083,0.9958,0.968,0.59,0.9474,0.9474,0.9474,0.9956,18,1,1,224
+logisticregression_max_pooled_22,LogisticRegression,max_pooled,1024,"C=0.1, class_weight=balanced, solver=lbfgs",0.074,0.9965,0.968,0.53,0.9,0.9474,0.9231,0.9911,18,2,1,223
+logisticregression_clip_embedding_5,LogisticRegression,clip_embedding,2048,"C=10.0, class_weight=balanced, solver=lbfgs",0.115,0.9972,0.9631,0.91,0.9474,0.9474,0.9474,0.9956,18,1,1,224
+logisticregression_clip_embedding_3,LogisticRegression,clip_embedding,2048,"C=1.0, class_weight=balanced, solver=lbfgs",0.112,0.9963,0.9597,0.27,0.9,0.9474,0.9231,0.9911,18,2,1,223
+logisticregression_clip_embedding_4,LogisticRegression,clip_embedding,2048,"C=5.0, class_weight=balanced, solver=lbfgs",0.106,0.9965,0.958,0.81,0.9474,0.9474,0.9474,0.9956,18,1,1,224
+logisticregression_mean_pooled_15,LogisticRegression,mean_pooled,1024,"C=10.0, class_weight=balanced, solver=lbfgs",0.074,0.9967,0.9565,0.85,0.9474,0.9474,0.9474,0.9956,18,1,1,224
+logisticregression_clip_embedding_2,LogisticRegression,clip_embedding,2048,"C=0.1, class_weight=balanced, solver=lbfgs",0.122,0.9958,0.9515,0.49,0.9,0.9474,0.9231,0.9911,18,2,1,223
+logisticregression_mean_pooled_14,LogisticRegression,mean_pooled,1024,"C=5.0, class_weight=balanced, solver=lbfgs",0.086,0.9963,0.9514,0.71,0.9,0.9474,0.9231,0.9911,18,2,1,223
+supportvectormachine_mean_pooled_17,SupportVectorMachine,mean_pooled,1024,"C=1.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.278,0.9958,0.9499,0.19,0.8182,0.9474,0.878,0.9822,18,4,1,221
+logisticregression_mean_pooled_13,LogisticRegression,mean_pooled,1024,"C=1.0, class_weight=balanced, solver=lbfgs",0.125,0.9956,0.9471,0.83,0.9444,0.8947,0.9189,0.9956,17,1,2,224
+logisticregression_mean_pooled_12,LogisticRegression,mean_pooled,1024,"C=0.1, class_weight=balanced, solver=lbfgs",0.108,0.9951,0.9432,0.55,0.8571,0.9474,0.9,0.9867,18,3,1,222
+logisticregression_clip_embedding_1,LogisticRegression,clip_embedding,2048,"C=0.01, class_weight=balanced, solver=lbfgs",0.142,0.9951,0.9415,0.49,0.8182,0.9474,0.878,0.9822,18,4,1,221
+supportvectormachine_clip_embedding_6,SupportVectorMachine,clip_embedding,2048,"C=0.5, kernel=rbf, gamma=scale, cv=3_calibrated",0.778,0.9925,0.9385,0.21,0.68,0.8947,0.7727,0.9644,17,8,2,217
+logisticregression_mean_pooled_11,LogisticRegression,mean_pooled,1024,"C=0.01, class_weight=balanced, solver=lbfgs",0.058,0.9944,0.9375,0.55,0.8947,0.8947,0.8947,0.9911,17,2,2,223
+supportvectormachine_mean_pooled_16,SupportVectorMachine,mean_pooled,1024,"C=0.5, kernel=rbf, gamma=scale, cv=3_calibrated",0.322,0.9927,0.9362,0.17,0.75,0.9474,0.8372,0.9733,18,6,1,219
+supportvectormachine_clip_embedding_7,SupportVectorMachine,clip_embedding,2048,"C=1.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.608,0.9927,0.9353,0.29,0.85,0.8947,0.8718,0.9867,17,3,2,222
+supportvectormachine_mean_pooled_18,SupportVectorMachine,mean_pooled,1024,"C=2.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.204,0.9956,0.9328,0.21,0.8636,1.0,0.9268,0.9867,19,3,0,222
+supportvectormachine_max_pooled_29,SupportVectorMachine,max_pooled,1024,"C=5.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.203,0.9906,0.9327,0.31,0.85,0.8947,0.8718,0.9867,17,3,2,222
+supportvectormachine_mean_pooled_19,SupportVectorMachine,mean_pooled,1024,"C=5.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.179,0.9953,0.9314,0.21,0.8571,0.9474,0.9,0.9867,18,3,1,222
+supportvectormachine_clip_embedding_8,SupportVectorMachine,clip_embedding,2048,"C=2.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.47,0.9935,0.9223,0.27,0.8571,0.9474,0.9,0.9867,18,3,1,222
+supportvectormachine_clip_embedding_9,SupportVectorMachine,clip_embedding,2048,"C=5.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.471,0.9927,0.9216,0.25,0.9,0.9474,0.9231,0.9911,18,2,1,223
+supportvectormachine_max_pooled_28,SupportVectorMachine,max_pooled,1024,"C=2.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.233,0.9899,0.92,0.25,0.7727,0.8947,0.8293,0.9778,17,5,2,220
+supportvectormachine_max_pooled_26,SupportVectorMachine,max_pooled,1024,"C=0.5, kernel=rbf, gamma=scale, cv=3_calibrated",0.359,0.9906,0.9174,0.17,0.6207,0.9474,0.75,0.9511,18,11,1,214
+supportvectormachine_max_pooled_27,SupportVectorMachine,max_pooled,1024,"C=1.0, kernel=rbf, gamma=scale, cv=3_calibrated",0.307,0.9895,0.9163,0.25,0.7391,0.8947,0.8095,0.9733,17,6,2,219
+multilayerperceptron_clip_embedding_10,MultiLayerPerceptron,clip_embedding,2048,"hidden=(64, 32), alpha=0.01, early_stopping=True",0.536,0.986,0.8696,0.17,0.6538,0.8947,0.7556,0.96,17,9,2,216
+multilayerperceptron_max_pooled_30,MultiLayerPerceptron,max_pooled,1024,"hidden=(64, 32), alpha=0.01, early_stopping=True",0.36,0.9588,0.8297,0.23,0.2656,0.8947,0.4096,0.7911,17,47,2,178
+multilayerperceptron_mean_pooled_20,MultiLayerPerceptron,mean_pooled,1024,"hidden=(64, 32), alpha=0.01, early_stopping=True",0.274,0.9434,0.6611,0.33,0.2787,0.8947,0.425,0.8044,17,44,2,181

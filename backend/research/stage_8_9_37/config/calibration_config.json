@@ -1,0 +1,28 @@
+{
+  "stage": "8.9.37",
+  "calibration_methods": [
+    {
+      "method": "uncalibrated",
+      "description": "Raw model sigmoid probabilities"
+    },
+    {
+      "method": "platt_scaling",
+      "description": "Logistic regression fitted on validation logits/probabilities"
+    },
+    {
+      "method": "isotonic_regression",
+      "description": "Non-parametric monotonic piecewise constant regression fitted on validation probabilities"
+    }
+  ],
+  "metrics": [
+    "brier_score",
+    "expected_calibration_error_ece",
+    "reliability_diagram",
+    "class_score_distributions"
+  ],
+  "split_rules": {
+    "fit_split": "validation",
+    "eval_split": "test",
+    "test_contamination_allowed": false
+  }
+}

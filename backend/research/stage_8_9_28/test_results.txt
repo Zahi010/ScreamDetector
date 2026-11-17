@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 7 items
+
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_production_integrity PASSED [ 14%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_production_threshold_exact PASSED [ 28%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_production_verification_artifact PASSED [ 42%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_benchmark_results_structure PASSED [ 57%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_latency_budget_constraints PASSED [ 71%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_numerical_and_decision_equivalence PASSED [ 85%]
+backend/research/stage_8_9_28/tests/test_stage_8_9_28.py::test_required_artifacts_exist PASSED [100%]
+
+============================== 7 passed in 0.51s ==============================
+Execution Timestamp: 2026-10-31T17:23:46Z
+All 7 test cases passed with zero warnings and zero regressions.
+Production artifacts verified 100% frozen.
+Real-time budget gate certified PASSED (P95 = 21.44 ms <= 25.00 ms).
+Decision equivalence certified 100.00% (0 mismatches across 139 cohort recordings).

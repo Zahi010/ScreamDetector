@@ -1,0 +1,5 @@
+experiment_id,objective,temperature,latent_silhouette_score,overall_recall,hn_fpr,shout_fpr,short_recall,cluster_compactness
+EXP_C0_No_Contrastive,BCEWithLogitsLoss only (Baseline Candidate 71-D),N/A,0.184,82.83,8.06,14.77,94.87,Moderate intra-class variance
+EXP_C1_SupCon_Low_Weight,BCE + 0.10 * SupConLoss,0.07,0.287,80.81,8.06,13.64,92.31,Screams cluster tighter; shout separation improves
+EXP_C2_SupCon_Balanced,BCE + 0.25 * SupConLoss,0.07,0.342,78.79,7.26,12.5,92.31,High separation; slight recall penalty on distant screams
+EXP_C3_SupCon_Heavy_Weight,BCE + 0.50 * SupConLoss,0.07,0.405,74.75,6.45,11.36,89.74,Very tight cluster; over-constrains short/distress variants

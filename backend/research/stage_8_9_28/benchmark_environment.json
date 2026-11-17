@@ -1,0 +1,33 @@
+{
+  "stage": "8.9.28",
+  "operating_mode": "STRICTLY_OFFLINE_RESEARCH_AND_ENGINEERING_OPTIMIZATION",
+  "production_status": "STRICTLY_FROZEN",
+  "production_decision_threshold": 0.35,
+  "hardware": {
+    "platform": "Windows-11-10.0.26100-SP0",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_architecture": "x86_64",
+    "cpu_count_logical": 16,
+    "total_ram_gb": 15.86,
+    "available_ram_gb": 4.84
+  },
+  "software": {
+    "python_version": "3.13.3",
+    "numpy_version": "2.4.0",
+    "tensorflow_version": "2.21.0",
+    "torch_version": "2.14.1+cpu",
+    "scipy_version": "1.15.2",
+    "soundfile_version": "0.13.1"
+  },
+  "runtime_configuration": {
+    "target_sample_rate_hz": 16000,
+    "window_length_sec": 0.975,
+    "window_length_samples": 15600,
+    "hop_length_sec": 0.25,
+    "hop_length_samples": 4000,
+    "cooldown_hops": 6,
+    "cooldown_sec": 1.5,
+    "tf_device": "CPU",
+    "torch_device": "CPU"
+  }
+}

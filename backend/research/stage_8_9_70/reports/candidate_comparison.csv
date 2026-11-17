@@ -1,0 +1,8 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+Candidate 67-D (Historical Champion),73.74,73,26,13.64,12,8.87,11,92.31,36,54.48,146
+Candidate 68-D (Historical Candidate),74.75,74,25,13.64,12,7.26,9,92.31,36,58.58,157
+Candidate 69-D (Previous Champion),79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+Candidate 70-A (Veto-Simplified: No HFCR),79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+Candidate 70-B (Simplified + SNR Flatness Rescue),80.81,80,19,15.91,14,8.87,11,94.87,37,60.07,161
+Candidate 70-C (Simplified + Asymmetric Onset),79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+Candidate 70-D (Champion Simplified Multi-Resolution),82.83,82,17,14.77,13,9.68,12,94.87,37,58.96,158

@@ -1,0 +1,51 @@
+{
+  "-5 dB": {
+    "snr_db": -5.0,
+    "scream_recall": 82.1,
+    "shouting_fpr": 8.8,
+    "mixture_accuracy": 86.8,
+    "primary_routing_region": "LOW_SNR"
+  },
+  "0 dB": {
+    "snr_db": 0.0,
+    "scream_recall": 88.6,
+    "shouting_fpr": 11.4,
+    "mixture_accuracy": 88.5,
+    "primary_routing_region": "LOW_SNR"
+  },
+  "5 dB": {
+    "snr_db": 5.0,
+    "scream_recall": 93.1,
+    "shouting_fpr": 13.5,
+    "mixture_accuracy": 89.8,
+    "primary_routing_region": "INTERMEDIATE_SNR"
+  },
+  "10 dB": {
+    "snr_db": 10.0,
+    "scream_recall": 95.8,
+    "shouting_fpr": 15.1,
+    "mixture_accuracy": 90.4,
+    "primary_routing_region": "INTERMEDIATE_SNR"
+  },
+  "15 dB": {
+    "snr_db": 15.0,
+    "scream_recall": 97.2,
+    "shouting_fpr": 15.8,
+    "mixture_accuracy": 90.7,
+    "primary_routing_region": "HIGH_SNR"
+  },
+  "20 dB": {
+    "snr_db": 20.0,
+    "scream_recall": 97.8,
+    "shouting_fpr": 16.0,
+    "mixture_accuracy": 90.9,
+    "primary_routing_region": "HIGH_SNR"
+  },
+  "Clean (+inf)": {
+    "snr_db": 999.0,
+    "scream_recall": 98.4,
+    "shouting_fpr": 16.2,
+    "mixture_accuracy": 91.1,
+    "primary_routing_region": "HIGH_SNR"
+  }
+}

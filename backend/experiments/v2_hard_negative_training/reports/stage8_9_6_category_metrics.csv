@@ -1,0 +1,9 @@
+category,total_test_samples,scream_positives,non_scream_negatives,Model_A_Baseline_LR_fps,Model_A_Baseline_LR_fpr,Model_B_Regularized_LR_fps,Model_B_Regularized_LR_fpr,Model_C_P90_LR_fps,Model_C_P90_LR_fpr,Model_D_Concat_LR_fps,Model_D_Concat_LR_fpr,Model_E_Hierarchical_fps,Model_E_Hierarchical_fpr,Model_A_Baseline_LR_tps,Model_A_Baseline_LR_recall,Model_B_Regularized_LR_tps,Model_B_Regularized_LR_recall,Model_C_P90_LR_tps,Model_C_P90_LR_recall,Model_D_Concat_LR_tps,Model_D_Concat_LR_recall,Model_E_Hierarchical_tps,Model_E_Hierarchical_recall
+crowd_chant_cheering,15,0,15,6,0.4,7,0.4667,5,0.3333,5,0.3333,6,0.4,,,,,,,,,,
+general_environmental,9,0,9,0,0.0,0,0.0,1,0.1111,0,0.0,0,0.0,,,,,,,,,,
+infant_crying,18,0,18,3,0.1667,4,0.2222,2,0.1111,2,0.1111,5,0.2778,,,,,,,,,,
+masked_distant_screams,19,19,0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,12,0.6316,14,0.7368,13,0.6842,12,0.6316,11,0.5789
+scream,40,40,0,0,0.0,0,0.0,0,0.0,0,0.0,0,0.0,30,0.75,36,0.9,35,0.875,33,0.825,31,0.775
+sfx_sirens_fireworks,16,0,16,0,0.0,1,0.0625,1,0.0625,1,0.0625,0,0.0,,,,,,,,,,
+shouting_and_speech,43,0,43,9,0.2093,11,0.2558,11,0.2558,9,0.2093,12,0.2791,,,,,,,,,,
+whistles_and_squeaks,29,0,29,3,0.1034,3,0.1034,6,0.2069,4,0.1379,1,0.0345,,,,,,,,,,

@@ -1,0 +1,406 @@
+{
+  "stage": "8.9.21",
+  "title": "Noise-Robust Scream Detection, Nonlinear Vocal Dynamics & Confidence-Aware Acoustic Verification",
+  "production_status": "STRICTLY FROZEN (Stage 5 Baseline, Threshold 0.3500)",
+  "research_candidate_status": "REJECTED \u2014 RESEARCH ONLY",
+  "elapsed_seconds": 44.16,
+  "experiment_a_nonlinear_dynamics": {
+    "SCREAM": {
+      "count": 15,
+      "shr_db_mean": -32.1,
+      "shr_db_std": 11.84,
+      "hnr_db_mean": 6.16,
+      "hnr_db_std": 4.42,
+      "invalid_pitch_ratio_mean": 0.097,
+      "irregular_phonation_ratio_mean": 0.021,
+      "formant_dispersion_mean": 548.4,
+      "formant_confidence_mean": 0.758,
+      "am_flutter_ratio_mean": 0.007,
+      "attack_time_ms_mean": 255.4,
+      "crest_factor_db_mean": 12.57
+    },
+    "SHOUTING": {
+      "count": 15,
+      "shr_db_mean": -10.68,
+      "shr_db_std": 5.78,
+      "hnr_db_mean": -2.85,
+      "hnr_db_std": 3.13,
+      "invalid_pitch_ratio_mean": 0.237,
+      "irregular_phonation_ratio_mean": 0.161,
+      "formant_dispersion_mean": 947.0,
+      "formant_confidence_mean": 0.671,
+      "am_flutter_ratio_mean": 0.034,
+      "attack_time_ms_mean": 523.3,
+      "crest_factor_db_mean": 17.1
+    },
+    "CHEERING": {
+      "count": 15,
+      "shr_db_mean": -2.02,
+      "shr_db_std": 15.87,
+      "hnr_db_mean": -2.68,
+      "hnr_db_std": 7.38,
+      "invalid_pitch_ratio_mean": 0.397,
+      "irregular_phonation_ratio_mean": 0.253,
+      "formant_dispersion_mean": 579.4,
+      "formant_confidence_mean": 0.517,
+      "am_flutter_ratio_mean": 0.116,
+      "attack_time_ms_mean": 626.4,
+      "crest_factor_db_mean": 17.44
+    },
+    "INFANT_CRY": {
+      "count": 15,
+      "shr_db_mean": -17.1,
+      "shr_db_std": 16.59,
+      "hnr_db_mean": -0.68,
+      "hnr_db_std": 4.68,
+      "invalid_pitch_ratio_mean": 0.127,
+      "irregular_phonation_ratio_mean": 0.157,
+      "formant_dispersion_mean": 784.0,
+      "formant_confidence_mean": 0.67,
+      "am_flutter_ratio_mean": 0.028,
+      "attack_time_ms_mean": 697.2,
+      "crest_factor_db_mean": 17.29
+    },
+    "AMBIENT_WIND": {
+      "count": 15,
+      "shr_db_mean": -7.79,
+      "shr_db_std": 22.23,
+      "hnr_db_mean": 1.83,
+      "hnr_db_std": 12.22,
+      "invalid_pitch_ratio_mean": 0.24,
+      "irregular_phonation_ratio_mean": 0.242,
+      "formant_dispersion_mean": 566.7,
+      "formant_confidence_mean": 0.404,
+      "am_flutter_ratio_mean": 0.078,
+      "attack_time_ms_mean": 720.4,
+      "crest_factor_db_mean": 14.24
+    },
+    "SILENCE": {
+      "count": 15,
+      "shr_db_mean": -30.0,
+      "shr_db_std": 0.0,
+      "hnr_db_mean": -11.38,
+      "hnr_db_std": 1.96,
+      "invalid_pitch_ratio_mean": 0.333,
+      "irregular_phonation_ratio_mean": 0.333,
+      "formant_dispersion_mean": 192.9,
+      "formant_confidence_mean": 0.108,
+      "am_flutter_ratio_mean": 0.002,
+      "attack_time_ms_mean": 182.7,
+      "crest_factor_db_mean": 4.15
+    }
+  },
+  "experiment_c_noise_suppression": {
+    "original": {
+      "mean_shr_delta_db": 0.0,
+      "mean_hnr_increase_db": 0.0,
+      "mean_attack_time_smearing_ms": 0.0,
+      "scream_feature_retention_rate": 1.0,
+      "preserves_short_screams": true
+    },
+    "spectral_gating": {
+      "mean_shr_delta_db": -0.08,
+      "mean_hnr_increase_db": -0.0,
+      "mean_attack_time_smearing_ms": 0.0,
+      "scream_feature_retention_rate": 1.0,
+      "preserves_short_screams": true
+    },
+    "spectral_subtraction": {
+      "mean_shr_delta_db": -0.23,
+      "mean_hnr_increase_db": -0.0,
+      "mean_attack_time_smearing_ms": 0.0,
+      "scream_feature_retention_rate": 1.0,
+      "preserves_short_screams": true
+    },
+    "wiener": {
+      "mean_shr_delta_db": 1.19,
+      "mean_hnr_increase_db": 0.01,
+      "mean_attack_time_smearing_ms": -14.32,
+      "scream_feature_retention_rate": 0.9,
+      "preserves_short_screams": true
+    },
+    "adaptive": {
+      "mean_shr_delta_db": 3.73,
+      "mean_hnr_increase_db": -2.94,
+      "mean_attack_time_smearing_ms": -78.26,
+      "scream_feature_retention_rate": 0.8,
+      "preserves_short_screams": true
+    }
+  },
+  "experiment_e_candidate_benchmarks": {
+    "Baseline_Tier1_Alone": {
+      "description": "Tier 1 Candidate Detector (No Verification)",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9533,
+      "pr_auc": 0.7071,
+      "brier_score": 0.073,
+      "ece": 0.0517,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 100.0,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.8,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 0,
+        "LIKELY_CONFUSER": 0,
+        "UNCERTAIN": 0
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Candidate_A_Logistic": {
+      "description": "Tier 1 + Tier 2 Logistic Regression",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9498,
+      "pr_auc": 0.6876,
+      "brier_score": 0.0687,
+      "ece": 0.0453,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 76.47,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.81,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 56,
+        "LIKELY_CONFUSER": 371,
+        "UNCERTAIN": 35
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Candidate_B_Gradient_Boosted": {
+      "description": "Tier 1 + Tier 2 Gradient-Boosted Verifier",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9569,
+      "pr_auc": 0.7308,
+      "brier_score": 0.0632,
+      "ece": 0.0414,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 57.35,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.84,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 61,
+        "LIKELY_CONFUSER": 371,
+        "UNCERTAIN": 30
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Candidate_C_Neural_Net": {
+      "description": "Tier 1 + Tier 2 Small Neural Network",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9543,
+      "pr_auc": 0.7402,
+      "brier_score": 0.0648,
+      "ece": 0.033,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 44.12,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.82,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 59,
+        "LIKELY_CONFUSER": 371,
+        "UNCERTAIN": 32
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Candidate_D_Calibrated_Confidence": {
+      "description": "Tier 1 + Tier 2 Calibrated Confidence Model",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9564,
+      "pr_auc": 0.7264,
+      "brier_score": 0.0634,
+      "ece": 0.0493,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 92.65,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.82,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 71,
+        "LIKELY_CONFUSER": 371,
+        "UNCERTAIN": 20
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    },
+    "Candidate_E_Rule_Override": {
+      "description": "Tier 1 + Tier 2 Validated Rule Conjunction Override",
+      "operating_threshold": 0.35,
+      "event_recall": 79.49,
+      "precision": 68.13,
+      "f1_score": 73.37,
+      "roc_auc": 0.9498,
+      "pr_auc": 0.6876,
+      "brier_score": 0.0687,
+      "ece": 0.0453,
+      "hard_negative_fpr": 7.55,
+      "shouting_fpr": 20.24,
+      "short_scream_recall": 86.36,
+      "supplementary_short_scream_recall": 98.53,
+      "silence_fpr": 0.0,
+      "infant_crying_fpr": 6.9,
+      "music_fpr": 3.33,
+      "crowd_noise_fpr": 3.57,
+      "p50_latency_ms": 11.2,
+      "p95_latency_ms": 14.81,
+      "tri_state_breakdown": {
+        "POSSIBLE_SCREAM": 91,
+        "LIKELY_CONFUSER": 371,
+        "UNCERTAIN": 0
+      },
+      "gates": {
+        "gate1_recall_ge_96": false,
+        "gate2_hard_neg_le_5": false,
+        "gate3_shouting_le_15": false,
+        "gate4_short_scream_ge_90": false,
+        "gate5_latency_le_25ms": true,
+        "final_status": "REJECTED \u2014 RESEARCH ONLY"
+      }
+    }
+  },
+  "experiment_f_snr_robustness": {
+    "-5 dB": {
+      "snr_db": -5.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 81.5,
+      "confuser_fpr": 9.5,
+      "mixture_accuracy": 86.0
+    },
+    "0 dB": {
+      "snr_db": 0.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 88.2,
+      "confuser_fpr": 12.5,
+      "mixture_accuracy": 87.8
+    },
+    "5 dB": {
+      "snr_db": 5.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 92.3,
+      "confuser_fpr": 14.8,
+      "mixture_accuracy": 88.7
+    },
+    "10 dB": {
+      "snr_db": 10.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 95.4,
+      "confuser_fpr": 16.2,
+      "mixture_accuracy": 89.6
+    },
+    "15 dB": {
+      "snr_db": 15.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 96.8,
+      "confuser_fpr": 16.8,
+      "mixture_accuracy": 90.0
+    },
+    "20 dB": {
+      "snr_db": 20.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 97.4,
+      "confuser_fpr": 17.0,
+      "mixture_accuracy": 90.2
+    },
+    "Clean (+inf)": {
+      "snr_db": 999.0,
+      "scream_mixture_count": 48,
+      "confuser_mixture_count": 18,
+      "scream_recall": 98.2,
+      "confuser_fpr": 17.2,
+      "mixture_accuracy": 90.5
+    }
+  },
+  "conclusions": {
+    "shr_distinguishes_screams": true,
+    "pitch_tracking_failure_independent": true,
+    "hnr_improves_classification": true,
+    "formant_features_reliable": "Partially (only available when pitch tracking succeeds; 30% collapse in chaotic screams)",
+    "mean_better_than_max": true,
+    "mean_max_fusion_overfits": true,
+    "noise_enhancement_improves_detection": false,
+    "dual_input_improves_detection": "Conditionally (confidence-aware fusion prevents short scream suppression)",
+    "tier_2_reduces_shouting": true,
+    "any_candidate_passed_all_gates": false
+  }
+}

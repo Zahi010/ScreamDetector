@@ -1,0 +1,21 @@
+{
+  "dataset_total_recordings": 1384,
+  "split_counts": {
+    "train": 757,
+    "val": 320,
+    "test": 307
+  },
+  "source_group_counts": {
+    "train": 351,
+    "val": 116,
+    "test": 126,
+    "total_unique": 593
+  },
+  "source_group_overlap_violations": {
+    "train_val": [],
+    "train_test": [],
+    "val_test": []
+  },
+  "strictly_disjoint": true,
+  "historical_stage5_test_quarantined": true
+}

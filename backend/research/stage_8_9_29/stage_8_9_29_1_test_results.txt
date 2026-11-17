@@ -1,0 +1,75 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 19 items
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_concurrency.py::test_multi_stream_registration_lifecycle PASSED [  5%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_concurrency.py::test_concurrency_benchmark_csv_deliverable PASSED [ 10%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence PASSED [ 15%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_multi_stream_zero_cross_talk PASSED [ 21%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_integrity.py::test_production_artifacts_sha256 PASSED [ 26%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_integrity.py::test_production_threshold_exact PASSED [ 31%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_integrity.py::test_production_verification_artifact PASSED [ 36%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_memory.py::test_memory_profile_csv_bounded PASSED [ 42%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_artifact_exists PASSED [ 47%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_tensor_shapes_and_names PASSED [ 52%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity PASSED [ 57%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_ring_buffer.py::test_ring_buffer_exact_sample_fidelity PASSED [ 63%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_ring_buffer.py::test_ring_buffer_chunk_sizes_invariance PASSED [ 68%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_ring_buffer.py::test_ring_buffer_reset PASSED [ 73%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_ring_buffer.py::test_ring_buffer_bounded_memory PASSED [ 78%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stream_isolation.py::test_scenario_1_short_scream_vs_silence PASSED [ 84%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stream_isolation.py::test_scenario_2_shout_vs_scream PASSED [ 89%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stream_isolation.py::test_scenario_7_disconnect_independence PASSED [ 94%]
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stress.py::test_stress_test_results_csv PASSED [100%]
+
+============================== warnings summary ===============================
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_concurrency.py::test_multi_stream_registration_lifecycle
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_concurrency.py::test_multi_stream_registration_lifecycle
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_multi_stream_zero_cross_talk
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_multi_stream_zero_cross_talk
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stream_isolation.py::test_scenario_1_short_scream_vs_silence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_stream_isolation.py::test_scenario_1_short_scream_vs_silence
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\pickle.py:324: DeprecationWarning: numpy.core.numeric is deprecated and has been renamed to numpy._core.numeric. The numpy._core namespace contains private NumPy internals and its use is discouraged, as NumPy internals can change without warning in any release. In practice, most real-world usage of numpy.core is to access functionality in the public NumPy API. If that is the case, use the public NumPy API. If not, you are using NumPy internals. If you would still like to access an internal attribute, use numpy._core.numeric._frombuffer.
+    obj = getattr(obj, subpath)
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py: 7 warnings
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py: 7 warnings
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: Attribute.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: Call.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: Constant.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: keyword.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: Try.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_equivalence.py::test_ring_buffer_zero_drift_equivalence
+backend/research/stage_8_9_29/tests/test_stage_8_9_29_onnx.py::test_onnx_vs_tf_numerical_parity
+  C:\Users\zahia\AppData\Local\Programs\Python\Python313\Lib\site-packages\gast\astn.py:23: DeprecationWarning: FunctionDef.__init__ got an unexpected keyword argument '___pyct_anno'. Support for arbitrary keyword arguments is deprecated and will be removed in Python 3.15.
+    new_node = cls(
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+====================== 19 passed, 36 warnings in 14.16s =======================

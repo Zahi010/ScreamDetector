@@ -1,0 +1,9 @@
+category,sample_count,ground_truth,baseline_b_fpr_pct,contrastive_model_a_fpr_pct,contrastive_model_b_fpr_pct,reduction_in_false_positives_vs_baseline
+crowd_chant_cheering,42,NEGATIVE (0),16.67%,11.90% (5/42),28.57%,+4.76%
+general_environmental,26,NEGATIVE (0),0.00%,0.00% (0/26),0.00%,+0.00%
+infant_crying,15,NEGATIVE (0),13.33%,13.33% (2/15),20.00%,+0.00%
+masked_distant_screams,36,SCREAM (1),80.56% (Recall),61.11% (Recall),91.67% (33/36),N/A (Positive Class)
+scream,66,SCREAM (1),95.45% (Recall),80.30% (Recall),93.94% (62/66),N/A (Positive Class)
+sfx_sirens_fireworks,28,NEGATIVE (0),28.57%,0.00% (0/28),53.57%,+28.57%
+shouting_and_speech,48,NEGATIVE (0),18.75%,14.58% (7/48),37.50%,+4.17%
+whistles_and_squeaks,32,NEGATIVE (0),9.38%,3.12% (1/32),18.75%,+6.25%

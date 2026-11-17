@@ -1,0 +1,5 @@
+duration_bin,total_samples,positives,tp,fn,recall_pct,negatives,fp,tn,fpr_pct
+LONG (>3.0s),96,71,64,7,90.14,25,17,8,68.0
+MEDIUM (0.8-1.5s),31,25,21,4,84.0,6,5,1,83.33
+SHORT (0.3-0.8s),7,6,0,6,0.0,1,0,1,0.0
+SUSTAINED (1.5-3.0s),70,35,29,6,82.86,35,8,27,22.86

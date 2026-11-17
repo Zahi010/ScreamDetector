@@ -1,0 +1,3 @@
+Candidate,Checkpoint,Threshold,Val_Recall_Pct,Val_Recall_95_CI,Val_HN_FPR_Pct,Val_HN_FPR_95_CI,Independent_Cohort_Status,Research_Governance
+Candidate B (Frozen Baseline),config_b_mask.pt,0.8,87.5,"[75.30%, 94.14%]",5.555555555555555,"[2.18%, 13.43%]","81.88% (Frozen 131/160 TP, 29 FN)",FROZEN REFERENCE
+Research Candidate E (Dual-Head ResNet-Gate),research_exp_candidate.pt,0.4,100.0,"[92.59%, 100.00%]",0.0,"[0.00%, 5.07%]",NOT EVALUATED (Strict Governance: No Retesting on Evaluated Cohort),EXPERIMENTAL ONLY — NOT FOR PROMOTION

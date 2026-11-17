@@ -1,0 +1,41 @@
+{
+  "candidate_id": "Candidate_68_SNR_Adaptive_Vocal_Fusion",
+  "display_name": "Candidate 68-D (SNR-Adaptive & Flux-Calibrated Dual-Resolution Fusion)",
+  "stage": "Stage 8.9.68 Champion",
+  "checkpoint_sha256": "8a3b425a2885cfeeb4d9e6a64c04619949978cad5b55a8a5f60b5ee379949dc4",
+  "checkpoint_relative_path": "backend/research/stage_8_9_68/models/candidate_68_frozen.pt",
+  "input_features_short": 22,
+  "input_features_sust": 22,
+  "operating_threshold": 0.49,
+  "suppression_heuristics": {
+    "use_selective_veto": true,
+    "use_vocal_veto": true,
+    "use_hf_rolloff_veto": true,
+    "use_flux_speech_veto": true,
+    "narrowband_hnr_db": 12.0,
+    "narrowband_flatness": 0.001,
+    "hf_cutoff": 0.008,
+    "flux_cutoff": 0.038,
+    "vocal_roughness_min": 0.045,
+    "vocal_hf_ratio_min": 0.05,
+    "vocal_attenuation": 0.2
+  },
+  "validation_results_n311": {
+    "recall": 0.7475,
+    "hn_fpr": 0.0726,
+    "shout_fpr": 0.1364,
+    "short_recall": 0.9231,
+    "ultra_short_recall": 1.0,
+    "p95_latency_ms": 0.409,
+    "tp_count": 74,
+    "fn_count": 25,
+    "shout_fp": 12,
+    "hn_fp": 9,
+    "short_tp": 36,
+    "gate1_recall": "FAIL",
+    "gate2_hn_fpr": "FAIL",
+    "gate3_shout_fpr": "PASS",
+    "gate4_short_recall": "PASS",
+    "gate5_latency": "PASS"
+  }
+}

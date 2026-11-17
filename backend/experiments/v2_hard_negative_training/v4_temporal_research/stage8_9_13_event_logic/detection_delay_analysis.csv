@@ -1,0 +1,8 @@
+candidate_id,median_delay_all_screams_sec,p95_delay_all_screams_sec,median_delay_brief_screams_sec,median_delay_sustained_screams_sec,median_delay_masked_screams_sec,short_scream_preservation_status
+D_v4_Single_Window_Base,1.0,2.0,1.0,1.0,1.0,PRESERVED
+D_v4_Consecutive_2_Base,1.5,2.0,0.0,1.5,1.5,SUPPRESSED (BLIND)
+D_v4_Hysteresis_Cooldown_Base,1.5,2.0,0.0,1.5,1.5,SUPPRESSED (BLIND)
+D_v4_DualPath_Balanced,1.0,2.0,1.0,1.0,1.0,PRESERVED
+D_v4_DualPath_ShortEventPrioritized,1.0,2.0,1.0,1.0,1.0,PRESERVED
+D_v4_DualPath_HighConfidence,1.5,2.5,0.0,1.5,1.0,SUPPRESSED (BLIND)
+H_v5_DualPath_Balanced,1.5,2.5,0.0,1.5,1.5,SUPPRESSED (BLIND)

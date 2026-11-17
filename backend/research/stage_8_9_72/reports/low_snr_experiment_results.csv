@@ -1,0 +1,5 @@
+experiment_id,description,train_augmentation,overall_recall,tp,hn_fpr,hn_fp,shout_fpr,shout_fp,short_recall,low_snr_recall_neg6db,low_snr_recall_0db
+EXP_A0_Baseline_C5,Standard C5 dual-resolution input without SNR-conditioned scaling,None,82.83,82,8.06,10,14.77,13,94.87,25.0,50.0
+EXP_A1_Subband_Noise_Floor_Norm,Adaptive subband noise-floor subtraction on C5 short and sustained vectors,Noise-floor normalization,83.84,83,10.48,13,18.18,16,94.87,50.0,75.0
+EXP_A2_Jittered_Spectral_Contrast,Dynamic range preservation via random spectral jitter (sigma=0.03),Additive Gaussian jitter on subbands,78.79,78,7.26,9,15.91,14,92.31,37.5,62.5
+EXP_A3_SNR_Conditioned_Gating,Learned SNR-conditioned gating modulating short vs sustained branch weights,Multi-condition SNR mixture (-6dB to +12dB),81.82,81,8.87,11,14.77,13,94.87,50.0,75.0

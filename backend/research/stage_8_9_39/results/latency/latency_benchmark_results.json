@@ -1,0 +1,57 @@
+{
+  "hardware_environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+    "cpu_count_logical": 16,
+    "cpu_count_physical": 8,
+    "pytorch_version": "2.14.1+cpu",
+    "torch_threads": 8,
+    "ram_gb": 15.86
+  },
+  "protocol": {
+    "warmup_iterations": 100,
+    "measurement_iterations": 2000,
+    "batch_size": 1,
+    "audio_hop_deadline_ms": 100.0,
+    "gate_5_p95_limit_ms": 25.0
+  },
+  "candidate_b": {
+    "model_name": "DualEncoderAcousticModel",
+    "load_time_ms": 13.31,
+    "computational_latency": {
+      "p50_ms": 0.341,
+      "p90_ms": 0.468,
+      "p95_ms": 0.516,
+      "p99_ms": 0.673,
+      "mean_ms": 0.377,
+      "min_ms": 0.317,
+      "max_ms": 1.373
+    },
+    "gate_5_status": "PASS",
+    "deadline_misses_over_25ms": 0
+  },
+  "candidate_d": {
+    "model_name": "MultiPathwayFusionModel",
+    "load_time_ms": 12.75,
+    "computational_latency": {
+      "p50_ms": 0.447,
+      "p90_ms": 0.631,
+      "p95_ms": 0.678,
+      "p99_ms": 0.828,
+      "mean_ms": 0.502,
+      "min_ms": 0.417,
+      "max_ms": 1.118
+    },
+    "gate_5_status": "PASS",
+    "deadline_misses_over_25ms": 0
+  },
+  "auxiliary_dsp_latency": {
+    "subband_feature_extraction": {
+      "mean_ms": 10.521,
+      "p50_ms": 10.328,
+      "p95_ms": 12.532,
+      "p99_ms": 13.692
+    }
+  }
+}

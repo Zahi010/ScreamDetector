@@ -1,0 +1,639 @@
+{
+  "Model_A_Weighted_Fusion": {
+    "model_name": "Model_A_Weighted_Fusion",
+    "threshold": 0.15,
+    "overall_metrics": {
+      "recall": 0.7692,
+      "precision": 0.7692,
+      "f1": 0.7692,
+      "roc_auc": 0.9582,
+      "pr_auc": 0.7365,
+      "specificity": 0.9531,
+      "brier_score": 0.0711,
+      "ece": 0.0694
+    },
+    "confusion_matrix": {
+      "true_negative": 366,
+      "false_positive": 18,
+      "false_negative": 18,
+      "true_positive": 60
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.0469,
+      "shouting_fpr": 0.1548,
+      "shouting_mean_prob": 0.0972,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0007,
+      "crowd_fpr": 0.0357,
+      "singing_fpr": 0.0333,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 0.8571
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 0.8462
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 0.7778
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.75
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 0.8571
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 0.8182
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "76.9%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "4.7%",
+        "passed": true
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "15.5%",
+        "passed": false
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "85.7%",
+        "passed": false
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Model_B_Context_Gating": {
+    "model_name": "Model_B_Context_Gating",
+    "threshold": 0.27,
+    "overall_metrics": {
+      "recall": 0.8846,
+      "precision": 0.6509,
+      "f1": 0.75,
+      "roc_auc": 0.9597,
+      "pr_auc": 0.7732,
+      "specificity": 0.9036,
+      "brier_score": 0.0595,
+      "ece": 0.057
+    },
+    "confusion_matrix": {
+      "true_negative": 347,
+      "false_positive": 37,
+      "false_negative": 9,
+      "true_positive": 69
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.0964,
+      "shouting_fpr": 0.2024,
+      "shouting_mean_prob": 0.1762,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0475,
+      "crowd_fpr": 0.1071,
+      "singing_fpr": 0.0333,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 0.9286
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 0.9231
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 1.0
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.8571
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 0.9286
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 0.9545
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "88.5%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "9.6%",
+        "passed": false
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "20.2%",
+        "passed": false
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "92.9%",
+        "passed": true
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Model_C_MultiScale_Routing": {
+    "model_name": "Model_C_MultiScale_Routing",
+    "threshold": 0.24,
+    "overall_metrics": {
+      "recall": 0.9231,
+      "precision": 0.6545,
+      "f1": 0.766,
+      "roc_auc": 0.9633,
+      "pr_auc": 0.7965,
+      "specificity": 0.901,
+      "brier_score": 0.0583,
+      "ece": 0.057
+    },
+    "confusion_matrix": {
+      "true_negative": 346,
+      "false_positive": 38,
+      "false_negative": 6,
+      "true_positive": 72
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.099,
+      "shouting_fpr": 0.2143,
+      "shouting_mean_prob": 0.1738,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0429,
+      "crowd_fpr": 0.1071,
+      "singing_fpr": 0.0333,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 1.0
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 1.0
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 1.0
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.8929
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 1.0
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 1.0
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "92.3%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "9.9%",
+        "passed": false
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "21.4%",
+        "passed": false
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "100.0%",
+        "passed": true
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Model_D_Cascaded_Filter": {
+    "model_name": "Model_D_Cascaded_Filter",
+    "threshold": 0.21,
+    "overall_metrics": {
+      "recall": 0.8846,
+      "precision": 0.633,
+      "f1": 0.738,
+      "roc_auc": 0.9408,
+      "pr_auc": 0.7238,
+      "specificity": 0.8958,
+      "brier_score": 0.0653,
+      "ece": 0.0707
+    },
+    "confusion_matrix": {
+      "true_negative": 344,
+      "false_positive": 40,
+      "false_negative": 9,
+      "true_positive": 69
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.1042,
+      "shouting_fpr": 0.2381,
+      "shouting_mean_prob": 0.1628,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0332,
+      "crowd_fpr": 0.0536,
+      "singing_fpr": 0.0333,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 1.0
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 1.0
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 1.0
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.8393
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 1.0
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 1.0
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "88.5%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "10.4%",
+        "passed": false
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "23.8%",
+        "passed": false
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "100.0%",
+        "passed": true
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Model_E_Neural_Attention_Fusion": {
+    "model_name": "Model_E_Neural_Attention_Fusion",
+    "threshold": 0.15,
+    "overall_metrics": {
+      "recall": 0.5513,
+      "precision": 0.8113,
+      "f1": 0.6565,
+      "roc_auc": 0.918,
+      "pr_auc": 0.7047,
+      "specificity": 0.974,
+      "brier_score": 0.0942,
+      "ece": 0.0938
+    },
+    "confusion_matrix": {
+      "true_negative": 374,
+      "false_positive": 10,
+      "false_negative": 35,
+      "true_positive": 43
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.026,
+      "shouting_fpr": 0.0833,
+      "shouting_mean_prob": 0.0822,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0001,
+      "crowd_fpr": 0.0179,
+      "singing_fpr": 0.0,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 0.8571
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 0.8462
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 0.5556
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.4821
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 0.8571
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 0.7273
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "55.1%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "2.6%",
+        "passed": true
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "8.3%",
+        "passed": true
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "85.7%",
+        "passed": false
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Ref_D_v4_Calibrated": {
+    "model_name": "Ref_D_v4_Calibrated",
+    "threshold": 0.46,
+    "overall_metrics": {
+      "recall": 0.7821,
+      "precision": 0.6932,
+      "f1": 0.7349,
+      "roc_auc": 0.9486,
+      "pr_auc": 0.7293,
+      "specificity": 0.9297,
+      "brier_score": 0.0704,
+      "ece": 0.0644
+    },
+    "confusion_matrix": {
+      "true_negative": 357,
+      "false_positive": 27,
+      "false_negative": 17,
+      "true_positive": 61
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.0703,
+      "shouting_fpr": 0.2024,
+      "shouting_mean_prob": 0.211,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0376,
+      "crowd_fpr": 0.0357,
+      "singing_fpr": 0.0333,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 0.9286
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 0.9231
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 0.6667
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.7679
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 0.9286
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 0.8182
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "78.2%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "7.0%",
+        "passed": false
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "20.2%",
+        "passed": false
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "92.9%",
+        "passed": true
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  },
+  "Ref_Model_B_Temporal_CNN": {
+    "model_name": "Ref_Model_B_Temporal_CNN",
+    "threshold": 0.21,
+    "overall_metrics": {
+      "recall": 0.6923,
+      "precision": 0.675,
+      "f1": 0.6835,
+      "roc_auc": 0.8856,
+      "pr_auc": 0.6824,
+      "specificity": 0.9323,
+      "brier_score": 0.0827,
+      "ece": 0.0328
+    },
+    "confusion_matrix": {
+      "true_negative": 358,
+      "false_positive": 26,
+      "false_negative": 24,
+      "true_positive": 54
+    },
+    "key_categories": {
+      "hard_negative_fpr": 0.0677,
+      "shouting_fpr": 0.1071,
+      "shouting_mean_prob": 0.1386,
+      "infant_crying_fpr": 0.0,
+      "silence_fpr": 0.0,
+      "silence_mean_prob": 0.0494,
+      "crowd_fpr": 0.1071,
+      "singing_fpr": 0.0667,
+      "ambient_fpr": 0.0,
+      "short_scream_recall": 0.8571
+    },
+    "short_duration_brackets": {
+      "lt_0_5s": {
+        "count": 0,
+        "recall": 0.0
+      },
+      "0_5s_to_1_0s": {
+        "count": 13,
+        "recall": 0.8462
+      },
+      "1_0s_to_1_5s": {
+        "count": 9,
+        "recall": 0.8889
+      },
+      "gt_1_5s": {
+        "count": 56,
+        "recall": 0.625
+      },
+      "short_scream_category_cohort": {
+        "count": 14,
+        "recall": 0.8571
+      },
+      "all_short_screams_le_1_5s": {
+        "count": 22,
+        "recall": 0.8636
+      }
+    },
+    "latency": {
+      "median_e2e_ms": 11.9,
+      "p95_e2e_ms": 15.8
+    },
+    "acceptance_gates": {
+      "gate_1_event_recall_ge_96": {
+        "required": ">= 96%",
+        "actual": "69.2%",
+        "passed": false
+      },
+      "gate_2_hard_negative_fpr_le_5": {
+        "required": "<= 5%",
+        "actual": "6.8%",
+        "passed": false
+      },
+      "gate_3_shouted_speech_fpr_le_15": {
+        "required": "<= 15%",
+        "actual": "10.7%",
+        "passed": true
+      },
+      "gate_4_short_scream_recall_ge_90": {
+        "required": ">= 90%",
+        "actual": "85.7%",
+        "passed": false
+      },
+      "gate_5_latency_le_25ms": {
+        "required": "<= 25ms",
+        "actual": "15.8ms",
+        "passed": true
+      },
+      "all_gates_passed": false,
+      "decision_status": "REJECTED \u2014 RESEARCH ONLY"
+    }
+  }
+}

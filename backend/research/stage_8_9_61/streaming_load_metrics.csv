@@ -1,0 +1,5 @@
+concurrency_level,iterations_measured,batch_p50_ms,batch_p95_ms,batch_p99_ms,batch_max_ms,per_stream_p95_ms,nn_p95_ms,dsp_p95_ms,deadline_misses,dropped_windows,buffer_overruns,memory_mb,frame_time_budget_pct
+1,300,7.103,8.3255,9.0919,9.6145,8.3255,0.7281,7.5958,0,0,0,296.86,1.67
+2,300,14.2776,15.8566,17.9824,66.9761,7.9283,0.7873,7.6205,0,0,0,297.26,3.17
+4,300,21.0138,26.1109,27.9736,35.1855,6.5277,0.6005,6.0549,0,0,0,298.06,5.22
+8,300,46.5463,59.5019,64.5171,113.4345,7.4377,0.6678,7.1421,0,0,0,299.45,11.9

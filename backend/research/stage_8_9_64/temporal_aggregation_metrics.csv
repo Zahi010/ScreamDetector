@@ -1,0 +1,8 @@
+method_id,description,overall_recall,gate1_pass,fpr,gate2_pass,f1_score,short_scream_recall,gate4_pass,mean_latency_delay_ms,p95_latency_delay_ms,event_fragmentation_ratio,raw_alarm_count,post_alarm_count,tp,fp,fn,tn
+Method_Baseline_Any_Window,Baseline (Any Window >= 0.50),0.8857,False,0.6496,False,0.5962,0.125,False,137.32,657.5,11.85,735,735,62,76,8,41
+Method_A_Consecutive_Evidence_K2,"Method A: Consecutive Evidence (K=2, 100 ms sustained)",0.7857,False,0.3419,False,0.6667,0.0,False,187.37,810.0,8.91,735,490,55,40,15,77
+Method_B_Bounded_EMA_0.30,"Method B: Bounded EMA (alpha=0.30, thresh=0.45)",0.6714,False,0.2906,False,0.6225,0.0,False,228.4,1000.0,12.6,735,592,47,34,23,83
+Method_C_Peak_With_Corroboration,Method C: Peak with Corroboration (Peak >= 0.70),0.8571,False,0.547,False,0.6186,0.0,False,129.44,700.0,11.68,735,701,60,64,10,53
+Method_D_Event_Merging,Method D: Event-Level Merging (<200ms gap),0.8857,False,0.6496,False,0.5962,0.125,False,137.32,657.5,3.95,735,245,62,76,8,41
+Method_E_Refractory_Holdoff_500ms,Method E: Refractory Holdoff (500 ms lockout),0.8857,False,0.6496,False,0.5962,0.125,False,137.32,657.5,3.05,735,189,62,76,8,41
+Method_F_Branch_Aware_Corroboration,Method F: Branch-Aware Corroboration + Holdoff,0.8429,False,0.4957,False,0.631,0.0,False,152.99,770.0,2.64,735,156,59,58,11,59

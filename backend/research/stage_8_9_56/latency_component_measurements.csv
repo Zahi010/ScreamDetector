@@ -1,0 +1,10 @@
+pipeline_component,iterations,latency_p50_ms,latency_p90_ms,latency_p95_ms,latency_p99_ms,latency_max_ms,peak_memory_mb
+1. Window Assembly & Normalization,300,0.0449,0.0574,0.0691,0.1233,0.2263,1.29
+2. Resampling & Rate Conditioning,300,0.0218,0.0303,0.0321,0.0507,0.0899,1.29
+3. Phonation Feature Extraction (6-d),300,4.6958,6.6329,7.1928,10.07,19.2888,1.29
+4. Subband Filterbank Synthesis (11-d),300,35.334,45.2799,47.7933,52.437,84.8291,1.29
+5. Candidate E1 Model-Only Forward Pass,300,0.3104,0.5285,0.5833,0.731,6.5811,1.29
+6. Candidate B Model-Only Forward Pass,300,0.5983,0.9726,1.0294,1.1835,1.2712,1.29
+7. Intervention D Acoustic Modulation Filter,300,2.371,3.3601,3.5543,4.2417,4.6407,1.29
+8. Decision Thresholding & Output Logic,300,0.0048,0.0049,0.005,0.0055,0.0787,1.29
+9. Complete E1 End-to-End Pipeline (DSP + Model),300,40.7821,53.4842,56.8015,63.1796,86.3453,1.29

@@ -1,0 +1,5 @@
+historical_cohort,historical_sample_count,overlap_with_missed_short_screams,overlap_percentage,status
+Stage 5 Held-Out Test Set (test_predictions.csv),100,0,0.0,MUTUALLY_DISJOINT
+Stage 8.9.27 Independent Positive Baseline (14 screams),14,0,0.0,MUTUALLY_DISJOINT
+"Stage 8.9.27 Historical Census (1,281 files)",1281,0,0.0,MUTUALLY_DISJOINT
+Stage 8.9.25 Held-Out Test Set (78 screams),78,0,0.0,MUTUALLY_DISJOINT

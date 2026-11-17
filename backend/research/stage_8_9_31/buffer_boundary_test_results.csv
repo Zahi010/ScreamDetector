@@ -1,0 +1,20 @@
+test_case_name,duration_ms,duration_sec,input_samples,duration_classification,legacy_windows_extracted,research_ingest_windows,research_flush_windows,research_total_windows,extracted_valid_samples,extracted_padded_samples,unhandled_underflow_fixed,status
+duration_0ms,0,0.0000,0,NO_USABLE_AUDIO,0,0,0,0,0,0,True,PASS
+duration_100ms,100,0.1000,1600,INSUFFICIENT_AUDIO (<200ms policy),0,0,0,0,0,0,True,PASS
+duration_200ms,200,0.2000,3200,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,3200,12400,True,PASS
+duration_250ms,250,0.2500,4000,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,4000,11600,True,PASS
+duration_375ms,375,0.3750,6000,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,6000,9600,True,PASS
+duration_395ms,395,0.3950,6320,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,6320,9280,True,PASS
+duration_421ms,421,0.4210,6736,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,6736,8864,True,PASS
+duration_499ms,499,0.4990,7984,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,7984,7616,True,PASS
+duration_650ms,650,0.6500,10400,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,10400,5200,True,PASS
+duration_719ms,719,0.7190,11504,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,11504,4096,True,PASS
+duration_766ms,766,0.7660,12256,VALID_SHORT_RECORDING (Flushed & Padded),0,0,1,1,12256,3344,True,PASS
+duration_975ms,975,0.9750,15600,COMPLETE_WINDOW_STREAM,1,1,1,2,27200,4000,False,PASS
+duration_1000ms,1000,1.0000,16000,COMPLETE_WINDOW_STREAM,1,1,1,2,27600,3600,False,PASS
+duration_1500ms,1500,1.5000,24000,COMPLETE_WINDOW_STREAM,3,3,1,4,58800,3600,False,PASS
+duration_3000ms,3000,3.0000,48000,COMPLETE_WINDOW_STREAM,9,9,1,10,152400,3600,False,PASS
+multi_chunk_5x2000_samples,625,0.6250,10000,MULTI_CHUNK_STREAM (Flushed & Padded),0,0,1,1,10000,5600,True,PASS
+flush_idempotence_subsequent_calls,625,0.6250,10000,IDEMPOTENCE_VERIFICATION,0,0,0,0,0,0,True,PASS
+post_flush_ingest_rejection,62.5,0.0625,1000,SECURITY_POST_FLUSH_REJECTION,0,0,0,0,0,0,True,PASS
+reset_readiness_after_flush,1000,1.0000,16000,POST_RESET_INGESTION_RESTORED,1,1,0,1,15600,0,True,PASS

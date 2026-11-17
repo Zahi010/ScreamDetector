@@ -1,0 +1,4 @@
+pilot_index,recording_id,source_sound_id,creator_uploader,source_group_id,target_category,duration_seconds,license,audio_file_path,selection_rationale
+1,fs_cand_166619,166619,J.Zazvurek,sg_stage76_j.zazvurek,VOCAL_SCREAM_CHILD,0.68,CC BY 4.0,backend/research/stage_8_9_76/audio/fs_cand_166619.wav,Deterministic selection representing distinct acoustic categories across 3 independent source groups.
+2,fs_cand_844113,844113,perspektywa_tn,sg_stage76_perspektywa_tn,VOCAL_SCREAM_ADULT_LOW_INTENSITY,2.0,CC0 1.0 Universal,backend/research/stage_8_9_76/audio/fs_cand_844113.wav,Deterministic selection representing distinct acoustic categories across 3 independent source groups.
+3,fs_cand_667199,667199,MBPL,sg_stage76_mbpl,INFANT_CRY,3.22,CC0 1.0 Universal,backend/research/stage_8_9_76/audio/fs_cand_667199.wav,Deterministic selection representing distinct acoustic categories across 3 independent source groups.

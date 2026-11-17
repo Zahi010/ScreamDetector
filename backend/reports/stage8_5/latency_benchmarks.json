@@ -1,0 +1,67 @@
+{
+  "timestamp_iso": "2026-10-24T16:55:05.456926",
+  "hop_budget_ms": 487.5,
+  "headroom_pct": 97.5,
+  "benchmarks": [
+    {
+      "component": "1. YAMNet Embedding Extraction (0.975s window)",
+      "iterations": 20,
+      "mean_ms": 5.016,
+      "median_ms": 4.881,
+      "min_ms": 4.566,
+      "max_ms": 5.754,
+      "p95_ms": 5.681,
+      "p99_ms": 5.74
+    },
+    {
+      "component": "2. 1024-dim Max-Pooling",
+      "iterations": 40,
+      "mean_ms": 0.028,
+      "median_ms": 0.028,
+      "min_ms": 0.017,
+      "max_ms": 0.072,
+      "p95_ms": 0.041,
+      "p99_ms": 0.062
+    },
+    {
+      "component": "3. Logistic Regression Classifier Inference",
+      "iterations": 40,
+      "mean_ms": 0.392,
+      "median_ms": 0.37,
+      "min_ms": 0.358,
+      "max_ms": 0.746,
+      "p95_ms": 0.541,
+      "p99_ms": 0.674
+    },
+    {
+      "component": "4. State Machine Transition & Temporal Smoothing",
+      "iterations": 40,
+      "mean_ms": 0.009,
+      "median_ms": 0.007,
+      "min_ms": 0.003,
+      "max_ms": 0.021,
+      "p95_ms": 0.019,
+      "p99_ms": 0.021
+    },
+    {
+      "component": "5. Event JSONL Serialization & File Write",
+      "iterations": 20,
+      "mean_ms": 0.193,
+      "median_ms": 0.193,
+      "min_ms": 0.172,
+      "max_ms": 0.262,
+      "p95_ms": 0.227,
+      "p99_ms": 0.255
+    },
+    {
+      "component": "6. End-to-End Pipeline (Buffer -> YAMNet -> LR -> StateMachine)",
+      "iterations": 20,
+      "mean_ms": 11.733,
+      "median_ms": 11.91,
+      "min_ms": 10.725,
+      "max_ms": 12.504,
+      "p95_ms": 12.36,
+      "p99_ms": 12.475
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+architecture_candidate,event_recall_pct,hard_neg_fpr_pct,shouting_fpr_pct,short_scream_recall_pct,cheering_fpr_pct,whistle_siren_fpr_pct,music_fpr_pct,ambient_noise_fpr_pct,roc_auc,pr_auc,precision,f1_score,specificity_pct,param_count,model_size_mb,engineering_gate_verdict
+Model A (Baseline Frozen YAMNet),64.1,6.25,17.86,77.27,5.36,5.88,0.0,0.0,0.8874,0.6305,0.6757,0.6579,93.75,3400000,14.5,REJECTED (Research Only)
+Model B (Custom 2D CNN Log-Mel),21.79,0.52,2.38,22.73,0.0,0.0,0.0,0.0,0.9027,0.7197,0.8947,0.3505,99.48,25857,0.28,REJECTED (Research Only)
+Model C (Temporal 1D Dilated CNN),70.51,3.65,10.71,81.82,1.79,17.65,0.0,0.0,0.9015,0.6694,0.7971,0.7483,96.35,22625,0.12,REJECTED (Research Only)
+Model D (YAMNet + Temporal 1D CNN),75.64,4.95,15.48,81.82,5.36,11.76,0.0,0.0,0.9291,0.711,0.7564,0.7564,95.05,3422625,14.7,REJECTED (Research Only)
+Model E (Hybrid Multimodal),80.77,5.47,15.48,90.91,5.36,11.76,0.0,0.0,0.9371,0.6937,0.75,0.7778,94.53,3448482,15.1,REJECTED (Research Only)
+Model F (Candidate G Reference),80.77,5.99,15.48,86.36,5.36,5.88,0.0,0.0,0.8739,0.7864,0.7326,0.7683,94.01,3445000,14.8,REJECTED (Research Only)

@@ -1,0 +1,5 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+"Reverb 0: Direct-Path Clean (Dry, RT60 < 0.3s)",78.79,78,21,13.64,12,8.06,10,92.31,36,59.33,159
+"Reverb 1: Small Room / Enclosure (RT60 = 0.6s, -10% roughness)",77.78,77,22,13.64,12,8.06,10,92.31,36,59.33,159
+"Reverb 2: Concert Hall / Concourse (RT60 = 1.2s, -25% roughness)",76.77,76,23,14.77,13,8.06,10,92.31,36,59.7,160
+"Reverb 3: Cathedral / Stadium Echo (RT60 = 2.0s, -45% roughness)",76.77,76,23,14.77,13,8.06,10,92.31,36,59.7,160

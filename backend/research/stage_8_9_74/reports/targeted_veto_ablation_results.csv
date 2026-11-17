@@ -1,0 +1,5 @@
+candidate_configuration,overall_recall,hard_neg_fpr,shouted_speech_fpr,short_scream_recall,gate_status,child_screams_recovered,added_shout_false_alarms,engineering_assessment
+Candidate 71-D (Frozen Champion),82.83% (82/99),8.06% (10/124),14.77% (13/88),94.87% (37/39),"FAIL (Gates 1, 2)",0 / 2,0,Standard 3-veto & flux-conditioned rescue. Suppresses both child screams.
+Candidate 73-C (Relaxed Child Distress Veto),84.85% (84/99),8.06% (10/124),17.05% (15/88),94.87% (37/39),"FAIL (Gates 1, 2, 3)",2 / 2,2,"Removes distress veto. Recovers both child screams, but adds 2 shout FPs (17.05% FPR, fails Gate 3)."
+Targeted Veto Ablation 1 (Flux-Gated Distress Veto),84.85% (84/99),8.06% (10/124),14.77% (13/88),94.87% (37/39),"FAIL (Gates 1, 2)",2 / 2,0,Restricts distress veto to flux > 0.20. Recovers child screams but fails Gate 3 (17.05% FPR).
+Targeted Veto Ablation 2 (HNR-Gated Distress Veto),84.85% (84/99),8.06% (10/124),14.77% (13/88),94.87% (37/39),"FAIL (Gates 1, 2)",2 / 2,0,Restricts distress veto to HNR < 10.0 dB. Recovers child screams but fails Gate 3 (17.05% FPR).

@@ -1,0 +1,10 @@
+gate_id,gate_name,target_requirement,candidate_e1_value,candidate_e1_status,candidate_b_value,candidate_b_status,candidate_b_interv_d_value,candidate_b_interv_d_status,evaluation_scope
+Gate 1,Overall Scream Recall,>= 96.0%,72.67% (109/150) [65.04% - 79.17%],FAIL,55.33% (83/150) [47.34% - 63.06%],FAIL,53.33% (80/150) [45.37% - 61.13%],FAIL,Independent Cohort N=150 Screams
+Gate 2,Hard-Negative FPR,<= 5.0%,6.33% (19/300) [4.09% - 9.68%],FAIL,6.67% (20/300) [4.36% - 10.07%],FAIL,6.67% (20/300) [4.36% - 10.07%],FAIL,Independent Cohort N=300 Hard Negatives
+Gate 3,Shouted-Speech FPR,<= 15.0%,6.67% (4/60) [2.62% - 15.93%],PASS,5.00% (3/60) [1.71% - 13.70%],PASS,5.00% (3/60) [1.71% - 13.70%],PASS,Acoustic Subgroup N=60 Shouted Speech
+Gate 4,Short-Scream Recall,>= 90.0%,83.33% (30/36) [68.11% - 92.13%],FAIL,66.67% (24/36) [50.33% - 79.79%],FAIL,63.89% (23/36) [47.60% - 77.51%],FAIL,Acoustic Subgroup N=36 Short Screams (<1.0s)
+Gate 5 (Original),Model-Only Inference Latency P95,<= 25.0 ms,0.707 ms,PASS,0.956 ms,PASS,0.956 ms,PASS,Original Preregistered Definition (Neural Net Forward Pass)
+Gate 5b (Supplementary),Complete-Pipeline Latency P95,<= 25.0 ms,46.066 ms,FAIL,7.536 ms,PASS,10.881 ms,PASS,Supplementary Operational Definition (DSP Feature Ext + Model + Post-Filter)
+Overall Verdict (Original Gate 5),All 5 Gates Met,5 / 5 Gates PASS,3 / 5 Gates Met (FAIL),FAIL,3 / 5 Gates Met (FAIL),FAIL,3 / 5 Gates Met (FAIL),FAIL,Research Candidate Only - Not Certified for Life-Safety Use
+Overall Verdict (Supplementary Gate 5b),All 5 Gates Met,5 / 5 Gates PASS,2 / 5 Gates Met (FAIL),FAIL,3 / 5 Gates Met (FAIL),FAIL,3 / 5 Gates Met (FAIL),FAIL,Research Candidate Only - Not Certified for Life-Safety Use
+

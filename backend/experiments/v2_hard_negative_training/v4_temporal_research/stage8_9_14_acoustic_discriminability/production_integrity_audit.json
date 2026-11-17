@@ -1,0 +1,101 @@
+{
+  "production_hashes": {
+    "backend/models/scream_classifier.joblib": {
+      "expected": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "actual": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "match": true
+    },
+    "backend/models/model_metadata.json": {
+      "expected": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "actual": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "match": true
+    },
+    "backend/reports/test_predictions.csv": {
+      "expected": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "actual": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "match": true
+    },
+    "backend/reports/stage5_test_evaluation.md": {
+      "expected": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "actual": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "match": true
+    }
+  },
+  "production_threshold_verified": true,
+  "database_audit": {
+    "database_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\database\\stage8_9_reviews.db",
+    "total_reviewed": 343,
+    "status_counts": {
+      "AMBIGUOUS": 3,
+      "APPROVED_NON_SCREAM": 338,
+      "SCREAM_PRESENT": 2,
+      "UNREVIEWED": 27
+    },
+    "anchor_fsd50k_349401": "SCREAM_PRESENT",
+    "status": "PASSED"
+  },
+  "stage13_artifacts_present": {
+    "stage8_9_13_event_logic_report.md": {
+      "exists": true,
+      "size_bytes": 25868
+    },
+    "event_annotation_protocol.md": {
+      "exists": true,
+      "size_bytes": 7867
+    },
+    "false_positive_event_analysis.csv": {
+      "exists": true,
+      "size_bytes": 44119
+    },
+    "temporal_policy_validation_results.csv": {
+      "exists": true,
+      "size_bytes": 1575
+    },
+    "event_level_test_results.csv": {
+      "exists": true,
+      "size_bytes": 2240
+    },
+    "detection_delay_analysis.csv": {
+      "exists": true,
+      "size_bytes": 642
+    },
+    "latency_benchmark_results.csv": {
+      "exists": true,
+      "size_bytes": 450
+    },
+    "experiment_configurations.json": {
+      "exists": true,
+      "size_bytes": 3801
+    },
+    "production_integrity_audit.json": {
+      "exists": true,
+      "size_bytes": 6944
+    },
+    "dual_path_state_machine.py": {
+      "exists": true,
+      "size_bytes": 8361
+    },
+    "test_stage8_9_13_regression.py": {
+      "exists": true,
+      "size_bytes": 7217
+    }
+  },
+  "stage13_reproduced_metrics": {
+    "D_v4_Single_Window_Base": {
+      "recall": 71.56,
+      "fpr": 37.37,
+      "short_recall": 20.0
+    },
+    "D_v4_DualPath_Balanced": {
+      "recall": 81.65,
+      "fpr": 43.94,
+      "short_recall": 20.0,
+      "dupes": 0.0
+    },
+    "D_v4_Consecutive_2_Base": {
+      "short_recall": 0.0
+    },
+    "verified": true
+  },
+  "all_checks_passed": true
+}

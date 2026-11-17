@@ -1,0 +1,35 @@
+{
+  "stage": "8.9.28",
+  "benchmark_name": "REAL_TIME_STREAMING_LATENCY_BENCHMARK",
+  "iterations": 500,
+  "warmup_iterations": 50,
+  "sample_rate_hz": 16000,
+  "window_sec": 0.975,
+  "window_samples": 15600,
+  "hop_sec": 0.25,
+  "hop_samples": 4000,
+  "cooldown_hops": 6,
+  "cooldown_sec": 1.5,
+  "disk_io_included_in_window_compute": false,
+  "model_loading_included_in_window_compute": false,
+  "computational_p95_gate_ms": 25.0,
+  "components_to_profile": [
+    "audio_decoding",
+    "resampling",
+    "window_extraction",
+    "pre_screening",
+    "feature_extraction",
+    "model_c_inference",
+    "candidate_g_verification",
+    "model_e_inference",
+    "spectral_analysis",
+    "fusion_e",
+    "event_state_management",
+    "complete_processing_window"
+  ],
+  "execution_modes": [
+    "unoptimized_full_file_legacy_baseline",
+    "unoptimized_windowed_baseline",
+    "optimized_compiled_streaming_pipeline"
+  ]
+}

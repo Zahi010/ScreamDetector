@@ -1,0 +1,45 @@
+{
+  "total_files_compared": 139,
+  "max_prob_diff_model_c": 0.0,
+  "max_prob_diff_cand_g": 0.0,
+  "max_prob_diff_model_e": 0.0,
+  "max_prob_diff_fusion_e": 0.0,
+  "mismatched_decisions": 0,
+  "classification_agreement_pct": 100.0,
+  "shouting_samples_evaluated": 41,
+  "shouting_rejected_baseline": 39,
+  "shouting_rejected_optimized": 39,
+  "short_screams_evaluated": 16,
+  "short_scream_hits_baseline": 12,
+  "short_scream_hits_optimized": 12,
+  "edge_case_results": [
+    {
+      "case": "pure_silence",
+      "baseline_score": 0.233058,
+      "optimized_score": 0.233058,
+      "abs_difference": 0.0,
+      "equivalent": true
+    },
+    {
+      "case": "extreme_dc_offset",
+      "baseline_score": 0.044929,
+      "optimized_score": 0.044929,
+      "abs_difference": 0.0,
+      "equivalent": true
+    },
+    {
+      "case": "clipped_square_wave",
+      "baseline_score": 0.993909,
+      "optimized_score": 0.993909,
+      "abs_difference": 0.0,
+      "equivalent": true
+    },
+    {
+      "case": "high_amplitude_noise",
+      "baseline_score": 0.929387,
+      "optimized_score": 0.929387,
+      "abs_difference": 0.0,
+      "equivalent": true
+    }
+  ]
+}

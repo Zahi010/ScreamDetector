@@ -1,0 +1,7 @@
+component,mean,p50,p95,p99,max
+Window Generation (RingBuffer),0.017 ms,0.017 ms,0.024 ms,0.030 ms,0.058 ms
+Feature Extraction (YAMNet + Micro),18.223 ms,18.221 ms,18.231 ms,18.238 ms,18.274 ms
+Contrastive Projection Head (PyTorch),0.242 ms,0.215 ms,0.276 ms,0.460 ms,2.053 ms
+Classifier Inference (LR / MLP),0.165 ms,0.154 ms,0.214 ms,0.251 ms,0.475 ms
+Multi-Resolution Fusion & Decision,0.001 ms,0.001 ms,0.001 ms,0.001 ms,0.002 ms
+Total End-to-End Computational Latency,18.648 ms,18.612 ms,18.735 ms,18.914 ms,20.823 ms

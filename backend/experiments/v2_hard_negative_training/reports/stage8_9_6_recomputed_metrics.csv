@@ -1,0 +1,6 @@
+model_id,model_name,threshold,threshold_selection_basis,test_sample_size,tp,fp,fn,tn,accuracy,precision,recall,specificity,hard_negative_fpr,f1_score,roc_auc_continuous,pr_auc_continuous
+Model_A_Baseline_LR,Model A (Baseline LR C=10.0),0.35,Frozen project threshold (fixed prior to training),189,42,21,17,109,0.7989,0.6667,0.7119,0.8385,0.1615,0.6885,0.8651,0.7539
+Model_B_Regularized_LR,Model B (Regularized LR C=0.05),0.35,Validation split sweep (C=0.05 optimized F1 on Val at 0.35),189,50,26,9,104,0.8148,0.6579,0.8475,0.8,0.2,0.7407,0.8923,0.775
+Model_C_P90_LR,Model C (90th Percentile LR),0.35,Fixed threshold evaluated on P90 temporal features,189,48,26,11,104,0.8042,0.6486,0.8136,0.8,0.2,0.7218,0.8721,0.7717
+Model_D_Concat_LR,Model D (Multi-Pooling Concat LR),0.35,Fixed threshold evaluated on 3072-dim multi-pooled features,189,45,21,14,109,0.8148,0.6818,0.7627,0.8385,0.1615,0.72,0.8931,0.7878
+Model_E_Hierarchical,Model E (Two-Stage Hierarchical Gating),0.25,Probability product P(Vocal)*P(Scream|Vocal) threshold 0.25,189,42,24,17,106,0.7831,0.6364,0.7119,0.8154,0.1846,0.672,0.858,0.7191

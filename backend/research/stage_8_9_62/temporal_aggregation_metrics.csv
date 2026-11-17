@@ -1,0 +1,9 @@
+method_id,total_recordings,tp,fn,fp,tn,overall_recall,sustained_recall,short_scream_recall,hard_negative_fpr,shouted_speech_fpr,precision,f1,fpr_reduction_vs_ema
+Method_Baseline_Static,187,44,26,17,100,0.6286,0.7097,0.0,0.1453,1.0,0.7213,0.6718,23.08
+Method_Baseline_Rolling_EMA_0.50,187,59,11,44,73,0.8429,0.9516,0.0,0.3761,1.0,0.5728,0.6821,0.0
+Method_A_Consecutive_Evidence_K2,187,52,18,35,82,0.7429,0.8387,0.0,0.2991,1.0,0.5977,0.6624,7.7
+Method_A_Consecutive_Evidence_K3,187,36,34,21,96,0.5143,0.5806,0.0,0.1795,0.0,0.6316,0.5669,19.66
+Method_B_Bounded_EMA_0.30,187,60,10,40,77,0.8571,0.9516,0.125,0.3419,1.0,0.6,0.7059,3.42
+Method_C_Peak_With_Corroboration,187,57,13,37,80,0.8143,0.9194,0.0,0.3162,1.0,0.6064,0.6951,5.99
+Method_D_Event_Level_Score_Aggregation,187,58,12,42,75,0.8286,0.9355,0.0,0.359,1.0,0.58,0.6824,1.71
+Method_E_Adaptive_Context_Hysteresis,187,60,10,59,58,0.8571,0.9677,0.0,0.5043,1.0,0.5042,0.6349,-12.82

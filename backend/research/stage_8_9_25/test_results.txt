@@ -1,0 +1,15 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend
+plugins: anyio-4.15.1
+collecting ... collected 6 items
+
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_production_artifact_hashes PASSED [ 16%]
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_production_threshold_preserved PASSED [ 33%]
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_stage_deliverables_exist PASSED [ 50%]
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_dataset_integrity_verification PASSED [ 66%]
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_model_loading_and_inference PASSED [ 83%]
+research/stage_8_9_25/tests/test_stage_8_9_25.py::test_acceptance_gate_enforcement PASSED [100%]
+
+============================== 6 passed in 5.72s ==============================

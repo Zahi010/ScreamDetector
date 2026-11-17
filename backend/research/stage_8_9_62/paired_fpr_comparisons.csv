@@ -1,0 +1,6 @@
+candidate_1,candidate_2,sample_size_negatives,both_fp,cand1_fp_cand2_tn_b,cand1_tn_cand2_fp_c,both_tn,cand1_fpr,cand2_fpr,fpr_diff_pct,fpr_diff_ci_low_pct,fpr_diff_ci_high_pct,mcnemar_chi2,mcnemar_continuity_p,mcnemar_exact_binomial_p,statistically_significant_05
+Candidate_E1_Rolling_C5_EMA,Candidate_E1_Static_C5,500,90,87,6,317,0.354,0.192,16.2,12.7,19.7,68.8172,0.0,0.0,True
+Candidate_E1_Rolling_C5_EMA,Candidate_B_Baseline,500,73,104,6,317,0.354,0.158,19.6,15.86,23.34,85.5364,0.0,0.0,True
+Candidate_E1_Rolling_C5_EMA,Candidate_B_Intervention_D,500,68,109,6,317,0.354,0.148,20.6,16.8,24.4,90.4696,0.0,0.0,True
+Candidate_B_Baseline,Candidate_B_Intervention_D,500,74,5,0,421,0.158,0.148,1.0,0.13,1.87,3.2,0.073638,0.0625,False
+Candidate_E1_Static_C5,Candidate_B_Baseline,500,62,34,17,387,0.192,0.158,3.4,0.62,6.18,5.0196,0.025062,0.024093,True

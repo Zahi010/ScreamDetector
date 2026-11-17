@@ -1,0 +1,10 @@
+category,binary_label,total_recordings,independent_source_groups,train_recordings,val_recordings,test_recordings,licenses_observed,annotation_confidence,in_manifest,decoded_and_featured,in_training
+whistles_and_squeaks,non_scream,157,98,93,31,33,CC BY 3.0; CC0 1.0 Universal (Public Domain Dedication),HIGH,True,True,True
+crowd_chant_cheering,non_scream,242,121,154,45,43,CC BY 3.0; CC0 1.0 Universal (Public Domain Dedication),HIGH,True,True,True
+general_environmental,non_scream,132,57,65,35,32,CC BY 3.0; CC0 1.0 Universal (Public Domain Dedication),HIGH,True,True,True
+shouting_and_speech,non_scream,281,113,160,79,42,CC BY 3.0; http://creativecommons.org/licenses/by/4.0/,HIGH,True,True,True
+sfx_sirens_fireworks,non_scream,91,61,43,15,33,CC BY 3.0; http://creativecommons.org/licenses/by/4.0/,HIGH,True,True,True
+scream,scream,245,148,121,58,66,CC BY 3.0; CC0 1.0,HIGH,True,True,True
+infant_crying,non_scream,75,54,41,19,15,CC BY 3.0; http://creativecommons.org/publicdomain/zero/1.0/,HIGH,True,True,True
+masked_distant_screams,scream,161,94,80,38,43,CC BY 3.0; CC0 1.0,HIGH,True,True,True
+digital_silence_and_room_silence,non_scream,0,0,0,0,0,N/A,N/A,False,False,False

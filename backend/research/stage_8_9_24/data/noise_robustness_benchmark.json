@@ -1,0 +1,58 @@
+[
+  {
+    "snr_db": "Clean",
+    "recall_pct": 80.77,
+    "shouting_fpr_pct": 15.48,
+    "hard_neg_fpr_pct": 5.99,
+    "bcr_degradation_pct": 0.0,
+    "feature_stability_pct": 100.0
+  },
+  {
+    "snr_db": "20",
+    "recall_pct": 80.59,
+    "shouting_fpr_pct": 15.84,
+    "hard_neg_fpr_pct": 6.21,
+    "bcr_degradation_pct": 4.5,
+    "feature_stability_pct": 95.5
+  },
+  {
+    "snr_db": "15",
+    "recall_pct": 80.45,
+    "shouting_fpr_pct": 16.12,
+    "hard_neg_fpr_pct": 6.39,
+    "bcr_degradation_pct": 8.0,
+    "feature_stability_pct": 92.0
+  },
+  {
+    "snr_db": "10",
+    "recall_pct": 80.19,
+    "shouting_fpr_pct": 16.61,
+    "hard_neg_fpr_pct": 6.7,
+    "bcr_degradation_pct": 14.23,
+    "feature_stability_pct": 85.77
+  },
+  {
+    "snr_db": "5",
+    "recall_pct": 79.75,
+    "shouting_fpr_pct": 17.5,
+    "hard_neg_fpr_pct": 7.25,
+    "bcr_degradation_pct": 25.31,
+    "feature_stability_pct": 74.69
+  },
+  {
+    "snr_db": "0",
+    "recall_pct": 78.95,
+    "shouting_fpr_pct": 19.08,
+    "hard_neg_fpr_pct": 8.24,
+    "bcr_degradation_pct": 45.0,
+    "feature_stability_pct": 55.0
+  },
+  {
+    "snr_db": "-5",
+    "recall_pct": 71.07,
+    "shouting_fpr_pct": 21.88,
+    "hard_neg_fpr_pct": 9.99,
+    "bcr_degradation_pct": 80.02,
+    "feature_stability_pct": 19.98
+  }
+]

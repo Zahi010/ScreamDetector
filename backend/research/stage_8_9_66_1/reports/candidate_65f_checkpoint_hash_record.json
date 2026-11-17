@@ -1,0 +1,20 @@
+{
+  "candidate_id": "Candidate_65_F_Combined_Selective",
+  "frozen_checkpoint_relative_path": "backend/research/stage_8_9_66/models/candidate_65f_frozen.pt",
+  "checkpoint_sha256": "06a98025dbdabf462bec305b0cfe8455dd137b3d515cafca8811606865bacfab",
+  "metadata_relative_path": "backend/research/stage_8_9_66/models/candidate_freeze_metadata.json",
+  "metadata_sha256": "a40672a42e3a8d1f38f1ff067cb92b6c45e122b12a25c127f7513d78327944d4",
+  "dsp_preprocessor_relative_path": "backend/research/stage_8_9_57/dsp_implementations/c5_combined.py",
+  "dsp_preprocessor_sha256": "d73cd3bf4d3d1debbaa75b9e57c82d113c3abc500d7ab9b5868b14aa608a9d58",
+  "reproduction_script_relative_path": "backend/research/stage_8_9_66/scripts/reproduce_candidate_65f.py",
+  "reproduction_script_sha256": "f78d78161994a76a3f84ca87404dc5d180d6a06d219476029efbfa60cb9d4877",
+  "frozen_hyperparameters": {
+    "decision_threshold": 0.48,
+    "high_confidence_bypass": 0.8,
+    "branch_cosine_agreement_threshold": 0.4,
+    "narrow_band_whistle_hnr_db": 12.0,
+    "narrow_band_whistle_flatness": 0.001,
+    "attenuation_factor": 0.15
+  },
+  "audit_timestamp_utc": "2026-11-12T08:35:21Z"
+}

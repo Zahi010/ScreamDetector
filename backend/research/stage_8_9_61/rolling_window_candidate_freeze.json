@@ -1,0 +1,59 @@
+{
+  "stage": "8.9.61",
+  "phase": "TRACK_A_EXPERIMENTAL_CANDIDATE_FREEZE",
+  "candidate_id": "E1_ROLLING_C5_STRATEGY_D",
+  "candidate_description": "Candidate E1 Neural Classifier with Frozen C5 Combined DSP, 500ms Rolling Hop, and Exponential Moving Average Aggregation",
+  "architecture_parameters": {
+    "audio_window_duration_seconds": 1.0,
+    "audio_window_samples": 16000,
+    "hop_duration_seconds": 0.5,
+    "hop_duration_samples": 8000,
+    "window_overlap_ratio": 0.5,
+    "sampling_rate_hz": 16000,
+    "channels": "mono",
+    "feature_normalization": "peak_normalization"
+  },
+  "temporal_aggregation_parameters": {
+    "primary_strategy": "Strategy_D_Rolling_EMA",
+    "alpha": 0.5,
+    "decision_threshold": 0.6,
+    "baseline_e1_window_threshold": 0.68,
+    "secondary_investigated_strategies": [
+      {
+        "name": "Strategy_A_Independent",
+        "threshold": 0.68
+      },
+      {
+        "name": "Strategy_B_Persistence_K2",
+        "k": 2,
+        "threshold": 0.68
+      },
+      {
+        "name": "Strategy_C_Hysteresis",
+        "theta_high": 0.68,
+        "theta_low": 0.4
+      },
+      {
+        "name": "Strategy_E_Max_Window_W2",
+        "w": 2,
+        "threshold": 0.68
+      }
+    ]
+  },
+  "artifact_hashes": {
+    "rolling_window_inference_code_sha256": "53b3d5507728487988aec97f1a6c8be5d33184abf9368d4f6b92894cde698bdb",
+    "c5_reference_dsp_sha256": "d73cd3bf4d3d1debbaa75b9e57c82d113c3abc500d7ab9b5868b14aa608a9d58",
+    "candidate_e1_checkpoint_sha256": "37fa77b4cd4cb04c5035e31263c3ec62b4e8015fbd1e01f30877f76872277564",
+    "candidate_b_checkpoint_sha256": "f40c8342ae1b2ff588d8a6649fc5e5c2a19d1db6ae3e4f5cc894f1e3353c1378",
+    "intervention_d_code_sha256": "3d98aa7496c6ba89066cfa345a6d0c1ee3605c30821f869a049001c4ad4a8bd2",
+    "development_manifest_sha256": "bdf27fdf663c722c4f312ab273839629884892b2ae1d17fa47e70981400d6e1c"
+  },
+  "benchmark_environment": {
+    "os": "Windows",
+    "os_release": "11",
+    "python_version": "3.13.3",
+    "torch_version": "2.14.1+cpu",
+    "psutil_available": true
+  },
+  "governance_rule": "FROZEN_BEFORE_TRACK_B_UNSEALING_NO_TEST_BASED_TUNING"
+}

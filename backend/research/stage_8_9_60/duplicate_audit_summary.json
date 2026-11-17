@@ -1,0 +1,9 @@
+{
+  "total_recordings_audited": 962,
+  "internal_duplicate_file_hashes": 0,
+  "internal_duplicate_pcm_hashes": 0,
+  "historical_exclusion_file_collisions": 0,
+  "historical_exclusion_pcm_collisions": 0,
+  "multi_crop_parent_sources": 117,
+  "duplicate_detection_status": "CLEAN_ZERO_LEAKAGE"
+}

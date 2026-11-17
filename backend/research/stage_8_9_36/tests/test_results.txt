@@ -1,0 +1,21 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 12 items
+
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_production_hashes_unchanged PASSED [  8%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_research_directory_isolation PASSED [ 16%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_identical_test_ids_across_stages PASSED [ 25%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_metric_calculation_from_confusion_matrix PASSED [ 33%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_threshold_provenance_validation_only PASSED [ 41%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_no_threshold_selection_from_test_predictions PASSED [ 50%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_source_group_split_isolation PASSED [ 58%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_duplicate_audit_consistency PASSED [ 66%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_missing_audio_handling PASSED [ 75%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_short_scream_duration_grouping PASSED [ 83%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_baseline_reconciliation_exact_reproducibility PASSED [ 91%]
+backend/research/stage_8_9_36/tests/test_stage_8_9_36.py::test_reproducible_reports_exist PASSED [100%]
+
+============================= 12 passed in 0.63s ==============================

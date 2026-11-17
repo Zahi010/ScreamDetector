@@ -1,0 +1,21 @@
+{
+  "stage": "8.9.58",
+  "benchmark_timestamp": "2026-11-09 17:37:32 UTC",
+  "os_name": "Windows",
+  "os_release": "11",
+  "os_version": "10.0.26100",
+  "machine": "AMD64",
+  "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "python_version": "3.13.3",
+  "numpy_version": "2.4.0",
+  "torch_version": "2.14.1+cpu",
+  "cpu_count_logical": 16,
+  "target_sampling_rate_hz": 16000,
+  "window_duration_seconds": 0.975,
+  "window_samples": 15600,
+  "hop_duration_seconds": 0.25,
+  "hop_samples": 4000,
+  "warmup_iterations": 25,
+  "benchmark_iterations": 300,
+  "governance_status": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE."
+}

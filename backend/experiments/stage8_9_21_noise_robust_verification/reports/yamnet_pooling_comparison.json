@@ -1,0 +1,72 @@
+{
+  "A_Mean_Pooling_1024d": {
+    "dimension": 1024,
+    "linear_train_auc": 1.0,
+    "linear_val_auc": 0.9551,
+    "linear_test_auc": 0.8839,
+    "linear_test_ap": 0.8567,
+    "linear_test_brier": 0.1614,
+    "linear_overfitting_gap": 0.1161,
+    "mlp_train_auc": 0.9996,
+    "mlp_val_auc": 0.9571,
+    "mlp_test_auc": 0.8916,
+    "mlp_test_ap": 0.8626,
+    "mlp_overfitting_gap": 0.1079
+  },
+  "B_Max_Pooling_1024d": {
+    "dimension": 1024,
+    "linear_train_auc": 0.999,
+    "linear_val_auc": 0.9006,
+    "linear_test_auc": 0.8233,
+    "linear_test_ap": 0.8127,
+    "linear_test_brier": 0.1951,
+    "linear_overfitting_gap": 0.1757,
+    "mlp_train_auc": 0.9862,
+    "mlp_val_auc": 0.9121,
+    "mlp_test_auc": 0.8078,
+    "mlp_test_ap": 0.7426,
+    "mlp_overfitting_gap": 0.1783
+  },
+  "C_Combined_Mean_Max_2048d": {
+    "dimension": 2048,
+    "linear_train_auc": 1.0,
+    "linear_val_auc": 0.9455,
+    "linear_test_auc": 0.8762,
+    "linear_test_ap": 0.8581,
+    "linear_test_brier": 0.178,
+    "linear_overfitting_gap": 0.1238,
+    "mlp_train_auc": 1.0,
+    "mlp_val_auc": 0.9491,
+    "mlp_test_auc": 0.8834,
+    "mlp_test_ap": 0.852,
+    "mlp_overfitting_gap": 0.1166
+  },
+  "D_Mean_Plus_Temporal_Stats_3072d": {
+    "dimension": 3072,
+    "linear_train_auc": 1.0,
+    "linear_val_auc": 0.9547,
+    "linear_test_auc": 0.8814,
+    "linear_test_ap": 0.8582,
+    "linear_test_brier": 0.1825,
+    "linear_overfitting_gap": 0.1186,
+    "mlp_train_auc": 1.0,
+    "mlp_val_auc": 0.9535,
+    "mlp_test_auc": 0.8826,
+    "mlp_test_ap": 0.8416,
+    "mlp_overfitting_gap": 0.1174
+  },
+  "E_Frame_Level_Sequence_1120d": {
+    "dimension": 1120,
+    "linear_train_auc": 0.9995,
+    "linear_val_auc": 0.9403,
+    "linear_test_auc": 0.8484,
+    "linear_test_ap": 0.8079,
+    "linear_test_brier": 0.1612,
+    "linear_overfitting_gap": 0.151,
+    "mlp_train_auc": null,
+    "mlp_val_auc": null,
+    "mlp_test_auc": null,
+    "mlp_test_ap": null,
+    "mlp_overfitting_gap": null
+  }
+}

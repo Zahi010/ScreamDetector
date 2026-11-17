@@ -1,0 +1,13 @@
+total_duration_sec,num_bursts,bursts_per_sec,mean_burst_dur_sec,max_burst_dur_sec,mean_silence_dur_sec,burst_continuity_ratio,envelope_periodicity_score,repetition_rate_hz,modulation_depth,spectral_variation_zcr_std,file_id,ground_truth,reported_prob,failure_reason
+1.324,2,1.51,0.405,0.74,0.1,0.559,0.2255,0.97,0.9999,0.0563,v2_nigens_242607__reitanna__gasp-oooh,scream,0.0,Unknown
+1.498,1,0.67,1.23,1.23,0.0,0.821,0.21,0.74,0.9999,0.0801,v2_nigens_242644__reitanna__another-surprised-oooh,scream,0.0,Unknown
+2.266,14,6.18,0.069,0.21,0.062,0.093,0.1106,1.82,0.7904,0.0299,v2_synth_scream_028_snr-06db,scream,0.0,Unknown
+5.695,9,1.58,0.52,4.45,0.055,0.781,0.6284,3.33,0.9552,0.0236,v2_synth_scream_032_snr-06db,scream,0.0,Unknown
+2.51,6,2.39,0.258,1.16,0.17,0.462,0.202,1.32,0.9093,0.0869,v2_synth_scream_052_snr-06db,scream,0.0,Unknown
+2.0,1,0.5,0.68,0.68,0.0,0.34,0.2305,3.33,0.9997,0.076,v3_fsd50k_9433,scream,0.0,Unknown
+8.0,6,0.75,0.473,2.77,0.026,0.346,0.8736,3.33,0.9992,0.0187,v3_fsd50k_29849,scream,0.0,Unknown
+2.016,1,0.5,1.38,1.38,0.0,0.685,0.2074,0.56,0.9994,0.1301,v3_fsd50k_166621,scream,0.0,Unknown
+1.089,1,0.92,1.07,1.07,0.0,0.983,0.0893,1.33,0.6223,0.0349,v3_synth_scream_012_snr-03db,scream,0.0,Unknown
+3.413,3,0.88,1.117,3.02,0.02,0.885,0.4174,3.33,0.7345,0.0465,v3_synth_scream_018_snr+00db,scream,0.0,Unknown
+1.044,4,3.83,0.155,0.52,0.113,0.498,0.2795,1.59,0.923,0.0613,v3_synth_scream_022_snr-03db,scream,0.0,Unknown
+2.347,2,0.85,0.61,0.78,0.39,0.332,0.1492,0.81,0.867,0.0429,v3_synth_scream_029_snr+03db,scream,0.0,Unknown

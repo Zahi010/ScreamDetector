@@ -1,0 +1,621 @@
+{
+  "candidate_evaluations": {
+    "D_v4": {
+      "validation_decision_threshold": 0.37999999999999995,
+      "validation_feasibility": "INFEASIBLE",
+      "test_metrics": {
+        "accuracy": 0.9186,
+        "precision": 0.875,
+        "recall": 0.8991,
+        "specificity": 0.9293,
+        "fpr": 0.0707,
+        "f1_score": 0.8869,
+        "roc_auc": 0.9564,
+        "pr_auc": 0.9198,
+        "brier_score": 0.0811,
+        "confusion_matrix": {
+          "tn": 184,
+          "fp": 14,
+          "fn": 11,
+          "tp": 98
+        }
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 43,
+          "n_pos": 0,
+          "n_neg": 43,
+          "fp": 5,
+          "tn": 38,
+          "fpr": 0.1163,
+          "type": "negative"
+        },
+        "general_environmental": {
+          "total": 32,
+          "n_pos": 0,
+          "n_neg": 32,
+          "fp": 0,
+          "tn": 32,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "infant_crying": {
+          "total": 15,
+          "n_pos": 0,
+          "n_neg": 15,
+          "fp": 3,
+          "tn": 12,
+          "fpr": 0.2,
+          "type": "negative"
+        },
+        "masked_distant_screams": {
+          "total": 43,
+          "n_pos": 43,
+          "n_neg": 0,
+          "tp": 37,
+          "fn": 6,
+          "recall": 0.8605,
+          "type": "positive"
+        },
+        "scream": {
+          "total": 66,
+          "n_pos": 66,
+          "n_neg": 0,
+          "tp": 61,
+          "fn": 5,
+          "recall": 0.9242,
+          "type": "positive"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 0,
+          "tn": 33,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "shouting_and_speech": {
+          "total": 42,
+          "n_pos": 0,
+          "n_neg": 42,
+          "fp": 5,
+          "tn": 37,
+          "fpr": 0.119,
+          "type": "negative"
+        },
+        "whistles_and_squeaks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 1,
+          "tn": 32,
+          "fpr": 0.0303,
+          "type": "negative"
+        }
+      },
+      "shouted_speech_fpr": 0.119,
+      "paired_mcnemar_vs_d_v4": {
+        "b_model_a_correct_b_wrong": 0,
+        "c_model_a_wrong_b_correct": 0,
+        "chi2_stat": 0.0,
+        "p_value": 1.0,
+        "is_significant_at_05": false,
+        "is_significant_bonferroni_0125": false
+      },
+      "cluster_bootstrap_95_ci": {
+        "target_pr_auc_ci": [
+          0.853,
+          0.9714
+        ],
+        "target_recall_ci": [
+          0.8362,
+          0.9569
+        ],
+        "target_fpr_ci": [
+          0.0311,
+          0.118
+        ],
+        "delta_pr_auc_ci": [
+          0.0,
+          0.0
+        ],
+        "delta_recall_ci": [
+          0.0,
+          0.0
+        ],
+        "delta_fpr_ci": [
+          0.0,
+          0.0
+        ],
+        "pr_auc_strictly_positive": false
+      },
+      "acceptance_gates": {
+        "gate_1_overall_recall_ge_96": false,
+        "gate_2_hard_negative_fpr_le_05": false,
+        "gate_3_shouted_speech_fpr_le_15": true,
+        "all_gates_met": false,
+        "certification_verdict": "NOT_CERTIFIED"
+      }
+    },
+    "T1_v4": {
+      "validation_decision_threshold": 0.5299999999999999,
+      "validation_feasibility": "INFEASIBLE",
+      "test_metrics": {
+        "accuracy": 0.8958,
+        "precision": 0.8532,
+        "recall": 0.8532,
+        "specificity": 0.9192,
+        "fpr": 0.0808,
+        "f1_score": 0.8532,
+        "roc_auc": 0.9579,
+        "pr_auc": 0.8855,
+        "brier_score": 0.0751,
+        "confusion_matrix": {
+          "tn": 182,
+          "fp": 16,
+          "fn": 16,
+          "tp": 93
+        }
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 43,
+          "n_pos": 0,
+          "n_neg": 43,
+          "fp": 4,
+          "tn": 39,
+          "fpr": 0.093,
+          "type": "negative"
+        },
+        "general_environmental": {
+          "total": 32,
+          "n_pos": 0,
+          "n_neg": 32,
+          "fp": 0,
+          "tn": 32,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "infant_crying": {
+          "total": 15,
+          "n_pos": 0,
+          "n_neg": 15,
+          "fp": 3,
+          "tn": 12,
+          "fpr": 0.2,
+          "type": "negative"
+        },
+        "masked_distant_screams": {
+          "total": 43,
+          "n_pos": 43,
+          "n_neg": 0,
+          "tp": 32,
+          "fn": 11,
+          "recall": 0.7442,
+          "type": "positive"
+        },
+        "scream": {
+          "total": 66,
+          "n_pos": 66,
+          "n_neg": 0,
+          "tp": 61,
+          "fn": 5,
+          "recall": 0.9242,
+          "type": "positive"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 2,
+          "tn": 31,
+          "fpr": 0.0606,
+          "type": "negative"
+        },
+        "shouting_and_speech": {
+          "total": 42,
+          "n_pos": 0,
+          "n_neg": 42,
+          "fp": 5,
+          "tn": 37,
+          "fpr": 0.119,
+          "type": "negative"
+        },
+        "whistles_and_squeaks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 2,
+          "tn": 31,
+          "fpr": 0.0606,
+          "type": "negative"
+        }
+      },
+      "shouted_speech_fpr": 0.119,
+      "paired_mcnemar_vs_d_v4": {
+        "b_model_a_correct_b_wrong": 6,
+        "c_model_a_wrong_b_correct": 13,
+        "chi2_stat": 1.8947,
+        "p_value": 0.168669,
+        "is_significant_at_05": false,
+        "is_significant_bonferroni_0125": false
+      },
+      "cluster_bootstrap_95_ci": {
+        "target_pr_auc_ci": [
+          0.7889,
+          0.9657
+        ],
+        "target_recall_ci": [
+          0.7578,
+          0.9386
+        ],
+        "target_fpr_ci": [
+          0.0441,
+          0.1275
+        ],
+        "delta_pr_auc_ci": [
+          -0.0807,
+          0.0125
+        ],
+        "delta_recall_ci": [
+          -0.1214,
+          0.0315
+        ],
+        "delta_fpr_ci": [
+          -0.0167,
+          0.0365
+        ],
+        "pr_auc_strictly_positive": false
+      },
+      "acceptance_gates": {
+        "gate_1_overall_recall_ge_96": false,
+        "gate_2_hard_negative_fpr_le_05": false,
+        "gate_3_shouted_speech_fpr_le_15": true,
+        "all_gates_met": false,
+        "certification_verdict": "NOT_CERTIFIED"
+      }
+    },
+    "H_v4_Commercial": {
+      "validation_decision_threshold": 0.41999999999999993,
+      "validation_feasibility": "INFEASIBLE",
+      "test_metrics": {
+        "accuracy": 0.8795,
+        "precision": 0.86,
+        "recall": 0.789,
+        "specificity": 0.9293,
+        "fpr": 0.0707,
+        "f1_score": 0.823,
+        "roc_auc": 0.9316,
+        "pr_auc": 0.8949,
+        "brier_score": 0.0997,
+        "confusion_matrix": {
+          "tn": 184,
+          "fp": 14,
+          "fn": 23,
+          "tp": 86
+        }
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 43,
+          "n_pos": 0,
+          "n_neg": 43,
+          "fp": 5,
+          "tn": 38,
+          "fpr": 0.1163,
+          "type": "negative"
+        },
+        "general_environmental": {
+          "total": 32,
+          "n_pos": 0,
+          "n_neg": 32,
+          "fp": 0,
+          "tn": 32,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "infant_crying": {
+          "total": 15,
+          "n_pos": 0,
+          "n_neg": 15,
+          "fp": 1,
+          "tn": 14,
+          "fpr": 0.0667,
+          "type": "negative"
+        },
+        "masked_distant_screams": {
+          "total": 43,
+          "n_pos": 43,
+          "n_neg": 0,
+          "tp": 34,
+          "fn": 9,
+          "recall": 0.7907,
+          "type": "positive"
+        },
+        "scream": {
+          "total": 66,
+          "n_pos": 66,
+          "n_neg": 0,
+          "tp": 52,
+          "fn": 14,
+          "recall": 0.7879,
+          "type": "positive"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 3,
+          "tn": 30,
+          "fpr": 0.0909,
+          "type": "negative"
+        },
+        "shouting_and_speech": {
+          "total": 42,
+          "n_pos": 0,
+          "n_neg": 42,
+          "fp": 4,
+          "tn": 38,
+          "fpr": 0.0952,
+          "type": "negative"
+        },
+        "whistles_and_squeaks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 1,
+          "tn": 32,
+          "fpr": 0.0303,
+          "type": "negative"
+        }
+      },
+      "shouted_speech_fpr": 0.0952,
+      "paired_mcnemar_vs_d_v4": {
+        "b_model_a_correct_b_wrong": 6,
+        "c_model_a_wrong_b_correct": 18,
+        "chi2_stat": 5.0417,
+        "p_value": 0.024745,
+        "is_significant_at_05": true,
+        "is_significant_bonferroni_0125": false
+      },
+      "cluster_bootstrap_95_ci": {
+        "target_pr_auc_ci": [
+          0.7993,
+          0.9537
+        ],
+        "target_recall_ci": [
+          0.6899,
+          0.8804
+        ],
+        "target_fpr_ci": [
+          0.0343,
+          0.1131
+        ],
+        "delta_pr_auc_ci": [
+          -0.0634,
+          0.0058
+        ],
+        "delta_recall_ci": [
+          -0.19,
+          -0.0308
+        ],
+        "delta_fpr_ci": [
+          -0.0303,
+          0.0285
+        ],
+        "pr_auc_strictly_positive": false
+      },
+      "acceptance_gates": {
+        "gate_1_overall_recall_ge_96": false,
+        "gate_2_hard_negative_fpr_le_05": false,
+        "gate_3_shouted_speech_fpr_le_15": true,
+        "all_gates_met": false,
+        "certification_verdict": "NOT_CERTIFIED"
+      }
+    },
+    "H_v5_SNR": {
+      "validation_decision_threshold": 0.5099999999999999,
+      "validation_feasibility": "INFEASIBLE",
+      "test_metrics": {
+        "accuracy": 0.8893,
+        "precision": 0.8947,
+        "recall": 0.7798,
+        "specificity": 0.9495,
+        "fpr": 0.0505,
+        "f1_score": 0.8333,
+        "roc_auc": 0.957,
+        "pr_auc": 0.9273,
+        "brier_score": 0.0795,
+        "confusion_matrix": {
+          "tn": 188,
+          "fp": 10,
+          "fn": 24,
+          "tp": 85
+        }
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 43,
+          "n_pos": 0,
+          "n_neg": 43,
+          "fp": 4,
+          "tn": 39,
+          "fpr": 0.093,
+          "type": "negative"
+        },
+        "general_environmental": {
+          "total": 32,
+          "n_pos": 0,
+          "n_neg": 32,
+          "fp": 0,
+          "tn": 32,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "infant_crying": {
+          "total": 15,
+          "n_pos": 0,
+          "n_neg": 15,
+          "fp": 1,
+          "tn": 14,
+          "fpr": 0.0667,
+          "type": "negative"
+        },
+        "masked_distant_screams": {
+          "total": 43,
+          "n_pos": 43,
+          "n_neg": 0,
+          "tp": 32,
+          "fn": 11,
+          "recall": 0.7442,
+          "type": "positive"
+        },
+        "scream": {
+          "total": 66,
+          "n_pos": 66,
+          "n_neg": 0,
+          "tp": 53,
+          "fn": 13,
+          "recall": 0.803,
+          "type": "positive"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 0,
+          "tn": 33,
+          "fpr": 0.0,
+          "type": "negative"
+        },
+        "shouting_and_speech": {
+          "total": 42,
+          "n_pos": 0,
+          "n_neg": 42,
+          "fp": 4,
+          "tn": 38,
+          "fpr": 0.0952,
+          "type": "negative"
+        },
+        "whistles_and_squeaks": {
+          "total": 33,
+          "n_pos": 0,
+          "n_neg": 33,
+          "fp": 1,
+          "tn": 32,
+          "fpr": 0.0303,
+          "type": "negative"
+        }
+      },
+      "shouted_speech_fpr": 0.0952,
+      "paired_mcnemar_vs_d_v4": {
+        "b_model_a_correct_b_wrong": 5,
+        "c_model_a_wrong_b_correct": 14,
+        "chi2_stat": 3.3684,
+        "p_value": 0.066457,
+        "is_significant_at_05": false,
+        "is_significant_bonferroni_0125": false
+      },
+      "cluster_bootstrap_95_ci": {
+        "target_pr_auc_ci": [
+          0.865,
+          0.972
+        ],
+        "target_recall_ci": [
+          0.6744,
+          0.873
+        ],
+        "target_fpr_ci": [
+          0.0195,
+          0.0885
+        ],
+        "delta_pr_auc_ci": [
+          -0.0103,
+          0.0268
+        ],
+        "delta_recall_ci": [
+          -0.1978,
+          -0.0467
+        ],
+        "delta_fpr_ci": [
+          -0.0427,
+          -0.0045
+        ],
+        "pr_auc_strictly_positive": false
+      },
+      "acceptance_gates": {
+        "gate_1_overall_recall_ge_96": false,
+        "gate_2_hard_negative_fpr_le_05": false,
+        "gate_3_shouted_speech_fpr_le_15": true,
+        "all_gates_met": false,
+        "certification_verdict": "NOT_CERTIFIED"
+      }
+    }
+  },
+  "operational_prevalence_modeling": {
+    "D_v4": {
+      "Realistic Low Surveillance": {
+        "assumed_prevalence": 0.0001,
+        "real_world_precision_ppv": 0.0013,
+        "daily_raw_false_alarms_10h": 5090,
+        "hourly_raw_false_alarms": 509.0
+      },
+      "Elevated Festival Incident": {
+        "assumed_prevalence": 0.001,
+        "real_world_precision_ppv": 0.0126,
+        "daily_raw_false_alarms_10h": 5085,
+        "hourly_raw_false_alarms": 508.5
+      }
+    },
+    "T1_v4": {
+      "Realistic Low Surveillance": {
+        "assumed_prevalence": 0.0001,
+        "real_world_precision_ppv": 0.0011,
+        "daily_raw_false_alarms_10h": 5817,
+        "hourly_raw_false_alarms": 581.7
+      },
+      "Elevated Festival Incident": {
+        "assumed_prevalence": 0.001,
+        "real_world_precision_ppv": 0.0105,
+        "daily_raw_false_alarms_10h": 5812,
+        "hourly_raw_false_alarms": 581.2
+      }
+    },
+    "H_v4_Commercial": {
+      "Realistic Low Surveillance": {
+        "assumed_prevalence": 0.0001,
+        "real_world_precision_ppv": 0.0011,
+        "daily_raw_false_alarms_10h": 5090,
+        "hourly_raw_false_alarms": 509.0
+      },
+      "Elevated Festival Incident": {
+        "assumed_prevalence": 0.001,
+        "real_world_precision_ppv": 0.011,
+        "daily_raw_false_alarms_10h": 5085,
+        "hourly_raw_false_alarms": 508.5
+      }
+    },
+    "H_v5_SNR": {
+      "Realistic Low Surveillance": {
+        "assumed_prevalence": 0.0001,
+        "real_world_precision_ppv": 0.0015,
+        "daily_raw_false_alarms_10h": 3636,
+        "hourly_raw_false_alarms": 363.6
+      },
+      "Elevated Festival Incident": {
+        "assumed_prevalence": 0.001,
+        "real_world_precision_ppv": 0.0152,
+        "daily_raw_false_alarms_10h": 3632,
+        "hourly_raw_false_alarms": 363.2
+      }
+    }
+  },
+  "sample_counts": {
+    "train": 757,
+    "val": 320,
+    "test": 307,
+    "test_positive": 109,
+    "test_negative": 198
+  }
+}

@@ -1,0 +1,29 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 20 items
+
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_production_freeze_hashes PASSED [  5%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_frozen_candidate_thresholds PASSED [ 10%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_candidate_checkpoint_hashes PASSED [ 15%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_independent_cohort_size_and_balance PASSED [ 20%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_zero_source_group_leakage PASSED [ 25%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_zero_hash_collisions PASSED [ 30%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_internal_cohort_uniqueness PASSED [ 35%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_commercial_license_compliance PASSED [ 40%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_prediction_records_alignment PASSED [ 45%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_confusion_matrix_arithmetic_r5 PASSED [ 50%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_wilson_confidence_intervals PASSED [ 55%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_subtype_denominators PASSED [ 60%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_short_scream_benchmark_coverage PASSED [ 65%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_gate2_hard_negative_rejection PASSED [ 70%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_gate3_shouted_speech_rejection PASSED [ 75%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_gate1_strict_failure PASSED [ 80%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_gate5_latency PASSED [ 85%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_all_deliverables_exist PASSED [ 90%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_prior_stage_artifacts_immutability PASSED [ 95%]
+festival-scream-detector/backend/research/stage_8_9_47/tests/test_stage_8_9_47.py::test_bootstrap_report_consistency PASSED [100%]
+
+============================= 20 passed in 0.74s ==============================

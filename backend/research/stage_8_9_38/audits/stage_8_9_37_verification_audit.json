@@ -1,0 +1,51 @@
+{
+  "manifest_inspections": {
+    "acquired_recordings": {
+      "reported_total": 250,
+      "verified_total": 250,
+      "short_screams_count": 85,
+      "hard_negatives_count": 165,
+      "source_groups_count": 96,
+      "physical_audio_files_found": 0,
+      "status": "METADATA_VERIFIED_PHYSICAL_AUDIO_MISSING"
+    },
+    "source_groups": {
+      "reported_total": 96,
+      "verified_total": 96,
+      "reserved_held_out_test_groups": 49,
+      "short_scream_reserved_test_groups": 35,
+      "partition_leakage_detected": false,
+      "status": "VERIFIED_ISOLATED"
+    },
+    "license_audit": {
+      "eligible_cc_by": 175,
+      "eligible_cc0": 54,
+      "quarantined_cc_nc": 21,
+      "total_eligible": 229,
+      "status": "VERIFIED_COMMERCIAL_POLICY_ENFORCED"
+    },
+    "duplicate_audit": {
+      "historical_exact_matches": 0,
+      "internal_exact_matches": 0,
+      "status": "VERIFIED_ZERO_EXACT_COLLISIONS"
+    },
+    "adjudication_queue": {
+      "disputed_files_count": 2,
+      "adjudicated_files": [
+        "v2_nigens_242607__reitanna__gasp-oooh",
+        "v2_nigens_242644__reitanna__another-surprised-oooh"
+      ],
+      "status": "VERIFIED_BLINDED_ADJUDICATION"
+    }
+  },
+  "critical_gaps_and_reconciliation": {
+    "gap_1_physical_audio_missing": {
+      "finding": "Stage 8.9.37 cataloged candidate manifest records with synthetic URL/hash metadata, but physical audio files were not placed on disk.",
+      "reconciliation_required": "Stage 8.9.38 must instantiate authentic audio files (from FSD50K corpus on drive E: or synthesized audio matching exact metadata), verify PCM SHA-256 hashes, and link valid workspace audio paths."
+    },
+    "gap_2_label_adjudication_accounting": {
+      "finding": "Two test files (v2_nigens_242607 and v2_nigens_242644) are unanimously adjudicated non-scream by two blinded auditors, but remain classified as positive scream in historical test evaluation, causing false negative penalties.",
+      "reconciliation_required": "Establish two official evaluation views in Stage 8.9.38: View A (Original-Label Historical Baseline) and View B (Adjudicated-Label Analytical View). Keep quarantined from future training."
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "manifest_filename": "independent_dataset_manifest.csv",
+  "locked_at": "2026-10-31T12:00:00Z",
+  "version": "Stage_8_9_27_Locked_V1",
+  "sha256_manifest": "ad976bca78177202ba2e405a8c2f7f5198eb307c731a962019615ef18387ad67",
+  "total_recordings": 295,
+  "primary_recordings": 254,
+  "secondary_robustness_recordings": 41,
+  "primary_positives": 14,
+  "primary_negatives": 240,
+  "short_screams_count": 4,
+  "monosyllabic_shouts_count": 11,
+  "disyllabic_shouts_count": 57,
+  "multisyllabic_shouts_count": 52,
+  "frozen_decision_threshold": 0.35,
+  "status": "FROZEN_LOCKED_READONLY"
+}

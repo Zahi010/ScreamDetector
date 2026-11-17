@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate R1 (Ratio-100P-0A)",
+  "candidate_tag": "config_b_ratio_100p_0a",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_ratio_100p_0a.pt",
+  "selected_threshold": 0.87,
+  "val_auc": 0.9394,
+  "val_ap": 0.7866,
+  "val_f1": 0.7639,
+  "val_recall": 70.51,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 10.99,
+  "val_brier_score": 0.1145,
+  "val_ece": 0.1545,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

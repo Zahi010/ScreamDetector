@@ -1,0 +1,65 @@
+dataset_a,dataset_b,dataset_a_count,dataset_b_count,exact_pcm_overlap,source_group_overlap,pct_pcm_overlap_of_a
+N=312 Development Cohort,N=312 Development Cohort,312,312,312,258,100.0
+N=312 Development Cohort,Stage 54 Train Partition,312,1055,0,0,0.0
+N=312 Development Cohort,Stage 54 Validation Partition,312,311,0,0,0.0
+N=312 Development Cohort,Stage 54 Reserved Test,312,366,0,0,0.0
+N=312 Development Cohort,Stage 60 Sealed Cohort (N=700),312,700,0,0,0.0
+N=312 Development Cohort,Stage 64 Short Screams (N=401),312,401,133,86,42.63
+N=312 Development Cohort,Stage 66 Shouted Speech (N=529),312,529,1,1,0.32
+N=312 Development Cohort,Stage 66 Hard Negatives (N=462),312,462,116,115,37.18
+Stage 54 Train Partition,N=312 Development Cohort,1055,312,0,0,0.0
+Stage 54 Train Partition,Stage 54 Train Partition,1055,1055,1055,415,100.0
+Stage 54 Train Partition,Stage 54 Validation Partition,1055,311,0,0,0.0
+Stage 54 Train Partition,Stage 54 Reserved Test,1055,366,0,0,0.0
+Stage 54 Train Partition,Stage 60 Sealed Cohort (N=700),1055,700,0,0,0.0
+Stage 54 Train Partition,Stage 64 Short Screams (N=401),1055,401,0,0,0.0
+Stage 54 Train Partition,Stage 66 Shouted Speech (N=529),1055,529,147,63,13.93
+Stage 54 Train Partition,Stage 66 Hard Negatives (N=462),1055,462,0,0,0.0
+Stage 54 Validation Partition,N=312 Development Cohort,311,312,0,0,0.0
+Stage 54 Validation Partition,Stage 54 Train Partition,311,1055,0,0,0.0
+Stage 54 Validation Partition,Stage 54 Validation Partition,311,311,311,138,100.0
+Stage 54 Validation Partition,Stage 54 Reserved Test,311,366,0,0,0.0
+Stage 54 Validation Partition,Stage 60 Sealed Cohort (N=700),311,700,0,0,0.0
+Stage 54 Validation Partition,Stage 64 Short Screams (N=401),311,401,0,0,0.0
+Stage 54 Validation Partition,Stage 66 Shouted Speech (N=529),311,529,88,28,28.3
+Stage 54 Validation Partition,Stage 66 Hard Negatives (N=462),311,462,0,0,0.0
+Stage 54 Reserved Test,N=312 Development Cohort,366,312,0,0,0.0
+Stage 54 Reserved Test,Stage 54 Train Partition,366,1055,0,0,0.0
+Stage 54 Reserved Test,Stage 54 Validation Partition,366,311,0,0,0.0
+Stage 54 Reserved Test,Stage 54 Reserved Test,366,366,366,140,100.0
+Stage 54 Reserved Test,Stage 60 Sealed Cohort (N=700),366,700,0,0,0.0
+Stage 54 Reserved Test,Stage 64 Short Screams (N=401),366,401,0,0,0.0
+Stage 54 Reserved Test,Stage 66 Shouted Speech (N=529),366,529,111,34,30.33
+Stage 54 Reserved Test,Stage 66 Hard Negatives (N=462),366,462,0,0,0.0
+Stage 60 Sealed Cohort (N=700),N=312 Development Cohort,700,312,0,0,0.0
+Stage 60 Sealed Cohort (N=700),Stage 54 Train Partition,700,1055,0,0,0.0
+Stage 60 Sealed Cohort (N=700),Stage 54 Validation Partition,700,311,0,0,0.0
+Stage 60 Sealed Cohort (N=700),Stage 54 Reserved Test,700,366,0,0,0.0
+Stage 60 Sealed Cohort (N=700),Stage 60 Sealed Cohort (N=700),700,700,700,453,100.0
+Stage 60 Sealed Cohort (N=700),Stage 64 Short Screams (N=401),700,401,0,0,0.0
+Stage 60 Sealed Cohort (N=700),Stage 66 Shouted Speech (N=529),700,529,150,34,21.43
+Stage 60 Sealed Cohort (N=700),Stage 66 Hard Negatives (N=462),700,462,331,260,47.29
+Stage 64 Short Screams (N=401),N=312 Development Cohort,401,312,133,86,33.17
+Stage 64 Short Screams (N=401),Stage 54 Train Partition,401,1055,0,0,0.0
+Stage 64 Short Screams (N=401),Stage 54 Validation Partition,401,311,0,0,0.0
+Stage 64 Short Screams (N=401),Stage 54 Reserved Test,401,366,0,0,0.0
+Stage 64 Short Screams (N=401),Stage 60 Sealed Cohort (N=700),401,700,0,0,0.0
+Stage 64 Short Screams (N=401),Stage 64 Short Screams (N=401),401,401,401,93,100.0
+Stage 64 Short Screams (N=401),Stage 66 Shouted Speech (N=529),401,529,0,0,0.0
+Stage 64 Short Screams (N=401),Stage 66 Hard Negatives (N=462),401,462,0,0,0.0
+Stage 66 Shouted Speech (N=529),N=312 Development Cohort,529,312,1,1,0.19
+Stage 66 Shouted Speech (N=529),Stage 54 Train Partition,529,1055,147,63,27.79
+Stage 66 Shouted Speech (N=529),Stage 54 Validation Partition,529,311,88,28,16.64
+Stage 66 Shouted Speech (N=529),Stage 54 Reserved Test,529,366,111,34,20.98
+Stage 66 Shouted Speech (N=529),Stage 60 Sealed Cohort (N=700),529,700,150,34,28.36
+Stage 66 Shouted Speech (N=529),Stage 64 Short Screams (N=401),529,401,0,0,0.0
+Stage 66 Shouted Speech (N=529),Stage 66 Shouted Speech (N=529),529,529,529,160,100.0
+Stage 66 Shouted Speech (N=529),Stage 66 Hard Negatives (N=462),529,462,0,3,0.0
+Stage 66 Hard Negatives (N=462),N=312 Development Cohort,462,312,116,115,25.11
+Stage 66 Hard Negatives (N=462),Stage 54 Train Partition,462,1055,0,0,0.0
+Stage 66 Hard Negatives (N=462),Stage 54 Validation Partition,462,311,0,0,0.0
+Stage 66 Hard Negatives (N=462),Stage 54 Reserved Test,462,366,0,0,0.0
+Stage 66 Hard Negatives (N=462),Stage 60 Sealed Cohort (N=700),462,700,331,260,71.65
+Stage 66 Hard Negatives (N=462),Stage 64 Short Screams (N=401),462,401,0,0,0.0
+Stage 66 Hard Negatives (N=462),Stage 66 Shouted Speech (N=529),462,529,0,3,0.0
+Stage 66 Hard Negatives (N=462),Stage 66 Hard Negatives (N=462),462,462,462,375,100.0

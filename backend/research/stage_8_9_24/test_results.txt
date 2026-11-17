@@ -1,0 +1,23 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend
+plugins: anyio-4.15.1
+collecting ... collected 14 items
+
+research/stage_8_9_24/temporal_feature_tests.py::TestProductionImmutability::test_production_file_hash[backend/models/scream_classifier.joblib-ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f] PASSED [  7%]
+research/stage_8_9_24/temporal_feature_tests.py::TestProductionImmutability::test_production_file_hash[backend/models/model_metadata.json-30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60] PASSED [ 14%]
+research/stage_8_9_24/temporal_feature_tests.py::TestProductionImmutability::test_production_file_hash[backend/reports/test_predictions.csv-e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d] PASSED [ 21%]
+research/stage_8_9_24/temporal_feature_tests.py::TestProductionImmutability::test_production_file_hash[backend/reports/stage5_test_evaluation.md-9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2] PASSED [ 28%]
+research/stage_8_9_24/temporal_feature_tests.py::TestProductionImmutability::test_production_threshold PASSED [ 35%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_feature_names_cardinality PASSED [ 42%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_near_silence_input PASSED [ 50%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_short_vocalization PASSED [ 57%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_continuous_scream_vs_syllabic_shout_synthetic PASSED [ 64%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_window_boundary_robustness PASSED [ 71%]
+research/stage_8_9_24/temporal_feature_tests.py::TestTemporalFeatureExtraction::test_short_pathway_independence_and_no_veto PASSED [ 78%]
+research/stage_8_9_24/temporal_feature_tests.py::TestArtifactIntegrity::test_candidate_prediction_comparison_exists PASSED [ 85%]
+research/stage_8_9_24/temporal_feature_tests.py::TestArtifactIntegrity::test_model_comparison_exists PASSED [ 92%]
+research/stage_8_9_24/temporal_feature_tests.py::TestArtifactIntegrity::test_figures_exist PASSED [100%]
+
+============================= 14 passed in 1.28s ==============================

@@ -1,0 +1,31 @@
+{
+  "candidate_id": "Candidate_67_Vocal_Augmented_Dual_Resolution",
+  "display_name": "Candidate 67-D (Vocal-Augmented Dual-Resolution Fusion)",
+  "stage": "Stage 8.9.67 Champion",
+  "checkpoint_sha256": "8fc2255a337f1375870370216416b94d9c2003a2b8939dbee1301115f53a7b18",
+  "checkpoint_relative_path": "backend/research/stage_8_9_67/models/candidate_67_frozen.pt",
+  "input_features_short": 22,
+  "input_features_sust": 22,
+  "operating_threshold": 0.52,
+  "suppression_heuristics": {
+    "use_selective_veto": true,
+    "use_vocal_veto": true,
+    "narrowband_hnr_db": 12.0,
+    "narrowband_flatness": 0.001,
+    "vocal_roughness_min": 0.045,
+    "vocal_hf_ratio_min": 0.05,
+    "vocal_attenuation": 0.2
+  },
+  "validation_results_n311": {
+    "recall": 0.7374,
+    "hn_fpr": 0.0887,
+    "shout_fpr": 0.1364,
+    "short_recall": 0.9231,
+    "p95_latency_ms": 0.397,
+    "gate1_recall": "FAIL",
+    "gate2_hn_fpr": "FAIL",
+    "gate3_shout_fpr": "PASS",
+    "gate4_short_recall": "PASS",
+    "gate5_latency": "PASS"
+  }
+}

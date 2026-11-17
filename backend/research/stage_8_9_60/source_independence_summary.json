@@ -1,0 +1,20 @@
+{
+  "evaluation_cohort_recordings": 700,
+  "evaluation_cohort_unique_source_groups": 453,
+  "source_group_overlap": {
+    "train_overlap_count": 0,
+    "val_overlap_count": 0,
+    "test_overlap_count": 0
+  },
+  "file_hash_overlap": {
+    "train_overlap_count": 0,
+    "val_overlap_count": 0,
+    "test_overlap_count": 0
+  },
+  "pcm_hash_overlap": {
+    "train_overlap_count": 0,
+    "val_overlap_count": 0,
+    "test_overlap_count": 0
+  },
+  "source_independence_status": "STRICT_ZERO_OVERLAP_CONFIRMED"
+}

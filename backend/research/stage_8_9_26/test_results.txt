@@ -1,0 +1,18 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.11.17, pytest-9.1.1, pluggy-1.7.0 -- C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\.venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend
+plugins: anyio-4.15.1
+collecting ... collected 9 items
+
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_production_artifact_hashes PASSED [ 11%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_production_threshold_preserved PASSED [ 22%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_stage_deliverables_exist PASSED [ 33%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_prescreener_preservation_and_gating PASSED [ 44%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_spectral_peak_prominence_robustness PASSED [ 55%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_no_automatic_short_event_veto PASSED [ 66%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_speech_shouting_cadence_suppression PASSED [ 77%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_streaming_buffer_and_event_grouping PASSED [ 88%]
+research/stage_8_9_26/tests/test_stage_8_9_26.py::test_acceptance_gate_enforcement PASSED [100%]
+
+============================== 9 passed in 5.44s ==============================

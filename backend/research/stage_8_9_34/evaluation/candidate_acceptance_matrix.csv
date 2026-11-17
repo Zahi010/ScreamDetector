@@ -1,0 +1,6 @@
+Candidate,Recall,HN-FPR,Shout-FPR,Short Recall,P95,Final Status
+Dual-Encoder Baseline (Stage 8.9.33),84.31%,7.85%,8.33%,80.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate B (Causal GRU Temporal),79.41%,6.28%,8.33%,80.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate C (Causal TCN),78.43%,6.28%,8.33%,80.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate D (Gated Aggregator),80.39%,6.81%,8.33%,80.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Combined TSA-DualEncoder (Stage 8.9.34),80.39%,6.81%,10.42%,60.00%,20.07 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY

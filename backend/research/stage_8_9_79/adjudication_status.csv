@@ -1,0 +1,27 @@
+adjudication_id,recording_id,is_pilot,rater_a_task_id,rater_b_task_id,rater_a_binary_label,rater_b_binary_label,binary_concordance,rater_a_primary_label,rater_b_primary_label,category_concordance,adjudication_required,adjudication_status,adjudicator_id,final_adjudicated_binary,final_adjudicated_primary,final_adjudicated_subcategory,adjudication_notes
+ADJ_0001,fs_cand_166619,1,TASK_0001,TASK_0002,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0002,fs_cand_166624,0,TASK_0003,TASK_0004,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0003,fs_cand_166620,0,TASK_0005,TASK_0006,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0004,fs_cand_166622,0,TASK_0007,TASK_0008,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0005,fs_cand_428508,0,TASK_0009,TASK_0010,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0006,fs_cand_222588,0,TASK_0011,TASK_0012,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0007,fs_cand_697453,0,TASK_0013,TASK_0014,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0008,fs_cand_397686,0,TASK_0015,TASK_0016,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0009,fs_cand_421832,0,TASK_0017,TASK_0018,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0010,fs_cand_844113,1,TASK_0019,TASK_0020,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0011,fs_cand_492493,0,TASK_0021,TASK_0022,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0012,fs_cand_356313,0,TASK_0023,TASK_0024,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0013,fs_cand_336841,0,TASK_0025,TASK_0026,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0014,fs_cand_492494,0,TASK_0027,TASK_0028,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0015,fs_cand_492500,0,TASK_0029,TASK_0030,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0016,fs_cand_492495,0,TASK_0031,TASK_0032,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0017,fs_cand_789680,0,TASK_0033,TASK_0034,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0018,fs_cand_667199,1,TASK_0035,TASK_0036,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0019,fs_cand_668793,0,TASK_0037,TASK_0038,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0020,fs_cand_582341,0,TASK_0039,TASK_0040,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0021,fs_cand_536806,0,TASK_0041,TASK_0042,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0022,fs_cand_50665,0,TASK_0043,TASK_0044,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0023,fs_cand_50666,0,TASK_0045,TASK_0046,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0024,fs_cand_725043,0,TASK_0047,TASK_0048,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0025,fs_cand_686364,0,TASK_0049,TASK_0050,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.
+ADJ_0026,fs_cand_857247,0,TASK_0051,TASK_0052,,,PENDING,,,PENDING,PENDING_REVIEW_SUBMISSION,AWAITING_INITIAL_HUMAN_RATINGS,,,,,Staged for adjudication upon completion of dual human reviews.

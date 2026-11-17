@@ -1,0 +1,7 @@
+cohort_type,recording_id,duration_sec,ground_truth,stage_8_9_30_result,stage_8_9_31_candidate_c,stage_8_9_32_contrastive_score,detection_status
+FORENSIC_DIAGNOSTIC_COHORT,S8930_FS_686340,0.395,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)
+FORENSIC_DIAGNOSTIC_COHORT,S8930_FS_222582,0.719,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)
+FORENSIC_DIAGNOSTIC_COHORT,S8930_FS_382990,0.421,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)
+FORENSIC_DIAGNOSTIC_COHORT,S8930_FS_547188,0.766,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)
+FORENSIC_DIAGNOSTIC_COHORT,S8930_FS_788867,0.650,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)
+FORENSIC_DIAGNOSTIC_COHORT,S8930_NIGENS_15246,0.499,SCREAM (1),MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),0.7240 (Contrastive Consensus),DETECTED (Passed 0.3500 threshold)

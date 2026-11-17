@@ -1,0 +1,8 @@
+aggregation_strategy,overall_recall,gate1_pass,fpr_dev,gate2_pass,shouted_speech_fpr,gate3_pass,short_scream_recall,gate4_pass,ultra_short_recall,sustained_recall,f1_score,roc_auc,pr_auc,tp,fp,fn,tn
+Raw_Single_Window_Max,0.9436,False,0.1709,False,1.0,False,0.985,True,1.0,0.8548,0.9223,0.9528,0.9504,184,20,11,97
+Method_A_K2_Persistence,0.9282,False,0.1709,False,1.0,False,0.9624,True,0.9804,0.8548,0.9141,0.9485,0.9479,181,20,14,97
+Method_B_K3_Persistence,0.9282,False,0.1709,False,1.0,False,0.9624,True,1.0,0.8548,0.9141,0.943,0.9445,181,20,14,97
+Method_C_Asymmetric_Hysteresis,0.8974,False,0.1026,False,0.6,False,0.9549,True,0.9804,0.7742,0.9162,0.9528,0.9504,175,12,20,105
+Method_D_Rolling_EMA,0.9385,False,0.188,False,1.0,False,0.9774,True,1.0,0.8548,0.915,0.9559,0.9632,183,22,12,95
+Method_E_Event_Merging_Holdoff,0.9333,False,0.1795,False,1.0,False,0.9699,True,1.0,0.8548,0.9146,0.9528,0.9504,182,21,13,96
+Method_F_Full_Stack_Temporal,0.9282,False,0.1709,False,1.0,False,0.9624,True,0.9804,0.8548,0.9141,0.9525,0.9503,181,20,14,97

@@ -1,0 +1,4 @@
+method,brier_score,roc_auc,pr_auc
+Uncalibrated_65F,0.06329,0.9627,0.9789
+Platt_Scaling_Logistic,0.05794,0.9627,0.9789
+Isotonic_Regression,0.04762,0.9725,0.9782

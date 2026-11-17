@@ -1,0 +1,7 @@
+candidate,evaluation_scope,iterations,p50_ms,p90_ms,p95_ms,p99_ms,max_ms,gate5_target_ms,gate5_compliance
+Candidate E1,Model-Only Forward Pass,300,0.3264,0.4956,0.7067,1.1317,11.6431,25.0,PASS
+Candidate E1,Complete Pipeline (DSP + Model),300,38.8552,43.7269,46.0659,50.0051,87.8,25.0,FAIL
+Candidate B,Model-Only Forward Pass,300,0.6133,0.8334,0.9564,1.1557,1.237,25.0,PASS
+Candidate B,Complete Pipeline (Phonation + Model),300,5.387,7.0848,7.5358,9.2094,9.4522,25.0,PASS
+Candidate B + Intervention D,Model-Only Forward Pass,300,0.6133,0.8334,0.9564,1.1557,1.237,25.0,PASS
+Candidate B + Intervention D,Complete Pipeline (Phonation + Model + Interv. D),300,8.0641,10.1684,10.8812,14.3868,20.5699,25.0,PASS

@@ -1,0 +1,7 @@
+recording_id,duration_sec,micro_windows_extracted,macro_windows_extracted,micro_cand_g_score,macro_model_c_score,macro_cand_g_score,cand_a_baseline_fusion,cand_c_duration_aware_fusion,cand_e_padding_aware_fusion,baseline_detected (>=0.35),duration_aware_detected (>=0.35),padding_aware_detected (>=0.35)
+S8930_FS_686340,0.3947,2,1,0.5702,0.0258,0.2775,0.2882,0.3988,0.5131,False,True,True
+S8930_FS_222582,0.7185,5,1,0.5222,0.0001,0.5008,0.2809,0.3286,0.2808,False,False,False
+S8930_FS_382990,0.4210,2,1,0.4614,0.0045,0.3691,0.2594,0.2944,0.3954,False,False,True
+S8930_FS_547188,0.7659,5,1,0.5785,0.0599,0.4009,0.3381,0.3991,0.3343,False,True,False
+S8930_FS_788867,0.6502,4,1,0.7028,0.9563,0.3725,0.7578,0.5359,0.6463,True,True,True
+S8930_NIGENS_HUMAN-SCREAM_GEN-HDF-15246,0.4993,3,1,0.6025,0.0476,0.3725,0.2808,0.5127,0.5422,False,True,True

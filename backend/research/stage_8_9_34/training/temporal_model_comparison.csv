@@ -1,0 +1,4 @@
+candidate,val_recall,val_fpr,val_f1,test_recall,test_fpr,test_infant_cry_fpr,test_f1
+Candidate_B_CausalGRU,69.62%,7.48%,0.7333,79.41%,6.28%,6.67%,0.8308
+Candidate_C_CausalTCN,70.89%,7.48%,0.7417,78.43%,6.28%,6.67%,0.8247
+Candidate_D_GatedAggregator,72.15%,8.41%,0.7403,80.39%,6.81%,6.67%,0.8325

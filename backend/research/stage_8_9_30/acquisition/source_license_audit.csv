@@ -1,0 +1,21 @@
+candidate_id,source_provider,source_sound_id,name,username,raw_license_url,canonical_license,license_status,commercial_eligible,quarantine_reason,audit_timestamp
+FS_338936,freesound,338936,human male scream agony.wav,natemarler,https://creativecommons.org/licenses/by-nc/4.0/,CC-BY-NC,NONCOMMERCIAL_ONLY,False,Incompatible or non-commercial license: CC-BY-NC (NONCOMMERCIAL_ONLY),2026-11-02T10:12:33.210215+00:00
+FS_338935,freesound,338935,human male scream scared pain.wav,natemarler,https://creativecommons.org/licenses/by-nc/4.0/,CC-BY-NC,NONCOMMERCIAL_ONLY,False,Incompatible or non-commercial license: CC-BY-NC (NONCOMMERCIAL_ONLY),2026-11-02T10:12:33.210254+00:00
+FS_338934,freesound,338934,human male scream scared.wav,natemarler,https://creativecommons.org/licenses/by-nc/4.0/,CC-BY-NC,NONCOMMERCIAL_ONLY,False,Incompatible or non-commercial license: CC-BY-NC (NONCOMMERCIAL_ONLY),2026-11-02T10:12:33.210267+00:00
+FS_243381,freesound,243381,human male scream 3,JohnsonBrandEditing,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:33.210275+00:00
+FS_243376,freesound,243376,human male scream 2,JohnsonBrandEditing,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:33.210282+00:00
+FS_243377,freesound,243377,human male scream 1,JohnsonBrandEditing,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:33.210288+00:00
+FS_243380,freesound,243380,human male scream 4,JohnsonBrandEditing,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:33.210298+00:00
+FS_338939,freesound,338939,human male scream terrified.wav,natemarler,https://creativecommons.org/licenses/by-nc/4.0/,CC-BY-NC,NONCOMMERCIAL_ONLY,False,Incompatible or non-commercial license: CC-BY-NC (NONCOMMERCIAL_ONLY),2026-11-02T10:12:33.210311+00:00
+FS_467293,freesound,467293,Female Scream 2.wav,XfiXy8,https://creativecommons.org/licenses/by/4.0/,CC-BY,CC_BY_VERIFIED,True,,2026-11-02T10:12:35.196772+00:00
+FS_844112,freesound,844112,scream_female_dry,perspektywa_tn,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:35.196802+00:00
+FS_219646,freesound,219646,Female Scared Scream,AlbertTrepat,http://creativecommons.org/licenses/by/3.0/,CC-BY,CC_BY_VERIFIED,True,,2026-11-02T10:12:35.196816+00:00
+FS_844113,freesound,844113,scream_female_muffled,perspektywa_tn,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:35.196825+00:00
+FS_467126,freesound,467126,Female Scream.wav,CalGre,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:35.196834+00:00
+FS_222531,freesound,222531,Female Scared Scream,AlbertTrepat,http://creativecommons.org/licenses/by/3.0/,CC-BY,CC_BY_VERIFIED,True,,2026-11-02T10:12:35.196843+00:00
+FS_653966,freesound,653966,Female Scream OWI.wav,221296,https://creativecommons.org/licenses/by-nc/4.0/,CC-BY-NC,NONCOMMERCIAL_ONLY,False,Incompatible or non-commercial license: CC-BY-NC (NONCOMMERCIAL_ONLY),2026-11-02T10:12:35.196852+00:00
+FS_208893,freesound,208893,"Scream, female x2",peridactyloptrix,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:35.196862+00:00
+FS_547188,freesound,547188,Voice_AdultMale_DeathScream_05.wav,MrFossy,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:37.088801+00:00
+FS_547185,freesound,547185,Voice_AdultMale_DeathScream_08.wav,MrFossy,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:37.088910+00:00
+FS_547189,freesound,547189,Voice_AdultMale_DeathScream_10.wav,MrFossy,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:37.088933+00:00
+FS_547186,freesound,547186,Voice_AdultMale_DeathScream_07.wav,MrFossy,http://creativecommons.org/publicdomain/zero/1.0/,CC0-1.0,CC0_VERIFIED,True,,2026-11-02T10:12:37.088948+00:00

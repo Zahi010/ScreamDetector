@@ -1,0 +1,8 @@
+scenario_name,description,max_subband_diff,max_phonation_diff,original_probability,c5_probability,probability_diff,original_prediction,c5_prediction,prediction_match,status
+Abrupt recording start,Zero onset followed by immediate step transition,5.960464477539063e-08,0.0,0.6229642033576965,0.6229642629623413,5.960464477539063e-08,0,0,True,PASS
+Abrupt recording end,Full amplitude audio truncated sharply 600 samples before window end,5.960464477539063e-08,0.0,0.6383835077285767,0.6383835077285767,0.0,0,0,True,PASS
+Partial final window (Zero-padded),4000 samples audio + 11600 samples zero padding,2.384185791015625e-07,0.0,0.39463895559310913,0.39463895559310913,0.0,0,0,True,PASS
+Partial window (Reflection padded),4000 samples audio with reflection boundary extension,2.384185791015625e-07,0.0,0.4806792140007019,0.4806792140007019,0.0,0,0,True,PASS
+Near-zero noise floor,Gaussian white noise floor at -120 dBFS,2.9802322387695312e-08,0.0,0.5220971703529358,0.5220971703529358,0.0,0,0,True,PASS
+Mid-window impulse spike,Single-sample Dirac impulse on background noise,2.086162567138672e-07,0.0,0.5339951515197754,0.5339951515197754,0.0,0,0,True,PASS
+Ultra-short low-intensity scream,Authentic clip exp_acq_short_scream_0001 (duration < 0.5s),2.9802322387695312e-08,0.0,0.5649910569190979,0.5649910569190979,0.0,0,0,True,PASS

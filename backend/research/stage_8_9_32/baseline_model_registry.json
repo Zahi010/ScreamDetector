@@ -1,0 +1,54 @@
+{
+  "stage": "8.9.32",
+  "status": "FROZEN_REFERENCE",
+  "baseline_models": {
+    "production_frozen": {
+      "artifact_path": "backend/models/scream_classifier.joblib",
+      "metadata_path": "backend/models/model_metadata.json",
+      "sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "type": "LogisticRegression",
+      "input": "1024-dim YAMNet embeddings (mean pooled across 975ms)",
+      "threshold": 0.35,
+      "status": "STRICTLY_FROZEN"
+    },
+    "model_c": {
+      "artifact_path": "backend/research/stage_8_9_28/model_c_cnn.h5",
+      "type": "TensorFlow 1D-CNN",
+      "input": "70 frames x 16-dim temporal phonation features",
+      "nominal_window": 0.975,
+      "role": "Temporal phonetic context classifier"
+    },
+    "candidate_g": {
+      "type": "Temporal Modulation & Spectral Prominence Logistic Regression",
+      "features": [
+        "horn_prom_db",
+        "horn_ratio",
+        "temporal_entropy",
+        "crest_factor"
+      ],
+      "nominal_window": 0.375,
+      "role": "Micro-resolution short-burst detector"
+    },
+    "model_e": {
+      "artifact_path": "backend/research/stage_8_9_28/model_e_classifier.joblib",
+      "type": "Multimodal Combined Classifier",
+      "features": "1058-dim (1024 YAMNet + 34 acoustic features)",
+      "nominal_window": 0.975,
+      "role": "Multimodal context classifier"
+    }
+  },
+  "stage_8_9_31_fusion_candidates": {
+    "Candidate_A": "Macro-only baseline (Fusion E on 975ms window)",
+    "Candidate_B": "Candidate G dominant (Micro Candidate G takes precedence if > 0.35)",
+    "Candidate_C": "Duration-aware asymmetric fusion (dynamic weighting by valid audio duration)",
+    "Candidate_D": "Dual-resolution maximum confidence (max of micro and macro branches)",
+    "Candidate_E": "Padding-aware fusion (downweights Model C linearly with padding percentage)",
+    "Candidate_F": "Conservative branch agreement (requires micro and macro consensus)"
+  },
+  "reference_dataset_cohort": {
+    "total_recordings": 204,
+    "genuine_screams": 106,
+    "hard_negatives": 98,
+    "source_groups": 69
+  }
+}

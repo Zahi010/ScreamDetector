@@ -1,0 +1,5 @@
+concurrent_streams,total_audio_duration_sec,wall_clock_sec,throughput_audio_sec_per_sec,total_windows_expected,total_windows_processed,dropped_windows,compute_p50_ms,compute_p95_ms,compute_p99_ms,compute_mean_ms,compute_max_ms,queue_p95_ms,total_p95_ms,deadline_misses,deadline_miss_rate_pct,rtf_p95,cpu_util_pct,memory_mb,gate_25ms_passed
+1,26.0,1.51,17.21,100,101,0,13.298,15.446,16.282,14.904,149.576,0.0,15.446,1,0.99,0.154,15.6,400.91,True
+2,52.0,2.88,18.07,200,202,0,27.941,31.731,33.665,28.192,35.406,0.0,31.731,198,98.02,0.317,17.1,405.76,False
+4,104.0,6.38,16.29,400,404,0,62.97,70.309,73.984,62.865,76.109,0.0,70.309,403,99.75,0.703,19.8,410.1,False
+8,208.0,13.15,15.81,800,808,0,128.237,149.368,161.615,129.098,176.669,0.0,149.368,808,100.0,1.494,19.3,417.98,False

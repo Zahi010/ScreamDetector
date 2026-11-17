@@ -1,0 +1,41 @@
+{
+  "stage": "8.9.24",
+  "title": "Temporal Modulation & Syllabic Cadence Verification",
+  "timestamp": "2026-10-31T15:00:00+05:30",
+  "environment": {
+    "os": "Windows-10-10.0.26100-SP0",
+    "python_version": "3.11.17 (main, Oct 21 2026, 17:46:24) [MSC v.1944 64 bit (AMD64)]",
+    "machine": "AMD64",
+    "processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD"
+  },
+  "production_hashes_frozen": {
+    "backend/models/scream_classifier.joblib": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "backend/models/model_metadata.json": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "backend/reports/test_predictions.csv": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+    "backend/reports/stage5_test_evaluation.md": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "production_threshold": 0.35,
+  "dataset_hashes": {
+    "features_stage8_9_18_temporal.npz": "6b97197a6c5bfd0df87ddf5f6851ec210eb39464c2f51ac935abfd93f6852ae5",
+    "source_group_splits.csv": "ce54a15f368495b2f1ad0dd2ca7391c229f25a6f1bb7f7ba5cda483da1e35d26"
+  },
+  "execution_parameters": {
+    "random_seed": 42,
+    "test_suite_command": ".\\.venv\\Scripts\\pytest.exe research\\stage_8_9_24\\temporal_feature_tests.py -v",
+    "sample_rate": 16000,
+    "frame_ms": 25.0,
+    "hop_ms": 12.5
+  },
+  "audited_metrics_summary": {
+    "candidate_a_recall_pct": 78.21,
+    "candidate_a_shouting_fpr_pct": 20.24,
+    "candidate_a_hard_neg_fpr_pct": 7.03,
+    "candidate_a_short_scream_recall_pct": 86.36,
+    "candidate_g_recall_pct": 80.77,
+    "candidate_g_shouting_fpr_pct": 15.48,
+    "candidate_g_hard_neg_fpr_pct": 5.99,
+    "candidate_g_short_scream_recall_pct": 86.36,
+    "computational_latency_p95_ms": 2.42,
+    "gate_status": "REJECTED (Research Only)"
+  }
+}

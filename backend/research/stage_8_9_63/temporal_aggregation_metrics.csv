@@ -1,0 +1,7 @@
+method_id,description,overall_recall,sustained_recall,short_scream_recall,hard_negative_fpr,shouted_speech_fpr,precision,f1,mean_detection_delay_ms,raw_triggers,post_aggregation_triggers,suppressed_triggers
+Method_Baseline_Any_Window,Baseline (Any Window >= 0.50),0.8857,0.9839,0.125,0.6496,1.0,0.4493,0.5962,137.3,735,735,0
+Method_A_Consecutive_Evidence_K2,"Method A: Consecutive Evidence (K=2, 100 ms sustained)",0.7857,0.8871,0.0,0.3419,1.0,0.5789,0.6667,187.4,735,490,245
+Method_B_Bounded_EMA_0.30,"Method B: Bounded EMA (alpha=0.30, thresh=0.45)",0.6714,0.7581,0.0,0.2906,1.0,0.5802,0.6225,228.4,735,592,143
+Method_C_Peak_With_Corroboration,Method C: Peak with Corroboration (Peak >= 0.70),0.8571,0.9677,0.0,0.547,1.0,0.4839,0.6186,129.4,735,701,34
+Method_D_Event_Merging,Method D: Event-Level Merging (<200ms gap),0.8857,0.9839,0.125,0.6496,1.0,0.4493,0.5962,137.3,735,245,490
+Method_E_Refractory_Holdoff_500ms,Method E: Refractory Holdoff (500 ms lockout),0.8857,0.9839,0.125,0.6496,1.0,0.4493,0.5962,137.3,735,189,546

@@ -1,0 +1,198 @@
+{
+  "stage": "8.9.28",
+  "title": "Latency Breakdown by Pipeline Component",
+  "sample_rate_hz": 16000,
+  "window_duration_sec": 0.975,
+  "hop_duration_sec": 0.25,
+  "computational_p95_gate_ms": 25.0,
+  "gate_passed": true,
+  "breakdown": {
+    "audio_decoding": {
+      "component": "audio_decoding",
+      "p50_ms": 0.376,
+      "p95_ms": 0.564,
+      "p99_ms": 0.666,
+      "mean_ms": 0.409,
+      "min_ms": 0.315,
+      "max_ms": 0.906,
+      "std_ms": 0.078,
+      "iterations": 500
+    },
+    "resampling": {
+      "component": "resampling",
+      "p50_ms": 0.175,
+      "p95_ms": 0.241,
+      "p99_ms": 0.287,
+      "mean_ms": 0.19,
+      "min_ms": 0.171,
+      "max_ms": 0.544,
+      "std_ms": 0.03,
+      "iterations": 500
+    },
+    "window_extraction": {
+      "component": "window_extraction",
+      "p50_ms": 0.015,
+      "p95_ms": 0.022,
+      "p99_ms": 0.031,
+      "mean_ms": 0.016,
+      "min_ms": 0.006,
+      "max_ms": 0.071,
+      "std_ms": 0.004,
+      "iterations": 500
+    },
+    "pre_screening": {
+      "component": "pre_screening",
+      "p50_ms": 0.806,
+      "p95_ms": 1.299,
+      "p99_ms": 1.47,
+      "mean_ms": 0.905,
+      "min_ms": 0.756,
+      "max_ms": 1.798,
+      "std_ms": 0.188,
+      "iterations": 500
+    },
+    "feature_extraction_model_c": {
+      "component": "feature_extraction_model_c",
+      "p50_ms": 1.394,
+      "p95_ms": 2.285,
+      "p99_ms": 2.483,
+      "mean_ms": 1.566,
+      "min_ms": 1.319,
+      "max_ms": 2.552,
+      "std_ms": 0.332,
+      "iterations": 500
+    },
+    "model_c_uncompiled_predict": {
+      "component": "model_c_uncompiled_predict",
+      "p50_ms": 56.886,
+      "p95_ms": 81.222,
+      "p99_ms": 119.794,
+      "mean_ms": 63.276,
+      "min_ms": 54.58,
+      "max_ms": 152.807,
+      "std_ms": 15.191,
+      "iterations": 50
+    },
+    "model_c_direct_call": {
+      "component": "model_c_direct_call",
+      "p50_ms": 11.785,
+      "p95_ms": 16.913,
+      "p99_ms": 18.373,
+      "mean_ms": 12.669,
+      "min_ms": 10.598,
+      "max_ms": 41.233,
+      "std_ms": 2.254,
+      "iterations": 500
+    },
+    "model_c_compiled_inference": {
+      "component": "model_c_compiled_inference",
+      "p50_ms": 1.22,
+      "p95_ms": 1.716,
+      "p99_ms": 2.091,
+      "mean_ms": 1.318,
+      "min_ms": 1.076,
+      "max_ms": 4.023,
+      "std_ms": 0.253,
+      "iterations": 500
+    },
+    "candidate_g_feature_extraction": {
+      "component": "candidate_g_feature_extraction",
+      "p50_ms": 3.508,
+      "p95_ms": 5.198,
+      "p99_ms": 5.753,
+      "mean_ms": 3.83,
+      "min_ms": 3.171,
+      "max_ms": 6.493,
+      "std_ms": 0.686,
+      "iterations": 500
+    },
+    "candidate_g_inference": {
+      "component": "candidate_g_inference",
+      "p50_ms": 0.978,
+      "p95_ms": 1.552,
+      "p99_ms": 1.653,
+      "mean_ms": 1.085,
+      "min_ms": 0.882,
+      "max_ms": 2.048,
+      "std_ms": 0.215,
+      "iterations": 500
+    },
+    "model_e_feature_extraction": {
+      "component": "model_e_feature_extraction",
+      "p50_ms": 2.047,
+      "p95_ms": 3.334,
+      "p99_ms": 3.603,
+      "mean_ms": 2.303,
+      "min_ms": 1.92,
+      "max_ms": 4.205,
+      "std_ms": 0.479,
+      "iterations": 500
+    },
+    "model_e_inference": {
+      "component": "model_e_inference",
+      "p50_ms": 0.159,
+      "p95_ms": 0.253,
+      "p99_ms": 0.329,
+      "mean_ms": 0.179,
+      "min_ms": 0.147,
+      "max_ms": 0.645,
+      "std_ms": 0.044,
+      "iterations": 500
+    },
+    "spectral_analysis_resonance": {
+      "component": "spectral_analysis_resonance",
+      "p50_ms": 4.561,
+      "p95_ms": 7.245,
+      "p99_ms": 8.529,
+      "mean_ms": 5.097,
+      "min_ms": 4.212,
+      "max_ms": 21.585,
+      "std_ms": 1.296,
+      "iterations": 500
+    },
+    "fusion_e_logic": {
+      "component": "fusion_e_logic",
+      "p50_ms": 0.003,
+      "p95_ms": 0.005,
+      "p99_ms": 0.006,
+      "mean_ms": 0.003,
+      "min_ms": 0.002,
+      "max_ms": 0.006,
+      "std_ms": 0.001,
+      "iterations": 500
+    },
+    "event_state_management": {
+      "component": "event_state_management",
+      "p50_ms": 0.005,
+      "p95_ms": 0.007,
+      "p99_ms": 0.009,
+      "mean_ms": 0.005,
+      "min_ms": 0.003,
+      "max_ms": 0.124,
+      "std_ms": 0.005,
+      "iterations": 500
+    },
+    "full_window_unoptimized": {
+      "component": "full_window_unoptimized",
+      "p50_ms": 70.056,
+      "p95_ms": 92.263,
+      "p99_ms": 102.733,
+      "mean_ms": 75.716,
+      "min_ms": 67.4,
+      "max_ms": 107.98,
+      "std_ms": 9.66,
+      "iterations": 50
+    },
+    "complete_processing_window_optimized": {
+      "component": "complete_processing_window_optimized",
+      "p50_ms": 14.177,
+      "p95_ms": 21.441,
+      "p99_ms": 22.907,
+      "mean_ms": 15.585,
+      "min_ms": 13.234,
+      "max_ms": 32.172,
+      "std_ms": 2.752,
+      "iterations": 500
+    }
+  }
+}

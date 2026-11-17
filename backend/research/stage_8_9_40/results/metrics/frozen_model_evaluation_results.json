@@ -1,0 +1,972 @@
+{
+  "candidate_b": {
+    "name": "Configuration B (DualEncoderAcousticModel)",
+    "frozen_threshold": 0.24,
+    "new_independent_cohort_n145": {
+      "tp": 0,
+      "fp": 1,
+      "tn": 144,
+      "fn": 0,
+      "total_samples": 145,
+      "scream_recall": {
+        "value": null,
+        "fraction": "0/0",
+        "ci95": null
+      },
+      "hard_negative_fpr": {
+        "value": 0.0069,
+        "fraction": "1/145",
+        "ci95": [
+          0.0012,
+          0.038
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.0127,
+        "fraction": "1/79",
+        "ci95": [
+          0.0022,
+          0.0683
+        ]
+      },
+      "short_scream_recall": {
+        "total": 0,
+        "tp": 0,
+        "recall": null,
+        "ci95": null,
+        "fraction": "0/0"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 30,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1135
+          ],
+          "fraction": "0/30"
+        },
+        "general_environmental": {
+          "total": 10,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.2775
+          ],
+          "fraction": "0/10"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 1,
+          "fpr": 0.0667,
+          "ci95": [
+            0.0119,
+            0.2982
+          ],
+          "fraction": "1/15"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 15,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.2039
+          ],
+          "fraction": "0/15"
+        },
+        "shouting_and_speech": {
+          "total": 54,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.0664
+          ],
+          "fraction": "0/54"
+        },
+        "whistles_and_squeaks": {
+          "total": 21,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1546
+          ],
+          "fraction": "0/21"
+        }
+      },
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": null,
+      "pr_auc": null,
+      "brier_score": 0.0105
+    },
+    "frozen_expansion_cohort_n102": {
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "total_samples": 102,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.0,
+        "fraction": "0/14",
+        "ci95": [
+          0.0,
+          0.2153
+        ]
+      },
+      "short_scream_recall": {
+        "total": 65,
+        "tp": 65,
+        "recall": 1.0,
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "fraction": "65/65"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 14,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.2153
+          ],
+          "fraction": "0/14"
+        },
+        "general_environmental": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "infant_crying": {
+          "total": 3,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.5615
+          ],
+          "fraction": "0/3"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "shouting_and_speech": {
+          "total": 16,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1936
+          ],
+          "fraction": "0/16"
+        }
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "brier_score": 0.0653
+    },
+    "historical_cohort_n293_view_a": {
+      "tp": 89,
+      "fp": 23,
+      "tn": 168,
+      "fn": 13,
+      "total_samples": 293,
+      "scream_recall": {
+        "value": 0.8725,
+        "fraction": "89/102",
+        "ci95": [
+          0.7941,
+          0.924
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.1204,
+        "fraction": "23/191",
+        "ci95": [
+          0.0816,
+          0.1742
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.2125,
+        "fraction": "17/80",
+        "ci95": [
+          0.1371,
+          0.3142
+        ]
+      },
+      "short_scream_recall": {
+        "total": 5,
+        "tp": 4,
+        "recall": 0.8,
+        "ci95": [
+          0.3755,
+          0.9638
+        ],
+        "fraction": "4/5"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 42,
+          "fp": 7,
+          "fpr": 0.1667,
+          "ci95": [
+            0.0832,
+            0.306
+          ],
+          "fraction": "7/42"
+        },
+        "general_environmental": {
+          "total": 26,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ],
+          "fraction": "0/26"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 2,
+          "fpr": 0.1333,
+          "ci95": [
+            0.0374,
+            0.3788
+          ],
+          "fraction": "2/15"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "fp": 2,
+          "fpr": 0.0714,
+          "ci95": [
+            0.0198,
+            0.2265
+          ],
+          "fraction": "2/28"
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "fp": 8,
+          "fpr": 0.1667,
+          "ci95": [
+            0.087,
+            0.2958
+          ],
+          "fraction": "8/48"
+        },
+        "whistles_and_squeaks": {
+          "total": 32,
+          "fp": 4,
+          "fpr": 0.125,
+          "ci95": [
+            0.0497,
+            0.2807
+          ],
+          "fraction": "4/32"
+        }
+      },
+      "precision": 0.7946,
+      "f1_score": 0.8318,
+      "roc_auc": 0.9331,
+      "pr_auc": 0.8708,
+      "brier_score": 0.1067
+    },
+    "historical_cohort_n293_view_b": {
+      "tp": 89,
+      "fp": 23,
+      "tn": 170,
+      "fn": 11,
+      "total_samples": 293,
+      "scream_recall": {
+        "value": 0.89,
+        "fraction": "89/100",
+        "ci95": [
+          0.8137,
+          0.9375
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.1192,
+        "fraction": "23/193",
+        "ci95": [
+          0.0807,
+          0.1725
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.2099,
+        "fraction": "17/81",
+        "ci95": [
+          0.1354,
+          0.3107
+        ]
+      },
+      "short_scream_recall": {
+        "total": 5,
+        "tp": 4,
+        "recall": 0.8,
+        "ci95": [
+          0.3755,
+          0.9638
+        ],
+        "fraction": "4/5"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 42,
+          "fp": 7,
+          "fpr": 0.1667,
+          "ci95": [
+            0.0832,
+            0.306
+          ],
+          "fraction": "7/42"
+        },
+        "general_environmental": {
+          "total": 26,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ],
+          "fraction": "0/26"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 2,
+          "fpr": 0.1333,
+          "ci95": [
+            0.0374,
+            0.3788
+          ],
+          "fraction": "2/15"
+        },
+        "scream": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "fp": 2,
+          "fpr": 0.0714,
+          "ci95": [
+            0.0198,
+            0.2265
+          ],
+          "fraction": "2/28"
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "fp": 8,
+          "fpr": 0.1667,
+          "ci95": [
+            0.087,
+            0.2958
+          ],
+          "fraction": "8/48"
+        },
+        "whistles_and_squeaks": {
+          "total": 32,
+          "fp": 4,
+          "fpr": 0.125,
+          "ci95": [
+            0.0497,
+            0.2807
+          ],
+          "fraction": "4/32"
+        }
+      },
+      "precision": 0.7946,
+      "f1_score": 0.8396,
+      "roc_auc": 0.9417,
+      "pr_auc": 0.8775,
+      "brier_score": 0.1008
+    },
+    "research_acceptance_gates": {
+      "gate_1_overall_recall": {
+        "target": ">= 0.96",
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "point_pass": true,
+        "statistically_established": false,
+        "status": "POINT PASS \u2014 INSUFFICIENT STATISTICAL EVIDENCE"
+      },
+      "gate_2_hard_negative_fpr": {
+        "target": "<= 0.05",
+        "value": 0.0069,
+        "fraction": "1/145",
+        "ci95": [
+          0.0012,
+          0.038
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_3_shouted_speech_fpr": {
+        "target": "<= 0.15",
+        "value": 0.0,
+        "fraction": "0/54",
+        "ci95": [
+          0.0,
+          0.0664
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_4_short_scream_recall": {
+        "target": ">= 0.90",
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_5_p95_latency": {
+        "target": "<= 25.0 ms",
+        "value_ms": 0.516,
+        "status": "PASS"
+      }
+    }
+  },
+  "candidate_d": {
+    "name": "Configuration D (MultiPathwayFusionModel)",
+    "frozen_threshold": 0.34,
+    "new_independent_cohort_n145": {
+      "tp": 0,
+      "fp": 2,
+      "tn": 143,
+      "fn": 0,
+      "total_samples": 145,
+      "scream_recall": {
+        "value": null,
+        "fraction": "0/0",
+        "ci95": null
+      },
+      "hard_negative_fpr": {
+        "value": 0.0138,
+        "fraction": "2/145",
+        "ci95": [
+          0.0038,
+          0.0489
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.0253,
+        "fraction": "2/79",
+        "ci95": [
+          0.007,
+          0.0877
+        ]
+      },
+      "short_scream_recall": {
+        "total": 0,
+        "tp": 0,
+        "recall": null,
+        "ci95": null,
+        "fraction": "0/0"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 30,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1135
+          ],
+          "fraction": "0/30"
+        },
+        "general_environmental": {
+          "total": 10,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.2775
+          ],
+          "fraction": "0/10"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 1,
+          "fpr": 0.0667,
+          "ci95": [
+            0.0119,
+            0.2982
+          ],
+          "fraction": "1/15"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 15,
+          "fp": 1,
+          "fpr": 0.0667,
+          "ci95": [
+            0.0119,
+            0.2982
+          ],
+          "fraction": "1/15"
+        },
+        "shouting_and_speech": {
+          "total": 54,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.0664
+          ],
+          "fraction": "0/54"
+        },
+        "whistles_and_squeaks": {
+          "total": 21,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1546
+          ],
+          "fraction": "0/21"
+        }
+      },
+      "precision": 0.0,
+      "f1_score": 0.0,
+      "roc_auc": null,
+      "pr_auc": null,
+      "brier_score": 0.0406
+    },
+    "frozen_expansion_cohort_n102": {
+      "tp": 65,
+      "fp": 0,
+      "tn": 37,
+      "fn": 0,
+      "total_samples": 102,
+      "scream_recall": {
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.0,
+        "fraction": "0/37",
+        "ci95": [
+          0.0,
+          0.0941
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.0,
+        "fraction": "0/14",
+        "ci95": [
+          0.0,
+          0.2153
+        ]
+      },
+      "short_scream_recall": {
+        "total": 65,
+        "tp": 65,
+        "recall": 1.0,
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "fraction": "65/65"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 14,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.2153
+          ],
+          "fraction": "0/14"
+        },
+        "general_environmental": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "infant_crying": {
+          "total": 3,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.5615
+          ],
+          "fraction": "0/3"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "shouting_and_speech": {
+          "total": 16,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1936
+          ],
+          "fraction": "0/16"
+        }
+      },
+      "precision": 1.0,
+      "f1_score": 1.0,
+      "roc_auc": 1.0,
+      "pr_auc": 1.0,
+      "brier_score": 0.1098
+    },
+    "historical_cohort_n293_view_a": {
+      "tp": 85,
+      "fp": 25,
+      "tn": 166,
+      "fn": 17,
+      "total_samples": 293,
+      "scream_recall": {
+        "value": 0.8333,
+        "fraction": "85/102",
+        "ci95": [
+          0.7492,
+          0.8933
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.1309,
+        "fraction": "25/191",
+        "ci95": [
+          0.0903,
+          0.1861
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.225,
+        "fraction": "18/80",
+        "ci95": [
+          0.1473,
+          0.3279
+        ]
+      },
+      "short_scream_recall": {
+        "total": 5,
+        "tp": 4,
+        "recall": 0.8,
+        "ci95": [
+          0.3755,
+          0.9638
+        ],
+        "fraction": "4/5"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 42,
+          "fp": 7,
+          "fpr": 0.1667,
+          "ci95": [
+            0.0832,
+            0.306
+          ],
+          "fraction": "7/42"
+        },
+        "general_environmental": {
+          "total": 26,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ],
+          "fraction": "0/26"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 2,
+          "fpr": 0.1333,
+          "ci95": [
+            0.0374,
+            0.3788
+          ],
+          "fraction": "2/15"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "fp": 3,
+          "fpr": 0.1071,
+          "ci95": [
+            0.0371,
+            0.272
+          ],
+          "fraction": "3/28"
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "fp": 8,
+          "fpr": 0.1667,
+          "ci95": [
+            0.087,
+            0.2958
+          ],
+          "fraction": "8/48"
+        },
+        "whistles_and_squeaks": {
+          "total": 32,
+          "fp": 5,
+          "fpr": 0.1562,
+          "ci95": [
+            0.0686,
+            0.3175
+          ],
+          "fraction": "5/32"
+        }
+      },
+      "precision": 0.7727,
+      "f1_score": 0.8019,
+      "roc_auc": 0.9114,
+      "pr_auc": 0.8568,
+      "brier_score": 0.1292
+    },
+    "historical_cohort_n293_view_b": {
+      "tp": 85,
+      "fp": 25,
+      "tn": 168,
+      "fn": 15,
+      "total_samples": 293,
+      "scream_recall": {
+        "value": 0.85,
+        "fraction": "85/100",
+        "ci95": [
+          0.7672,
+          0.9069
+        ]
+      },
+      "hard_negative_fpr": {
+        "value": 0.1295,
+        "fraction": "25/193",
+        "ci95": [
+          0.0893,
+          0.1842
+        ]
+      },
+      "source_group_fpr": {
+        "value": 0.2222,
+        "fraction": "18/81",
+        "ci95": [
+          0.1454,
+          0.3242
+        ]
+      },
+      "short_scream_recall": {
+        "total": 5,
+        "tp": 4,
+        "recall": 0.8,
+        "ci95": [
+          0.3755,
+          0.9638
+        ],
+        "fraction": "4/5"
+      },
+      "category_metrics": {
+        "crowd_chant_cheering": {
+          "total": 42,
+          "fp": 7,
+          "fpr": 0.1667,
+          "ci95": [
+            0.0832,
+            0.306
+          ],
+          "fraction": "7/42"
+        },
+        "general_environmental": {
+          "total": 26,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.1287
+          ],
+          "fraction": "0/26"
+        },
+        "infant_crying": {
+          "total": 15,
+          "fp": 2,
+          "fpr": 0.1333,
+          "ci95": [
+            0.0374,
+            0.3788
+          ],
+          "fraction": "2/15"
+        },
+        "scream": {
+          "total": 2,
+          "fp": 0,
+          "fpr": 0.0,
+          "ci95": [
+            0.0,
+            0.6576
+          ],
+          "fraction": "0/2"
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "fp": 3,
+          "fpr": 0.1071,
+          "ci95": [
+            0.0371,
+            0.272
+          ],
+          "fraction": "3/28"
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "fp": 8,
+          "fpr": 0.1667,
+          "ci95": [
+            0.087,
+            0.2958
+          ],
+          "fraction": "8/48"
+        },
+        "whistles_and_squeaks": {
+          "total": 32,
+          "fp": 5,
+          "fpr": 0.1562,
+          "ci95": [
+            0.0686,
+            0.3175
+          ],
+          "fraction": "5/32"
+        }
+      },
+      "precision": 0.7727,
+      "f1_score": 0.8095,
+      "roc_auc": 0.9239,
+      "pr_auc": 0.8651,
+      "brier_score": 0.1237
+    },
+    "research_acceptance_gates": {
+      "gate_1_overall_recall": {
+        "target": ">= 0.96",
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "point_pass": true,
+        "statistically_established": false,
+        "status": "POINT PASS \u2014 INSUFFICIENT STATISTICAL EVIDENCE"
+      },
+      "gate_2_hard_negative_fpr": {
+        "target": "<= 0.05",
+        "value": 0.0138,
+        "fraction": "2/145",
+        "ci95": [
+          0.0038,
+          0.0489
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_3_shouted_speech_fpr": {
+        "target": "<= 0.15",
+        "value": 0.0,
+        "fraction": "0/54",
+        "ci95": [
+          0.0,
+          0.0664
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_4_short_scream_recall": {
+        "target": ">= 0.90",
+        "value": 1.0,
+        "fraction": "65/65",
+        "ci95": [
+          0.9442,
+          1.0
+        ],
+        "point_pass": true,
+        "statistically_established": true,
+        "status": "PASS"
+      },
+      "gate_5_p95_latency": {
+        "target": "<= 25.0 ms",
+        "value_ms": 0.678,
+        "status": "PASS"
+      }
+    }
+  }
+}

@@ -1,0 +1,613 @@
+uploader_normalized_lower,raw_variants,historical_clip_count,is_placeholder,stage75_blacklist_status,stage76_blacklist_status,reconciliation_explanation
+unknown_creator,unknown_creator,1625,1,EXCLUDED_AS_PLACEHOLDER,INCLUDED,ROOT CAUSE OF 611 vs 612: Excluded in Stage 75 planning (placeholder); retained in Stage 76 automated audit set.
+unknown_freesound_creator,unknown_freesound_creator,354,1,INCLUDED,INCLUDED,Placeholder identifier for uncredited historical recordings.
+acousticresearch_lab,AcousticResearch_Lab,153,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_s49_dev_,artist_s49_dev_,101,0,INCLUDED,INCLUDED,Legitimate historical creator.
+v2_creator_v2_fsd50,v2_creator_v2_fsd50,95,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_s49_val_,artist_s49_val_,63,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bulldozia,bulldozia,44,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_s43_pos_,artist_s43_pos_,37,0,INCLUDED,INCLUDED,Legitimate historical creator.
+v2_creator_v3_fsd50,v2_creator_v3_fsd50,35,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_supp_sho,artist_supp_sho,34,0,INCLUDED,INCLUDED,Legitimate historical creator.
+reitanna,Reitanna;reitanna,34,0,INCLUDED,INCLUDED,Legitimate historical creator.
+corsica_s,Corsica_S,29,0,INCLUDED,INCLUDED,Legitimate historical creator.
+toiletrolltube,toiletrolltube,20,0,INCLUDED,INCLUDED,Legitimate historical creator.
+11linda,11linda,18,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dobroide,dobroide,17,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_v3_fsd50,artist_v3_fsd50,16,0,INCLUDED,INCLUDED,Legitimate historical creator.
+davidkyoku,davidkyoku,14,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ephemeral_rift,Ephemeral_Rift,14,0,INCLUDED,INCLUDED,Legitimate historical creator.
+robinhood76,Robinhood76,10,0,INCLUDED,INCLUDED,Legitimate historical creator.
+festival scream detector synthetic sound lab,Festival Scream Detector Synthetic Sound Lab,9,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jorickhoofd,jorickhoofd,9,0,INCLUDED,INCLUDED,Legitimate historical creator.
+reinsamba,reinsamba,9,0,INCLUDED,INCLUDED,Legitimate historical creator.
+rutgermuller,RutgerMuller,9,0,INCLUDED,INCLUDED,Legitimate historical creator.
+xtrgamr,xtrgamr,9,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_acq_shor,artist_acq_shor,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+benjaminharveydesign,benjaminharveydesign,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+beskhu,beskhu,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+brterry,brterry,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+funwithsound,FunWithSound,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+rudmer_rotteveel,Rudmer_Rotteveel,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+wjoojoo,wjoojoo,8,0,INCLUDED,INCLUDED,Legitimate historical creator.
+arnaud coutancier,arnaud coutancier,7,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jentlemen,jentlemen,7,0,INCLUDED,INCLUDED,Legitimate historical creator.
+alienxxx,AlienXXX,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+conleec,conleec,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+d w,D W,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+daddoit,dADDoiT,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+qubodup,qubodup,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+readeonly,ReadeOnly,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+unfa,unfa,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+uwesoundboiz,uwesoundboiz,6,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dream4dreamtheater,dream4dreamtheater,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+freqman,FreqMan;freqman,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+iamgiorgio,Iamgiorgio,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jagadamba,Jagadamba,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+liamg_sfx,LiamG_SFX,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sloppyjoe24,sloppyjoe24,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+theuncertainman,theuncertainman,5,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_v2_nigen,artist_v2_nigen,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+chripei,chripei,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ecfike,ecfike,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ericsueiro,EricSueiro;ericsueiro,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+fannylh,FannyLH,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hali-pinson,hali-pinson,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+klankbeeld,klankbeeld,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kwahmah_02,kwahmah_02,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+m3fuss,m3fuss,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+missozzy,missozzy,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+newagesoup,newagesoup,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+nigens,nigens,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_wvst,OpenSLR_Speaker_WVST,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+saraonsins,saraonsins,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sharkmail,sharkmail,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_r+00db,stage20_artist_r+00db,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+tritus,Tritus,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+v2_creator_v3_synth,v2_creator_v3_synth,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+westington,westington,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zozu,zozu,4,0,INCLUDED,INCLUDED,Legitimate historical creator.
+aboe,aboe,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acclivity,acclivity,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+alberttrepat,alberttrepat,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+annatabernero,annatabernero,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_v3_synth,artist_v3_synth,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+balancedenergy10,BalancedEnergy10,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+blaukreuz,blaukreuz,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+chrillz3r,chrillz3r,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_001,creator_sc_001,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ellenskellington,ellenskellington,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+foolboymedia,FoolBoyMedia,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gumballworld,gumballworld,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+inspectorj,InspectorJ,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+iut_paris8,iut_Paris8,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jayfrosting,jayfrosting,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mariallinas,mariallinas,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mrauralization,MrAuralization,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_pph8,OpenSLR_Speaker_PPH8,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_sdip,OpenSLR_Speaker_SDIP,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+polmdx,polmdx,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+propthis,propthis,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ryding,Ryding,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sagetyrtle,sagetyrtle,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+samplecat,samplecat,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+samulis,Samulis,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+skyumori,skyumori,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_r+03db,stage20_artist_r+03db,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stevious42,Stevious42,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+swordofkings128,swordofkings128,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+tec studios,tec studios,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+thanvannispen,thanvannispen,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+univ_lyon3,univ_lyon3,3,0,INCLUDED,INCLUDED,Legitimate historical creator.
+adriancalzon,adriancalzon,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+arctura,Arctura,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+arjanvanhoorn0181,arjanvanhoorn0181,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+arnebuhmann,arnebuhmann,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+artist_pos_v6_s,artist_pos_v6_s,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+benboncan,Benboncan,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bwav,bwav,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+celadon_noise,celadon_noise,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_002,creator_sc_002,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_003,creator_sc_003,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_004,creator_sc_004,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_005,creator_sc_005,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_006,creator_sc_006,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_007,creator_sc_007,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_009,creator_sc_009,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_011,creator_sc_011,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_012,creator_sc_012,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_013,creator_sc_013,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_014,creator_sc_014,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_015,creator_sc_015,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_016,creator_sc_016,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_017,creator_sc_017,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_019,creator_sc_019,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_021,creator_sc_021,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_022,creator_sc_022,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_023,creator_sc_023,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_024,creator_sc_024,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_025,creator_sc_025,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_026,creator_sc_026,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_027,creator_sc_027,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_029,creator_sc_029,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_031,creator_sc_031,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_032,creator_sc_032,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_033,creator_sc_033,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_034,creator_sc_034,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_035,creator_sc_035,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_036,creator_sc_036,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_037,creator_sc_037,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_039,creator_sc_039,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_041,creator_sc_041,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_042,creator_sc_042,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+davilcol,davilcol,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+digitopia,digitopia,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dkustic,dkustic,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+esperri,esperri,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+fantozzi,Fantozzi,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+fiddlingaround121,FiddlingAround121,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+freesound_user,freesound_user,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gieltman,gieltman,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gladkiy,gladkiy,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hello_flowers,hello_flowers,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jaraxe,JarAxe,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jcdecha,jcdecha,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+juliabosque,juliabosque,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+juskiddink,juskiddink,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kenders2000,kenders2000,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lampeight,LampEight,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+landub,LanDub,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lg,LG,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lithe-fider,Lithe-Fider;lithe-fider,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+madamvicious,MadamVicious,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+maquinadeturing,maquinadeturing,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+marionagm90,marionagm90,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+marvman,marvman,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+maxdemianagl,MaxDemianAGL,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mayabuti,MayaButi,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+noisecollector,NoiseCollector,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_2g2f,OpenSLR_Speaker_2G2F,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_5qdm,OpenSLR_Speaker_5QDM,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_ar80,OpenSLR_Speaker_AR80,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_gzae,OpenSLR_Speaker_GZAE,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_h68f,OpenSLR_Speaker_H68F,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_ipbf,OpenSLR_Speaker_IPBF,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_kw7f,OpenSLR_Speaker_KW7F,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_mek8,OpenSLR_Speaker_MEK8,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_ozdt,OpenSLR_Speaker_OZDT,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_qzxv,OpenSLR_Speaker_QZXV,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_udvo,OpenSLR_Speaker_UDVO,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_w268,OpenSLR_Speaker_W268,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_zqyd,OpenSLR_Speaker_ZQYD,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+picklejones,PickleJones,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+projectsu012,ProjectsU012,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+recordinghopkins,recordinghopkins,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sandyrb,sandyrb,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+schafferdavid,schafferdavid,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sirderf,Sirderf,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+snapper4298,Snapper4298,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_r-03db,stage20_artist_r-03db,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stomachache,stomachache,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from nigens + tec studios,Synthesized from nigens + tec studios,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+terhen,Terhen,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vacuumfan7072,vacuumfan7072,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vikuserro,vikuserro,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+wim,WIM,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zerolagtime,zerolagtime,2,0,INCLUDED,INCLUDED,Legitimate historical creator.
+13fpanska_kamm_oliver,13FPanska_Kamm_Oliver,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+13fpanska_mokrolusky_tomas,13FPanska_Mokrolusky_Tomas,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+13fpanska_stewart_gerron,13FPanska_Stewart_Gerron,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acehell,acehell,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_01,acoustic_performer_short_01,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_02,acoustic_performer_short_02,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_03,acoustic_performer_short_03,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_04,acoustic_performer_short_04,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_05,acoustic_performer_short_05,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_06,acoustic_performer_short_06,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_07,acoustic_performer_short_07,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_08,acoustic_performer_short_08,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_09,acoustic_performer_short_09,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_10,acoustic_performer_short_10,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_12,acoustic_performer_short_12,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_13,acoustic_performer_short_13,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_14,acoustic_performer_short_14,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_15,acoustic_performer_short_15,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_16,acoustic_performer_short_16,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_17,acoustic_performer_short_17,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_18,acoustic_performer_short_18,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_19,acoustic_performer_short_19,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_20,acoustic_performer_short_20,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_21,acoustic_performer_short_21,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_22,acoustic_performer_short_22,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_23,acoustic_performer_short_23,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_24,acoustic_performer_short_24,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_25,acoustic_performer_short_25,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_27,acoustic_performer_short_27,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustic_performer_short_28,acoustic_performer_short_28,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+acoustics_lab,acoustics_lab,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+adam_n,Adam_N,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+aiwha,Aiwha,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+alaskarobotics,AlaskaRobotics,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+alcappuccino,Alcappuccino,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+alexmurphy53,AlexMurphy53,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ambient_elements,ambient_elements,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+an2netto,an2netto,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+analogchill,analogchill,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+andr4s,andr4s,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+andriala,andriala,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+anthousai,Anthousai,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+archeos,archeos,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+arlosims,arlosims,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+askeseverin,askeseverin,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+aslamshoev,aslamshoev,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+audy_leonard,Audy_Leonard,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+aurinko2222,Aurinko2222,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bass_producer,bass_producer,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+be-steele,be-steele,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bergice,bergice,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+berlingamescene,BerlinGameScene,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bidone,Bidone,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+bowlingballout,bowlingballout,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+buddhafish,buddhafish,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+carolgee,carolgee,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+carroll27,carroll27,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+castironcarousel,CastIronCarousel,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+cgeffex,CGEffex,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+chipfork,chipfork,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+claudia-clim,claudia-clim,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+contramundum,contramundum,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+coonick,Coonick,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+cosmicembers,CosmicEmbers,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creativeheroes,creativeheroes,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_008,creator_sc_008,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_010,creator_sc_010,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_018,creator_sc_018,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_020,creator_sc_020,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_028,creator_sc_028,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_030,creator_sc_030,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_038,creator_sc_038,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+creator_sc_040,creator_sc_040,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+curly-hikari-94,curly-hikari-94,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+daytripper,daytripper,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dazza007,dazza007,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+derjuli,derjuli,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+designdean,DesignDean,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dinsfire,dinsfire,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dj_field_rec,dj_field_rec,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dland,dland,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+donorcape,donorcape,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+dwsolo,dwsolo,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+edyl,Edyl,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+eeease,eeease,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+else_fucker,else_fucker,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+engangskameraten,Engangskameraten,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ermfilm,ermfilm,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+esperar,esperar,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+evgenyemelyanov,EvgenyEmelyanov,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+evsecrets,evsecrets,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+farbe1001,farbe1001,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+feluc2010,feluc2010,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+festival_vibes,festival_vibes,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+fiditg,Fiditg,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+field_audio,field_audio,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+florian_reinke,florian_reinke,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+fngersounds,FngerSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+freesound,freesound,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+freesoundjon01,freesoundjon01,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gabirel,gabirel,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+galora,galora,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gareth_h,Gareth_H,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gauraa,Gauraa,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+genel,genel,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+girlwithsoundrecorder,GirlWithSoundRecorder,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gmarchisio,gmarchisio,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gmtechb,gmtechb,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+goose278,goose278,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+grubzyy,Grubzyy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+gutturalgutfuck,gutturalgutfuck,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hall_archivist,hall_archivist,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hanstimm,hanstimm,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hellkt,hellkt,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hintringer,hintringer,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hoerspielwerkstatt-hef,hoerspielwerkstatt-hef,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hsaunier10,hsaunier10,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+huboftheuniverseprod,huboftheuniverseprod,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hyderpotter,hyderpotter,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+hz37,hz37,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+illusiaproductions,IllusiaProductions,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+inchadney,inchadney,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+indianaparkwars,IndianaParkWars,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+inkahootz81,Inkahootz81,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+islandan,islandan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jackstrebor,jackstrebor,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jaklocke,JakLocke,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jarredgibb,JarredGibb,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jemburyturner,jemburyturner,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jmr_online,jmr_online,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+johnnyguitar01,johnnyguitar01,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+jrssandoval,jrssandoval,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kerauch,kerauch,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kesu,Kesu,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+keweldog,keweldog,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kingof_thelab,kingof_thelab,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kodack,Kodack,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kraftwerk2k1,KRAFTWERK2K1,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+krissyeliot,krissyeliot,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kubriel,kubriel,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kubuzz,Kubuzz,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kwahmah-02,kwahmah-02,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+kywr,kywr,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+laserlife,laserlife,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ldezem,ldezem,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lenja.g,lenja.g,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+liamg-sfx,liamg-sfx,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+littlefinny,LittleFinny,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+littlerainyseasons,LittleRainySeasons,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+littlerobotsoundfactory,LittleRobotSoundFactory,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lodovico,lodovico,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+loffy,Loffy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lonce,lonce,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+loopudu,LoopUdu,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lsprice,lsprice,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+lynx_5969,Lynx_5969,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+magedu,magedu,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+majorasflask,majorasflask,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+maksinkster,maksinkster,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+malexmedia,malexmedia,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+marcgp13,marcgp13,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mariiao2,mariiao2,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+melack,melack,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+melody_plays,Melody_Plays,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+michaelgillighan,MichaelGillighan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mickleness,mickleness,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+modular_geek,modular_geek,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+montblanccandies,montblanccandies,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+monte32,monte32,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mr sensible,Mr Sensible,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mricken1,mricken1,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mrtenant,Mrtenant,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+mrthenoronha,Mrthenoronha,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+msantoro11,msantoro11,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+multimax2121,MultiMax2121,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+nattomac,nattomac,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+nektaria909,nektaria909,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+nicktermer,nicktermer,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+nycct_sounddesign,NYCCT_SoundDesign,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ojosdedurazno,ojosdedurazno,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+omar alvarado,Omar Alvarado,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+omnisis,Omnisis,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_2cvi,OpenSLR_Speaker_2CVI,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_3aes,OpenSLR_Speaker_3AES,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_3r4n,OpenSLR_Speaker_3R4N,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_77ay,OpenSLR_Speaker_77AY,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_7ioa,OpenSLR_Speaker_7IOA,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_8qbk,OpenSLR_Speaker_8QBK,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_a8af,OpenSLR_Speaker_A8AF,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_i850,OpenSLR_Speaker_I850,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_ifj0,OpenSLR_Speaker_IFJ0,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_onwc,OpenSLR_Speaker_ONWC,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_pz73,OpenSLR_Speaker_PZ73,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_qlqx,OpenSLR_Speaker_QLQX,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_rdb6,OpenSLR_Speaker_RDB6,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_ulji,OpenSLR_Speaker_ULJI,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+openslr_speaker_x2oc,OpenSLR_Speaker_X2OC,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+paltsug,paltsug,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+panta_rei,panta_rei,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+party_props,party_props,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pasoul,PaSoul,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+patopurific,patopurific,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+payattention,payattention,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pedrovb,pedrovb,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+peridactyloptrix,peridactyloptrix,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pet_recordings,pet_recordings,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+petillo,petillo,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pfly,pfly,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+phatcorns,phatcorns,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+phi_sound,Phi_Sound,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pitx,pitx,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+plexant,Plexant,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pmbrowne,PMBROWNE,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pollyschambers,pollyschambers,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+pyro_recording,pyro_recording,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+quartzgate,quartzgate,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+queen-westeros,queen-westeros,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+quistard,Quistard,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+radegund,Radegund,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+redcrow1973,redcrow1973,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+regenpak,Regenpak,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+rescue_audio,rescue_audio,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+rfhache,rfhache,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ritasofio,ritasofio,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+samusasi,Samusasi,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sandermotions,Sandermotions,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sangtao,sangtao,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+schulze,Schulze,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+seanpue,seanpue,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+shall555,shall555,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+shanef91,ShaneF91,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+shredster7,Shredster7,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sieuamthanh,SieuAmThanh,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+silversatyr,silversatyr,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sironboy,sironboy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sirstallsworth,SirStallsworth,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+skyklan47,skyklan47,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+skyraevoicing,SkyRaeVoicing,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+skytheguy,skytheguy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+snapalicious32,Snapalicious32,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+snardin42,snardin42,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sonsdebarcelona,sonsdebarcelona,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sorohanro,sorohanro,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+sound_creator_01,sound_creator_01,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+soundcollectah,SoundCollectah,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+soundsaregr8,SoundsAreGr8,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+soundslikewillem,soundslikewillem,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+spookymodem,spookymodem,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stadium_sound,stadium_sound,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_-15246,stage20_artist_-15246,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_104527,stage20_artist_104527,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109825,stage20_artist_109825,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109826,stage20_artist_109826,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109827,stage20_artist_109827,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109828,stage20_artist_109828,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109830,stage20_artist_109830,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_109831,stage20_artist_109831,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_166619,stage20_artist_166619,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_169003,stage20_artist_169003,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_169005,stage20_artist_169005,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_182351,stage20_artist_182351,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_182924,stage20_artist_182924,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186931,stage20_artist_186931,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186933,stage20_artist_186933,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186955,stage20_artist_186955,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186956,stage20_artist_186956,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186957,stage20_artist_186957,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_186958,stage20_artist_186958,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_220368,stage20_artist_220368,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_220658,stage20_artist_220658,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_220660,stage20_artist_220660,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_222583,stage20_artist_222583,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_241471,stage20_artist_241471,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_268221,stage20_artist_268221,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_269003,stage20_artist_269003,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_323723,stage20_artist_323723,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_323724,stage20_artist_323724,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_336004,stage20_artist_336004,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_336005,stage20_artist_336005,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_336010,stage20_artist_336010,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_336011,stage20_artist_336011,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343872,stage20_artist_343872,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343891,stage20_artist_343891,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343952,stage20_artist_343952,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343957,stage20_artist_343957,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343960,stage20_artist_343960,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_343966,stage20_artist_343966,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_344029,stage20_artist_344029,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_344067,stage20_artist_344067,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_369003,stage20_artist_369003,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_422724,stage20_artist_422724,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_431628,stage20_artist_431628,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_433721,stage20_artist_433721,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_669001,stage20_artist_669001,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__11567,stage20_artist__11567,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__11568,stage20_artist__11568,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__11569,stage20_artist__11569,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__24731,stage20_artist__24731,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__24733,stage20_artist__24733,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__32417,stage20_artist__32417,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__58803,stage20_artist__58803,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__61219,stage20_artist__61219,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__63538,stage20_artist__63538,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist__68136,stage20_artist__68136,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage20_artist_r-06db,stage20_artist_r-06db,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stage_audio,stage_audio,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+stevelalonde,stevelalonde,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+steveoshore,SteveOShore,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+suhral,suhral,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+survivalzombie,survivalzombie,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+syna-max,Syna-Max,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synth_lab,synth_lab,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from 11linda + kywr,Synthesized from 11linda + kywr,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from 11linda + robinhood76,Synthesized from 11linda + Robinhood76,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from 11linda + ryding,Synthesized from 11linda + Ryding,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from acehell + sagetyrtle,Synthesized from acehell + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from alberttrepat + festival scream detector synthetic sound lab,Synthesized from alberttrepat + Festival Scream Detector Synthetic Sound Lab,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from alberttrepat + tec studios,Synthesized from alberttrepat + tec studios,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from analogchill + alcappuccino,Synthesized from analogchill + Alcappuccino,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from analogchill + sorohanro,Synthesized from analogchill + sorohanro,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from annatabernero + toiletrolltube,Synthesized from annatabernero + toiletrolltube,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from archeos + dwsolo,Synthesized from archeos + dwsolo,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from arjanvanhoorn0181 + illusiaproductions,Synthesized from arjanvanhoorn0181 + IllusiaProductions,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from creativeheroes + klankbeeld,Synthesized from creativeheroes + klankbeeld,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from creativeheroes + tritus,Synthesized from creativeheroes + Tritus,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from curly-hikari-94 + noisecollector,Synthesized from curly-hikari-94 + NoiseCollector,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from dinsfire + zyrytsounds,Synthesized from dinsfire + ZyryTSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from fngersounds + dobroide,Synthesized from FngerSounds + dobroide,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from freqman + pedrovb,Synthesized from freqman + pedrovb,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from freqman + sagetyrtle,Synthesized from freqman + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from freqman + sandermotions,Synthesized from freqman + Sandermotions,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from hali-pinson + tritus,Synthesized from hali-pinson + Tritus,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from hellkt + gladkiy,Synthesized from hellkt + gladkiy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from hoerspielwerkstatt-hef + peridactyloptrix,Synthesized from hoerspielwerkstatt-hef + peridactyloptrix,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from kwahmah-02 + kubuzz,Synthesized from kwahmah-02 + Kubuzz,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from liamg-sfx + aiwha,Synthesized from liamg-sfx + Aiwha,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from lithe-fider + kubuzz,Synthesized from lithe-fider + Kubuzz,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from lodovico + skyklan47,Synthesized from lodovico + skyklan47,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from malexmedia + tritus,Synthesized from malexmedia + Tritus,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from missozzy + jayfrosting,Synthesized from missozzy + jayfrosting,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from nicktermer + bwav,Synthesized from nicktermer + bwav,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from nicktermer + dobroide,Synthesized from nicktermer + dobroide,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from nigens + toiletrolltube,Synthesized from nigens + toiletrolltube,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_2cvi + gladkiy,Synthesized from OpenSLR_Speaker_2CVI + gladkiy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_3aes + stadium_sound,Synthesized from OpenSLR_Speaker_3AES + stadium_sound,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_8qbk + tec studios,Synthesized from OpenSLR_Speaker_8QBK + tec studios,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_h68f + recordinghopkins,Synthesized from OpenSLR_Speaker_H68F + recordinghopkins,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_i850 + sagetyrtle,Synthesized from OpenSLR_Speaker_I850 + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ifj0 + peridactyloptrix,Synthesized from OpenSLR_Speaker_IFJ0 + peridactyloptrix,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ipbf + stadium_sound,Synthesized from OpenSLR_Speaker_IPBF + stadium_sound,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_kw7f + arnaud coutancier,Synthesized from OpenSLR_Speaker_KW7F + arnaud coutancier,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_kw7f + benboncan,Synthesized from OpenSLR_Speaker_KW7F + Benboncan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_kw7f + toiletrolltube,Synthesized from OpenSLR_Speaker_KW7F + toiletrolltube,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_mek8 + klankbeeld,Synthesized from OpenSLR_Speaker_MEK8 + klankbeeld,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_mek8 + sagetyrtle,Synthesized from OpenSLR_Speaker_MEK8 + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ozdt + qubodup,Synthesized from OpenSLR_Speaker_OZDT + qubodup,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ozdt + sagetyrtle,Synthesized from OpenSLR_Speaker_OZDT + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_pph8 + benboncan,Synthesized from OpenSLR_Speaker_PPH8 + Benboncan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_pph8 + sagetyrtle,Synthesized from OpenSLR_Speaker_PPH8 + sagetyrtle,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_pph8 + zyrytsounds,Synthesized from OpenSLR_Speaker_PPH8 + ZyryTSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_pz73 + petillo,Synthesized from OpenSLR_Speaker_PZ73 + petillo,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_qzxv + qubodup,Synthesized from OpenSLR_Speaker_QZXV + qubodup,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_rdb6 + payattention,Synthesized from OpenSLR_Speaker_RDB6 + payattention,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_udvo + arnaud coutancier,Synthesized from OpenSLR_Speaker_UDVO + arnaud coutancier,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_udvo + bwav,Synthesized from OpenSLR_Speaker_UDVO + bwav,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_udvo + jentlemen,Synthesized from OpenSLR_Speaker_UDVO + jentlemen,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_udvo + peridactyloptrix,Synthesized from OpenSLR_Speaker_UDVO + peridactyloptrix,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ulji + gladkiy,Synthesized from OpenSLR_Speaker_ULJI + gladkiy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_ulji + sirderf,Synthesized from OpenSLR_Speaker_ULJI + Sirderf,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_w268 + zyrytsounds,Synthesized from OpenSLR_Speaker_W268 + ZyryTSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_wvst + arnaud coutancier,Synthesized from OpenSLR_Speaker_WVST + arnaud coutancier,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from openslr_speaker_x2oc + eeease,Synthesized from OpenSLR_Speaker_X2OC + eeease,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from paltsug + berlingamescene,Synthesized from paltsug + BerlinGameScene,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from patopurific + jentlemen,Synthesized from patopurific + jentlemen,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from pitx + freqman,Synthesized from pitx + FreqMan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from polmdx + jayfrosting,Synthesized from polmdx + jayfrosting,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from queen-westeros + jayfrosting,Synthesized from queen-westeros + jayfrosting,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from saraonsins + landub,Synthesized from saraonsins + LanDub,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from saraonsins + qubodup,Synthesized from saraonsins + qubodup,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from saraonsins + soundcollectah,Synthesized from saraonsins + SoundCollectah,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from skytheguy + jayfrosting,Synthesized from skytheguy + jayfrosting,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from skytheguy + jentlemen,Synthesized from skytheguy + jentlemen,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from tarrei + zyrytsounds,Synthesized from tarrei + ZyryTSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from unclesigmund + jentlemen,Synthesized from unclesigmund + jentlemen,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+synthesized from vtownpunks + lynx_5969,Synthesized from vtownpunks + Lynx_5969,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+szpury,szpury,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+tarrei,tarrei,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+tdude9000,Tdude9000,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+theredshore,theredshore,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+theshaggyfreak,theshaggyfreak,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+thespiderwriter,TheSpiderWriter,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+trainer_sfx,trainer_sfx,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+tuberatanka,tuberatanka,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+twistedlemon,TwistedLemon,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+unclesigmund,unclesigmund,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+veronicastratton,VeronicaStratton,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+victormalloy,victormalloy,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vocal_effects,vocal_effects,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vocal_performer_low_01,vocal_performer_low_01,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vocal_performer_low_02,vocal_performer_low_02,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vocal_performer_low_03,vocal_performer_low_03,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vocal_performer_low_04,vocal_performer_low_04,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+vtownpunks,vtownpunks,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+waxsocks,waxsocks,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+wbjb1,WBJB1,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+werra,Werra,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+wordswar,wordswar,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+world_cup_fan,world_cup_fan,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+xiiisamples,XiiiSamples,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+xploman,XPLOman,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+yippeechristina,yippeechristina,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ylearkisto,YleArkisto,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zaem,zaem,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zheng142326,zheng142326,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+ziglover,ziglover,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zihengc,zihengc,1,0,INCLUDED,INCLUDED,Legitimate historical creator.
+zyrytsounds,ZyryTSounds,1,0,INCLUDED,INCLUDED,Legitimate historical creator.

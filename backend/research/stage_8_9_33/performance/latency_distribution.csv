@@ -1,0 +1,6 @@
+pipeline_stage,sample_count,mean_ms,p50_ms,p95_ms,p99_ms,max_ms,min_ms,target_gate_met
+Ring-Buffer Ingestion & Boundary Check,100,0.111,0.104,0.142,0.214,0.311,0.092,True
+Acoustic & Semantic Feature Extraction,100,18.626,18.619,18.852,18.902,19.994,18.362,True
+Dual-Encoder PyTorch Inference,100,0.939,0.891,1.170,1.430,1.456,0.794,True
+Decision Policy & Threshold Check,100,0.000,0.000,0.001,0.001,0.001,0.000,True
+Total End-to-End Pipeline,100,19.677,19.652,19.965,20.437,21.509,19.319,True

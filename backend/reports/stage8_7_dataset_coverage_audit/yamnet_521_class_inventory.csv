@@ -1,0 +1,522 @@
+index,mid,display_name,relevance_category,hard_negative_potential,confusing_aspects,suggested_priority
+0,/m/09x0r,Speech,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+1,/m/0ytgt,"Child speech, kid speaking",Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+2,/m/01h8n0,Conversation,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+3,/m/02qldy,"Narration, monologue",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+4,/m/0261r1,Babbling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+5,/m/0brhx,Speech synthesizer,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+6,/m/07p6fty,Shout,Human Non-Scream Vocalization,High Hard-Negative,High vocal effort and pitch overlap with screams,HIGH
+7,/m/07q4ntr,Bellow,Human Non-Scream Vocalization,High Hard-Negative,High vocal effort and pitch overlap with screams,HIGH
+8,/m/07rwj3x,Whoop,Human Non-Scream Vocalization,High Hard-Negative,High vocal effort and pitch overlap with screams,HIGH
+9,/m/07sr1lc,Yell,Human Non-Scream Vocalization,High Hard-Negative,High vocal effort and pitch overlap with screams,HIGH
+10,/t/dd00135,Children shouting,Human Non-Scream Vocalization,High Hard-Negative,High vocal effort and pitch overlap with screams,HIGH
+11,/m/03qc9zr,Screaming,Primary Target (Scream),Target Positive Class,Ground truth positive class for detector,BASELINE_TARGET
+12,/m/02rtxlg,Whispering,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+13,/m/01j3sz,Laughter,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+14,/t/dd00001,Baby laughter,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+15,/m/07r660_,Giggle,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+16,/m/07s04w4,Snicker,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+17,/m/07sq110,Belly laugh,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+18,/m/07rgt08,"Chuckle, chortle",Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+19,/m/0463cq4,"Crying, sobbing",Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+20,/t/dd00002,"Baby cry, infant cry",Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+21,/m/07qz6j3,Whimper,Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+22,/m/07qw_06,"Wail, moan",Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+23,/m/07plz5l,Sigh,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+24,/m/015lz1,Singing,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+25,/m/0l14jd,Choir,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+26,/m/01swy6,Yodeling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+27,/m/02bk07,Chant,Festival / Crowd Acoustics,High Hard-Negative,Dense crowd energy with embedded shouts and whistles,CRITICAL
+28,/m/01c194,Mantra,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+29,/t/dd00005,Child singing,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+30,/t/dd00006,Synthetic singing,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+31,/m/06bxc,Rapping,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+32,/m/02fxyj,Humming,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+33,/m/07s2xch,Groan,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+34,/m/07r4k75,Grunt,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+35,/m/01w250,Whistling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+36,/m/0lyf6,Breathing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+37,/m/07mzm6,Wheeze,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+38,/m/01d3sd,Snoring,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+39,/m/07s0dtb,Gasp,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+40,/m/07pyy8b,Pant,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+41,/m/07q0yl5,Snort,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+42,/m/01b_21,Cough,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+43,/m/0dl9sf8,Throat clearing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+44,/m/01hsr_,Sneeze,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+45,/m/07ppn3j,Sniff,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+46,/m/06h7j,Run,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+47,/m/07qv_x_,Shuffle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+48,/m/07pbtc8,"Walk, footsteps",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+49,/m/03cczk,"Chewing, mastication",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+50,/m/07pdhp0,Biting,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+51,/m/0939n_,Gargling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+52,/m/01g90h,Stomach rumble,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+53,/m/03q5_w,"Burping, eructation",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+54,/m/02p3nc,Hiccup,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+55,/m/02_nn,Fart,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+56,/m/0k65p,Hands,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+57,/m/025_jnm,Finger snapping,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+58,/m/0l15bq,Clapping,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+59,/m/01jg02,"Heart sounds, heartbeat",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+60,/m/01jg1z,Heart murmur,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+61,/m/053hz1,Cheering,Festival / Crowd Acoustics,High Hard-Negative,Dense crowd energy with embedded shouts and whistles,CRITICAL
+62,/m/028ght,Applause,Festival / Crowd Acoustics,High Hard-Negative,Dense crowd energy with embedded shouts and whistles,CRITICAL
+63,/m/07rkbfh,Chatter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+64,/m/03qtwd,Crowd,Festival / Crowd Acoustics,High Hard-Negative,Dense crowd energy with embedded shouts and whistles,CRITICAL
+65,/m/07qfr4h,"Hubbub, speech noise, speech babble",Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+66,/t/dd00013,Children playing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+67,/m/0jbk,Animal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+68,/m/068hy,"Domestic animals, pets",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+69,/m/0bt9lr,Dog,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+70,/m/05tny_,Bark,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+71,/m/07r_k2n,Yip,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+72,/m/07qf0zm,Howl,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+73,/m/07rc7d9,Bow-wow,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+74,/m/0ghcn6,Growling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+75,/t/dd00136,Whimper (dog),Human Non-Scream Vocalization,High Hard-Negative,Emotional valence confusion; harmonic formants identical to screams,CRITICAL
+76,/m/01yrx,Cat,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+77,/m/02yds9,Purr,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+78,/m/07qrkrw,Meow,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+79,/m/07rjwbb,Hiss,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+80,/m/07r81j2,Caterwaul,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+81,/m/0ch8v,"Livestock, farm animals, working animals",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+82,/m/03k3r,Horse,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+83,/m/07rv9rh,Clip-clop,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+84,/m/07q5rw0,"Neigh, whinny",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+85,/m/01xq0k1,"Cattle, bovinae",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+86,/m/07rpkh9,Moo,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+87,/m/0239kh,Cowbell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+88,/m/068zj,Pig,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+89,/t/dd00018,Oink,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+90,/m/03fwl,Goat,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+91,/m/07q0h5t,Bleat,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+92,/m/07bgp,Sheep,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+93,/m/025rv6n,Fowl,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+94,/m/09b5t,"Chicken, rooster",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+95,/m/07st89h,Cluck,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+96,/m/07qn5dc,"Crowing, cock-a-doodle-doo",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+97,/m/01rd7k,Turkey,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+98,/m/07svc2k,Gobble,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+99,/m/09ddx,Duck,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+100,/m/07qdb04,Quack,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+101,/m/0dbvp,Goose,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+102,/m/07qwf61,Honk,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+103,/m/01280g,Wild animals,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+104,/m/0cdnk,"Roaring cats (lions, tigers)",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+105,/m/04cvmfc,Roar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+106,/m/015p6,Bird,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+107,/m/020bb7,"Bird vocalization, bird call, bird song",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+108,/m/07pggtn,"Chirp, tweet",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+109,/m/07sx8x_,Squawk,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+110,/m/0h0rv,"Pigeon, dove",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+111,/m/07r_25d,Coo,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+112,/m/04s8yn,Crow,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+113,/m/07r5c2p,Caw,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+114,/m/09d5_,Owl,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+115,/m/07r_80w,Hoot,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+116,/m/05_wcq,"Bird flight, flapping wings",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+117,/m/01z5f,"Canidae, dogs, wolves",Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+118,/m/06hps,"Rodents, rats, mice",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+119,/m/04rmv,Mouse,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+120,/m/07r4gkf,Patter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+121,/m/03vt0,Insect,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+122,/m/09xqv,Cricket,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+123,/m/09f96,Mosquito,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+124,/m/0h2mp,"Fly, housefly",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+125,/m/07pjwq1,Buzz,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+126,/m/01h3n,"Bee, wasp, etc.",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+127,/m/09ld4,Frog,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+128,/m/07st88b,Croak,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+129,/m/078jl,Snake,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+130,/m/07qn4z3,Rattle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+131,/m/032n05,Whale vocalization,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+132,/m/04rlf,Music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+133,/m/04szw,Musical instrument,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+134,/m/0fx80y,Plucked string instrument,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+135,/m/0342h,Guitar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+136,/m/02sgy,Electric guitar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+137,/m/018vs,Bass guitar,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+138,/m/042v_gx,Acoustic guitar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+139,/m/06w87,"Steel guitar, slide guitar",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+140,/m/01glhc,Tapping (guitar technique),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+141,/m/07s0s5r,Strum,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+142,/m/018j2,Banjo,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+143,/m/0jtg0,Sitar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+144,/m/04rzd,Mandolin,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+145,/m/01bns_,Zither,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+146,/m/07xzm,Ukulele,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+147,/m/05148p4,Keyboard (musical),Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+148,/m/05r5c,Piano,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+149,/m/01s0ps,Electric piano,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+150,/m/013y1f,Organ,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+151,/m/03xq_f,Electronic organ,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+152,/m/03gvt,Hammond organ,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+153,/m/0l14qv,Synthesizer,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+154,/m/01v1d8,Sampler,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+155,/m/03q5t,Harpsichord,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+156,/m/0l14md,Percussion,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+157,/m/02hnl,Drum kit,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+158,/m/0cfdd,Drum machine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+159,/m/026t6,Drum,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+160,/m/06rvn,Snare drum,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+161,/m/03t3fj,Rimshot,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+162,/m/02k_mr,Drum roll,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+163,/m/0bm02,Bass drum,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+164,/m/011k_j,Timpani,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+165,/m/01p970,Tabla,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+166,/m/01qbl,Cymbal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+167,/m/03qtq,Hi-hat,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+168,/m/01sm1g,Wood block,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+169,/m/07brj,Tambourine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+170,/m/05r5wn,Rattle (instrument),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+171,/m/0xzly,Maraca,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+172,/m/0mbct,Gong,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+173,/m/016622,Tubular bells,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+174,/m/0j45pbj,Mallet percussion,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+175,/m/0dwsp,"Marimba, xylophone",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+176,/m/0dwtp,Glockenspiel,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+177,/m/0dwt5,Vibraphone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+178,/m/0l156b,Steelpan,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+179,/m/05pd6,Orchestra,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+180,/m/01kcd,Brass instrument,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+181,/m/0319l,French horn,Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+182,/m/07gql,Trumpet,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+183,/m/07c6l,Trombone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+184,/m/0l14_3,Bowed string instrument,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+185,/m/02qmj0d,String section,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+186,/m/07y_7,"Violin, fiddle",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+187,/m/0d8_n,Pizzicato,Animal Vocalizations,Standard Negative,Animal howls or distress yelps,LOW
+188,/m/01xqw,Cello,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+189,/m/02fsn,Double bass,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+190,/m/085jw,"Wind instrument, woodwind instrument",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+191,/m/0l14j_,Flute,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+192,/m/06ncr,Saxophone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+193,/m/01wy6,Clarinet,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+194,/m/03m5k,Harp,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+195,/m/0395lw,Bell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+196,/m/03w41f,Church bell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+197,/m/027m70_,Jingle bell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+198,/m/0gy1t2s,Bicycle bell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+199,/m/07n_g,Tuning fork,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+200,/m/0f8s22,Chime,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+201,/m/026fgl,Wind chime,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+202,/m/0150b9,Change ringing (campanology),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+203,/m/03qjg,Harmonica,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+204,/m/0mkg,Accordion,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+205,/m/0192l,Bagpipes,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+206,/m/02bxd,Didgeridoo,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+207,/m/0l14l2,Shofar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+208,/m/07kc_,Theremin,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+209,/m/0l14t7,Singing bowl,Human Speech & Singing,Standard Negative,Vocal formant energy but standard conversational cadence,MEDIUM
+210,/m/01hgjl,Scratching (performance technique),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+211,/m/064t9,Pop music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+212,/m/0glt670,Hip hop music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+213,/m/02cz_7,Beatboxing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+214,/m/06by7,Rock music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+215,/m/03lty,Heavy metal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+216,/m/05r6t,Punk rock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+217,/m/0dls3,Grunge,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+218,/m/0dl5d,Progressive rock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+219,/m/07sbbz2,Rock and roll,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+220,/m/05w3f,Psychedelic rock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+221,/m/06j6l,Rhythm and blues,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+222,/m/0gywn,Soul music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+223,/m/06cqb,Reggae,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+224,/m/01lyv,Country,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+225,/m/015y_n,Swing music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+226,/m/0gg8l,Bluegrass,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+227,/m/02x8m,Funk,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+228,/m/02w4v,Folk music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+229,/m/06j64v,Middle Eastern music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+230,/m/03_d0,Jazz,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+231,/m/026z9,Disco,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+232,/m/0ggq0m,Classical music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+233,/m/05lls,Opera,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+234,/m/02lkt,Electronic music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+235,/m/03mb9,House music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+236,/m/07gxw,Techno,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+237,/m/07s72n,Dubstep,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+238,/m/0283d,Drum and bass,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+239,/m/0m0jc,Electronica,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+240,/m/08cyft,Electronic dance music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+241,/m/0fd3y,Ambient music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+242,/m/07lnk,Trance music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+243,/m/0g293,Music of Latin America,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+244,/m/0ln16,Salsa music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+245,/m/0326g,Flamenco,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+246,/m/0155w,Blues,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+247,/m/05fw6t,Music for children,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+248,/m/02v2lh,New-age music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+249,/m/0y4f8,Vocal music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+250,/m/0z9c,A capella,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+251,/m/0164x2,Music of Africa,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+252,/m/0145m,Afrobeat,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+253,/m/02mscn,Christian music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+254,/m/016cjb,Gospel music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+255,/m/028sqc,Music of Asia,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+256,/m/015vgc,Carnatic music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+257,/m/0dq0md,Music of Bollywood,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+258,/m/06rqw,Ska,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+259,/m/02p0sh1,Traditional music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+260,/m/05rwpb,Independent music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+261,/m/074ft,Song,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+262,/m/025td0t,Background music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+263,/m/02cjck,Theme music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+264,/m/03r5q_,Jingle (music),Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+265,/m/0l14gg,Soundtrack music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+266,/m/07pkxdp,Lullaby,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+267,/m/01z7dr,Video game music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+268,/m/0140xf,Christmas music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+269,/m/0ggx5q,Dance music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+270,/m/04wptg,Wedding music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+271,/t/dd00031,Happy music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+272,/t/dd00033,Sad music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+273,/t/dd00034,Tender music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+274,/t/dd00035,Exciting music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+275,/t/dd00036,Angry music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+276,/t/dd00037,Scary music,Music & Electronic Synthesizers,High Hard-Negative,EDM leads and pitch risers mirror human vocal scream trajectories,CRITICAL
+277,/m/03m9d0z,Wind,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+278,/m/09t49,Rustling leaves,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+279,/t/dd00092,Wind noise (microphone),Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+280,/m/0jb2l,Thunderstorm,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+281,/m/0ngt1,Thunder,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+282,/m/0838f,Water,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+283,/m/06mb1,Rain,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+284,/m/07r10fb,Raindrop,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+285,/t/dd00038,Rain on surface,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+286,/m/0j6m2,Stream,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+287,/m/0j2kx,Waterfall,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+288,/m/05kq4,Ocean,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+289,/m/034srq,"Waves, surf",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+290,/m/06wzb,Steam,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+291,/m/07swgks,Gurgling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+292,/m/02_41,Fire,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+293,/m/07pzfmf,Crackle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+294,/m/07yv9,Vehicle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+295,/m/019jd,"Boat, Water vehicle",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+296,/m/0hsrw,"Sailboat, sailing ship",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+297,/m/056ks2,"Rowboat, canoe, kayak",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+298,/m/02rlv9,"Motorboat, speedboat",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+299,/m/06q74,Ship,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+300,/m/012f08,Motor vehicle (road),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+301,/m/0k4j,Car,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+302,/m/0912c9,"Vehicle horn, car horn, honking",Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+303,/m/07qv_d5,Toot,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+304,/m/02mfyn,Car alarm,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+305,/m/04gxbd,"Power windows, electric windows",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+306,/m/07rknqz,Skidding,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+307,/m/0h9mv,Tire squeal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+308,/t/dd00134,Car passing by,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+309,/m/0ltv,"Race car, auto racing",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+310,/m/07r04,Truck,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+311,/m/0gvgw0,Air brake,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+312,/m/05x_td,"Air horn, truck horn",Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+313,/m/02rhddq,Reversing beeps,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+314,/m/03cl9h,"Ice cream truck, ice cream van",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+315,/m/01bjv,Bus,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+316,/m/03j1ly,Emergency vehicle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+317,/m/04qvtq,Police car (siren),Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+318,/m/012n7d,Ambulance (siren),Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+319,/m/012ndj,"Fire engine, fire truck (siren)",Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+320,/m/04_sv,Motorcycle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+321,/m/0btp2,"Traffic noise, roadway noise",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+322,/m/06d_3,Rail transport,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+323,/m/07jdr,Train,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+324,/m/04zmvq,Train whistle,Whistles & Tonal Transients,High Hard-Negative,Pure sinusoidal tonal energy in 2-4 kHz mimics scream formant,CRITICAL
+325,/m/0284vy3,Train horn,Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+326,/m/01g50p,"Railroad car, train wagon",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+327,/t/dd00048,Train wheels squealing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+328,/m/0195fx,"Subway, metro, underground",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+329,/m/0k5j,Aircraft,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+330,/m/014yck,Aircraft engine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+331,/m/04229,Jet engine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+332,/m/02l6bg,"Propeller, airscrew",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+333,/m/09ct_,Helicopter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+334,/m/0cmf2,"Fixed-wing aircraft, airplane",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+335,/m/0199g,Bicycle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+336,/m/06_fw,Skateboard,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+337,/m/02mk9,Engine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+338,/t/dd00065,Light engine (high frequency),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+339,/m/08j51y,"Dental drill, dentist's drill",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+340,/m/01yg9g,Lawn mower,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+341,/m/01j4z9,Chainsaw,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+342,/t/dd00066,Medium engine (mid frequency),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+343,/t/dd00067,Heavy engine (low frequency),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+344,/m/01h82_,Engine knocking,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+345,/t/dd00130,Engine starting,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+346,/m/07pb8fc,Idling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+347,/m/07q2z82,"Accelerating, revving, vroom",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+348,/m/02dgv,Door,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+349,/m/03wwcy,Doorbell,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+350,/m/07r67yg,Ding-dong,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+351,/m/02y_763,Sliding door,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+352,/m/07rjzl8,Slam,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+353,/m/07r4wb8,Knock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+354,/m/07qcpgn,Tap,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+355,/m/07q6cd_,Squeak,Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+356,/m/0642b4,Cupboard open or close,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+357,/m/0fqfqc,Drawer open or close,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+358,/m/04brg2,"Dishes, pots, and pans",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+359,/m/023pjk,"Cutlery, silverware",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+360,/m/07pn_8q,Chopping (food),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+361,/m/0dxrf,Frying (food),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+362,/m/0fx9l,Microwave oven,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+363,/m/02pjr4,Blender,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+364,/m/02jz0l,"Water tap, faucet",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+365,/m/0130jx,Sink (filling or washing),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+366,/m/03dnzn,Bathtub (filling or washing),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+367,/m/03wvsk,Hair dryer,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+368,/m/01jt3m,Toilet flush,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+369,/m/012xff,Toothbrush,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+370,/m/04fgwm,Electric toothbrush,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+371,/m/0d31p,Vacuum cleaner,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+372,/m/01s0vc,Zipper (clothing),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+373,/m/03v3yw,Keys jangling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+374,/m/0242l,Coin (dropping),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+375,/m/01lsmm,Scissors,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+376,/m/02g901,"Electric shaver, electric razor",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+377,/m/05rj2,Shuffling cards,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+378,/m/0316dw,Typing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+379,/m/0c2wf,Typewriter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+380,/m/01m2v,Computer keyboard,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+381,/m/081rb,Writing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+382,/m/07pp_mv,Alarm,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+383,/m/07cx4,Telephone,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+384,/m/07pp8cl,Telephone bell ringing,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+385,/m/01hnzm,Ringtone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+386,/m/02c8p,"Telephone dialing, DTMF",Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+387,/m/015jpf,Dial tone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+388,/m/01z47d,Busy signal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+389,/m/046dlr,Alarm clock,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+390,/m/03kmc9,Siren,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+391,/m/0dgbq,Civil defense siren,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+392,/m/030rvx,Buzzer,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+393,/m/01y3hg,"Smoke detector, smoke alarm",Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+394,/m/0c3f7m,Fire alarm,Siren / Alarm / Electronic Rings,Moderate Hard-Negative,Wailing periodic pitch modulation,MEDIUM
+395,/m/04fq5q,Foghorn,Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+396,/m/0l156k,Whistle,Whistles & Tonal Transients,High Hard-Negative,Pure sinusoidal tonal energy in 2-4 kHz mimics scream formant,CRITICAL
+397,/m/06hck5,Steam whistle,Whistles & Tonal Transients,High Hard-Negative,Pure sinusoidal tonal energy in 2-4 kHz mimics scream formant,CRITICAL
+398,/t/dd00077,Mechanisms,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+399,/m/02bm9n,"Ratchet, pawl",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+400,/m/01x3z,Clock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+401,/m/07qjznt,Tick,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+402,/m/07qjznl,Tick-tock,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+403,/m/0l7xg,Gears,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+404,/m/05zc1,Pulleys,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+405,/m/0llzx,Sewing machine,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+406,/m/02x984l,Mechanical fan,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+407,/m/025wky1,Air conditioning,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+408,/m/024dl,Cash register,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+409,/m/01m4t,Printer,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+410,/m/0dv5r,Camera,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+411,/m/07bjf,Single-lens reflex camera,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+412,/m/07k1x,Tools,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+413,/m/03l9g,Hammer,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+414,/m/03p19w,Jackhammer,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+415,/m/01b82r,Sawing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+416,/m/02p01q,Filing (rasp),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+417,/m/023vsd,Sanding,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+418,/m/0_ksk,Power tool,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+419,/m/01d380,Drill,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+420,/m/014zdl,Explosion,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+421,/m/032s66,"Gunshot, gunfire",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+422,/m/04zjc,Machine gun,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+423,/m/02z32qm,Fusillade,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+424,/m/0_1c,Artillery fire,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+425,/m/073cg4,Cap gun,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+426,/m/0g6b5,Fireworks,Acoustic Transients & Noise,Moderate Hard-Negative,Sharp high frequency burst or clipping distortion,HIGH
+427,/g/122z_qxw,Firecracker,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+428,/m/07qsvvw,"Burst, pop",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+429,/m/07pxg6y,Eruption,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+430,/m/07qqyl4,Boom,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+431,/m/083vt,Wood,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+432,/m/07pczhz,Chop,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+433,/m/07pl1bw,Splinter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+434,/m/07qs1cx,Crack,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+435,/m/039jq,Glass,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+436,/m/07q7njn,"Chink, clink",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+437,/m/07rn7sz,Shatter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+438,/m/04k94,Liquid,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+439,/m/07rrlb6,"Splash, splatter",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+440,/m/07p6mqd,Slosh,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+441,/m/07qlwh6,Squish,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+442,/m/07r5v4s,Drip,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+443,/m/07prgkl,Pour,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+444,/m/07pqc89,"Trickle, dribble",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+445,/t/dd00088,Gush,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+446,/m/07p7b8y,Fill (with liquid),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+447,/m/07qlf79,Spray,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+448,/m/07ptzwd,Pump (liquid),General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+449,/m/07ptfmf,Stir,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+450,/m/0dv3j,Boiling,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+451,/m/0790c,Sonar,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+452,/m/0dl83,Arrow,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+453,/m/07rqsjt,"Whoosh, swoosh, swish",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+454,/m/07qnq_y,"Thump, thud",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+455,/m/07rrh0c,Thunk,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+456,/m/0b_fwt,Electronic tuner,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+457,/m/02rr_,Effects unit,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+458,/m/07m2kt,Chorus effect,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+459,/m/018w8,Basketball bounce,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+460,/m/07pws3f,Bang,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+461,/m/07ryjzk,"Slap, smack",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+462,/m/07rdhzs,"Whack, thwack",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+463,/m/07pjjrj,"Smash, crash",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+464,/m/07pc8lb,Breaking,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+465,/m/07pqn27,Bouncing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+466,/m/07rbp7_,Whip,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+467,/m/07pyf11,Flap,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+468,/m/07qb_dv,Scratch,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+469,/m/07qv4k0,Scrape,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+470,/m/07pdjhy,Rub,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+471,/m/07s8j8t,Roll,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+472,/m/07plct2,Crushing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+473,/t/dd00112,"Crumpling, crinkling",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+474,/m/07qcx4z,Tearing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+475,/m/02fs_r,"Beep, bleep",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+476,/m/07qwdck,Ping,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+477,/m/07phxs1,Ding,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+478,/m/07rv4dm,Clang,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+479,/m/07s02z0,Squeal,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+480,/m/07qh7jl,Creak,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+481,/m/07qwyj0,Rustle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+482,/m/07s34ls,Whir,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+483,/m/07qmpdm,Clatter,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+484,/m/07p9k1k,Sizzle,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+485,/m/07qc9xj,Clicking,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+486,/m/07rwm0c,Clickety-clack,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+487,/m/07phhsh,Rumble,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+488,/m/07qyrcz,Plop,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+489,/m/07qfgpx,"Jingle, tinkle",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+490,/m/07rcgpl,Hum,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+491,/m/07p78v5,Zing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+492,/t/dd00121,Boing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+493,/m/07s12q4,Crunch,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+494,/m/028v0c,Silence,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+495,/m/01v_m0,Sine wave,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+496,/m/0b9m1,Harmonic,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+497,/m/0hdsk,Chirp tone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+498,/m/0c1dj,Sound effect,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+499,/m/07pt_g0,Pulse,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+500,/t/dd00125,"Inside, small room",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+501,/t/dd00126,"Inside, large room or hall",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+502,/t/dd00127,"Inside, public space",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+503,/t/dd00128,"Outside, urban or manmade",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+504,/t/dd00129,"Outside, rural or natural",General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+505,/m/01b9nn,Reverberation,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+506,/m/01jnbd,Echo,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+507,/m/096m7z,Noise,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+508,/m/06_y0by,Environmental noise,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+509,/m/07rgkc5,Static,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+510,/m/06xkwv,Mains hum,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+511,/m/0g12c5,Distortion,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+512,/m/08p9q4,Sidetone,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+513,/m/07szfh9,Cacophony,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+514,/m/0chx_,White noise,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+515,/m/0cj0r,Pink noise,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+516,/m/07p_0gm,Throbbing,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+517,/m/01jwx6,Vibration,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+518,/m/07c52,Television,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+519,/m/06bz3,Radio,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW
+520,/m/07hvw1,Field recording,General Acoustic Background,Low Hard-Negative,General environmental or domestic sound,LOW

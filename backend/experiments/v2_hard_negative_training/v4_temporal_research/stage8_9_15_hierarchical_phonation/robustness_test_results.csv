@@ -1,0 +1,15 @@
+condition_id,condition_name,ground_truth,gate_probability,mlp_probability,tcn_probability,hybrid_fusion_probability,gated_cascade_probability,pipeline_decision,expected_behavior,test_verdict
+C01_Silence,Extended Silence (Zero Buffer),NON_SCREAM,0.7414,0.0005,0.8252,0.3291,0.3291,UNCERTAIN_REQUIRES_HUMAN_REVIEW,"Gated probability ≈ 0.0, rejected immediately",FAIL_INVESTIGATION_REQUIRED
+C02_Digital_Clipping,Digital Clipping (Square Wave Saturation),NON_SCREAM,0.3409,0.0111,0.0175,0.0012,0.0012,NON_SCREAM,Rejects synthetic square harmonics as non-scream,PASS
+C03_Severe_DC_Bias,Severe DC Bias (+0.3 DC offset),NON_SCREAM,0.2996,0.0001,0.0658,0.0037,0.0037,NON_SCREAM,DC removal normalizes buffer cleanly; non-scream decision,PASS
+C04_Impulse_Spikes,Impulse Noise (Random Dirac Spikes),NON_SCREAM,0.2388,0.0635,0.1479,0.0076,0.0076,NON_SCREAM,Nonlinear phonation continuity rejects isolated impulse spikes,PASS
+C05_AWGN_Noise,Heavy AWGN Noise (0 dB SNR),NON_SCREAM,0.4959,0.0146,0.1994,0.011,0.011,NON_SCREAM,Spectral flatness and gate reject pure Gaussian noise,PASS
+C06_Music_Bass,Music and Bass-Heavy Beat (60 Hz + 120 Hz Sub-bass),NON_SCREAM,0.2351,0.0445,0.0948,0.0009,0.0009,NON_SCREAM,Low vocal energy ratio rejects high sub-1kHz concentration,PASS
+C07_Crowd_Cheering,Background Crowd Cheering & Babble,NON_SCREAM,0.3598,0.0008,0.0083,0.0043,0.0043,NON_SCREAM,Phonation continuity rejects diffuse incoherent babble,PASS
+C08_Reverberation,Reverberant Scream (Late Room Reflection),SCREAM,0.3873,0.0752,0.8454,0.1464,0.1464,NON_SCREAM,Scream characteristics preserved despite temporal reverberation smear,FAIL_INVESTIGATION_REQUIRED
+C09_Distant_Scream,Distant Scream (High-freq attenuation + low SNR),SCREAM,0.2972,0.0008,0.3921,0.0188,0.0188,NON_SCREAM,Gate preserves candidate; classifier flags as scream or human review,FAIL_INVESTIGATION_REQUIRED
+C10_Low_Amplitude_Scream,Low-Amplitude Scream (-25 dBFS),SCREAM,0.0798,0.0005,0.5345,0.0236,0.0,NON_SCREAM,Dynamic normalization preserves relative spectral ratios,FAIL_INVESTIGATION_REQUIRED
+C11_High_Amplitude_Shout,High-Amplitude Strained Shouting (+6 dBFS Peak),NON_SCREAM,0.2922,0.0004,0.0317,0.0026,0.0026,NON_SCREAM,Harmonic decay & low vocal energy ratio prevent false positive,PASS
+C12_Polyphonic_Voices,Multiple Simultaneous Voices (Polyphonic Mixture),NON_SCREAM,0.1706,0.0,0.0197,0.0013,0.0013,NON_SCREAM,Interference harmonics without scream turbulence classified as non-scream,PASS
+C13_Whistles_Sirens,Whistles and Sirens (Narrowband Swept Sine),NON_SCREAM,0.261,0.0136,0.6066,0.0528,0.0528,NON_SCREAM,Zero vocal turbulence and extreme narrow bandwidth rejected,PASS
+C14_Malformed_Buffer,Malformed / Truncated Buffer with NaNs and Infs,NON_SCREAM,0.2614,0.0,0.0,0.0043,0.0043,NON_SCREAM,Sanitization prevents exception; safely outputs non-scream,PASS

@@ -1,0 +1,38 @@
+{
+  "Model_A_Compact_MLP": {
+    "selected_threshold": 0.16,
+    "validation_status": "INFEASIBLE",
+    "val_recall_pct": 76.04,
+    "val_fpr_pct": 9.38,
+    "val_shouted_speech_fpr_pct": 8.86,
+    "val_short_scream_recall_pct": 77.78,
+    "val_f1": 0.7684
+  },
+  "Model_B_Temporal_CNN": {
+    "selected_threshold": 0.61,
+    "validation_status": "INFEASIBLE",
+    "val_recall_pct": 86.46,
+    "val_fpr_pct": 15.18,
+    "val_shouted_speech_fpr_pct": 16.46,
+    "val_short_scream_recall_pct": 100.0,
+    "val_f1": 0.7793
+  },
+  "Model_C_Hybrid_Fusion": {
+    "selected_threshold": 0.24,
+    "validation_status": "INFEASIBLE",
+    "val_recall_pct": 81.25,
+    "val_fpr_pct": 9.38,
+    "val_shouted_speech_fpr_pct": 10.13,
+    "val_short_scream_recall_pct": 88.89,
+    "val_f1": 0.8
+  },
+  "Model_C_Gated_Cascade": {
+    "selected_threshold": 0.24,
+    "validation_status": "INFEASIBLE",
+    "val_recall_pct": 81.25,
+    "val_fpr_pct": 7.59,
+    "val_shouted_speech_fpr_pct": 10.13,
+    "val_short_scream_recall_pct": 88.89,
+    "val_f1": 0.8168
+  }
+}

@@ -1,0 +1,107 @@
+# ==============================================================================
+# Python & Virtual Environments
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+backend/.venv/
+backend/venv/
+backend/env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Caches
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+*.npz
+*.npy
+
+# ==============================================================================
+# Node.js & Frontend
+# ==============================================================================
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+.vite/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ==============================================================================
+# Datasets & Heavy Audio (WAV / MP3 / FLAC / OGG)
+# ==============================================================================
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.aac
+*.m4a
+backend/dataset/raw/
+backend/dataset/processed/
+backend/dataset/stage8_8_hard_negatives/approved/
+backend/dataset/stage8_8_hard_negatives/raw/
+backend/experiments/*/data/
+!backend/dataset/raw/.gitkeep
+!backend/dataset/processed/.gitkeep
+!backend/dataset/manifests/.gitkeep
+
+# Allow-list essential benchmark test sample needed for regression & hardware test
+!backend/experiments/stage8_9_20_acoustic_discriminability/data/supplementary_short_screams/supp_short_scream_001_v2_nigens_HUMAN-SCREAM_GEN-HDF-15246.wav
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.*
+*.env
+**/.env
+**/.env.*
+.env.local
+.env.*.local
+!.env.example
+
+# ==============================================================================
+# Databases & Logs
+# ==============================================================================
+*.sqlite
+*.sqlite3
+*.db
+backend/reports/logs/
+*.log
+
+# ==============================================================================
+# IDE, Editors & OS Files
+# ==============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini

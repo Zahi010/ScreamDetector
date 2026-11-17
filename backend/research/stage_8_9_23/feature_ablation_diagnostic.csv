@@ -1,0 +1,11 @@
+ablation_condition,description,event_recall_pct,hard_negative_fpr_pct,shouting_fpr_pct,short_scream_recall_pct,supp_short_scream_recall_pct,roc_auc,diagnostic_conclusion
+Full_Architecture,Full SDDFR Two-Tier Architecture,78.21,7.03,20.24,86.36,95.59,0.9351,Complete System Baseline
+Abl1_No_SNR_Routing,Without SNR Routing (Fixed Weights),78.21,7.55,21.43,86.36,95.59,0.9284,Shouting FPR increases (+1.19%) due to over-trusting HNR in noise
+Abl2_No_Pitch_Conditioning,Without Pitch Conditioning (Raw Pitch Failure),76.92,8.59,23.81,81.82,91.18,0.912,Scream Recall drops (-1.29%) and Shouting FPR rises (+3.57%)
+Abl3_No_SHR,Without Subharmonic Features (SHR),78.21,7.29,20.24,86.36,95.59,0.9312,Minor ROC-AUC loss (-0.0039); biphonation confirmation removed
+Abl4_No_HNR,Without Harmonic-to-Noise Ratio (HNR),78.21,7.81,22.62,86.36,95.59,0.9245,Shouting FPR increases (+2.38%) because modal harmonicity is lost
+Abl5_No_Enhanced_Stream,Without Enhanced Stream (Original Only),78.21,7.29,20.24,86.36,100.0,0.9348,Short scream recall reaches 100%; zero risk of onset suppression
+Abl6_No_Formants,Without Formants (No Formant Dispersion),78.21,7.81,23.81,86.36,95.59,0.9261,Shouting FPR increases (+3.57%) on open shouted vowels (NOOO/HEYYY)
+Abl7_No_YAMNet_Mean,Without YAMNet Mean (Max-Only Pooling),74.36,9.64,25.0,81.82,89.71,0.8845,"Severe degradation across all metrics (-3.85% Recall, +4.76% Shouting FPR)"
+Abl8_No_Tier2,Without Tier 2 Verifier (Tier 1 Direct),78.21,7.03,20.24,86.36,100.0,0.951,"Higher raw AUC, but loses tri-state explainability and noise gating"
+Abl9_No_Confidence_Weighting,Without Confidence Weighting (Hard Thresholds),75.64,8.07,21.43,81.82,88.24,0.918,Short screams suppressed (-7.35% supp recall) due to rigid thresholding

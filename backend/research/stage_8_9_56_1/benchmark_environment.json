@@ -1,0 +1,25 @@
+{
+  "benchmark_stage": "8.9.56.1",
+  "timestamp_utc": "2026-11-09T16:43:10Z",
+  "cpu_processor": "AMD64 Family 25 Model 80 Stepping 0, AuthenticAMD",
+  "total_ram_gb": 15.86,
+  "available_ram_gb": 3.76,
+  "operating_system": "Windows-11-10.0.26100-SP0",
+  "python_version": "3.13.3",
+  "numpy_version": "2.4.0",
+  "scipy_version": "1.18.1",
+  "pytorch_version": "2.14.1+cpu",
+  "thread_count": 8,
+  "numerical_precision": "float32",
+  "audio_window_duration_seconds": 1.0,
+  "target_sample_rate_hz": 16000,
+  "concurrent_stream_levels": [
+    1,
+    2,
+    4,
+    8
+  ],
+  "iterations_per_benchmark": 300,
+  "warmup_iterations": 50,
+  "hardware_type": "Standardized 64-bit AMD64 Multi-Core CPU"
+}

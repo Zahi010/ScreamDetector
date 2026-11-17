@@ -1,0 +1,5 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+Baseline Candidate 69-D,79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+"Exp A1: Flatness SNR Boost (flatness>0.04, sim>0.75)",80.81,80,19,15.91,14,8.87,11,94.87,37,60.07,161
+"Exp A2: High-Frequency Resonance Rescue (HFCR>0.10, flat>0.03)",81.82,81,18,15.91,14,10.48,13,94.87,37,60.07,161
+Exp A3: Retrained with Subband Dropout Augmentation,80.81,80,19,31.82,28,17.74,22,92.31,36,59.33,159

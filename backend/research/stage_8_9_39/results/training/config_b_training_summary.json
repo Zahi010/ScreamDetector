@@ -1,0 +1,11 @@
+{
+  "candidate": "Configuration B (DualEncoderAcousticModel)",
+  "best_epoch": 10,
+  "best_val_f1": 0.7619047619047619,
+  "total_epochs_trained": 18,
+  "total_training_time_seconds": 1.85,
+  "parameter_count": 309217,
+  "checkpoint_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\checkpoints\\config_b\\best_model.pt",
+  "val_predictions_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\predictions\\validation\\config_b_val_predictions.csv",
+  "history_csv_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\results\\training\\config_b_training_history.csv"
+}

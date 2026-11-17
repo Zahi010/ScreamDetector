@@ -1,0 +1,14 @@
+test_domain,comparison,sample_size,metric_delta_pct,raw_mcnemar_exact_p,test_type,fdr_adjusted_p_bh,significant_fdr_05
+Paired Recall (Positives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_E1_Static_C5,200,12.0,3e-06,Exact McNemar Binomial Test,6e-06,True
+Paired Recall (Positives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_B_Baseline,200,12.5,4.1e-05,Exact McNemar Binomial Test,6.7e-05,True
+Paired Recall (Positives Only),Candidate_E1_Static_C5 vs Candidate_B_Baseline,200,0.5,1.0,Exact McNemar Binomial Test,1.0,False
+Paired Recall (Positives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_B_Intervention_D,200,13.0,2.4e-05,Exact McNemar Binomial Test,4.5e-05,True
+Paired FPR (Negatives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_E1_Static_C5,500,16.2,0.0,Exact McNemar Binomial Test,0.0,True
+Paired FPR (Negatives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_B_Baseline,500,19.6,0.0,Exact McNemar Binomial Test,0.0,True
+Paired FPR (Negatives Only),Candidate_E1_Rolling_C5_EMA vs Candidate_B_Intervention_D,500,20.6,0.0,Exact McNemar Binomial Test,0.0,True
+Paired FPR (Negatives Only),Candidate_B_Baseline vs Candidate_B_Intervention_D,500,1.0,0.0625,Exact McNemar Binomial Test,0.073864,False
+Paired FPR (Negatives Only),Candidate_E1_Static_C5 vs Candidate_B_Baseline,500,3.4,0.024093,Exact McNemar Binomial Test,0.034801,True
+Overall Accuracy (All Recordings),Candidate_E1_Static_C5 vs Candidate_B_Baseline,700,-2.29,0.092912,Exact McNemar Binomial Test,0.100655,False
+Overall Accuracy (All Recordings),Candidate_E1_Rolling_C5_EMA vs Candidate_B_Baseline,700,-10.43,0.0,Exact McNemar Binomial Test,0.0,True
+Overall Accuracy (All Recordings),Candidate_E1_Static_C5 vs Candidate_B_Intervention_D,700,-2.86,0.039854,Exact McNemar Binomial Test,0.05181,False
+Overall Accuracy (All Recordings),Candidate_E1_Rolling_C5_EMA vs Candidate_E1_Static_C5,700,-8.14,0.0,Exact McNemar Binomial Test,0.0,True

@@ -1,0 +1,7 @@
+pipeline_stage,sample_count,mean_ms,p50_ms,p95_ms,p99_ms,max_ms,min_ms,target_gate_met
+Ring-Buffer Audio Ingestion (100ms Hop),100,0.108,0.113,0.125,0.136,0.149,0.088,True
+Causal Temporal Context Buffering,100,0.171,0.175,0.216,0.266,0.472,0.126,True
+Semantic YAMNet & Acoustic Feature Extraction,100,18.687,18.677,18.925,18.993,19.136,18.393,True
+TSA-DualEncoder Neural Forward Pass,100,2.172,2.076,2.858,3.535,3.964,1.782,True
+Decision Policy & Thresholding,100,0.002,0.002,0.002,0.003,0.007,0.001,True
+Total End-to-End Computational Pipeline,100,21.139,21.064,21.823,22.586,22.841,20.512,True

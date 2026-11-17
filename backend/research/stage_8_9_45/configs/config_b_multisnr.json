@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate D (Config-B-MultiSNR)",
+  "candidate_tag": "config_b_multisnr",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_multisnr.pt",
+  "selected_threshold": 0.85,
+  "val_auc": 0.9342,
+  "val_ap": 0.8013,
+  "val_f1": 0.7059,
+  "val_recall": 61.54,
+  "val_hn_fpr": 4.33,
+  "val_shouted_speech_fpr": 10.99,
+  "val_brier_score": 0.0982,
+  "val_ece": 0.0687,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

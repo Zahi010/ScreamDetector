@@ -1,0 +1,7 @@
+model_pair,b_hv4_only,c_comp_only,mcnemar_chi2_cc,p_mcnemar_cc,p_exact_binomial,delta_pr_auc_mean,delta_pr_auc_ci_95,p_boot_pr_auc,sig_unadjusted_05,sig_bonferroni_01
+Model H_v4 vs Baseline_Frozen,24,7,8.2581,0.004057,0.003327,0.1513,"[0.0923, 0.2176]",0.0,True,True
+Model H_v4 vs Model_D_v3 (at 0.37),10,10,0.05,0.823063,1.0,0.0167,"[-0.0060, 0.0428]",0.144,False,False
+Model H_v4 vs Model_D_v3 (at 0.35),10,10,0.05,0.823063,1.0,0.0167,"[-0.0060, 0.0428]",0.144,False,False
+Model H_v4 vs Model_H_Calibrated (at 0.39),8,9,0.0,1.0,1.0,0.0154,"[-0.0076, 0.0438]",0.214,False,False
+Model H_v4 vs Model_T1_1D_TCN,14,10,0.375,0.540291,0.541256,0.0093,"[-0.0292, 0.0535]",0.682,False,False
+Model H_v4 vs Model_T3_TemporalPooling,13,5,2.7222,0.09896,0.096252,0.0256,"[0.0043, 0.0502]",0.014,True,False

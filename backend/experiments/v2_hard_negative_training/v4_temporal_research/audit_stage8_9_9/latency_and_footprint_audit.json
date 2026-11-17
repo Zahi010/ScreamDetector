@@ -1,0 +1,21 @@
+{
+  "reported_latency_ms": 1.65,
+  "measured_classifier_latency_ms": 0.808,
+  "measured_latency_scope": "Scikit-Learn Logistic Regression + Platt Scaling on pre-extracted 5,144-d vector only",
+  "omitted_latency_components": {
+    "audio_file_loading_resampling_16k_ms": "1.5 - 3.0 ms",
+    "yamnet_feature_extraction_ms": "18.0 - 25.0 ms",
+    "scipy_stft_turbulence_features_ms": "1.1 - 1.5 ms",
+    "true_end_to_end_latency_ms": "21.0 - 30.0 ms"
+  },
+  "reported_footprint_kb": 22.4,
+  "measured_joblib_file_bytes": 145785,
+  "measured_joblib_file_kb": 142.37,
+  "measured_footprint_scope": "Serialized classifier weights and Platt calibration coefficients only",
+  "omitted_footprint_components": {
+    "yamnet_savedmodel_bytes": "14.5 MB",
+    "python_runtime_and_deps": "NumPy, SciPy, TF Hub, Scikit-learn",
+    "full_runtime_memory_mb": "120 - 180 MB"
+  },
+  "edge_feasibility_verdict": "FEASIBLE with noted omissions (Total E2E latency ~25ms satisfies real-time budget, but reported numbers represent classifier only)"
+}

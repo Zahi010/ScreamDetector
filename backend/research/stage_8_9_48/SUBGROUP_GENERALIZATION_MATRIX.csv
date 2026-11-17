@@ -1,0 +1,13 @@
+class_type,category_or_subtype,cohort_clips,unique_source_groups,candidate_b_correct,candidate_b_rate,candidate_b_95_ci,candidate_r5_correct,candidate_r5_rate,candidate_r5_95_ci,candidate_r3_correct,candidate_r3_rate,relative_delta_b_vs_r5
+POSITIVE_SCREAM,ultra_short_scream,25,20,25,100.0,"[86.68%, 100.00%]",20,80.0,"[60.87%, 91.14%]",25,100.0,20.0
+POSITIVE_SCREAM,short_scream,45,30,45,100.0,"[92.13%, 100.00%]",39,86.67,"[73.82%, 93.74%]",38,84.44,13.33
+POSITIVE_SCREAM,sustained_scream,35,20,33,94.29,"[81.39%, 98.42%]",25,71.43,"[54.95%, 83.67%]",18,51.43,22.86
+POSITIVE_SCREAM,distant_reverberant_scream,20,15,14,70.0,"[48.10%, 85.45%]",14,70.0,"[48.10%, 85.45%]",13,65.0,0.0
+POSITIVE_SCREAM,low_intensity_muffled_scream,15,10,12,80.0,"[54.81%, 92.95%]",12,80.0,"[54.81%, 92.95%]",12,80.0,0.0
+POSITIVE_SCREAM,crowd_masked_scream,20,10,15,75.0,"[53.13%, 88.81%]",11,55.0,"[34.21%, 74.18%]",8,40.0,20.0
+HARD_NEGATIVE,shouting_and_speech,80,30,80,0.0,"[0.00%, 4.58%]",80,0.0,"[0.00%, 4.58%]",80,0.0,0.0
+HARD_NEGATIVE,crowd_chant_cheering,60,20,60,0.0,"[0.00%, 6.02%]",60,0.0,"[0.00%, 6.02%]",60,0.0,0.0
+HARD_NEGATIVE,infant_crying,45,18,45,0.0,"[0.00%, 7.87%]",45,0.0,"[0.00%, 7.87%]",45,0.0,0.0
+HARD_NEGATIVE,whistles_and_squeaks,45,18,41,8.89,"[3.51%, 20.73%]",45,0.0,"[0.00%, 7.87%]",45,0.0,8.89
+HARD_NEGATIVE,sfx_sirens_fireworks,45,15,45,0.0,"[0.00%, 7.87%]",44,2.22,"[0.39%, 11.57%]",45,0.0,-2.22
+HARD_NEGATIVE,music_and_environmental,45,14,45,0.0,"[0.00%, 7.87%]",45,0.0,"[0.00%, 7.87%]",45,0.0,0.0

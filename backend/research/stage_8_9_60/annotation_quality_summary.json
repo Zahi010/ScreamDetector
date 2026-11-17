@@ -1,0 +1,9 @@
+{
+  "total_recordings_annotated": 962,
+  "raw_agreement_rate_pct": 96.78,
+  "cohens_kappa": 0.9561,
+  "target_kappa": 0.85,
+  "target_met": true,
+  "total_disagreements_adjudicated": 31,
+  "annotation_protocol": "Double-blind independent acoustic annotation followed by senior expert adjudication"
+}

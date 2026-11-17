@@ -1,0 +1,6 @@
+variant,overall_recall_pct,hard_neg_fpr_pct,shouting_fpr_pct,short_scream_recall_pct,cheering_fpr_pct,whistle_siren_fpr_pct,roc_auc,pr_auc,p95_latency_ms,gate_verdict
+Fusion A (Model C alone),70.51,3.65,10.71,71.43,1.79,17.65,0.9015,0.6772,3.1,REJECTED (Research Only)
+Fusion B (Model C + Cand G),85.9,6.51,15.48,85.71,5.36,17.65,0.9394,0.724,5.5,REJECTED (Research Only)
+Fusion C (Model C + Model E),70.51,3.65,11.9,71.43,1.79,11.76,0.9455,0.7075,23.4,REJECTED (Research Only)
+Fusion D (Model C + Cand G + Model E Logistic),70.51,3.39,10.71,71.43,1.79,11.76,0.9422,0.6979,24.2,REJECTED (Research Only)
+Fusion E (Confidence-Aware Asymmetric Fusion),85.9,6.25,15.48,71.43,5.36,11.76,0.9257,0.7149,24.8,REJECTED (Research Only)

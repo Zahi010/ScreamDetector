@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate G (Config-B-ProbMixed)",
+  "candidate_tag": "config_b_prob_mixed",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_prob_mixed.pt",
+  "selected_threshold": 0.85,
+  "val_auc": 0.937,
+  "val_ap": 0.8118,
+  "val_f1": 0.6912,
+  "val_recall": 60.26,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 10.99,
+  "val_brier_score": 0.0987,
+  "val_ece": 0.088,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

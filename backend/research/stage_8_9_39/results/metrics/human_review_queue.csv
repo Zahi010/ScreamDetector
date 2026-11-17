@@ -1,0 +1,45 @@
+cohort,file_id,category,source_group_id,duration_seconds,ground_truth_view_a,ground_truth_view_b,cand_b_prob,cand_b_pred,cand_d_prob,cand_d_pred,review_priority,review_reason
+v4_historical_test,v2_fsd50k_316558,whistles_and_squeaks,stage8_9_else_fucker,6.0,0,0,0.3385,1,0.3604,1,MEDIUM,Candidate B FP (prob=0.3385); Candidate D FP (prob=0.3604)
+v4_historical_test,v2_fsd50k_159750,sfx_sirens_fireworks,stage8_9_conleec,22.711,0,0,0.2412,1,0.2581,0,HIGH,Candidate B FP (prob=0.2412); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_322205,sfx_sirens_fireworks,stage8_9_freesoundjon01,9.827,0,0,0.1656,0,0.3814,1,HIGH,Candidate D FP (prob=0.3814); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_156868,sfx_sirens_fireworks,stage8_9_multimax2121,8.647,0,0,0.2225,0,0.4341,1,HIGH,Candidate D FP (prob=0.4341); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_159743,sfx_sirens_fireworks,stage8_9_conleec,20.381,0,0,0.3098,1,0.3518,1,MEDIUM,Candidate B FP (prob=0.3098); Candidate D FP (prob=0.3518)
+v4_historical_test,v2_fsd50k_350439,shouting_and_speech,stage8_9_benjaminharveydesign,2.024,0,0,0.4752,1,0.5037,1,MEDIUM,Candidate B FP (prob=0.4752); Candidate D FP (prob=0.5037)
+v4_historical_test,v2_fsd50k_350446,shouting_and_speech,stage8_9_benjaminharveydesign,1.634,0,0,0.4712,1,0.5218,1,MEDIUM,Candidate B FP (prob=0.4712); Candidate D FP (prob=0.5218)
+v4_historical_test,v2_fsd50k_350451,shouting_and_speech,stage8_9_benjaminharveydesign,2.487,0,0,0.5552,1,0.5557,1,MEDIUM,Candidate B FP (prob=0.5552); Candidate D FP (prob=0.5557)
+v4_historical_test,v2_fsd50k_350448,shouting_and_speech,stage8_9_benjaminharveydesign,2.287,0,0,0.2585,1,0.41,1,MEDIUM,Candidate B FP (prob=0.2585); Candidate D FP (prob=0.4100)
+v4_historical_test,v2_openslr_7IOA_15_11_1_33_0_0_0,scream,openslr_speaker_7IOA,3.413,1,1,0.2797,1,0.2051,0,HIGH,Candidate D FN (prob=0.2051); Model Decision Disagreement
+v4_historical_test,v2_openslr_QLQX_15_15_0_19_0_0_0,scream,openslr_speaker_QLQX,2.347,1,1,0.122,0,0.1054,0,MEDIUM,Candidate B FN (prob=0.1220); Candidate D FN (prob=0.1054)
+v4_historical_test,v2_nigens_42849__freqman__psycho-screams-3,scream,nigens_freqman,5.731,1,1,0.5044,1,0.3184,0,HIGH,Candidate D FN (prob=0.3184); Model Decision Disagreement
+v4_historical_test,v2_nigens_219814__saraonsins__man-s-scream,scream,nigens_saraonsins,2.266,1,1,0.2886,1,0.2775,0,HIGH,Candidate D FN (prob=0.2775); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_73622,whistles_and_squeaks,fsd50k_uploader_daytripper,7.449,0,0,0.3405,1,0.4705,1,MEDIUM,Candidate B FP (prob=0.3405); Candidate D FP (prob=0.4705)
+v4_historical_test,v2_fsd50k_76659,crowd_chant_cheering,fsd50k_uploader_digitopia,2.723,0,0,0.6012,1,0.5707,1,MEDIUM,Candidate B FP (prob=0.6012); Candidate D FP (prob=0.5707)
+v4_historical_test,v2_fsd50k_193064,crowd_chant_cheering,fsd50k_uploader_soundslikewillem,28.792,0,0,0.323,1,0.2926,0,HIGH,Candidate B FP (prob=0.3230); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_57483,whistles_and_squeaks,fsd50k_uploader_sharkmail,3.818,0,0,0.3441,1,0.4769,1,MEDIUM,Candidate B FP (prob=0.3441); Candidate D FP (prob=0.4769)
+v4_historical_test,v2_fsd50k_169811,shouting_and_speech,fsd50k_uploader_missozzy,1.971,0,0,0.7497,1,0.6193,1,MEDIUM,Candidate B FP (prob=0.7497); Candidate D FP (prob=0.6193)
+v4_historical_test,v2_fsd50k_23499,whistles_and_squeaks,fsd50k_uploader_schulze,5.26,0,0,0.716,1,0.6118,1,MEDIUM,Candidate B FP (prob=0.7160); Candidate D FP (prob=0.6118)
+v4_historical_test,v2_fsd50k_57504,whistles_and_squeaks,fsd50k_uploader_sharkmail,1.475,0,0,0.2038,0,0.3571,1,HIGH,Candidate D FP (prob=0.3571); Model Decision Disagreement
+v4_historical_test,v2_fsd50k_386923,infant_crying,fsd50k_uploader_gumballworld,2.743,0,0,0.259,1,0.3768,1,MEDIUM,Candidate B FP (prob=0.2590); Candidate D FP (prob=0.3768)
+v4_historical_test,v2_fsd50k_168725,shouting_and_speech,fsd50k_uploader_11linda,1.405,0,0,0.5316,1,0.5445,1,MEDIUM,Candidate B FP (prob=0.5316); Candidate D FP (prob=0.5445)
+v4_historical_test,v2_fsd50k_256494,shouting_and_speech,fsd50k_uploader_seanpue,6.0,0,0,0.7474,1,0.622,1,MEDIUM,Candidate B FP (prob=0.7474); Candidate D FP (prob=0.6220)
+v4_historical_test,v2_fsd50k_9429,infant_crying,fsd50k_uploader_thanvannispen,2.875,0,0,0.7128,1,0.5933,1,MEDIUM,Candidate B FP (prob=0.7128); Candidate D FP (prob=0.5933)
+v4_historical_test,v2_fsd50k_169810,shouting_and_speech,fsd50k_uploader_missozzy,7.069,0,0,0.7212,1,0.6129,1,MEDIUM,Candidate B FP (prob=0.7212); Candidate D FP (prob=0.6129)
+v4_historical_test,v2_synth_scream_028_snr-06db,masked_distant_screams,nigens_saraonsins,2.266,1,1,0.1158,0,0.2423,0,MEDIUM,Candidate B FN (prob=0.1158); Candidate D FN (prob=0.2423)
+v4_historical_test,v2_synth_scream_032_snr-06db,masked_distant_screams,nigens_freqman,5.695,1,1,0.2667,1,0.2838,0,HIGH,Candidate D FN (prob=0.2838); Model Decision Disagreement
+v4_historical_test,v2_synth_scream_043_snr+00db,masked_distant_screams,nigens_freqman,5.695,1,1,0.1868,0,0.1653,0,MEDIUM,Candidate B FN (prob=0.1868); Candidate D FN (prob=0.1653)
+v4_historical_test,v2_synth_scream_052_snr-06db,masked_distant_screams,openslr_speaker_OZDT,2.51,1,1,0.1685,0,0.3711,1,HIGH,Candidate B FN (prob=0.1685); Model Decision Disagreement
+v4_historical_test,v3_fsd50k_220658,scream,fsd50k_uploader_marionagm90,0.732,1,1,0.1954,0,0.289,0,MEDIUM,Candidate B FN (prob=0.1954); Candidate D FN (prob=0.2890)
+v4_historical_test,v3_fsd50k_366060,crowd_chant_cheering,fsd50k_uploader_univ_lyon3,4.702,0,0,0.729,1,0.6071,1,MEDIUM,Candidate B FP (prob=0.7290); Candidate D FP (prob=0.6071)
+v4_historical_test,v3_fsd50k_367636,crowd_chant_cheering,fsd50k_uploader_univ_lyon3,7.166,0,0,0.4568,1,0.4827,1,MEDIUM,Candidate B FP (prob=0.4568); Candidate D FP (prob=0.4827)
+v4_historical_test,v3_fsd50k_150961,crowd_chant_cheering,fsd50k_uploader_unchaz,7.001,0,0,0.6723,1,0.5992,1,MEDIUM,Candidate B FP (prob=0.6723); Candidate D FP (prob=0.5992)
+v4_historical_test,v3_fsd50k_241591,scream,fsd50k_uploader_pushkin,3.162,1,1,0.2907,1,0.2435,0,HIGH,Candidate D FN (prob=0.2435); Model Decision Disagreement
+v4_historical_test,v3_fsd50k_267249,crowd_chant_cheering,fsd50k_uploader_berlingamescene,3.399,0,0,0.2847,1,0.4557,1,MEDIUM,Candidate B FP (prob=0.2847); Candidate D FP (prob=0.4557)
+v4_historical_test,v3_fsd50k_9433,scream,fsd50k_uploader_thanvannispen,2.0,1,1,0.1563,0,0.1404,0,MEDIUM,Candidate B FN (prob=0.1563); Candidate D FN (prob=0.1404)
+v4_historical_test,v3_fsd50k_150957,crowd_chant_cheering,fsd50k_uploader_unchaz,7.314,0,0,0.2105,0,0.4237,1,HIGH,Candidate D FP (prob=0.4237); Model Decision Disagreement
+v4_historical_test,v3_fsd50k_29849,scream,fsd50k_uploader_thanvannispen,8.0,1,1,0.0729,0,0.0791,0,MEDIUM,Candidate B FN (prob=0.0729); Candidate D FN (prob=0.0791)
+v4_historical_test,v3_fsd50k_241592,scream,fsd50k_uploader_pushkin,5.908,1,1,0.3415,1,0.3244,0,HIGH,Candidate D FN (prob=0.3244); Model Decision Disagreement
+v4_historical_test,v3_fsd50k_93023,crowd_chant_cheering,fsd50k_uploader_cosmicd,26.48,0,0,0.697,1,0.5829,1,MEDIUM,Candidate B FP (prob=0.6970); Candidate D FP (prob=0.5829)
+v4_historical_test,v3_fsd50k_166621,scream,fsd50k_uploader_j.zazvurek,2.016,1,1,0.1302,0,0.3711,1,HIGH,Candidate B FN (prob=0.1302); Model Decision Disagreement
+v4_historical_test,v3_synth_scream_005_snr+06db,masked_distant_screams,nigens_freesound,3.76,1,1,0.2349,0,0.3208,0,MEDIUM,Candidate B FN (prob=0.2349); Candidate D FN (prob=0.3208)
+v4_historical_test,v3_synth_scream_018_snr+00db,masked_distant_screams,openslr_speaker_7IOA,3.413,1,1,0.1604,0,0.2233,0,MEDIUM,Candidate B FN (prob=0.1604); Candidate D FN (prob=0.2233)
+v4_historical_test,v3_synth_scream_029_snr+03db,masked_distant_screams,openslr_speaker_QLQX,2.347,1,1,0.0888,0,0.158,0,MEDIUM,Candidate B FN (prob=0.0888); Candidate D FN (prob=0.1580)

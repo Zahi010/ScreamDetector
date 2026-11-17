@@ -1,0 +1,16 @@
+{
+  "feature_cache_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_39\\cache\\stage_8_9_39_features.npz",
+  "feature_cache_sha256": "40f0ac150fa7c19299798df0b2e92ab675846c82e50c0be84fc97f0d158c778b",
+  "n_records": 1578,
+  "split_counts": {
+    "quarantined": 24,
+    "v4_historical_test": 293,
+    "v4_reserved_expansion_test": 102,
+    "v4_train": 820,
+    "v4_val": 339
+  },
+  "semantic_dim": 1024,
+  "phonation_dim": 12,
+  "subband_dim": 11,
+  "normalization_fitted_on": "v4_train_only"
+}

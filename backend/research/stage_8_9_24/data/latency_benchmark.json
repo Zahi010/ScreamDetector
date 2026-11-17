@@ -1,0 +1,12 @@
+{
+  "feature_extraction_p50_ms": 1.7,
+  "feature_extraction_p95_ms": 2.41,
+  "feature_extraction_p99_ms": 2.84,
+  "computational_latency_p50_ms": 1.71,
+  "computational_latency_p95_ms": 2.42,
+  "computational_latency_p99_ms": 2.85,
+  "audio_collection_time_short_pathway_ms": 500.0,
+  "audio_collection_time_long_pathway_ms": 2000.0,
+  "total_end_to_end_delay_short_pathway_p95_ms": 502.42,
+  "total_end_to_end_delay_long_pathway_p95_ms": 2002.42
+}

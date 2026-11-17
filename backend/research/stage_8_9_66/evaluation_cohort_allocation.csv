@@ -1,0 +1,4 @@
+design_id,total_recordings,positive_recordings,negative_recordings,prevalence_pct,short_screams,sustained_screams,shouted_speech_negatives,whistle_tone_negatives,crowd_cheer_negatives,ambient_environmental_negatives,rationale
+Design_Early_LowPrevalence,1050,240,810,22.86,120,120,150,120,180,360,Realistic rare-event surveillance prevalence with high negative statistical power.
+Design_Stage65_Balanced,1050,550,500,52.38,350,200,120,80,120,180,High positive sub-cohort resolution and short-scream statistical power.
+Design_Stage66_Reconciled,1050,350,700,33.33,220,130,160,100,160,280,Rigorous 1:2 prevalence balance ensuring >95% power on all 5 gates with 160 shouted speech.

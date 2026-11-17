@@ -1,0 +1,7 @@
+feature_group,implementation_id,max_abs_error,mae,rmse,mean_relative_error_pct,min_correlation,mean_correlation,nan_count,inf_count,shape_match,dtype,equivalence_classification
+11-d Subband Filterbank,C1_Vector,0.0078125,3.79e-06,0.00014963,0.0,1.0,1.0,0,0,True,float32,NUMERICALLY CLOSE — PREDICTION STABLE
+11-d Subband Filterbank,C2_Streaming_Reset,127100.28125,180.47851562,4601.671875,580.1502,0.470784,0.897464,0,0,True,float32,PREDICTION CHANGES — REQUIRES RESEARCH REVIEW
+11-d Subband Filterbank,C3_Precomputed,6e-08,0.0,1e-08,0.0,1.0,1.0,0,0,True,float32,NUMERICALLY EQUIVALENT
+11-d Subband Filterbank,C4_Memory,0.00268555,3.39e-06,8.805e-05,20.1764,1.0,1.0,0,0,True,float32,NUMERICALLY CLOSE — PREDICTION STABLE
+11-d Subband Filterbank,C5_Combined,0.0078125,3.8e-06,0.00014963,0.0,1.0,1.0,0,0,True,float32,NUMERICALLY CLOSE — PREDICTION STABLE
+6-d Phonation Statistics,C5_Phonation_Vectorized,0.0,0.0,0.0,0.0,1.0,1.0,0,0,True,float32,NUMERICALLY EQUIVALENT

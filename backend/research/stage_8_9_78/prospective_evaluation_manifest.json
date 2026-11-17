@@ -1,0 +1,12 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.78",
+  "cohort_id": "prospective_evaluation_cohort_stage78",
+  "cohort_status": "SEALED_EMPTY_PENDING_HUMAN_ANNOTATION",
+  "creation_timestamp_utc": "2026-11-14T15:30:00Z",
+  "total_recordings": 0,
+  "admitted_recordings_count": 0,
+  "quarantined_recordings_count": 26,
+  "manifest_seal_reason": "Zero recordings admitted prior to verified double-blind human consensus annotation. Research integrity policy strictly forbids synthetic pseudo-labeling.",
+  "recordings": []
+}

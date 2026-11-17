@@ -1,0 +1,4 @@
+classification_category,case_count,percentage_of_errors,primary_subtypes,scientific_implication
+ACOUSTIC_CLASSIFICATION_ERROR,29,72.5,"Synthetic Masked Screams (8), Child Screams (2), Boundary Screams (5), Infant Crying (3), Whistles (3), Sirens (2), Environmental (1), Natural Shouts (5)",Represents genuine acoustic model limitations requiring better acoustic representations or feature extraction.
+ANNOTATION_UNCERTAINTY,11,27.5,"Surprise Gasps labeled as scream (2), Theatrical voice-acting dramatic screams labeled as shouting (8), Excited crowd cheers (1)","Represents ambiguous ground truth, forced binary categorization, or uploader session labeling inconsistencies."
+TOTAL_AUDITED_ERRORS,40,100.0,All 17 False Negatives + 10 Hard-Negative False Positives + 13 Shouted-Speech False Positives,Comprehensive diagnostic queue for future expert multi-reviewer re-annotation.

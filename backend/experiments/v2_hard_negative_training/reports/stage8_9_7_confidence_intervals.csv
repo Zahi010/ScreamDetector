@@ -1,0 +1,21 @@
+model_architecture,metric,point_estimate,ci_lower,ci_upper,margin_of_error
+Model_A_v3_Baseline,Recall,0.7647,0.6737,0.8365,0.0814
+Model_A_v3_Baseline,Hard-Negative FPR,0.1309,0.0903,0.1861,0.0479
+Model_A_v3_Baseline,Precision,0.7573,0.6662,0.8298,0.0818
+Model_A_v3_Baseline,PR-AUC,0.7545,0.6636,0.8411,0.0888
+Model_D_v3_Concat_LR,Recall,0.8431,0.7603,0.9011,0.0704
+Model_D_v3_Concat_LR,Hard-Negative FPR,0.0838,0.0522,0.1317,0.0398
+Model_D_v3_Concat_LR,Precision,0.8431,0.7603,0.9011,0.0704
+Model_D_v3_Concat_LR,PR-AUC,0.891,0.8311,0.945,0.0569
+Model_G_Hybrid_Concat,Recall,0.8627,0.7827,0.9164,0.0669
+Model_G_Hybrid_Concat,Hard-Negative FPR,0.089,0.0563,0.1379,0.0408
+Model_G_Hybrid_Concat,Precision,0.8381,0.7559,0.8964,0.0702
+Model_G_Hybrid_Concat,PR-AUC,0.8918,0.8313,0.9464,0.0575
+Model_H_Calibrated_Hybrid,Recall,0.8627,0.7827,0.9164,0.0669
+Model_H_Calibrated_Hybrid,Hard-Negative FPR,0.089,0.0563,0.1379,0.0408
+Model_H_Calibrated_Hybrid,Precision,0.8381,0.7559,0.8964,0.0702
+Model_H_Calibrated_Hybrid,PR-AUC,0.8923,0.832,0.9469,0.0574
+Model_I_NonLinear_GBT,Recall,0.6863,0.5909,0.7682,0.0887
+Model_I_NonLinear_GBT,Hard-Negative FPR,0.0576,0.0325,0.1002,0.0339
+Model_I_NonLinear_GBT,Precision,0.8642,0.773,0.9224,0.0747
+Model_I_NonLinear_GBT,PR-AUC,0.8528,0.7779,0.9229,0.0725

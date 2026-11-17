@@ -1,0 +1,63 @@
+{
+  "stage": "8.9.55",
+  "cohort_manifest_sha256": "06c9db80d3969e60f78dd441eb1495a9dab97f1646f08ab5825ea979719021f2",
+  "cohort_size": 450,
+  "cohort_source_groups": 246,
+  "candidate_e1": {
+    "name": "Candidate E1 (Expanded Class-Weighted Dual-Branch)",
+    "checkpoint_path": "backend/research/stage_8_9_54/training/candidate_e_v954_weighted.pt",
+    "checkpoint_sha256": "37fa77b4cd4cb04c3e3902347b7a69b764b85da845cfb22e1a3bcdaee94f9243",
+    "frozen_threshold": 0.68,
+    "architecture": "DualEncoderAcousticModel (1024-d YAMNet + 6-d Phonation + 6-d Mask)",
+    "feature_pipeline_version": "v952_dual_branch"
+  },
+  "candidate_b": {
+    "name": "Candidate B (Mask-v6 Dual-Branch Baseline)",
+    "checkpoint_path": "backend/research/stage_8_9_44/models/config_b_mask.pt",
+    "checkpoint_sha256": "f40c8342ae1b2ff588d8a6649fc5e5c2a19d1db6ae3e4f5cc894f1e3353c1378",
+    "frozen_threshold": 0.8,
+    "architecture": "DualEncoderAcousticModel (1024-d YAMNet + 6-d Phonation + 6-d Mask)",
+    "feature_pipeline_version": "v944_mask_v6"
+  },
+  "candidate_b_intervention_d": {
+    "name": "Candidate B + Intervention D (Lightweight Research Rejection Layer)",
+    "base_checkpoint_sha256": "f40c8342ae1b2ff588d8a6649fc5e5c2a19d1db6ae3e4f5cc894f1e3353c1378",
+    "frozen_threshold": 0.8,
+    "filter_script": "backend/research/stage_8_9_49/scripts/whistle_discriminator.py",
+    "filter_function": "apply_intervention_d",
+    "filter_parameters": {
+      "vocal_formant_protection_ratio": 0.18,
+      "whistle_band_ratio_threshold": 0.6,
+      "bandwidth_max_hz": 800.0,
+      "trill_power_ratio_threshold": 0.065,
+      "trill_periodicity_threshold": 0.3
+    }
+  },
+  "evaluation_gates": {
+    "overall_scream_recall": {
+      "requirement": ">= 0.96",
+      "target": 0.96
+    },
+    "hard_negative_fpr": {
+      "requirement": "<= 0.05",
+      "target": 0.05
+    },
+    "shouted_speech_fpr": {
+      "requirement": "<= 0.15",
+      "target": 0.15
+    },
+    "short_scream_recall": {
+      "requirement": ">= 0.90",
+      "target": 0.9
+    },
+    "p95_inference_latency_ms": {
+      "requirement": "<= 25.0",
+      "target": 25.0
+    }
+  },
+  "bootstrap_config": {
+    "method": "stratified_source_group_cluster_bootstrap",
+    "replicates": 2000,
+    "random_seed": 42
+  }
+}

@@ -1,0 +1,7 @@
+ablation_id,description,overall_recall_pct,hard_neg_fpr_pct,shouting_fpr_pct,short_scream_recall_pct,roc_auc
+P0_Complete_Pipeline,Full 4-Stage Integrated Pipeline (Pre-screen + Model C + Verification + Fusion E),85.9,6.25,15.48,71.43,0.9257
+P1_No_Prescreening,Bypass Stage 1 Pre-screening (Process 100% of windows with neural stack),85.9,6.25,15.48,71.43,0.9257
+P2_No_Fast_Temporal_CNN,Without Model C (Rely only on slow 1.0s - 1.5s verification pathway),78.21,5.73,16.67,77.27,0.9124
+P3_No_Acoustic_Verification,Without Model E & Horn Resonance (Temporal models C + Cand G only),85.9,6.51,15.48,85.71,0.9394
+P4_No_Temporal_Cadence,"Without Candidate G (Model C + Model E only, no syllabic cadence veto)",70.51,3.65,11.9,71.43,0.9455
+P5_No_Asymmetric_Logic,Replace Asymmetric Rules with standard Logistic Fusion (Fusion D),70.51,3.39,10.71,71.43,0.9422

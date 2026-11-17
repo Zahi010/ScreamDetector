@@ -1,0 +1,13 @@
+{
+  "total_recordings_audited": 1732,
+  "status_distribution": {
+    "COMMERCIALLY_ELIGIBLE_WITH_ATTRIBUTION": 874,
+    "COMMERCIALLY_ELIGIBLE": 858
+  },
+  "license_class_distribution": {
+    "CC BY (Attribution)": 874,
+    "CC0 / Public Domain": 858
+  },
+  "commercial_eligible_count": 1732,
+  "quarantined_count": 0
+}

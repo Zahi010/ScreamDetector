@@ -1,0 +1,24 @@
+file_id,split,duration_sec,duration_bracket,source_group_id,original_recording_id,creator,license,is_synthesized,test_detection_status,candidate_d_prob
+v2_nigens_220822__ericsueiro__woman-yelling-high-pitched-2,train,0.751,0.5-0.8s,nigens_ericsueiro,220822__ericsueiro__woman-yelling-high-pitched-2,ericsueiro,CC0 1.0,False,N/A (Not in Test),N/A
+v2_nigens_58585__juskiddink__vocal-joy-and-excitement2,test,0.761,0.5-0.8s,nigens_juskiddink,58585__juskiddink__vocal-joy-and-excitement2,juskiddink,CC0 1.0,False,DETECTED (TP),0.9173
+v2_nigens_HUMAN-SCREAM_GEN-HDF-15246,train,0.499,<0.5s,nigens_nigens,HUMAN-SCREAM_GEN-HDF-15246,nigens,CC0 1.0,False,N/A (Not in Test),N/A
+v2_nigens_336537__chrillz3r__scream-frightened,test,0.878,0.8-1.0s,nigens_chrillz3r,336537__chrillz3r__scream-frightened,chrillz3r,CC0 1.0,False,DETECTED (TP),0.817
+v3_fsd50k_252244,train,0.952,0.8-1.0s,fsd50k_uploader_reitanna,fsd50k_252244,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_220658,test,0.732,0.5-0.8s,fsd50k_uploader_marionagm90,fsd50k_220658,marionagm90,http://creativecommons.org/licenses/by/3.0/,False,DETECTED (TP),0.8218
+v3_fsd50k_381801,val,0.731,0.5-0.8s,fsd50k_uploader_juliabosque,fsd50k_381801,juliabosque,http://creativecommons.org/licenses/by/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_58803,train,0.743,0.5-0.8s,fsd50k_uploader_syna-max,fsd50k_58803,Syna-Max,http://creativecommons.org/licenses/by-nc/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_161360,val,0.81,0.8-1.0s,fsd50k_uploader_dream4dreamtheater,fsd50k_161360,dream4dreamtheater,http://creativecommons.org/licenses/by/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_182924,val,0.54,0.5-0.8s,fsd50k_uploader_toiletrolltube,fsd50k_182924,toiletrolltube,http://creativecommons.org/licenses/by-nc/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_34283,train,0.601,0.5-0.8s,fsd50k_uploader_hello_flowers,fsd50k_34283,hello_flowers,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_343948,train,0.607,0.5-0.8s,fsd50k_uploader_reitanna,fsd50k_343948,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_220660,test,0.871,0.8-1.0s,fsd50k_uploader_marionagm90,fsd50k_220660,marionagm90,http://creativecommons.org/licenses/by/3.0/,False,DETECTED (TP),0.891
+v3_fsd50k_253771,train,0.813,0.8-1.0s,fsd50k_uploader_reitanna,fsd50k_253771,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_316398,val,0.883,0.8-1.0s,fsd50k_uploader_littlerobotsoundfactory,fsd50k_316398,LittleRobotSoundFactory,http://creativecommons.org/licenses/by/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_68136,train,0.664,0.5-0.8s,fsd50k_uploader_jrssandoval,fsd50k_68136,jrssandoval,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_9706,train,0.734,0.5-0.8s,fsd50k_uploader_lithe-fider,fsd50k_9706,Lithe-Fider,http://creativecommons.org/licenses/by/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_110140,train,0.951,0.8-1.0s,fsd50k_uploader_ryding,fsd50k_110140,Ryding,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_381802,val,0.575,0.5-0.8s,fsd50k_uploader_juliabosque,fsd50k_381802,juliabosque,http://creativecommons.org/licenses/by/3.0/,False,N/A (Not in Test),N/A
+v3_fsd50k_219453,train,0.939,0.8-1.0s,fsd50k_uploader_jarredgibb,fsd50k_219453,JarredGibb,http://creativecommons.org/publicdomain/zero/1.0/,False,N/A (Not in Test),N/A
+v3_synth_scream_006_snr-06db,test,0.761,0.5-0.8s,nigens_juskiddink,v3_synth_scream_006_snr-06db,Synthesized from juskiddink + qubodup,CC0 1.0,True,DETECTED (TP),0.9779
+v3_synth_scream_010_snr+06db,train,0.813,0.8-1.0s,fsd50k_uploader_reitanna,v3_synth_scream_010_snr+06db,Synthesized from Reitanna + Tritus,http://creativecommons.org/publicdomain/zero/1.0/,True,N/A (Not in Test),N/A
+v3_synth_scream_048_snr+00db,val,0.81,0.8-1.0s,fsd50k_uploader_dream4dreamtheater,v3_synth_scream_048_snr+00db,Synthesized from dream4dreamtheater + conradts,http://creativecommons.org/licenses/by/3.0/,True,N/A (Not in Test),N/A

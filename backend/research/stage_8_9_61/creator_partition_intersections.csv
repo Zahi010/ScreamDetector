@@ -1,0 +1,22 @@
+partition_1,partition_2,p1_unique_creators,p2_unique_creators,overlapping_creators_count,overlapping_creator_list,p1_affected_recordings,p2_affected_recordings,p1_affected_source_groups,p2_affected_source_groups,audit_status,governance_classification
+expansion_train,expansion_val,482,156,7,11linda; LanDub; Reitanna; ZyryTSounds; chrillz3r; ecfike; peridactyloptrix,31,44,7,8,HISTORICAL_OVERLAP,DOCUMENTED_HISTORICAL_LEAKAGE
+expansion_train,expansion_reserved_test,482,170,10,Ryding; SoundCollectah; annatabernero; jorickhoofd; qubodup; saraonsins; schafferdavid; thanvannispen; univ_lyon3; xtrgamr,44,37,11,10,HISTORICAL_OVERLAP,DOCUMENTED_HISTORICAL_LEAKAGE
+expansion_train,stage_47_cohort,482,220,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_train,stage_55_cohort,482,246,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_train,stage_60_pool,482,64,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_train,stage_60_sealed_cohort,482,58,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_val,expansion_reserved_test,156,170,2,RutgerMuller; arjanvanhoorn0181,8,9,2,2,HISTORICAL_OVERLAP,DOCUMENTED_HISTORICAL_LEAKAGE
+expansion_val,stage_47_cohort,156,220,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_val,stage_55_cohort,156,246,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_val,stage_60_pool,156,64,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_val,stage_60_sealed_cohort,156,58,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_reserved_test,stage_47_cohort,170,220,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_reserved_test,stage_55_cohort,170,246,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_reserved_test,stage_60_pool,170,64,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+expansion_reserved_test,stage_60_sealed_cohort,170,58,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_47_cohort,stage_55_cohort,220,246,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_47_cohort,stage_60_pool,220,64,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_47_cohort,stage_60_sealed_cohort,220,58,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_55_cohort,stage_60_pool,246,64,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_55_cohort,stage_60_sealed_cohort,246,58,0,NONE,0,0,0,0,CLEAN_INDEPENDENT,ZERO_CREATOR_LEAKAGE
+stage_60_pool,stage_60_sealed_cohort,64,58,58,AcousticResearch_Lab; stage20_artist_-15246; stage20_artist_104527; stage20_artist_109825; stage20_artist_109826; stage20_artist_109828; stage20_artist_109830; stage20_artist_109831; stage20_artist_166619; stage20_artist_169003; stage20_artist_169005; stage20_artist_182351; stage20_artist_182924; stage20_artist_186931; stage20_artist_186933; stage20_artist_186955; stage20_artist_186956; stage20_artist_186957; stage20_artist_186958; stage20_artist_220368; stage20_artist_220658; stage20_artist_222583; stage20_artist_241471; stage20_artist_268221; stage20_artist_269003; stage20_artist_323723; stage20_artist_336005; stage20_artist_336010; stage20_artist_336011; stage20_artist_343872; stage20_artist_343891; stage20_artist_343952; stage20_artist_343957; stage20_artist_343960; stage20_artist_343966; stage20_artist_344029; stage20_artist_344067; stage20_artist_369003; stage20_artist_422724; stage20_artist_433721; stage20_artist_669001; stage20_artist__11567; stage20_artist__11569; stage20_artist__24731; stage20_artist__24733; stage20_artist__32417; stage20_artist__58803; stage20_artist__61219; stage20_artist__63538; stage20_artist__68136; stage20_artist_r+00db; stage20_artist_r+03db; stage20_artist_r-03db; stage20_artist_r-06db; unknown_freesound_creator; v2_creator_v2_fsd50; v2_creator_v3_fsd50; v2_creator_v3_synth,956,700,627,453,EXPECTED_SUBSET,SEALED_CONTAINED_IN_POOL

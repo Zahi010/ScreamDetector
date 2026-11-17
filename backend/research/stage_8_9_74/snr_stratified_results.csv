@@ -1,0 +1,8 @@
+snr_stratum,sample_size,true_positives,false_negatives,recall_rate,mean_roughness,mean_hf_ratio,mean_flux,acoustic_masking_severity
++00db,5,3,2,60.00%,0.113,0.2956,0.0804,Moderate Masking
++03db,1,0,1,0.00%,0.2964,0.0632,0.0397,Moderate Masking
++06db,4,4,0,100.00%,0.1003,0.211,0.071,Mild / Clean
++12db,2,2,0,100.00%,0.1908,0.0491,0.1152,Mild / Clean
+-03db,2,1,1,50.00%,0.1841,0.0783,0.0383,Severe Masking
+-06db,5,1,4,20.00%,0.2138,0.0912,0.0716,Severe Masking
+Original Clean / Field Recording,80,71,9,88.75%,0.0758,0.4611,0.1411,Unmasked Natural Sound

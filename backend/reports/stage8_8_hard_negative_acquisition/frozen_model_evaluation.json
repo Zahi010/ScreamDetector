@@ -1,0 +1,277 @@
+{
+  "evaluation_stage": "Stage 8.8 Hard-Negative Baseline Inference",
+  "model_metadata": {
+    "operating_threshold": 0.35,
+    "classifier_hash": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "metadata_hash": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60"
+  },
+  "total_audio_clips_evaluated": 185,
+  "total_model_alerts": 20,
+  "total_reviewed_non_scream": 0,
+  "total_confirmed_false_positives": 0,
+  "by_category": {
+    "whistles_and_squeaks": {
+      "total_audio_clips": 22,
+      "unique_source_groups": 12,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 22,
+      "model_alerts_at_0_35": 2,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.8892,
+        "mean": 0.0835,
+        "median": 0.0002
+      },
+      "top_alerts": [
+        {
+          "recording_id": "fsd50k_323723",
+          "title": "distant creak6.wav: my chair squeaking from a difference. might have background ",
+          "score": 0.8892,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_323724",
+          "title": "distant creak5.wav: my chair squeaking from a difference. might have background ",
+          "score": 0.6948,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "crowd_cheering_applause": {
+      "total_audio_clips": 21,
+      "unique_source_groups": 16,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 21,
+      "model_alerts_at_0_35": 2,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.9939,
+        "mean": 0.1012,
+        "median": 0.0002
+      },
+      "top_alerts": [
+        {
+          "recording_id": "fsd50k_418897",
+          "title": "Applause.wav: This sound effect comes from a video recorded with a mobile phone.",
+          "score": 0.9939,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_347033",
+          "title": "01 small group clapping - theatre XY mics.wav: short recording of group of 4 peo",
+          "score": 0.9715,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "edm_and_synthesizers": {
+      "total_audio_clips": 21,
+      "unique_source_groups": 10,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 21,
+      "model_alerts_at_0_35": 0,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.0129,
+        "mean": 0.0011,
+        "median": 0.0
+      },
+      "top_alerts": [],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "shouting_and_speech": {
+      "total_audio_clips": 20,
+      "unique_source_groups": 14,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 20,
+      "model_alerts_at_0_35": 10,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.9999,
+        "mean": 0.4803,
+        "median": 0.4434
+      },
+      "top_alerts": [
+        {
+          "recording_id": "fsd50k_350451",
+          "title": "Kid Chorus \"School Crossing Guard\": A group of young adults yelling \"School cros",
+          "score": 0.9999,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_249791",
+          "title": "Scream.wav: A scream, male. Recorded with a TASCAM DR-05 Linear PCM Recorder.",
+          "score": 0.9999,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_350438",
+          "title": "Kid Chorus \"Buy Some Beer\": A bunch of young adults yelling \"Buy some beer!\" usi",
+          "score": 0.9977,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_350452",
+          "title": "Kid Chorus \"Welcome to Avenue Q\": A group of young adults yelling \"Welcome to Av",
+          "score": 0.9966,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_350439",
+          "title": "Kid Chorus \"Birthday Party Clown\": A bunch of young adults yelling \"Birthday par",
+          "score": 0.9899,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "vuvuzelas_and_horns": {
+      "total_audio_clips": 21,
+      "unique_source_groups": 8,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 21,
+      "model_alerts_at_0_35": 0,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.0014,
+        "mean": 0.0002,
+        "median": 0.0
+      },
+      "top_alerts": [],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "fireworks_pyrotechnics": {
+      "total_audio_clips": 20,
+      "unique_source_groups": 9,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 20,
+      "model_alerts_at_0_35": 0,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.0016,
+        "mean": 0.0003,
+        "median": 0.0
+      },
+      "top_alerts": [],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "wind_and_mic_noise": {
+      "total_audio_clips": 21,
+      "unique_source_groups": 10,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 21,
+      "model_alerts_at_0_35": 0,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.1386,
+        "mean": 0.0088,
+        "median": 0.0005
+      },
+      "top_alerts": [],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "sfx_sirens_ringing": {
+      "total_audio_clips": 19,
+      "unique_source_groups": 12,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 19,
+      "model_alerts_at_0_35": 5,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.8729,
+        "mean": 0.1899,
+        "median": 0.007
+      },
+      "top_alerts": [
+        {
+          "recording_id": "fsd50k_268809",
+          "title": "Police Car Siren in Traffic: Police Car Siren in Traffic\r\n\r\nRecord on my Vlog at",
+          "score": 0.8729,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_393662",
+          "title": "WaHi Siren Blast short.mp3: Ambulance chirping siren",
+          "score": 0.759,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_159743",
+          "title": "AMB_Siren_Police_Misc_Stationary_001.wav: Various police sirens and sounds. Stat",
+          "score": 0.6297,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_315758",
+          "title": "Fire Truck Siren: Fire Truck Siren, George Street, Sydney CBD, Australia.",
+          "score": 0.6048,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+          "recording_id": "fsd50k_268221",
+          "title": "police siren one loop loop able: its true loopable version of : \r\n<a href=\"http:",
+          "score": 0.4805,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    },
+    "infant_crying_archival": {
+      "total_audio_clips": 20,
+      "unique_source_groups": 18,
+      "reviewed_non_scream_count": 0,
+      "unreviewed_or_ambiguous_count": 20,
+      "model_alerts_at_0_35": 1,
+      "confirmed_false_positives_reviewed": 0,
+      "false_positive_rate_reviewed": "N/A (unreviewed)",
+      "score_distribution": {
+        "min": 0.0,
+        "max": 0.9294,
+        "mean": 0.0571,
+        "median": 0.0
+      },
+      "top_alerts": [
+        {
+          "recording_id": "fsd50k_393769",
+          "title": "baby cry.wav: A baby crying.Recorded with a Zoom H1.",
+          "score": 0.9294,
+          "review_status": "UNREVIEWED",
+          "license": "http://creativecommons.org/publicdomain/zero/1.0/"
+        }
+      ],
+      "unreviewed_alert_notice": "Alerts on unreviewed clips are candidate vulnerabilities for inspection, NOT confirmed ground-truth false positives."
+    }
+  }
+}

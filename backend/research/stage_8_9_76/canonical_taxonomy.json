@@ -1,0 +1,119 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "taxonomy_name": "FestivalScreamDetector_CanonicalTaxonomy",
+  "taxonomy_version": "v1.1_canonical",
+  "governance_classification": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE",
+  "effective_date_utc": "2026-11-14",
+  "taxonomy_architecture": {
+    "tier_structure": "TWO_TIER_HIERARCHICAL",
+    "primary_category_count": 19,
+    "scream_subcategory_count": 6,
+    "flattened_leaf_category_count": 24,
+    "reconciliation_summary": "19 primary categories (1 Scream, 17 Negative, 1 Ambiguous). When primary is SCREAM, 1 of 6 mutually exclusive subcategories is assigned, yielding exactly 24 canonical leaf classes."
+  },
+  "primary_categories": [
+    {
+      "code": "SCREAM",
+      "tier": "PRIMARY_POSITIVE",
+      "binary_class": 1,
+      "description": "Human vocalization with maximal vocal fold excursion, non-linear chaos/subharmonics, and auditory roughness.",
+      "subcategories_allowed": [
+        "ADULT_HIGH_INTENSITY",
+        "ADULT_LOW_INTENSITY",
+        "CHILD_HIGH_PITCH",
+        "SHORT_STARTLE_UNDER_1S",
+        "SUSTAINED_DISTRESS",
+        "MASKED_DISTANT"
+      ]
+    },
+    {"code": "INFANT_CRY", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Distress, hunger, or pain cry from an infant or toddler (<2 years). Cyclic melody glide, periodic breath bursts."},
+    {"code": "ADULT_CRY", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Adult weeping, sobbing, or tearful vocalizations. Breathy trembling voice without high-frequency chaos."},
+    {"code": "SHOUTED_SPEECH", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "High-effort projected linguistic speech where lexical words/formants (F1, F2) are intelligible."},
+    {"code": "THEATRICAL_SHOUT", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Dramatic acting, stage shouts, or radio voice performance without physiological panic dynamics."},
+    {"code": "EXCITED_CHEER", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "High-energy positive celebratory vocalizations from individuals or groups."},
+    {"code": "CROWD_CHANT", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Rhythmic unison shouting or chanting from stadium or festival crowds."},
+    {"code": "SINGING", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Musical sustained vocalization adhering to musical scale pitches, high HNR, vibrato."},
+    {"code": "LAUGHTER", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Paroxysmal interrupted exhalations during mirth, 4-6 Hz burst cadence."},
+    {"code": "GASP", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Sudden inspiratory airflow intake, startle intake, duration < 0.5s, unvoiced turbulence."},
+    {"code": "WHISTLE", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "High-frequency narrow-band tonal whistle (sports referee, pea whistle, whistling)."},
+    {"code": "SIREN", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Emergency vehicle or electronic siren with periodic sweeping FM tones (500-1800 Hz)."},
+    {"code": "ANIMAL_VOCALIZATION", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Animal sounds (dogs barking, birds screeching, cats howling)."},
+    {"code": "ENVIRONMENTAL_ALARM", "tier": "PRIMARY_HARD_NEGATIVE", "binary_class": 0, "description": "Industrial buzzers, fire alarms, security beeps."},
+    {"code": "MECHANICAL_SOUND", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Fairground machinery, metal squeals, brake friction, pneumatic release."},
+    {"code": "MUSIC", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Amplified musical instruments, heavy bass, drums, synthesizer audio."},
+    {"code": "AMBIENT_NOISE", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Outdoor festival crowd murmur, wind, rain, foot traffic, broad ambience."},
+    {"code": "OTHER_NON_SCREAM", "tier": "PRIMARY_ORDINARY_NEGATIVE", "binary_class": 0, "description": "Any acoustic event that is clearly non-scream and not covered by other negative classes."},
+    {"code": "AMBIGUOUS_VOCALIZATION", "tier": "PRIMARY_UNCERTAINTY", "binary_class": 0, "description": "Vocalizations exhibiting severe borderline characteristics or extreme distortion where reliable distinction cannot be made."}
+  ],
+  "scream_subcategories": [
+    {
+      "code": "ADULT_HIGH_INTENSITY",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [350, 1000],
+      "min_roughness": 0.025,
+      "description": "Maximal-effort adult panic/distress scream with extreme broadband chaos."
+    },
+    {
+      "code": "ADULT_LOW_INTENSITY",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [300, 750],
+      "min_roughness": 0.015,
+      "description": "Suppressed, low-effort, or distant adult distress vocalization."
+    },
+    {
+      "code": "CHILD_HIGH_PITCH",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [500, 2000],
+      "min_roughness": 0.010,
+      "description": "Prepubescent child scream with high pitch, wide harmonics, lower roughness due to low vocal fold mass."
+    },
+    {
+      "code": "SHORT_STARTLE_UNDER_1S",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [350, 1200],
+      "duration_seconds_max": 1.0,
+      "description": "Abrupt brief startle or shock shriek lasting < 1.0 second."
+    },
+    {
+      "code": "SUSTAINED_DISTRESS",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [350, 1000],
+      "duration_seconds_min": 1.2,
+      "description": "Continuous prolonged distress phonation exceeding 1.2 seconds."
+    },
+    {
+      "code": "MASKED_DISTANT",
+      "parent_label": "SCREAM",
+      "f0_range_hz": [350, 1200],
+      "snr_range_db": [-6.0, 6.0],
+      "description": "Scream vocalization embedded in heavy outdoor or crowd noise."
+    }
+  ],
+  "flattened_leaf_classes": [
+    "SCREAM__ADULT_HIGH_INTENSITY",
+    "SCREAM__ADULT_LOW_INTENSITY",
+    "SCREAM__CHILD_HIGH_PITCH",
+    "SCREAM__SHORT_STARTLE_UNDER_1S",
+    "SCREAM__SUSTAINED_DISTRESS",
+    "SCREAM__MASKED_DISTANT",
+    "INFANT_CRY",
+    "ADULT_CRY",
+    "SHOUTED_SPEECH",
+    "THEATRICAL_SHOUT",
+    "EXCITED_CHEER",
+    "CROWD_CHANT",
+    "SINGING",
+    "LAUGHTER",
+    "GASP",
+    "WHISTLE",
+    "SIREN",
+    "ANIMAL_VOCALIZATION",
+    "ENVIRONMENTAL_ALARM",
+    "MECHANICAL_SOUND",
+    "MUSIC",
+    "AMBIENT_NOISE",
+    "OTHER_NON_SCREAM",
+    "AMBIGUOUS_VOCALIZATION"
+  ]
+}
+

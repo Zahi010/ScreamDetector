@@ -1,0 +1,6 @@
+model_architecture,brier_score,ece,prob_mean,prob_std,prob_min,prob_max
+Model_A_v3_Baseline,0.152,0.1277,0.3396,0.4467,0.0,1.0
+Model_D_v3_Concat_LR,0.0874,0.0679,0.3287,0.4127,0.0,1.0
+Model_G_Hybrid_Concat,0.0863,0.0652,0.3289,0.4124,0.0,1.0
+Model_H_Calibrated_Hybrid,0.0927,0.0849,0.3212,0.3098,0.0,0.9925
+Model_I_NonLinear_GBT,0.1024,0.0465,0.3142,0.3588,0.0068,0.9814

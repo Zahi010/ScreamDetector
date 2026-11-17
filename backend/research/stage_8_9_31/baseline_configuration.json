@@ -1,0 +1,76 @@
+{
+  "stage": "8.9.31",
+  "baseline_source_stages": [
+    "8.9.28",
+    "8.9.29",
+    "8.9.30",
+    "8.9.30.1",
+    "8.9.30.2"
+  ],
+  "production_freeze": {
+    "threshold": 0.35,
+    "status": "STRICTLY_FROZEN",
+    "model_type": "LogisticRegression_MaxPooled_YAMNet",
+    "feature_dim": 1024
+  },
+  "streaming_buffer_baseline": {
+    "window_sec": 0.975,
+    "window_samples": 15600,
+    "hop_sec": 0.25,
+    "hop_samples": 4000,
+    "sample_rate": 16000,
+    "capacity_sec": 6.0,
+    "channels": 1,
+    "original_flush_policy": "NONE (unpadded ingestion caused underflow on < 15600 samples)"
+  },
+  "model_components": {
+    "pre_screener": {
+      "name": "AcousticPreScreener",
+      "rms_threshold_dbfs": -40.0,
+      "snr_threshold_db": 10.0,
+      "spectral_flux_threshold": 0.0005,
+      "zcr_range": [
+        0.01,
+        0.4
+      ]
+    },
+    "model_c": {
+      "name": "Model C (Temporal 1D-CNN)",
+      "input_frames": 70,
+      "frame_features": 16,
+      "input_duration_sec": 0.975,
+      "feature_normalization": "StandardScaler (16-dim short-time phonation)"
+    },
+    "candidate_g": {
+      "name": "Candidate G (Temporal Envelope Modulation)",
+      "classifier": "LogisticRegression (Candidate E short pathway)",
+      "context_sec": 0.5,
+      "features_dim": 12,
+      "feature_normalization": "scaler_short.joblib"
+    },
+    "model_e": {
+      "name": "Model E (Multimodal Resonance & Embedding)",
+      "input_dim": 1058,
+      "components": "1024 YAMNet placeholder + 2 fast scores + 32 temporal phonation features"
+    },
+    "fusion": {
+      "name": "Asymmetric Confidence Fusion E",
+      "rules": "High fast-score overrides; moderate fast-score requires modulation/resonance confirmation",
+      "threshold": 0.35
+    },
+    "persistence": {
+      "name": "IntegratedEventStateMachine",
+      "onset_persistence_windows": 1,
+      "hangover_cooldown_windows": 3,
+      "cooldown_duration_sec": 0.75
+    }
+  },
+  "audited_dataset_cohort": {
+    "total_recordings": 204,
+    "genuine_screams": 106,
+    "quarantined_non_screams": 31,
+    "audited_negatives": 98,
+    "clean_negatives": 67,
+    "short_scream_forensic_cohort": 6
+  }
+}

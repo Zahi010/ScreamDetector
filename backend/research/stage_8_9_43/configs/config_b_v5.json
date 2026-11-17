@@ -1,0 +1,12 @@
+{
+  "candidate_id": "Config-B-v5",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_v5.pt",
+  "selected_threshold": 0.82,
+  "val_auc": 0.9458,
+  "val_ap": 0.8379,
+  "val_f1": 0.7463,
+  "val_recall": 64.1,
+  "val_hn_fpr": 2.6,
+  "val_shouted_speech_fpr": 5.49
+}

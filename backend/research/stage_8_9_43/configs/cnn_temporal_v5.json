@@ -1,0 +1,12 @@
+{
+  "candidate_id": "CNN-Temporal-v5",
+  "architecture": "CustomTemporalCNN",
+  "checkpoint": "cnn_temporal_v5.pt",
+  "selected_threshold": 0.9099999999999999,
+  "val_auc": 0.9454,
+  "val_ap": 0.8399,
+  "val_f1": 0.7153,
+  "val_recall": 62.82,
+  "val_hn_fpr": 4.33,
+  "val_shouted_speech_fpr": 6.59
+}

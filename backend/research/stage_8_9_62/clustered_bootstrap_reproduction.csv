@@ -1,0 +1,5 @@
+candidate_1,candidate_2,bootstrap_iterations,cluster_count,recall_delta_mean_pct,recall_delta_ci_low_pct,recall_delta_ci_high_pct,fpr_delta_mean_pct,fpr_delta_ci_low_pct,fpr_delta_ci_high_pct,precision_delta_mean_pct,precision_delta_ci_low_pct,precision_delta_ci_high_pct,f1_delta_mean_pct,f1_delta_ci_low_pct,f1_delta_ci_high_pct,accuracy_delta_mean_pct,accuracy_delta_ci_low_pct,accuracy_delta_ci_high_pct
+Candidate_E1_Static_C5,Candidate_B_Baseline,2000,453,0.47,-4.55,5.8,3.37,0.24,6.7,-4.57,-10.14,0.54,-2.09,-6.47,2.22,-2.27,-5.01,0.52
+Candidate_E1_Rolling_C5_EMA,Candidate_B_Baseline,2000,453,12.42,6.45,18.38,19.67,16.2,23.39,-15.19,-20.86,-9.58,-4.21,-9.16,0.84,-10.35,-13.57,-6.5
+Candidate_E1_Static_C5,Candidate_B_Intervention_D,2000,453,0.96,-4.17,6.32,4.39,1.42,7.79,-5.96,-12.06,-0.71,-2.48,-7.05,1.9,-2.85,-5.71,-0.11
+Candidate_E1_Rolling_C5_EMA,Candidate_E1_Static_C5,2000,453,11.95,7.11,16.93,16.3,12.65,20.44,-10.62,-15.14,-6.32,-2.12,-6.23,2.22,-8.08,-11.26,-4.6

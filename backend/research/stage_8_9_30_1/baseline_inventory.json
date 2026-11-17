@@ -1,0 +1,257 @@
+{
+  "total_files": 472,
+  "zero_byte_files": [],
+  "deliverable_status": {
+    "STAGE_8_9_30_COMPLETION_REPORT.md": {
+      "exists": true,
+      "locations": [
+        "STAGE_8_9_30_COMPLETION_REPORT.md",
+        "reports\\STAGE_8_9_30_COMPLETION_REPORT.md"
+      ],
+      "sizes_bytes": [
+        23073,
+        23073
+      ]
+    },
+    "STAGE_PROGRESS.md": {
+      "exists": true,
+      "locations": [
+        "STAGE_PROGRESS.md"
+      ],
+      "sizes_bytes": [
+        3264
+      ]
+    },
+    "recording_manifest.csv": {
+      "exists": true,
+      "locations": [
+        "recording_manifest.csv",
+        "metadata\\recording_manifest.csv",
+        "reports\\recording_manifest.csv"
+      ],
+      "sizes_bytes": [
+        94179,
+        94179,
+        94179
+      ]
+    },
+    "source_group_manifest.csv": {
+      "exists": true,
+      "locations": [
+        "source_group_manifest.csv",
+        "metadata\\source_group_manifest.csv",
+        "reports\\source_group_manifest.csv"
+      ],
+      "sizes_bytes": [
+        8410,
+        8410,
+        8410
+      ]
+    },
+    "dataset_manifest_lock.json": {
+      "exists": true,
+      "locations": [
+        "dataset_manifest_lock.json"
+      ],
+      "sizes_bytes": [
+        419
+      ]
+    },
+    "source_registry.csv": {
+      "exists": true,
+      "locations": [
+        "source_registry.csv",
+        "acquisition\\source_registry.csv",
+        "reports\\source_registry.csv"
+      ],
+      "sizes_bytes": [
+        956,
+        956,
+        956
+      ]
+    },
+    "source_license_audit.csv": {
+      "exists": true,
+      "locations": [
+        "source_license_audit.csv",
+        "acquisition\\source_license_audit.csv",
+        "reports\\source_license_audit.csv"
+      ],
+      "sizes_bytes": [
+        4036,
+        4036,
+        4036
+      ]
+    },
+    "acquisition_log.csv": {
+      "exists": true,
+      "locations": [
+        "acquisition_log.csv",
+        "acquisition\\acquisition_log.csv",
+        "reports\\acquisition_log.csv"
+      ],
+      "sizes_bytes": [
+        3727,
+        3727,
+        3727
+      ]
+    },
+    "failed_downloads.csv": {
+      "exists": true,
+      "locations": [
+        "failed_downloads.csv",
+        "acquisition\\failed_downloads.csv",
+        "reports\\failed_downloads.csv"
+      ],
+      "sizes_bytes": [
+        971,
+        971,
+        971
+      ]
+    },
+    "audio_quality_report.csv": {
+      "exists": true,
+      "locations": [
+        "audio_quality_report.csv",
+        "analysis\\audio_quality_report.csv",
+        "reports\\audio_quality_report.csv"
+      ],
+      "sizes_bytes": [
+        88739,
+        88739,
+        88739
+      ]
+    },
+    "duration_distribution.csv": {
+      "exists": true,
+      "locations": [
+        "duration_distribution.csv",
+        "analysis\\duration_distribution.csv",
+        "reports\\duration_distribution.csv"
+      ],
+      "sizes_bytes": [
+        147,
+        147,
+        147
+      ]
+    },
+    "acoustic_profile_report.csv": {
+      "exists": true,
+      "locations": [
+        "acoustic_profile_report.csv",
+        "analysis\\acoustic_profile_report.csv",
+        "reports\\acoustic_profile_report.csv"
+      ],
+      "sizes_bytes": [
+        17188,
+        17188,
+        17188
+      ]
+    },
+    "duplicate_audit.csv": {
+      "exists": true,
+      "locations": [
+        "duplicate_audit.csv",
+        "analysis\\duplicate_audit.csv",
+        "reports\\duplicate_audit.csv"
+      ],
+      "sizes_bytes": [
+        90,
+        90,
+        90
+      ]
+    },
+    "contamination_audit.json": {
+      "exists": true,
+      "locations": [
+        "contamination_audit.json",
+        "evaluation\\contamination_audit.json",
+        "reports\\contamination_audit.json"
+      ],
+      "sizes_bytes": [
+        482,
+        482,
+        482
+      ]
+    },
+    "frozen_baseline_evaluation.csv": {
+      "exists": true,
+      "locations": [
+        "frozen_baseline_evaluation.csv",
+        "evaluation\\frozen_baseline_evaluation.csv",
+        "reports\\frozen_baseline_evaluation.csv"
+      ],
+      "sizes_bytes": [
+        30643,
+        30643,
+        30643
+      ]
+    },
+    "subgroup_metrics.csv": {
+      "exists": true,
+      "locations": [
+        "subgroup_metrics.csv",
+        "evaluation\\subgroup_metrics.csv",
+        "reports\\subgroup_metrics.csv"
+      ],
+      "sizes_bytes": [
+        309,
+        309,
+        309
+      ]
+    },
+    "production_integrity_verification.json": {
+      "exists": true,
+      "locations": [
+        "production_integrity_verification.json"
+      ],
+      "sizes_bytes": [
+        1299
+      ]
+    }
+  },
+  "total_manifest_recordings": 204,
+  "unique_recording_ids": 204,
+  "unique_original_source_ids": 204,
+  "unique_source_groups": 49,
+  "duplicate_recording_ids": [],
+  "null_fields": {
+    "recording_id": 0,
+    "source_provider": 0,
+    "original_source_id": 0,
+    "uploader_creator": 0,
+    "source_group_id": 0,
+    "local_processed_path": 0,
+    "sha256_processed": 0,
+    "pcm_hash": 0,
+    "duration_sec": 0,
+    "duration_bin": 0,
+    "sample_rate": 0,
+    "channels": 0,
+    "license": 0,
+    "commercial_compatibility": 0,
+    "source_url": 0,
+    "triage_category": 0,
+    "ground_truth": 0,
+    "binary_label": 0,
+    "f0_mean_hz": 0,
+    "spectral_centroid_hz": 0,
+    "resonance_horn_energy": 0,
+    "dataset_partition": 0
+  },
+  "readable_audio_count": 204,
+  "missing_audio_count": 0,
+  "corrupted_audio_count": 0,
+  "sample_rates": [
+    16000
+  ],
+  "channels": [
+    1
+  ],
+  "min_duration_sec": 0.395,
+  "max_duration_sec": 94.494,
+  "raw_audio_count": 204,
+  "evaluation_rows": 204,
+  "eval_matches_manifest": true,
+  "manifest_lock_verified": true
+}

@@ -1,0 +1,39 @@
+{
+  "audit_timestamp": "2026-10-30T15:57:00Z",
+  "production_threshold": 0.35,
+  "all_hashes_match": true,
+  "artifacts": {
+    "classifier": {
+      "path": "backend\\models\\scream_classifier.joblib",
+      "size_bytes": 29997,
+      "expected_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "actual_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "hash_verified": true,
+      "status": "VERIFIED_FROZEN"
+    },
+    "metadata": {
+      "path": "backend\\models\\model_metadata.json",
+      "size_bytes": 1645,
+      "expected_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "actual_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "hash_verified": true,
+      "status": "VERIFIED_FROZEN"
+    },
+    "historical_predictions": {
+      "path": "backend\\reports\\test_predictions.csv",
+      "size_bytes": 35939,
+      "expected_sha256": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "actual_sha256": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "hash_verified": true,
+      "status": "VERIFIED_FROZEN"
+    },
+    "historical_evaluation": {
+      "path": "backend\\reports\\stage5_test_evaluation.md",
+      "size_bytes": 3849,
+      "expected_sha256": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "actual_sha256": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "hash_verified": true,
+      "status": "VERIFIED_FROZEN"
+    }
+  }
+}

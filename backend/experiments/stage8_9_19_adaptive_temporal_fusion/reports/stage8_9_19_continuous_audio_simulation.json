@@ -1,0 +1,103 @@
+{
+  "evaluation_duration_hours": 1.0,
+  "hop_seconds": 0.4875,
+  "windows_per_hour": 7384,
+  "environments": [
+    {
+      "environment": "Digital Silence",
+      "is_positive_class": false,
+      "baseline_rms": 0.0,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Quiet Room Ambience",
+      "is_positive_class": false,
+      "baseline_rms": 0.005,
+      "false_alerts_per_hour": 0.1,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Outdoor Ambient Wind/Park",
+      "is_positive_class": false,
+      "baseline_rms": 0.02,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Urban Traffic Drone",
+      "is_positive_class": false,
+      "baseline_rms": 0.04,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Crowd Noise / Cheering",
+      "is_positive_class": false,
+      "baseline_rms": 0.08,
+      "false_alerts_per_hour": 3.7,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Background Festival Music",
+      "is_positive_class": false,
+      "baseline_rms": 0.06,
+      "false_alerts_per_hour": 2.4,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Crowd Chanting (Rhythmic)",
+      "is_positive_class": false,
+      "baseline_rms": 0.09,
+      "false_alerts_per_hour": 4.2,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Aggressive Shouted Speech",
+      "is_positive_class": false,
+      "baseline_rms": 0.12,
+      "false_alerts_per_hour": 7.5,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Infant Crying Ambience",
+      "is_positive_class": false,
+      "baseline_rms": 0.07,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Mixed Environmental Chaos",
+      "is_positive_class": false,
+      "baseline_rms": 0.1,
+      "false_alerts_per_hour": 3.6,
+      "event_recall_pct": 0.0,
+      "detection_delay_ms": 0.0
+    },
+    {
+      "environment": "Continuous Genuine Screams",
+      "is_positive_class": true,
+      "baseline_rms": 0.15,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 92.3,
+      "detection_delay_ms": 145.0
+    },
+    {
+      "environment": "Short Screams in Noise (SNR +3dB)",
+      "is_positive_class": true,
+      "baseline_rms": 0.11,
+      "false_alerts_per_hour": 0.0,
+      "event_recall_pct": 92.8,
+      "detection_delay_ms": 96.0
+    }
+  ]
+}

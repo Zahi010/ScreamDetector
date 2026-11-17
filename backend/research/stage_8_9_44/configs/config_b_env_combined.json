@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate E (Config-B-EnvCombined)",
+  "candidate_tag": "config_b_env_combined",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_env_combined.pt",
+  "selected_threshold": 0.85,
+  "val_auc": 0.9372,
+  "val_ap": 0.8081,
+  "val_f1": 0.7246,
+  "val_recall": 64.1,
+  "val_hn_fpr": 4.33,
+  "val_shouted_speech_fpr": 8.79,
+  "val_brier_score": 0.1043,
+  "val_ece": 0.0882,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

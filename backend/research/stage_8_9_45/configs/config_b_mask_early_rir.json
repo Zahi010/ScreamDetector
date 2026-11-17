@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate F (Config-B-MaskEarlyRIR)",
+  "candidate_tag": "config_b_mask_early_rir",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_mask_early_rir.pt",
+  "selected_threshold": 0.86,
+  "val_auc": 0.9407,
+  "val_ap": 0.8177,
+  "val_f1": 0.7007,
+  "val_recall": 61.54,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 9.89,
+  "val_brier_score": 0.0965,
+  "val_ece": 0.0878,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

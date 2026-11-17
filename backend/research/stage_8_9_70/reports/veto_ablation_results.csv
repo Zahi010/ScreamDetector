@@ -1,0 +1,8 @@
+ablation_id,whistle,hfcr,flux,vocal,overall_tp,overall_fn,overall_recall,shouted_fp,shouted_tn,shouted_fpr,hard_neg_fp,hard_neg_tn,hard_neg_fpr,short_scream_tp,short_scream_fn,short_scream_recall
+A: Full Candidate 69-D,True,True,True,True,79,20,79.8,12,76,13.64,10,114,8.06,36,3,92.31
+B: No Whistle Veto,False,True,True,True,79,20,79.8,12,76,13.64,14,110,11.29,36,3,92.31
+C: No HFCR Veto,True,False,True,True,79,20,79.8,12,76,13.64,10,114,8.06,36,3,92.31
+D: No Flux Veto,True,True,False,True,79,20,79.8,19,69,21.59,12,112,9.68,36,3,92.31
+E: No Vocal Distress Veto,True,True,True,False,81,18,81.82,14,74,15.91,10,114,8.06,36,3,92.31
+F: Minimal (Whistle + Vocal Only),True,False,False,True,79,20,79.8,19,69,21.59,12,112,9.68,36,3,92.31
+G: Zero Vetoes (Raw Neural Only),False,False,False,False,81,18,81.82,24,64,27.27,17,107,13.71,36,3,92.31

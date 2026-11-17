@@ -1,0 +1,61 @@
+{
+  "test_cases": {
+    "silence": {
+      "max_turb_diff": 0.0,
+      "max_snr_diff": 0.0,
+      "prob_orig": 0.657015860080719,
+      "prob_fast": 0.657015860080719,
+      "prob_diff": 0.0,
+      "t_orig_ms": 10.527500009629875,
+      "t_fast_ms": 8.151299960445613,
+      "passed": true
+    },
+    "clipping": {
+      "max_turb_diff": 0.0,
+      "max_snr_diff": 0.0,
+      "prob_orig": 0.8544953465461731,
+      "prob_fast": 0.8544953465461731,
+      "prob_diff": 0.0,
+      "t_orig_ms": 18.418700026813895,
+      "t_fast_ms": 7.455600018147379,
+      "passed": true
+    },
+    "dc_offset": {
+      "max_turb_diff": 0.0,
+      "max_snr_diff": 0.0,
+      "prob_orig": 0.6185566782951355,
+      "prob_fast": 0.6185566782951355,
+      "prob_diff": 0.0,
+      "t_orig_ms": 16.305800003465265,
+      "t_fast_ms": 9.460699977353215,
+      "passed": true
+    },
+    "impulses": {
+      "max_turb_diff": 0.0,
+      "max_snr_diff": 0.0,
+      "prob_orig": 0.2813929319381714,
+      "prob_fast": 0.2813929319381714,
+      "prob_diff": 0.0,
+      "t_orig_ms": 15.651300025638193,
+      "t_fast_ms": 7.555300020612776,
+      "passed": true
+    },
+    "noisy_vocal": {
+      "max_turb_diff": 0.0,
+      "max_snr_diff": 0.0,
+      "prob_orig": 0.5616818070411682,
+      "prob_fast": 0.5616818070411682,
+      "prob_diff": 0.0,
+      "t_orig_ms": 17.515000014100224,
+      "t_fast_ms": 8.18579999031499,
+      "passed": true
+    }
+  },
+  "overall_parity_passed": true,
+  "max_turb_abs_diff": 0.0,
+  "max_snr_abs_diff": 0.0,
+  "max_prob_abs_diff": 0.0,
+  "speedup_ratio": 1.9216074058546992,
+  "total_orig_time_ms": 78.41830007964745,
+  "total_fast_time_ms": 40.808699966873974
+}

@@ -1,0 +1,4 @@
+sound_class,sample_count,mean_hnr_db,mean_flatness,mean_hf_ratio,mean_roughness,effective_veto,residual_fp_cause
+Whistles & Squeaks,22,4.71,0.099533,> 40.0,0.1177,Narrowband Whistle Veto (HNR > 12dB & Flatness < 0.001),Extreme HF resonance burst mimicking scream onset
+Sirens & Fireworks,9,-1.54,0.11132,0.8137,0.2088,Branch Latent Agreement (sim < 0.70),Rapid frequency sweeping mimics vocal pitch jump
+Crowd Chants & Cheers,37,-12.95,0.329476,1.2137,0.1432,Temporal Envelope & Flux Gating,Multiple simultaneous vocalizers generate collective roughness

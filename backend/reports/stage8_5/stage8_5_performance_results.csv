@@ -1,0 +1,3 @@
+timestamp_iso,mode,is_real_mic,duration_sec,windows_processed,latency_mean_ms,latency_p95_ms,latency_max_ms,realtime_factor,cpu_mean_pct,cpu_max_pct,rss_start_mb,rss_peak_mb,rss_delta_mb,alerts_emitted,alerts_suppressed,inference_errors,dropped_samples
+2026-10-24T16:56:26.128412,mic,True,60.01,121,10.14,10.11,269.71,0.0208,9.81,101.6,353.03,551.91,198.83,0,0,0,734400
+2026-10-24T17:00:51.774059,simulate,False,120.02,191,9.11,10.51,232.43,0.0187,6.77,101.5,351.88,552.91,201.0,0,0,0,1259200

@@ -1,0 +1,10 @@
+test_name,hop_index,total_windows,memory_rss_mb,threads_active
+Short Functional Test (5 min),0,0,407.81,1
+Short Functional Test (5 min),299,1188,414.88,1
+Medium Stability Test (30 min),0,0,414.88,1
+Medium Stability Test (30 min),500,1992,422.04,1
+Medium Stability Test (30 min),749,2988,425.37,1
+Extended Stability Test (60 min),0,0,425.37,1
+Extended Stability Test (60 min),500,1992,430.56,1
+Extended Stability Test (60 min),1000,3992,437.34,1
+Extended Stability Test (60 min),1499,5988,444.04,1

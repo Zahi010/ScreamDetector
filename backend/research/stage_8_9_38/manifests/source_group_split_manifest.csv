@@ -1,0 +1,7 @@
+split_pair,split_1_groups,split_2_groups,overlapping_groups_count,is_clean_isolated,overlapping_groups
+v4_train vs v4_val,324,114,0,True,None
+v4_train vs v4_historical_test,324,111,0,True,None
+v4_train vs v4_reserved_expansion_test,324,49,0,True,None
+v4_val vs v4_historical_test,114,111,0,True,None
+v4_val vs v4_reserved_expansion_test,114,49,0,True,None
+v4_historical_test vs v4_reserved_expansion_test,111,49,0,True,None

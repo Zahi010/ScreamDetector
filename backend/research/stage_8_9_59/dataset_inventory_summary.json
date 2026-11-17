@@ -1,0 +1,187 @@
+[
+  {
+    "name": "Core Split Manifest (v1)",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\dataset\\manifests\\split_manifest.csv",
+    "total_recordings": 1621,
+    "pos_recordings": 127,
+    "neg_recordings": 1494,
+    "unique_source_groups": 726,
+    "pos_source_groups": 59,
+    "neg_source_groups": 644,
+    "mixed_source_groups": 23,
+    "duration_stats": {
+      "min": 0.16,
+      "mean": 11.59,
+      "median": 3.0,
+      "max": 196.02,
+      "p95": 59.57
+    },
+    "sample_rates": [
+      44100,
+      16000,
+      25000,
+      48000
+    ],
+    "license_distribution": {
+      "Unspecified": 1621
+    },
+    "splits_distribution": {
+      "train": 1134,
+      "val": 244,
+      "test": 243
+    }
+  },
+  {
+    "name": "Stage 8.9.17 Reconstructed Dataset",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\experiments\\stage8_9_17_automated_dataset_reconstruction\\data\\manifests\\reconstructed_dataset_manifest.csv",
+    "total_recordings": 2804,
+    "pos_recordings": 550,
+    "neg_recordings": 2254,
+    "unique_source_groups": 955,
+    "pos_source_groups": 156,
+    "neg_source_groups": 748,
+    "mixed_source_groups": 51,
+    "duration_stats": {
+      "min": 0.5,
+      "mean": 7.66,
+      "median": 4.53,
+      "max": 550.79,
+      "p95": 23.75
+    },
+    "sample_rates": [
+      16000
+    ],
+    "license_distribution": {
+      "http://creativecommons.org/licenses/by/3.0/": 1210,
+      "http://creativecommons.org/publicdomain/zero/1.0/": 998,
+      "CC-BY-4.0": 201,
+      "CC0-1.0": 150,
+      "CC0 1.0": 139,
+      "CC-BY 4.0": 91,
+      "CC0 1.0 Universal (Public Domain Dedication)": 9,
+      "http://creativecommons.org/licenses/by/4.0/": 6
+    },
+    "splits_distribution": {}
+  },
+  {
+    "name": "Stage 8.9.47 Independent Cohort",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_47\\INDEPENDENT_COHORT_MANIFEST.csv",
+    "total_recordings": 480,
+    "pos_recordings": 160,
+    "neg_recordings": 320,
+    "unique_source_groups": 220,
+    "pos_source_groups": 105,
+    "neg_source_groups": 115,
+    "mixed_source_groups": 0,
+    "duration_stats": {
+      "min": 0.29,
+      "mean": 1.6,
+      "median": 1.64,
+      "max": 3.2,
+      "p95": 2.74
+    },
+    "sample_rates": [
+      16000
+    ],
+    "license_distribution": {
+      "http://creativecommons.org/publicdomain/zero/1.0/": 480
+    },
+    "splits_distribution": {
+      "independent_evaluation_cohort": 480
+    }
+  },
+  {
+    "name": "Stage 8.9.49 Whistle Development",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_49\\WHISTLE_DEVELOPMENT_MANIFEST.csv",
+    "total_recordings": 320,
+    "pos_recordings": 128,
+    "neg_recordings": 192,
+    "unique_source_groups": 160,
+    "pos_source_groups": 64,
+    "neg_source_groups": 96,
+    "mixed_source_groups": 0,
+    "duration_stats": {
+      "min": 0.29,
+      "mean": 1.2,
+      "median": 0.98,
+      "max": 2.94,
+      "p95": 2.4
+    },
+    "sample_rates": [
+      "Unspecified / Standardized"
+    ],
+    "license_distribution": {
+      "CC-BY-4.0": 320
+    },
+    "splits_distribution": {
+      "dev": 200,
+      "val": 120
+    }
+  },
+  {
+    "name": "Stage 8.9.54 Expansion Dataset (Train/Val/Test)",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_54\\dataset\\partition_manifest_verified.csv",
+    "total_recordings": 1732,
+    "pos_recordings": 604,
+    "neg_recordings": 1128,
+    "unique_source_groups": 693,
+    "pos_source_groups": 210,
+    "neg_source_groups": 471,
+    "mixed_source_groups": 12,
+    "duration_stats": {
+      "min": 0.13,
+      "mean": 5.97,
+      "median": 3.07,
+      "max": 550.79,
+      "p95": 19.49
+    },
+    "sample_rates": [
+      "Unspecified / Standardized"
+    ],
+    "license_distribution": {
+      "CC0-1.0": 858,
+      "CC-BY-4.0": 452,
+      "CC-BY-3.0": 422
+    },
+    "splits_distribution": {
+      "expansion_train": 1055,
+      "expansion_reserved_test": 366,
+      "expansion_val": 311
+    }
+  },
+  {
+    "name": "Stage 8.9.55 Acquisition Cohort",
+    "status": "PRESENT",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_55\\dataset\\acquisition_manifest.csv",
+    "total_recordings": 450,
+    "pos_recordings": 0,
+    "neg_recordings": 450,
+    "unique_source_groups": 246,
+    "pos_source_groups": 0,
+    "neg_source_groups": 246,
+    "mixed_source_groups": 0,
+    "duration_stats": {
+      "min": 0.56,
+      "mean": 8.41,
+      "median": 5.31,
+      "max": 123.38,
+      "p95": 26.24
+    },
+    "sample_rates": [
+      44100,
+      16000,
+      25000
+    ],
+    "license_distribution": {
+      "http://creativecommons.org/licenses/by/3.0/": 245,
+      "http://creativecommons.org/publicdomain/zero/1.0/": 187,
+      "CC-BY-4.0": 18
+    },
+    "splits_distribution": {}
+  }
+]

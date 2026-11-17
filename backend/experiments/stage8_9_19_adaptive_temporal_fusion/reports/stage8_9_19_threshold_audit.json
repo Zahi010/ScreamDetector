@@ -1,0 +1,30 @@
+{
+  "Model_A_Weighted_Fusion": {
+    "selected_threshold": 0.15,
+    "val_score": 5.7093
+  },
+  "Model_B_Context_Gating": {
+    "selected_threshold": 0.27,
+    "val_score": 8.8868
+  },
+  "Model_C_MultiScale_Routing": {
+    "selected_threshold": 0.24,
+    "val_score": 8.8405
+  },
+  "Model_D_Cascaded_Filter": {
+    "selected_threshold": 0.21,
+    "val_score": 7.3025
+  },
+  "Model_E_Neural_Attention_Fusion": {
+    "selected_threshold": 0.15,
+    "val_score": 4.9114
+  },
+  "Ref_D_v4_Calibrated": {
+    "selected_threshold": 0.46,
+    "val_score": 7.3684
+  },
+  "Ref_Model_B_Temporal_CNN": {
+    "selected_threshold": 0.21,
+    "val_score": 5.7153
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.79",
+  "timestamp_utc": "2026-11-14T15:50:00Z",
+  "total_deliverables": 17,
+  "deliverables": {
+    "STAGE_8_9_79_COMPLETION_REPORT.md": {
+      "relative_path": "backend/research/stage_8_9_79/STAGE_8_9_79_COMPLETION_REPORT.md",
+      "size_bytes": 18244,
+      "sha256": "b87aba4531af7c3cd23c2194f5125e921c8ce8b05749340d345c6e9f3cdf78c9"
+    },
+    "STAGE_PROGRESS.md": {
+      "relative_path": "backend/research/stage_8_9_79/STAGE_PROGRESS.md",
+      "size_bytes": 4280,
+      "sha256": "8e591924a99941835a79a407809844780ae1d5f84a6b4f619c48067465ac8ea5"
+    },
+    "single_device_workflow_design.md": {
+      "relative_path": "backend/research/stage_8_9_79/single_device_workflow_design.md",
+      "size_bytes": 6526,
+      "sha256": "c63ec0c2954776ee3337ba3e49f2fc1c456b2e5e0317f3ca295222eadfe26fe2"
+    },
+    "reviewer_session_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_79/reviewer_session_audit.csv",
+      "size_bytes": 881,
+      "sha256": "6452ec61ab79f0cbe980fd51052c89d06927a19400468dd8dbe299559afefc54"
+    },
+    "pilot_recording_manifest.csv": {
+      "relative_path": "backend/research/stage_8_9_79/pilot_recording_manifest.csv",
+      "size_bytes": 916,
+      "sha256": "3a0d75090653126126e4a966647ecb0267420d3f7f746e23c6f4782f22b734f3"
+    },
+    "pilot_annotation_status.csv": {
+      "relative_path": "backend/research/stage_8_9_79/pilot_annotation_status.csv",
+      "size_bytes": 1132,
+      "sha256": "cd146651a55b6147bc0f545b402feaf7be3e22277fa1f93b28e589ed65125bac"
+    },
+    "annotation_submission_status.csv": {
+      "relative_path": "backend/research/stage_8_9_79/annotation_submission_status.csv",
+      "size_bytes": 4151,
+      "sha256": "7e55ba6d360cc72cd9fa91545e32bd34f396a5701df541d0ddc79e9703654d9a"
+    },
+    "paired_annotation_status.csv": {
+      "relative_path": "backend/research/stage_8_9_79/paired_annotation_status.csv",
+      "size_bytes": 6915,
+      "sha256": "37a6f723e95331b1de7d47823a6460cf50f06c7d502e70747cb34c93628769fe"
+    },
+    "inter_rater_agreement_report.md": {
+      "relative_path": "backend/research/stage_8_9_79/inter_rater_agreement_report.md",
+      "size_bytes": 5512,
+      "sha256": "545afe497cded411b0f0cb8f50ea002730ede4252b3a170d858c12a60e99ee0f"
+    },
+    "disagreement_analysis.csv": {
+      "relative_path": "backend/research/stage_8_9_79/disagreement_analysis.csv",
+      "size_bytes": 201,
+      "sha256": "ec2d66e26f6c10ba0505b328d9b727c1be5af858579266fc04cf05839b850d79"
+    },
+    "adjudication_status.csv": {
+      "relative_path": "backend/research/stage_8_9_79/adjudication_status.csv",
+      "size_bytes": 5318,
+      "sha256": "34e6cadedc40e07c1b9f5d4e9eb0d6a5275caec0e8bef8006d80b45ea4730ed6"
+    },
+    "annotation_quality_control_report.md": {
+      "relative_path": "backend/research/stage_8_9_79/annotation_quality_control_report.md",
+      "size_bytes": 5172,
+      "sha256": "67f3f19364ae94e7d16cede11a4d41f40ca554547e385b7ac0a0c9efe08f7a68"
+    },
+    "prospective_eligibility_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_79/prospective_eligibility_audit.csv",
+      "size_bytes": 6104,
+      "sha256": "46e394c62b1d62229b9e571e4db96320cd4d38ea306f1bd3fc789b9820ae3515"
+    },
+    "prospective_evaluation_manifest.json": {
+      "relative_path": "backend/research/stage_8_9_79/prospective_evaluation_manifest.json",
+      "size_bytes": 615,
+      "sha256": "b8c4ee54b57b04508cecdeb976956317002468fe8272ce4ae7a3c8426f4432d8"
+    },
+    "protected_asset_hashes_before_after.json": {
+      "relative_path": "backend/research/stage_8_9_79/protected_asset_hashes_before_after.json",
+      "size_bytes": 2236,
+      "sha256": "925f59fffbed77d628b897eef2890c2b2c4e931c91eef20c86a9e67bc58b99ab"
+    },
+    "test_results.md": {
+      "relative_path": "backend/research/stage_8_9_79/test_results.md",
+      "size_bytes": 4168,
+      "sha256": "394c88f32b8dd686c9dfe4ef6c7bec25ba47a56e0ff1ae24d342f98e5c7a7196"
+    }
+  }
+}

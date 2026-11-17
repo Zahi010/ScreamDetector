@@ -1,0 +1,5 @@
+category,sample_size,mean_hnr_db,std_hnr_db,mean_spectral_flatness,mean_subharmonic_ratio,mean_spectral_flux
+environmental_noise,114,0.3,7.1,0.01117,0.0339,1291.9683
+scream,195,-0.09,4.28,0.0525,0.0167,0.0007
+short_scream,1,7.41,0.0,0.00432,0.0,0.0005
+whistle_acoustic_tone,2,8.03,2.26,0.0077,0.0119,0.0015

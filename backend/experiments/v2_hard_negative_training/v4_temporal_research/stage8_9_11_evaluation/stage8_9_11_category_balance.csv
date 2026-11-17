@@ -1,0 +1,10 @@
+target_category,train,val,test,total
+crowd_chant_cheering,154,45,43,242
+general_environmental,65,35,32,132
+infant_crying,41,19,15,75
+masked_distant_screams,80,38,43,161
+scream,121,58,66,245
+sfx_sirens_fireworks,43,15,33,91
+shouting_and_speech,160,79,42,281
+whistles_and_squeaks,93,31,33,157
+OVERALL_ALL_CATEGORIES,757,320,307,1384

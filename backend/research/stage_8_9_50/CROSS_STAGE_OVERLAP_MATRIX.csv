@@ -1,0 +1,7 @@
+cohort_name,S49_Dev (N=200)_file_sha_overlap,S49_Dev (N=200)_pcm_sha_overlap,S49_Dev (N=200)_sg_overlap,S49_Val (N=120)_file_sha_overlap,S49_Val (N=120)_pcm_sha_overlap,S49_Val (N=120)_sg_overlap,S49_Indep (N=480)_file_sha_overlap,S49_Indep (N=480)_pcm_sha_overlap,S49_Indep (N=480)_sg_overlap,S47_Indep (N=480)_file_sha_overlap,S47_Indep (N=480)_pcm_sha_overlap,S47_Indep (N=480)_sg_overlap,S48_FPs (N=5)_file_sha_overlap,S48_FPs (N=5)_pcm_sha_overlap,S48_FPs (N=5)_sg_overlap,Quarantined (N=19)_file_sha_overlap,Quarantined (N=19)_pcm_sha_overlap,Quarantined (N=19)_sg_overlap
+S49_Dev (N=200),200,200,100,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+S49_Val (N=120),0,0,0,120,120,60,0,0,0,0,0,0,0,0,0,0,0,0
+S49_Indep (N=480),0,0,0,0,0,0,480,480,212,0,0,0,0,0,0,0,0,0
+S47_Indep (N=480),0,0,0,0,0,0,0,0,0,480,480,220,5,0,5,0,0,0
+S48_FPs (N=5),0,0,0,0,0,0,0,0,0,5,0,5,5,5,5,0,0,0
+Quarantined (N=19),0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,19,19,17

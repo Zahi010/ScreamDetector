@@ -1,0 +1,9 @@
+model_id,threshold,reported_recall_pct,reproduced_recall_pct,recall_discrepancy,reported_fpr_pct,reproduced_fpr_pct,fpr_discrepancy,reported_shout_fpr_pct,reproduced_shout_fpr_pct,reproduced_infant_fpr_pct,reported_f1,reproduced_f1,reproduced_roc_auc,reported_pr_auc,reproduced_pr_auc,reproduction_status
+D_v4_plus_Family_A,0.42,90.83,90.83,-0.0,7.07,7.07,0.0,9.52,9.52,20.0,0.8919,0.8919,0.957,0.9231,0.9231,EXACT_MATCH
+D_v4_plus_Family_B,0.65,81.65,81.65,0.0,4.55,4.55,-0.0,7.14,7.14,20.0,0.8599,0.8599,0.9575,0.9229,0.9229,EXACT_MATCH
+F_v6_Acoustic_Full,0.36,87.16,87.16,-0.0,6.57,6.57,-0.0,9.52,9.52,13.33,0.8756,0.8756,0.9486,0.9134,0.9134,EXACT_MATCH
+Model_A_Compact_MLP,0.44,86.24,70.64,-15.6,5.56,3.54,-2.02,7.14,7.14,6.67,0.8785,0.7979,0.9645,0.9143,0.9143,DISCREPANCY_DETECTED
+Model_B_Temporal_CNN,0.61,94.5,94.5,-0.0,17.17,17.17,0.0,21.43,21.43,20.0,0.8374,0.8374,0.9488,0.8992,0.8992,EXACT_MATCH
+Model_C_Hierarchical_Fusion,0.5,92.66,82.57,-10.09,9.09,5.05,-4.04,7.14,7.14,13.33,0.886,0.8612,0.9617,0.8969,0.8969,DISCREPANCY_DETECTED
+Model_C_Gated_Cascade,0.24,90.83,92.66,1.83,8.59,9.09,0.5,4.76,7.14,20.0,0.88,0.886,0.9623,0.8906,0.8975,DISCREPANCY_DETECTED
+PRODUCTION_BASELINE,0.35,88.99,75.23,-13.76,4.04,13.13,9.09,7.14,33.33,13.33,0.9023,0.7558,0.8931,0.9312,0.8441,DISCREPANCY_DETECTED

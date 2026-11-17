@@ -1,0 +1,25 @@
+{
+  "stage": "8.7",
+  "timestamp_utc": "2026-10-24T12:35:36.803715+00:00",
+  "baseline_frozen": true,
+  "operational_threshold": 0.35,
+  "model_classifier": {
+    "path": "models\\scream_classifier.joblib",
+    "expected_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "actual_sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "status": "VERIFIED_MATCH"
+  },
+  "model_metadata": {
+    "path": "models\\model_metadata.json",
+    "expected_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "actual_sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "status": "VERIFIED_MATCH"
+  },
+  "dataset_manifests": {
+    "split_manifest_sha256": "ff85e58ee09102a1305416d2a0d97cefae03d99977afd463dc93f191704a3263",
+    "embedding_manifest_sha256": "cc880cb577cc1628ad3ecfce39c79bab54e6efcea1d3ab9a0e707cc2efabd223",
+    "unified_manifest_sha256": "edbfa7d5dbf1a3024879c9c9d624c2e866095a10035e72468aa51176b31f8920",
+    "dataset_manifest_sha256": "7c44ac5e37ff5d0eeb58ab1e5c46dd20847b0be7f3333c9ec99c994097924bb7"
+  },
+  "integrity_verdict": "PASS"
+}

@@ -1,0 +1,19 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 10 items
+
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_acquisition.py::test_license_classification_logic PASSED [ 10%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_acquisition.py::test_source_registry_artifact PASSED [ 20%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_acquisition.py::test_no_api_keys_leaked_in_artifacts PASSED [ 30%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_contamination.py::test_zero_stage5_test_contamination PASSED [ 40%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_contamination.py::test_positive_and_negative_separation PASSED [ 50%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_manifest.py::test_production_artifacts_sha256 PASSED [ 60%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_manifest.py::test_production_decision_threshold_exact PASSED [ 70%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_manifest.py::test_manifest_lock_checksum PASSED [ 80%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_triage.py::test_audio_normalization_and_peak_scaling PASSED [ 90%]
+backend/research/stage_8_9_30/tests/test_stage_8_9_30_triage.py::test_silent_audio_rejection PASSED [100%]
+
+============================= 10 passed in 3.25s ==============================

@@ -1,0 +1,36 @@
+signal_id,signal_name,category,ground_truth,rms_amplitude,peak_amplitude,model_id,model_display_name,feature_dims,raw_score,operating_threshold,decision_margin,predicted_label,classification_verdict,latency_ms,is_correct
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,D_V4_FAMILY_A,D_v4 + Family A (Turbulence),3080,0.8451,0.42,0.4251,SCREAM,SCREAM_CANDIDATE,0.65,False
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,D_V4_FAMILY_B,D_v4 + Family B (Spectral Dynamics),3080,0.9208,0.65,0.2708,SCREAM,SCREAM_CANDIDATE,0.41,False
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,F_V6_ACOUSTIC,F_v6 Acoustic Full (30 Features),3102,0.9467,0.36,0.5867,SCREAM,SCREAM_CANDIDATE,0.39,False
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,STAGE_8915_MODEL_A,Stage 8.9.15 Model A (Compact MLP),3102,0.0005,0.44,-0.4395,NON_SCREAM,NON_SCREAM,1.03,True
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,STAGE_8915_MODEL_B,Stage 8.9.15 Model B (Temporal Dilated CNN),1024,0.7339,0.61,0.1239,SCREAM,SCREAM_CANDIDATE,22.91,False
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,STAGE_8915_MODEL_C,Stage 8.9.15 Model C (Learned Fusion),9,0.2336,0.5,-0.2664,NON_SCREAM,NON_SCREAM,33.12,True
+SIG_01_DIGITAL_SILENCE,Digital silence: all zeros,silence,NON_SCREAM,1e-06,0.0,PRODUCTION_BASELINE,Production Baseline (Stage 5 LR),1024,0.0048,0.35,-0.3452,NON_SCREAM,NON_SCREAM,0.85,True
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,D_V4_FAMILY_A,D_v4 + Family A (Turbulence),3080,0.9633,0.42,0.5433,SCREAM,SCREAM_CANDIDATE,0.59,False
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,D_V4_FAMILY_B,D_v4 + Family B (Spectral Dynamics),3080,0.9445,0.65,0.2945,SCREAM,SCREAM_CANDIDATE,0.43,False
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,F_V6_ACOUSTIC,F_v6 Acoustic Full (30 Features),3102,0.9592,0.36,0.5992,SCREAM,SCREAM_CANDIDATE,0.39,False
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,STAGE_8915_MODEL_A,Stage 8.9.15 Model A (Compact MLP),3102,0.0005,0.44,-0.4395,NON_SCREAM,NON_SCREAM,0.67,True
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,STAGE_8915_MODEL_B,Stage 8.9.15 Model B (Temporal Dilated CNN),1024,0.5291,0.61,-0.0809,NON_SCREAM,NON_SCREAM,23.83,True
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,STAGE_8915_MODEL_C,Stage 8.9.15 Model C (Learned Fusion),9,0.0663,0.5,-0.4337,NON_SCREAM,NON_SCREAM,32.24,True
+SIG_02_NEAR_SILENCE,Near-silence (1e-5 RMS),silence,NON_SCREAM,1e-05,0.0,PRODUCTION_BASELINE,Production Baseline (Stage 5 LR),1024,0.0099,0.35,-0.3401,NON_SCREAM,NON_SCREAM,0.62,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,D_V4_FAMILY_A,D_v4 + Family A (Turbulence),3080,0.0189,0.42,-0.4011,NON_SCREAM,NON_SCREAM,0.66,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,D_V4_FAMILY_B,D_v4 + Family B (Spectral Dynamics),3080,0.0199,0.65,-0.6301,NON_SCREAM,NON_SCREAM,0.42,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,F_V6_ACOUSTIC,F_v6 Acoustic Full (30 Features),3102,0.0003,0.36,-0.3597,NON_SCREAM,NON_SCREAM,0.39,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,STAGE_8915_MODEL_A,Stage 8.9.15 Model A (Compact MLP),3102,0.0,0.44,-0.44,NON_SCREAM,NON_SCREAM,0.66,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,STAGE_8915_MODEL_B,Stage 8.9.15 Model B (Temporal Dilated CNN),1024,0.0858,0.61,-0.5242,NON_SCREAM,NON_SCREAM,23.04,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,STAGE_8915_MODEL_C,Stage 8.9.15 Model C (Learned Fusion),9,0.0029,0.5,-0.4971,NON_SCREAM,NON_SCREAM,32.2,True
+SIG_03_LOW_MIC_NOISE,Low-level mic floor noise,silence,NON_SCREAM,0.001006,0.004,PRODUCTION_BASELINE,Production Baseline (Stage 5 LR),1024,0.0,0.35,-0.35,NON_SCREAM,NON_SCREAM,0.79,True
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,D_V4_FAMILY_A,D_v4 + Family A (Turbulence),3080,0.9799,0.42,0.5599,SCREAM,SCREAM_CANDIDATE,0.65,False
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,D_V4_FAMILY_B,D_v4 + Family B (Spectral Dynamics),3080,0.9714,0.65,0.3214,SCREAM,SCREAM_CANDIDATE,0.41,False
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,F_V6_ACOUSTIC,F_v6 Acoustic Full (30 Features),3102,0.9915,0.36,0.6315,SCREAM,SCREAM_CANDIDATE,0.39,False
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,STAGE_8915_MODEL_A,Stage 8.9.15 Model A (Compact MLP),3102,0.0001,0.44,-0.4399,NON_SCREAM,NON_SCREAM,0.83,True
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,STAGE_8915_MODEL_B,Stage 8.9.15 Model B (Temporal Dilated CNN),1024,0.536,0.61,-0.074,NON_SCREAM,NON_SCREAM,23.03,True
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,STAGE_8915_MODEL_C,Stage 8.9.15 Model C (Learned Fusion),9,0.0554,0.5,-0.4446,NON_SCREAM,NON_SCREAM,32.09,True
+SIG_04_DC_OFFSET,DC offset bias (0.05 constant),silence,NON_SCREAM,0.05,0.0504,PRODUCTION_BASELINE,Production Baseline (Stage 5 LR),1024,0.1133,0.35,-0.2367,NON_SCREAM,NON_SCREAM,0.65,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,D_V4_FAMILY_A,D_v4 + Family A (Turbulence),3080,0.0089,0.42,-0.4111,NON_SCREAM,NON_SCREAM,0.61,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,D_V4_FAMILY_B,D_v4 + Family B (Spectral Dynamics),3080,0.0095,0.65,-0.6405,NON_SCREAM,NON_SCREAM,0.45,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,F_V6_ACOUSTIC,F_v6 Acoustic Full (30 Features),3102,0.0001,0.36,-0.3599,NON_SCREAM,NON_SCREAM,0.57,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,STAGE_8915_MODEL_A,Stage 8.9.15 Model A (Compact MLP),3102,0.0,0.44,-0.44,NON_SCREAM,NON_SCREAM,1.01,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,STAGE_8915_MODEL_B,Stage 8.9.15 Model B (Temporal Dilated CNN),1024,0.0741,0.61,-0.5359,NON_SCREAM,NON_SCREAM,24.39,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,STAGE_8915_MODEL_C,Stage 8.9.15 Model C (Learned Fusion),9,0.0027,0.5,-0.4973,NON_SCREAM,NON_SCREAM,31.41,True
+SIG_05_LOW_BG_NOISE,Very low-amplitude background (noise),silence,NON_SCREAM,0.002011,0.0087,PRODUCTION_BASELINE,Production Baseline (Stage 5 LR),1024,0.0,0.35,-0.35,NON_SCREAM,NON_SCREAM,0.71,True

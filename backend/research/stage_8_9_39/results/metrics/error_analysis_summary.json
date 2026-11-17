@@ -1,0 +1,567 @@
+{
+  "candidate_b": {
+    "historical_view_a": {
+      "model_name": "Candidate B",
+      "cohort": "Historical Test (View A)",
+      "threshold": 0.24,
+      "counts": {
+        "tp": 89,
+        "tn": 168,
+        "fn": 13,
+        "fp": 23
+      },
+      "fn_by_category": {
+        "scream": 7,
+        "masked_distant_screams": 6
+      },
+      "fp_by_category": {
+        "whistles_and_squeaks": 4,
+        "sfx_sirens_fireworks": 2,
+        "shouting_and_speech": 8,
+        "crowd_chant_cheering": 7,
+        "infant_crying": 2
+      },
+      "category_breakdown": {
+        "whistles_and_squeaks": {
+          "total": 32,
+          "tp": 0,
+          "fp": 4,
+          "tn": 28,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 26,
+          "tp": 0,
+          "fp": 0,
+          "tn": 26,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "tp": 0,
+          "fp": 2,
+          "tn": 26,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "tp": 0,
+          "fp": 8,
+          "tn": 40,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 42,
+          "tp": 0,
+          "fp": 7,
+          "tn": 35,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 15,
+          "tp": 0,
+          "fp": 2,
+          "tn": 13,
+          "fn": 0
+        },
+        "scream": {
+          "total": 66,
+          "tp": 59,
+          "fp": 0,
+          "tn": 0,
+          "fn": 7
+        },
+        "masked_distant_screams": {
+          "total": 36,
+          "tp": 30,
+          "fp": 0,
+          "tn": 0,
+          "fn": 6
+        }
+      },
+      "fn_source_groups": {
+        "openslr_speaker_QLQX": 2,
+        "nigens_reitanna": 2,
+        "nigens_saraonsins": 1,
+        "nigens_freqman": 1,
+        "openslr_speaker_OZDT": 1,
+        "fsd50k_uploader_marionagm90": 1,
+        "fsd50k_uploader_thanvannispen": 2,
+        "fsd50k_uploader_j.zazvurek": 1,
+        "nigens_freesound": 1,
+        "openslr_speaker_7IOA": 1
+      },
+      "fp_source_groups": {
+        "stage8_9_else_fucker": 1,
+        "stage8_9_conleec": 2,
+        "stage8_9_benjaminharveydesign": 4,
+        "fsd50k_uploader_daytripper": 1,
+        "fsd50k_uploader_digitopia": 1,
+        "fsd50k_uploader_soundslikewillem": 1,
+        "fsd50k_uploader_sharkmail": 1,
+        "fsd50k_uploader_missozzy": 2,
+        "fsd50k_uploader_schulze": 1,
+        "fsd50k_uploader_gumballworld": 1,
+        "fsd50k_uploader_11linda": 1,
+        "fsd50k_uploader_seanpue": 1,
+        "fsd50k_uploader_thanvannispen": 1,
+        "fsd50k_uploader_univ_lyon3": 2,
+        "fsd50k_uploader_unchaz": 1,
+        "fsd50k_uploader_berlingamescene": 1,
+        "fsd50k_uploader_cosmicd": 1
+      }
+    },
+    "historical_view_b": {
+      "model_name": "Candidate B",
+      "cohort": "Historical Test (View B)",
+      "threshold": 0.24,
+      "counts": {
+        "tp": 89,
+        "tn": 170,
+        "fn": 11,
+        "fp": 23
+      },
+      "fn_by_category": {
+        "scream": 5,
+        "masked_distant_screams": 6
+      },
+      "fp_by_category": {
+        "whistles_and_squeaks": 4,
+        "sfx_sirens_fireworks": 2,
+        "shouting_and_speech": 8,
+        "crowd_chant_cheering": 7,
+        "infant_crying": 2
+      },
+      "category_breakdown": {
+        "whistles_and_squeaks": {
+          "total": 32,
+          "tp": 0,
+          "fp": 4,
+          "tn": 28,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 26,
+          "tp": 0,
+          "fp": 0,
+          "tn": 26,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "tp": 0,
+          "fp": 2,
+          "tn": 26,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "tp": 0,
+          "fp": 8,
+          "tn": 40,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 42,
+          "tp": 0,
+          "fp": 7,
+          "tn": 35,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 15,
+          "tp": 0,
+          "fp": 2,
+          "tn": 13,
+          "fn": 0
+        },
+        "scream": {
+          "total": 66,
+          "tp": 59,
+          "fp": 0,
+          "tn": 2,
+          "fn": 5
+        },
+        "masked_distant_screams": {
+          "total": 36,
+          "tp": 30,
+          "fp": 0,
+          "tn": 0,
+          "fn": 6
+        }
+      },
+      "fn_source_groups": {
+        "openslr_speaker_QLQX": 2,
+        "nigens_saraonsins": 1,
+        "nigens_freqman": 1,
+        "openslr_speaker_OZDT": 1,
+        "fsd50k_uploader_marionagm90": 1,
+        "fsd50k_uploader_thanvannispen": 2,
+        "fsd50k_uploader_j.zazvurek": 1,
+        "nigens_freesound": 1,
+        "openslr_speaker_7IOA": 1
+      },
+      "fp_source_groups": {
+        "stage8_9_else_fucker": 1,
+        "stage8_9_conleec": 2,
+        "stage8_9_benjaminharveydesign": 4,
+        "fsd50k_uploader_daytripper": 1,
+        "fsd50k_uploader_digitopia": 1,
+        "fsd50k_uploader_soundslikewillem": 1,
+        "fsd50k_uploader_sharkmail": 1,
+        "fsd50k_uploader_missozzy": 2,
+        "fsd50k_uploader_schulze": 1,
+        "fsd50k_uploader_gumballworld": 1,
+        "fsd50k_uploader_11linda": 1,
+        "fsd50k_uploader_seanpue": 1,
+        "fsd50k_uploader_thanvannispen": 1,
+        "fsd50k_uploader_univ_lyon3": 2,
+        "fsd50k_uploader_unchaz": 1,
+        "fsd50k_uploader_berlingamescene": 1,
+        "fsd50k_uploader_cosmicd": 1
+      }
+    },
+    "expansion_test": {
+      "model_name": "Candidate B",
+      "cohort": "Reserved Expansion Test",
+      "threshold": 0.24,
+      "counts": {
+        "tp": 65,
+        "tn": 37,
+        "fn": 0,
+        "fp": 0
+      },
+      "fn_by_category": {},
+      "fp_by_category": {},
+      "category_breakdown": {
+        "scream": {
+          "total": 65,
+          "tp": 65,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 14,
+          "tp": 0,
+          "fp": 0,
+          "tn": 14,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 16,
+          "tp": 0,
+          "fp": 0,
+          "tn": 16,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 3,
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 2,
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 2,
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0
+        }
+      },
+      "fn_source_groups": {},
+      "fp_source_groups": {}
+    }
+  },
+  "candidate_d": {
+    "historical_view_a": {
+      "model_name": "Candidate D",
+      "cohort": "Historical Test (View A)",
+      "threshold": 0.34,
+      "counts": {
+        "tp": 85,
+        "tn": 166,
+        "fn": 17,
+        "fp": 25
+      },
+      "fn_by_category": {
+        "scream": 11,
+        "masked_distant_screams": 6
+      },
+      "fp_by_category": {
+        "whistles_and_squeaks": 5,
+        "sfx_sirens_fireworks": 3,
+        "shouting_and_speech": 8,
+        "crowd_chant_cheering": 7,
+        "infant_crying": 2
+      },
+      "category_breakdown": {
+        "whistles_and_squeaks": {
+          "total": 32,
+          "tp": 0,
+          "fp": 5,
+          "tn": 27,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 26,
+          "tp": 0,
+          "fp": 0,
+          "tn": 26,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "tp": 0,
+          "fp": 3,
+          "tn": 25,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "tp": 0,
+          "fp": 8,
+          "tn": 40,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 42,
+          "tp": 0,
+          "fp": 7,
+          "tn": 35,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 15,
+          "tp": 0,
+          "fp": 2,
+          "tn": 13,
+          "fn": 0
+        },
+        "scream": {
+          "total": 66,
+          "tp": 55,
+          "fp": 0,
+          "tn": 0,
+          "fn": 11
+        },
+        "masked_distant_screams": {
+          "total": 36,
+          "tp": 30,
+          "fp": 0,
+          "tn": 0,
+          "fn": 6
+        }
+      },
+      "fn_source_groups": {
+        "openslr_speaker_7IOA": 2,
+        "openslr_speaker_QLQX": 2,
+        "nigens_reitanna": 2,
+        "nigens_freqman": 3,
+        "nigens_saraonsins": 2,
+        "fsd50k_uploader_marionagm90": 1,
+        "fsd50k_uploader_pushkin": 2,
+        "fsd50k_uploader_thanvannispen": 2,
+        "nigens_freesound": 1
+      },
+      "fp_source_groups": {
+        "stage8_9_else_fucker": 1,
+        "stage8_9_freesoundjon01": 1,
+        "stage8_9_multimax2121": 1,
+        "stage8_9_conleec": 1,
+        "stage8_9_benjaminharveydesign": 4,
+        "fsd50k_uploader_daytripper": 1,
+        "fsd50k_uploader_digitopia": 1,
+        "fsd50k_uploader_sharkmail": 2,
+        "fsd50k_uploader_missozzy": 2,
+        "fsd50k_uploader_schulze": 1,
+        "fsd50k_uploader_gumballworld": 1,
+        "fsd50k_uploader_11linda": 1,
+        "fsd50k_uploader_seanpue": 1,
+        "fsd50k_uploader_thanvannispen": 1,
+        "fsd50k_uploader_univ_lyon3": 2,
+        "fsd50k_uploader_unchaz": 2,
+        "fsd50k_uploader_berlingamescene": 1,
+        "fsd50k_uploader_cosmicd": 1
+      }
+    },
+    "historical_view_b": {
+      "model_name": "Candidate D",
+      "cohort": "Historical Test (View B)",
+      "threshold": 0.34,
+      "counts": {
+        "tp": 85,
+        "tn": 168,
+        "fn": 15,
+        "fp": 25
+      },
+      "fn_by_category": {
+        "scream": 9,
+        "masked_distant_screams": 6
+      },
+      "fp_by_category": {
+        "whistles_and_squeaks": 5,
+        "sfx_sirens_fireworks": 3,
+        "shouting_and_speech": 8,
+        "crowd_chant_cheering": 7,
+        "infant_crying": 2
+      },
+      "category_breakdown": {
+        "whistles_and_squeaks": {
+          "total": 32,
+          "tp": 0,
+          "fp": 5,
+          "tn": 27,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 26,
+          "tp": 0,
+          "fp": 0,
+          "tn": 26,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 28,
+          "tp": 0,
+          "fp": 3,
+          "tn": 25,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 48,
+          "tp": 0,
+          "fp": 8,
+          "tn": 40,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 42,
+          "tp": 0,
+          "fp": 7,
+          "tn": 35,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 15,
+          "tp": 0,
+          "fp": 2,
+          "tn": 13,
+          "fn": 0
+        },
+        "scream": {
+          "total": 66,
+          "tp": 55,
+          "fp": 0,
+          "tn": 2,
+          "fn": 9
+        },
+        "masked_distant_screams": {
+          "total": 36,
+          "tp": 30,
+          "fp": 0,
+          "tn": 0,
+          "fn": 6
+        }
+      },
+      "fn_source_groups": {
+        "openslr_speaker_7IOA": 2,
+        "openslr_speaker_QLQX": 2,
+        "nigens_freqman": 3,
+        "nigens_saraonsins": 2,
+        "fsd50k_uploader_marionagm90": 1,
+        "fsd50k_uploader_pushkin": 2,
+        "fsd50k_uploader_thanvannispen": 2,
+        "nigens_freesound": 1
+      },
+      "fp_source_groups": {
+        "stage8_9_else_fucker": 1,
+        "stage8_9_freesoundjon01": 1,
+        "stage8_9_multimax2121": 1,
+        "stage8_9_conleec": 1,
+        "stage8_9_benjaminharveydesign": 4,
+        "fsd50k_uploader_daytripper": 1,
+        "fsd50k_uploader_digitopia": 1,
+        "fsd50k_uploader_sharkmail": 2,
+        "fsd50k_uploader_missozzy": 2,
+        "fsd50k_uploader_schulze": 1,
+        "fsd50k_uploader_gumballworld": 1,
+        "fsd50k_uploader_11linda": 1,
+        "fsd50k_uploader_seanpue": 1,
+        "fsd50k_uploader_thanvannispen": 1,
+        "fsd50k_uploader_univ_lyon3": 2,
+        "fsd50k_uploader_unchaz": 2,
+        "fsd50k_uploader_berlingamescene": 1,
+        "fsd50k_uploader_cosmicd": 1
+      }
+    },
+    "expansion_test": {
+      "model_name": "Candidate D",
+      "cohort": "Reserved Expansion Test",
+      "threshold": 0.34,
+      "counts": {
+        "tp": 65,
+        "tn": 37,
+        "fn": 0,
+        "fp": 0
+      },
+      "fn_by_category": {},
+      "fp_by_category": {},
+      "category_breakdown": {
+        "scream": {
+          "total": 65,
+          "tp": 65,
+          "fp": 0,
+          "tn": 0,
+          "fn": 0
+        },
+        "crowd_chant_cheering": {
+          "total": 14,
+          "tp": 0,
+          "fp": 0,
+          "tn": 14,
+          "fn": 0
+        },
+        "shouting_and_speech": {
+          "total": 16,
+          "tp": 0,
+          "fp": 0,
+          "tn": 16,
+          "fn": 0
+        },
+        "infant_crying": {
+          "total": 3,
+          "tp": 0,
+          "fp": 0,
+          "tn": 3,
+          "fn": 0
+        },
+        "sfx_sirens_fireworks": {
+          "total": 2,
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0
+        },
+        "general_environmental": {
+          "total": 2,
+          "tp": 0,
+          "fp": 0,
+          "tn": 2,
+          "fn": 0
+        }
+      },
+      "fn_source_groups": {},
+      "fp_source_groups": {}
+    }
+  },
+  "human_review_queue_count": 44
+}

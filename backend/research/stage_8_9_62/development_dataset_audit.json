@@ -1,0 +1,17 @@
+{
+  "manifest_path": "backend/research/stage_8_9_62/stage_62_development_manifest.csv",
+  "sha256": "bdf27fdf663c722c4f312ab273839629884892b2ae1d17fa47e70981400d6e1c",
+  "total_recordings": 187,
+  "positive_recordings": 70,
+  "negative_recordings": 117,
+  "sustained_positive_recordings": 62,
+  "short_positive_recordings": 8,
+  "low_intensity_positive_recordings": 0,
+  "crowd_masked_positive_recordings": 0,
+  "unique_source_groups": 180,
+  "unique_creators": 8,
+  "short_scream_evidence_status": "INSUFFICIENT_DEVELOPMENT_EVIDENCE",
+  "sealed_cohort_recording_overlap": 0,
+  "sealed_cohort_source_group_overlap": 0,
+  "sealed_cohort_parent_excerpt_overlap": 0
+}

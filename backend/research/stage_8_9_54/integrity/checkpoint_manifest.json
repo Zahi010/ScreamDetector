@@ -1,0 +1,65 @@
+{
+  "stage": "8.9.54",
+  "created_at": "2026-11-06T01:00:00Z",
+  "models": {
+    "candidate_e_v954_baseline": {
+      "checkpoint_name": "candidate_e_v954_baseline.pt",
+      "path": "backend\\research\\stage_8_9_54\\training\\candidate_e_v954_baseline.pt",
+      "sha256": "c395e8fa3292ce875f62baeed74e474394f4ba2788027c14dbf98c2dba0e58a6",
+      "architecture": "ResearchDualHeadClassifier (128-d Sem, 64-d Acoust, 32-d Gate, 64-d MLP)",
+      "use_weighting": false,
+      "use_augmentation": false,
+      "best_epoch": 17,
+      "best_val_loss": 0.22773170471191406,
+      "training_samples": 1055,
+      "validation_samples": 311,
+      "random_seed": 42
+    },
+    "candidate_e_v954_weighted": {
+      "checkpoint_name": "candidate_e_v954_weighted.pt",
+      "path": "backend\\research\\stage_8_9_54\\training\\candidate_e_v954_weighted.pt",
+      "sha256": "37fa77b4cd4cb04c5035e31263c3ec62b4e8015fbd1e01f30877f76872277564",
+      "architecture": "ResearchDualHeadClassifier (128-d Sem, 64-d Acoust, 32-d Gate, 64-d MLP)",
+      "use_weighting": true,
+      "use_augmentation": false,
+      "best_epoch": 17,
+      "best_val_loss": 0.2390899658203125,
+      "training_samples": 1055,
+      "validation_samples": 311,
+      "random_seed": 42
+    },
+    "candidate_e_v954_augmented": {
+      "checkpoint_name": "candidate_e_v954_augmented.pt",
+      "path": "backend\\research\\stage_8_9_54\\training\\candidate_e_v954_augmented.pt",
+      "sha256": "c80db21ae816ec98c66d3dc41f9403cf630679a4178938690cd56e2a0d047886",
+      "architecture": "ResearchDualHeadClassifier (128-d Sem, 64-d Acoust, 32-d Gate, 64-d MLP)",
+      "use_weighting": false,
+      "use_augmentation": true,
+      "best_epoch": 17,
+      "best_val_loss": 0.23518410325050354,
+      "training_samples": 1055,
+      "validation_samples": 311,
+      "random_seed": 42
+    },
+    "candidate_e_v954_combined": {
+      "checkpoint_name": "candidate_e_v954_combined.pt",
+      "path": "backend\\research\\stage_8_9_54\\training\\candidate_e_v954_combined.pt",
+      "sha256": "2070786d588235690fa1e42f6bf5dcf14b8f9e9349fb550356ff914466926a72",
+      "architecture": "ResearchDualHeadClassifier (128-d Sem, 64-d Acoust, 32-d Gate, 64-d MLP)",
+      "use_weighting": true,
+      "use_augmentation": true,
+      "best_epoch": 26,
+      "best_val_loss": 0.2582910656929016,
+      "training_samples": 1055,
+      "validation_samples": 311,
+      "random_seed": 42
+    }
+  },
+  "selected_thresholds": {
+    "candidate_e_v954_baseline": 0.69,
+    "candidate_e_v954_weighted": 0.68,
+    "candidate_e_v954_augmented": 0.67,
+    "candidate_e_v954_combined": 0.89,
+    "candidate_e_original": 0.4
+  }
+}

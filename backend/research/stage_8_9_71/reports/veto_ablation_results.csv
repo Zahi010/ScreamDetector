@@ -1,0 +1,8 @@
+ablation_id,whistle_veto,flux_veto,vocal_veto,rescue_mode,threshold,overall_tp,overall_fn,overall_recall,shouted_fp,shouted_tn,shouted_fpr,hard_neg_fp,hard_neg_tn,hard_neg_fpr,short_scream_tp,short_scream_fn,short_scream_recall,held_out_short_recall,held_out_tp
+A: Full Candidate 70-D Baseline,True,True,True,unconditioned,0.492,82,17,82.83,13,75,14.77,12,112,9.68,37,2,94.87,58.96,158
+B: No Narrowband Whistle Veto,False,True,True,unconditioned,0.492,82,17,82.83,13,75,14.77,16,108,12.9,37,2,94.87,62.31,167
+C: No Flux Speech Veto,True,False,True,unconditioned,0.492,82,17,82.83,21,67,23.86,14,110,11.29,37,2,94.87,58.96,158
+D: No Vocal Distress Veto,True,True,False,unconditioned,0.492,84,15,84.85,15,73,17.05,12,112,9.68,37,2,94.87,62.31,167
+E: Zero Vetoes (Raw Neural Only),False,False,False,none,0.492,81,18,81.82,24,64,27.27,17,107,13.71,36,3,92.31,64.93,174
+F: Simplified Raw Thresholding (th=0.5100),False,False,False,none,0.51,76,23,76.77,20,68,22.73,16,108,12.9,36,3,92.31,62.31,167
+G: Candidate 71-D (Flux-Conditioned Resonance Rescue),True,True,True,flux_conditioned,0.492,82,17,82.83,13,75,14.77,10,114,8.06,37,2,94.87,58.96,158

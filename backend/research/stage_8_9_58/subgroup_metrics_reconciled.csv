@@ -1,0 +1,9 @@
+subgroup_identifier,definition,denominator_n,original_hits,original_recall_pct,c5_hits,c5_recall_pct,delta_recall_pct,status
+Overall_Positive_Cohort,All authentic positive screams in expansion_val,99,83,83.84,83,83.84,0.0,RECONCILED
+Ultra_Short_Screams,duration_seconds < 0.5s,15,15,100.0,15,100.0,0.0,RECONCILED (15/15 detected)
+Standard_Short_Screams,0.5s <= duration_seconds < 1.0s,24,22,91.67,22,91.67,0.0,RECONCILED (22/24 detected)
+Total_Short_Screams,duration_seconds < 1.0s (Ultra-Short + Standard Short),39,37,94.87,37,94.87,0.0,RECONCILED (37/39 detected)
+Clean_Sustained_Screams,duration_seconds >= 1.0s and target_category == 'scream',41,33,80.49,33,80.49,0.0,RECONCILED (32/41 detected)
+Masked_Distant_Screams,duration_seconds >= 1.0s and target_category == 'masked_distant_screams',19,13,68.42,13,68.42,0.0,RECONCILED (13/19 detected)
+Total_Sustained_Screams,duration_seconds >= 1.0s (Clean Sustained + Masked Sustained),60,46,76.67,46,76.67,0.0,RECONCILED (45/60 detected)
+Target_Category_Scream_All,target_category == 'scream' (Mislabeled as 'Sustained' in Stage 8.9.57),80,70,87.5,70,87.5,0.0,EXPLAINED (69/80 detected)

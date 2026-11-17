@@ -1,0 +1,402 @@
+recording_id,duration_seconds,duration_band,source_group_id,uploader_creator,license,in_stage63_dev,in_stage60_sealed,in_stage54_train,base_probability,base_prediction,v6_probability,v6_prediction,c65f_probability,c65f_prediction
+s63_short_0001,0.751,short,nigens_ericsueiro,ericsueiro,CC0 1.0,1,0,0,0.9997,1,0.9997,1,0.9997,1
+s63_short_0002,0.761,short,nigens_juskiddink,juskiddink,CC0 1.0,1,0,0,0.8098,1,0.8098,1,0.8098,1
+s63_short_0003,0.499,ultra_short,nigens_nigens,nigens,CC0 1.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0004,0.878,short,nigens_chrillz3r,chrillz3r,CC0 1.0,1,0,0,0.4358,0,0.4358,0,0.4358,0
+s63_short_0005,0.952,short,fsd50k_uploader_reitanna,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9924,1,0.9924,1,0.9924,1
+s63_short_0006,0.732,short,fsd50k_uploader_marionagm90,marionagm90,http://creativecommons.org/licenses/by/3.0/,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0007,0.731,short,fsd50k_uploader_juliabosque,juliabosque,http://creativecommons.org/licenses/by/3.0/,1,0,0,0.9859,1,0.9859,1,0.9859,1
+s63_short_0008,0.81,short,fsd50k_uploader_dream4dreamtheater,dream4dreamtheater,http://creativecommons.org/licenses/by/3.0/,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0009,0.601,short,fsd50k_uploader_hello_flowers,hello_flowers,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9961,1,0.9961,1,0.9961,1
+s63_short_0010,0.607,short,fsd50k_uploader_reitanna,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9993,1,0.9993,1,0.9993,1
+s63_short_0011,0.871,short,fsd50k_uploader_marionagm90,marionagm90,http://creativecommons.org/licenses/by/3.0/,1,0,0,0.9946,1,0.9946,1,0.9946,1
+s63_short_0012,0.813,short,fsd50k_uploader_reitanna,Reitanna,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9894,1,0.9894,1,0.9894,1
+s63_short_0013,0.883,short,fsd50k_uploader_littlerobotsoundfactory,LittleRobotSoundFactory,http://creativecommons.org/licenses/by/3.0/,1,0,0,0.937,1,0.937,1,0.937,1
+s63_short_0014,0.664,short,fsd50k_uploader_jrssandoval,jrssandoval,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9679,1,0.9679,1,0.9679,1
+s63_short_0015,0.734,short,fsd50k_uploader_lithe-fider,Lithe-Fider,http://creativecommons.org/licenses/by/3.0/,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0016,0.951,short,fsd50k_uploader_ryding,Ryding,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0017,0.575,short,fsd50k_uploader_juliabosque,juliabosque,http://creativecommons.org/licenses/by/3.0/,1,0,0,0.9947,1,0.9947,1,0.9947,1
+s63_short_0018,0.939,short,fsd50k_uploader_jarredgibb,JarredGibb,http://creativecommons.org/publicdomain/zero/1.0/,1,0,0,0.9714,1,0.9714,1,0.9714,1
+s63_short_0019,0.467,ultra_short,source_group_short_scream_001,creator_sc_001,CC BY 4.0,1,0,0,0.9987,1,0.9987,1,0.9987,1
+s63_short_0020,0.847,short,source_group_short_scream_002,creator_sc_002,CC BY 4.0,1,0,0,0.9733,1,0.9733,1,0.9733,1
+s63_short_0021,0.703,short,source_group_short_scream_003,creator_sc_003,CC0 1.0 Universal,1,0,0,0.976,1,0.976,1,0.976,1
+s63_short_0022,0.615,short,source_group_short_scream_004,creator_sc_004,CC BY 4.0,1,0,0,0.9921,1,0.9921,1,0.9921,1
+s63_short_0023,0.323,ultra_short,source_group_short_scream_005,creator_sc_005,CC BY 4.0,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0024,0.323,ultra_short,source_group_short_scream_006,creator_sc_006,CC0 1.0 Universal,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0025,0.258,ultra_short,source_group_short_scream_007,creator_sc_007,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0026,0.792,short,source_group_short_scream_008,creator_sc_008,CC BY 4.0,1,0,0,0.9715,1,0.9715,1,0.9715,1
+s63_short_0027,0.617,short,source_group_short_scream_009,creator_sc_009,CC0 1.0 Universal,1,0,0,0.9918,1,0.9918,1,0.9918,1
+s63_short_0028,0.234,ultra_short,source_group_short_scream_011,creator_sc_011,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0029,0.86,short,source_group_short_scream_012,creator_sc_012,CC0 1.0 Universal,1,0,0,0.9729,1,0.9729,1,0.9729,1
+s63_short_0030,0.769,short,source_group_short_scream_013,creator_sc_013,CC BY 4.0,1,0,0,0.9764,1,0.9764,1,0.9764,1
+s63_short_0031,0.36,ultra_short,source_group_short_scream_014,creator_sc_014,CC BY 4.0,1,0,0,0.9997,1,0.9997,1,0.9997,1
+s63_short_0032,0.34,ultra_short,source_group_short_scream_015,creator_sc_015,CC0 1.0 Universal,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0033,0.341,ultra_short,source_group_short_scream_016,creator_sc_016,CC BY 4.0,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0034,0.421,ultra_short,source_group_short_scream_017,creator_sc_017,CC BY 4.0,1,0,0,0.9992,1,0.9992,1,0.9992,1
+s63_short_0035,0.566,short,source_group_short_scream_018,creator_sc_018,CC0 1.0 Universal,1,0,0,0.9955,1,0.9955,1,0.9955,1
+s63_short_0036,0.505,short,source_group_short_scream_019,creator_sc_019,CC BY 4.0,1,0,0,0.9982,1,0.9982,1,0.9982,1
+s63_short_0037,0.624,short,source_group_short_scream_021,creator_sc_021,CC0 1.0 Universal,1,0,0,0.9912,1,0.9912,1,0.9912,1
+s63_short_0038,0.312,ultra_short,source_group_short_scream_022,creator_sc_022,CC BY 4.0,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0039,0.413,ultra_short,source_group_short_scream_023,creator_sc_023,CC BY 4.0,1,0,0,0.9989,1,0.9989,1,0.9989,1
+s63_short_0040,0.462,ultra_short,source_group_short_scream_024,creator_sc_024,CC0 1.0 Universal,1,0,0,0.9985,1,0.9985,1,0.9985,1
+s63_short_0041,0.521,short,source_group_short_scream_025,creator_sc_025,CC BY 4.0,1,0,0,0.9977,1,0.9977,1,0.9977,1
+s63_short_0042,0.738,short,source_group_short_scream_026,creator_sc_026,CC BY 4.0,1,0,0,0.9785,1,0.9785,1,0.9785,1
+s63_short_0043,0.352,ultra_short,source_group_short_scream_027,creator_sc_027,CC0 1.0 Universal,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0044,0.559,short,source_group_short_scream_028,creator_sc_028,CC BY 4.0,1,0,0,0.9961,1,0.9961,1,0.9961,1
+s63_short_0045,0.611,short,source_group_short_scream_029,creator_sc_029,CC BY 4.0,1,0,0,0.9921,1,0.9921,1,0.9921,1
+s63_short_0046,0.621,short,source_group_short_scream_031,creator_sc_031,CC BY 4.0,1,0,0,0.9916,1,0.9916,1,0.9916,1
+s63_short_0047,0.333,ultra_short,source_group_short_scream_032,creator_sc_032,CC BY 4.0,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0048,0.263,ultra_short,source_group_short_scream_033,creator_sc_033,CC0 1.0 Universal,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0049,0.846,short,source_group_short_scream_034,creator_sc_034,CC BY 4.0,1,0,0,0.9773,1,0.9773,1,0.9773,1
+s63_short_0050,0.857,short,source_group_short_scream_035,creator_sc_035,CC BY 4.0,1,0,0,0.963,1,0.963,1,0.963,1
+s63_short_0051,0.754,short,source_group_short_scream_036,creator_sc_036,CC0 1.0 Universal,1,0,0,0.9791,1,0.9791,1,0.9791,1
+s63_short_0052,0.421,ultra_short,source_group_short_scream_037,creator_sc_037,CC BY 4.0,1,0,0,0.9991,1,0.9991,1,0.9991,1
+s63_short_0053,0.284,ultra_short,source_group_short_scream_038,creator_sc_038,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0054,0.672,short,source_group_short_scream_039,creator_sc_039,CC0 1.0 Universal,1,0,0,0.9857,1,0.9857,1,0.9857,1
+s63_short_0055,0.301,ultra_short,source_group_short_scream_041,creator_sc_041,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0056,0.547,short,source_group_short_scream_042,creator_sc_042,CC0 1.0 Universal,1,0,0,0.9966,1,0.9966,1,0.9966,1
+s63_short_0057,0.243,ultra_short,source_group_short_scream_001,creator_sc_001,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0058,0.82,short,source_group_short_scream_002,creator_sc_002,CC BY 4.0,1,0,0,0.9771,1,0.9771,1,0.9771,1
+s63_short_0059,0.391,ultra_short,source_group_short_scream_003,creator_sc_003,CC0 1.0 Universal,1,0,0,0.9994,1,0.9994,1,0.9994,1
+s63_short_0060,0.657,short,source_group_short_scream_004,creator_sc_004,CC BY 4.0,1,0,0,0.9832,1,0.9832,1,0.9832,1
+s63_short_0061,0.426,ultra_short,source_group_short_scream_005,creator_sc_005,CC BY 4.0,1,0,0,0.9991,1,0.9991,1,0.9991,1
+s63_short_0062,0.563,short,source_group_short_scream_006,creator_sc_006,CC0 1.0 Universal,1,0,0,0.9957,1,0.9957,1,0.9957,1
+s63_short_0063,0.581,short,source_group_short_scream_007,creator_sc_007,CC BY 4.0,1,0,0,0.9939,1,0.9939,1,0.9939,1
+s63_short_0064,0.86,short,source_group_short_scream_009,creator_sc_009,CC0 1.0 Universal,1,0,0,0.9761,1,0.9761,1,0.9761,1
+s63_short_0065,0.732,short,source_group_short_scream_010,creator_sc_010,CC BY 4.0,1,0,0,0.9817,1,0.9817,1,0.9817,1
+s63_short_0066,0.84,short,source_group_short_scream_011,creator_sc_011,CC BY 4.0,1,0,0,0.9668,1,0.9668,1,0.9668,1
+s63_short_0067,0.811,short,source_group_short_scream_012,creator_sc_012,CC0 1.0 Universal,1,0,0,0.9776,1,0.9776,1,0.9776,1
+s63_short_0068,0.615,short,source_group_short_scream_013,creator_sc_013,CC BY 4.0,1,0,0,0.989,1,0.989,1,0.989,1
+s63_short_0069,0.828,short,source_group_short_scream_014,creator_sc_014,CC BY 4.0,1,0,0,0.9668,1,0.9668,1,0.9668,1
+s63_short_0070,0.278,ultra_short,source_group_short_scream_015,creator_sc_015,CC0 1.0 Universal,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0071,0.349,ultra_short,source_group_short_scream_016,creator_sc_016,CC BY 4.0,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0072,0.25,ultra_short,source_group_short_scream_017,creator_sc_017,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0073,0.477,ultra_short,source_group_short_scream_019,creator_sc_019,CC BY 4.0,1,0,0,0.9985,1,0.9985,1,0.9985,1
+s63_short_0074,0.399,ultra_short,source_group_short_scream_020,creator_sc_020,CC BY 4.0,1,0,0,0.9994,1,0.9994,1,0.9994,1
+s63_short_0075,0.767,short,source_group_short_scream_021,creator_sc_021,CC0 1.0 Universal,1,0,0,0.9733,1,0.9733,1,0.9733,1
+s63_short_0076,0.455,ultra_short,source_group_short_scream_022,creator_sc_022,CC BY 4.0,1,0,0,0.9989,1,0.9989,1,0.9989,1
+s63_short_0077,0.405,ultra_short,source_group_short_scream_023,creator_sc_023,CC BY 4.0,1,0,0,0.9992,1,0.9992,1,0.9992,1
+s63_short_0078,0.578,short,source_group_short_scream_024,creator_sc_024,CC0 1.0 Universal,1,0,0,0.9933,1,0.9933,1,0.9933,1
+s63_short_0079,0.313,ultra_short,source_group_short_scream_025,creator_sc_025,CC BY 4.0,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0080,0.749,short,source_group_short_scream_026,creator_sc_026,CC BY 4.0,1,0,0,0.9809,1,0.9809,1,0.9809,1
+s63_short_0081,0.269,ultra_short,source_group_short_scream_027,creator_sc_027,CC0 1.0 Universal,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0082,0.73,short,source_group_short_scream_029,creator_sc_029,CC BY 4.0,1,0,0,0.9837,1,0.9837,1,0.9837,1
+s63_short_0083,0.351,ultra_short,source_group_short_scream_030,creator_sc_030,CC0 1.0 Universal,1,0,0,0.9998,1,0.9998,1,0.9998,1
+s63_short_0084,0.224,ultra_short,source_group_short_scream_031,creator_sc_031,CC BY 4.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0085,0.758,short,source_group_short_scream_032,creator_sc_032,CC BY 4.0,1,0,0,0.9793,1,0.9793,1,0.9793,1
+s63_short_0086,0.687,short,source_group_short_scream_033,creator_sc_033,CC0 1.0 Universal,1,0,0,0.987,1,0.987,1,0.987,1
+s63_short_0087,0.701,short,source_group_short_scream_034,creator_sc_034,CC BY 4.0,1,0,0,0.9762,1,0.9762,1,0.9762,1
+s63_short_0088,0.729,short,source_group_short_scream_035,creator_sc_035,CC BY 4.0,1,0,0,0.9819,1,0.9819,1,0.9819,1
+s63_short_0089,0.269,ultra_short,source_group_short_scream_036,creator_sc_036,CC0 1.0 Universal,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0090,0.457,ultra_short,source_group_short_scream_037,creator_sc_037,CC BY 4.0,1,0,0,0.9989,1,0.9989,1,0.9989,1
+s63_short_0091,0.79,short,source_group_short_scream_039,creator_sc_039,CC0 1.0 Universal,1,0,0,0.9804,1,0.9804,1,0.9804,1
+s63_short_0092,0.631,short,source_group_short_scream_040,creator_sc_040,CC BY 4.0,1,0,0,0.9897,1,0.9897,1,0.9897,1
+s63_short_0093,0.438,ultra_short,source_group_short_scream_041,creator_sc_041,CC BY 4.0,1,0,0,0.999,1,0.999,1,0.999,1
+s63_short_0094,0.262,ultra_short,source_group_short_scream_042,creator_sc_042,CC0 1.0 Universal,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0095,0.425,ultra_short,source_group_short_scream_001,creator_sc_001,CC BY 4.0,1,0,0,0.9991,1,0.9991,1,0.9991,1
+s63_short_0096,0.25,ultra_short,sg_pos_v6_001,acoustic_performer_short_01,CC0 1.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0097,0.3,ultra_short,sg_pos_v6_002,acoustic_performer_short_02,CC BY 4.0,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0098,0.32,ultra_short,sg_pos_v6_003,acoustic_performer_short_03,CC0 1.0,1,0,0,0.9999,1,0.9999,1,0.9999,1
+s63_short_0099,0.35,ultra_short,sg_pos_v6_004,acoustic_performer_short_04,CC BY 4.0,1,0,0,0.9997,1,0.9997,1,0.9997,1
+s63_short_0100,0.38,ultra_short,sg_pos_v6_005,acoustic_performer_short_05,CC0 1.0,1,0,0,0.9994,1,0.9994,1,0.9994,1
+s63_short_0101,0.4,ultra_short,sg_pos_v6_006,acoustic_performer_short_06,CC BY 4.0,1,0,0,0.9986,1,0.9986,1,0.9986,1
+s63_short_0102,0.42,ultra_short,sg_pos_v6_007,acoustic_performer_short_07,CC0 1.0,1,0,0,0.9982,1,0.9982,1,0.9982,1
+s63_short_0103,0.44,ultra_short,sg_pos_v6_008,acoustic_performer_short_08,CC BY 4.0,1,0,0,0.9981,1,0.9981,1,0.9981,1
+s63_short_0104,0.45,ultra_short,sg_pos_v6_009,acoustic_performer_short_09,CC0 1.0,1,0,0,0.997,1,0.997,1,0.997,1
+s63_short_0105,0.46,ultra_short,sg_pos_v6_010,acoustic_performer_short_10,CC BY 4.0,1,0,0,0.9967,1,0.9967,1,0.9967,1
+s63_short_0106,0.49,ultra_short,sg_pos_v6_012,acoustic_performer_short_12,CC BY 4.0,1,0,0,0.9964,1,0.9964,1,0.9964,1
+s63_short_0107,0.52,short,sg_pos_v6_013,acoustic_performer_short_13,CC0 1.0,1,0,0,0.9953,1,0.9953,1,0.9953,1
+s63_short_0108,0.55,short,sg_pos_v6_014,acoustic_performer_short_14,CC BY 4.0,1,0,0,0.9908,1,0.9908,1,0.9908,1
+s63_short_0109,0.58,short,sg_pos_v6_015,acoustic_performer_short_15,CC0 1.0,1,0,0,0.9901,1,0.9901,1,0.9901,1
+s63_short_0110,0.6,short,sg_pos_v6_016,acoustic_performer_short_16,CC BY 4.0,1,0,0,0.9862,1,0.9862,1,0.9862,1
+s63_short_0111,0.62,short,sg_pos_v6_017,acoustic_performer_short_17,CC0 1.0,1,0,0,0.9873,1,0.9873,1,0.9873,1
+s63_short_0112,0.65,short,sg_pos_v6_018,acoustic_performer_short_18,CC BY 4.0,1,0,0,0.9843,1,0.9843,1,0.9843,1
+s63_short_0113,0.68,short,sg_pos_v6_019,acoustic_performer_short_19,CC0 1.0,1,0,0,0.9728,1,0.9728,1,0.9728,1
+s63_short_0114,0.7,short,sg_pos_v6_020,acoustic_performer_short_20,CC BY 4.0,1,0,0,0.9733,1,0.9733,1,0.9733,1
+s63_short_0115,0.72,short,sg_pos_v6_001,acoustic_performer_short_21,CC0 1.0,1,0,0,0.9791,1,0.9791,1,0.9791,1
+s63_short_0116,0.75,short,sg_pos_v6_002,acoustic_performer_short_22,CC BY 4.0,1,0,0,0.9541,1,0.9541,1,0.9541,1
+s63_short_0117,0.78,short,sg_pos_v6_003,acoustic_performer_short_23,CC0 1.0,1,0,0,0.9606,1,0.9606,1,0.9606,1
+s63_short_0118,0.8,short,sg_pos_v6_004,acoustic_performer_short_24,CC BY 4.0,1,0,0,0.9614,1,0.9614,1,0.9614,1
+s63_short_0119,0.85,short,sg_pos_v6_005,acoustic_performer_short_25,CC0 1.0,1,0,0,0.9406,1,0.9406,1,0.9406,1
+s63_short_0120,0.95,short,sg_pos_v6_007,acoustic_performer_short_27,CC0 1.0,1,0,0,0.9407,1,0.9407,1,0.9407,1
+s63_short_0121,0.98,short,sg_pos_v6_008,acoustic_performer_short_28,CC BY 4.0,1,0,0,0.9136,1,0.9136,1,0.9136,1
+s63_short_0122,0.65,short,sg_pos_v6_029,vocal_performer_low_01,CC0 1.0,1,0,0,0.6022,1,0.1204,0,0.6022,1
+s63_short_0123,0.75,short,sg_pos_v6_030,vocal_performer_low_02,CC BY 4.0,1,0,0,0.7846,1,0.1569,0,0.7846,1
+s63_short_0124,0.85,short,sg_pos_v6_031,vocal_performer_low_03,CC0 1.0,1,0,0,0.9243,1,0.1849,0,0.9243,1
+s63_short_0125,0.95,short,sg_pos_v6_032,vocal_performer_low_04,CC BY 4.0,1,0,0,0.5659,1,0.1132,0,0.5659,1
+s63_short_0126,0.874,short,fs_user_freesound_user,freesound_user,CC0-1.0,1,0,0,0.907,1,0.907,1,0.907,1
+s63_short_0127,0.421,ultra_short,fs_user_freesound_user,freesound_user,CC0-1.0,1,0,0,1.0,1,1.0,1,1.0,1
+s63_short_0128,0.5,ultra_short,sg_s60_s20_109827,stage20_artist_109827,CC BY 4.0,1,0,0,0.9963,1,0.9963,1,0.9963,1
+s63_short_0129,0.871,short,sg_s60_s20_220660,stage20_artist_220660,CC BY 4.0,1,0,0,0.9946,1,0.9946,1,0.9946,1
+s63_short_0130,0.812,short,sg_s60_s20__11568,stage20_artist__11568,CC BY 4.0,1,0,0,0.9901,1,0.9901,1,0.9901,1
+s63_short_0131,0.929,short,sg_s60_s20_323724,stage20_artist_323724,CC BY 4.0,1,0,0,0.7952,1,0.7952,1,0.7952,1
+s63_short_0132,0.96,short,sg_s60_s20_336004,stage20_artist_336004,CC BY 4.0,1,0,0,0.9975,1,0.9975,1,0.9975,1
+s63_short_0133,0.685,short,sg_s60_s20_431628,stage20_artist_431628,CC BY 4.0,1,0,0,0.9908,1,0.9908,1,0.9908,1
+stage64_short_acq_short_scream_0010,0.687,short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.9869,1,0.9869,1,0.9869,1
+stage64_short_acq_short_scream_0020,0.412,ultra_short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.9992,1,0.9992,1,0.9992,1
+stage64_short_acq_short_scream_0030,0.251,ultra_short,sg_short_acq,artist_acq_shor,CC0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_acq_short_scream_0040,0.511,short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.9979,1,0.9979,1,0.9979,1
+stage64_short_acq_short_scream_0050,0.342,ultra_short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_acq_short_scream_0060,0.435,ultra_short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.999,1,0.999,1,0.999,1
+stage64_short_acq_short_scream_0070,0.871,short,sg_short_acq,artist_acq_shor,CC0,0,0,0,0.9697,1,0.9697,1,0.9697,1
+stage64_short_acq_short_scream_0080,0.296,ultra_short,sg_short_acq,artist_acq_shor,CC0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_001_v2_nigens_HUMAN-SCREAM_GEN-HDF-15246,0.499,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_002_v3_fsd50k_182924,0.54,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_003_v3_fsd50k_58803,0.743,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9707,1,0.9707,1,0.9707,1
+stage64_short_supp_short_scream_005_stage11_fsd50k_166619,0.677,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_006_109825,0.5,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9953,1,0.9953,1,0.9953,1
+stage64_short_supp_short_scream_007_109826,0.567,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_supp_short_scream_007_stage11_fsd50k_220658,0.732,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_supp_short_scream_009_109828,0.763,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9937,1,0.9937,1,0.9937,1
+stage64_short_supp_short_scream_010_109830,0.94,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9509,1,0.9509,1,0.9509,1
+stage64_short_supp_short_scream_010_stage11_fsd50k_344029,0.65,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9945,1,0.9945,1,0.9945,1
+stage64_short_supp_short_scream_011_109831,0.71,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9918,1,0.9918,1,0.9918,1
+stage64_short_supp_short_scream_011_stage11_fsd50k_68136,0.664,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9679,1,0.9679,1,0.9679,1
+stage64_short_supp_short_scream_012_11567,0.648,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9969,1,0.9969,1,0.9969,1
+stage64_short_supp_short_scream_012_stage11_synth_scream_004_snr+03db,0.731,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9389,1,0.9389,1,0.9389,1
+stage64_short_supp_short_scream_014_11569,0.787,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9986,1,0.9986,1,0.9986,1
+stage64_short_supp_short_scream_016_186931,0.415,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_018_186955,0.367,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_020_186957,0.941,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9334,1,0.9334,1,0.9334,1
+stage64_short_supp_short_scream_020_stage11_synth_scream_033_snr-06db,0.601,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9988,1,0.9988,1,0.9988,1
+stage64_short_supp_short_scream_021_186958,0.311,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_supp_short_scream_022_241471,0.731,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_supp_short_scream_023_24731,0.893,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.7745,1,0.7745,1,0.7745,1
+stage64_short_supp_short_scream_024_24733,0.954,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9564,1,0.9564,1,0.9564,1
+stage64_short_supp_short_scream_025_268221,0.711,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9966,1,0.9966,1,0.9966,1
+stage64_short_supp_short_scream_026_323723,0.569,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9854,1,0.9854,1,0.9854,1
+stage64_short_supp_short_scream_028_32417,0.919,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9465,1,0.9465,1,0.9465,1
+stage64_short_supp_short_scream_037_343960,0.58,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_supp_short_scream_038_343966,0.685,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9974,1,0.9974,1,0.9974,1
+stage64_short_supp_short_scream_039_344067,0.479,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_supp_short_scream_043_63538,0.75,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9923,1,0.9923,1,0.9923,1
+stage64_short_supp_short_scream_044_169003,0.269,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_supp_short_scream_045_169005,0.308,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9903,1,0.9903,1,0.9903,1
+stage64_short_supp_short_scream_046_269003,0.611,short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.9989,1,0.9989,1,0.9989,1
+stage64_short_supp_short_scream_047_369003,0.371,ultra_short,sg_short_supp,artist_supp_sho,CC BY 4.0,0,0,0,0.3005,0,0.0601,0,0.3005,0
+stage64_short_pos_v6_scream_0011,0.48,ultra_short,sg_short_pos,artist_pos_v6_s,CC0,0,0,0,0.9969,1,0.9969,1,0.9969,1
+stage64_short_pos_v6_scream_0026,0.9,short,sg_short_pos,artist_pos_v6_s,CC0,0,0,0,0.9514,1,0.9514,1,0.9514,1
+stage64_short_s43_pos_pos_v6_scream_0001,0.25,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s43_pos_pos_v6_scream_0002,0.3,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s43_pos_pos_v6_scream_0003,0.32,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s43_pos_pos_v6_scream_0004,0.35,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_s43_pos_pos_v6_scream_0005,0.38,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9994,1,0.9994,1,0.9994,1
+stage64_short_s43_pos_pos_v6_scream_0006,0.4,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9986,1,0.9986,1,0.9986,1
+stage64_short_s43_pos_pos_v6_scream_0007,0.42,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9982,1,0.9982,1,0.9982,1
+stage64_short_s43_pos_pos_v6_scream_0008,0.44,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9981,1,0.9981,1,0.9981,1
+stage64_short_s43_pos_pos_v6_scream_0009,0.45,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.997,1,0.997,1,0.997,1
+stage64_short_s43_pos_pos_v6_scream_0010,0.46,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9967,1,0.9967,1,0.9967,1
+stage64_short_s43_pos_pos_v6_scream_0012,0.49,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9964,1,0.9964,1,0.9964,1
+stage64_short_s43_pos_pos_v6_scream_0013,0.52,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9953,1,0.9953,1,0.9953,1
+stage64_short_s43_pos_pos_v6_scream_0014,0.55,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9908,1,0.9908,1,0.9908,1
+stage64_short_s43_pos_pos_v6_scream_0015,0.58,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9901,1,0.9901,1,0.9901,1
+stage64_short_s43_pos_pos_v6_scream_0016,0.6,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9862,1,0.9862,1,0.9862,1
+stage64_short_s43_pos_pos_v6_scream_0017,0.62,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9873,1,0.9873,1,0.9873,1
+stage64_short_s43_pos_pos_v6_scream_0018,0.65,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9843,1,0.9843,1,0.9843,1
+stage64_short_s43_pos_pos_v6_scream_0019,0.68,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9728,1,0.9728,1,0.9728,1
+stage64_short_s43_pos_pos_v6_scream_0020,0.7,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9733,1,0.9733,1,0.9733,1
+stage64_short_s43_pos_pos_v6_scream_0021,0.72,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9791,1,0.9791,1,0.9791,1
+stage64_short_s43_pos_pos_v6_scream_0022,0.75,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9541,1,0.9541,1,0.9541,1
+stage64_short_s43_pos_pos_v6_scream_0023,0.78,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9606,1,0.9606,1,0.9606,1
+stage64_short_s43_pos_pos_v6_scream_0024,0.8,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9614,1,0.9614,1,0.9614,1
+stage64_short_s43_pos_pos_v6_scream_0025,0.85,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9406,1,0.9406,1,0.9406,1
+stage64_short_s43_pos_pos_v6_scream_0027,0.95,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9407,1,0.9407,1,0.9407,1
+stage64_short_s43_pos_pos_v6_scream_0028,0.98,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9136,1,0.9136,1,0.9136,1
+stage64_short_s43_pos_pos_v6_scream_0041,0.65,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.6022,1,0.1204,0,0.6022,1
+stage64_short_s43_pos_pos_v6_scream_0042,0.75,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.7846,1,0.1569,0,0.7846,1
+stage64_short_s43_pos_pos_v6_scream_0043,0.85,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9243,1,0.1849,0,0.9243,1
+stage64_short_s43_pos_pos_v6_scream_0044,0.95,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.5659,1,0.1132,0,0.5659,1
+stage64_short_s43_pos_S8930_FS_222582,0.719,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.1747,0,0.1747,0,0.1747,0
+stage64_short_s43_pos_S8930_FS_382990,0.421,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s43_pos_S8930_FS_395828,0.874,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.907,1,0.907,1,0.907,1
+stage64_short_s43_pos_S8930_FS_547188,0.766,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9917,1,0.9917,1,0.9917,1
+stage64_short_s43_pos_S8930_FS_686340,0.395,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.999,1,0.999,1,0.999,1
+stage64_short_s43_pos_S8930_FS_788867,0.65,short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,0.9691,1,0.1938,0,0.9691,1
+stage64_short_s43_pos_S8930_NIGENS_HUMAN-SCREAM_GEN-HDF-15246,0.499,ultra_short,sg_short_s43,artist_s43_pos_,CC BY 3.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0001,0.607,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.2,0,0.9999,1
+stage64_short_s49_dev_neg_0002,0.83,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0003,0.499,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0004,0.746,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9861,1,0.1972,0,0.9861,1
+stage64_short_s49_dev_neg_0005,0.616,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0006,0.719,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_s49_dev_neg_0007,0.408,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s49_dev_neg_0008,0.669,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9979,1,0.9979,1,0.9979,1
+stage64_short_s49_dev_neg_0009,0.546,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9996,1,0.9996,1,0.9996,1
+stage64_short_s49_dev_neg_0010,0.538,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9994,1,0.1999,0,0.9994,1
+stage64_short_s49_dev_neg_0011,0.788,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0012,0.634,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9995,1,0.9995,1,0.9995,1
+stage64_short_s49_dev_neg_0013,0.575,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9962,1,0.1992,0,0.9962,1
+stage64_short_s49_dev_neg_0014,0.666,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0015,0.743,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9998,1,0.2,0,0.9998,1
+stage64_short_s49_dev_neg_0016,0.355,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.999,1,0.999,1,0.999,1
+stage64_short_s49_dev_neg_0017,0.755,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9912,1,0.1982,0,0.9912,1
+stage64_short_s49_dev_neg_0018,0.488,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9972,1,0.9972,1,0.9972,1
+stage64_short_s49_dev_neg_0019,0.565,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9977,1,0.9977,1,0.9977,1
+stage64_short_s49_dev_neg_0020,0.551,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9996,1,0.1999,0,0.9996,1
+stage64_short_s49_dev_neg_0021,0.439,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.2,0,0.9999,1
+stage64_short_s49_dev_neg_0022,0.37,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s49_dev_neg_0023,0.818,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9984,1,0.9984,1,0.9984,1
+stage64_short_s49_dev_neg_0024,0.833,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9788,1,0.1958,0,0.9788,1
+stage64_short_s49_dev_neg_0025,0.396,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.999,1,0.999,1,0.999,1
+stage64_short_s49_dev_neg_0026,0.639,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9912,1,0.1982,0,0.9912,1
+stage64_short_s49_dev_neg_0027,0.691,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9995,1,0.1999,0,0.9995,1
+stage64_short_s49_dev_neg_0028,0.413,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0029,0.618,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9943,1,0.1989,0,0.9943,1
+stage64_short_s49_dev_neg_0030,0.625,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9964,1,0.1993,0,0.9964,1
+stage64_short_s49_dev_neg_0031,0.852,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0032,0.88,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0033,0.536,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0034,0.978,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0035,0.781,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0036,0.496,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0037,0.755,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0038,0.988,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0039,0.54,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0040,0.607,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_dev_neg_0041,0.514,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0042,0.504,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0043,0.53,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0044,0.739,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0045,0.512,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0046,0.432,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0047,0.737,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0048,0.444,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0049,0.369,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0050,0.761,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_dev_neg_0051,0.869,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.6808,1,0.6808,1,0.6808,1
+stage64_short_s49_dev_neg_0054,0.602,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.8383,1,0.8383,1,0.8383,1
+stage64_short_s49_dev_neg_0055,0.961,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.6065,1,0.6065,1,0.6065,1
+stage64_short_s49_dev_neg_0056,0.912,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.6339,1,0.6339,1,0.6339,1
+stage64_short_s49_dev_neg_0058,0.896,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.6665,1,0.6665,1,0.6665,1
+stage64_short_s49_dev_neg_0060,0.58,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.8522,1,0.8522,1,0.8522,1
+stage64_short_s49_dev_neg_0062,0.767,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.221,0,0.221,0,0.221,0
+stage64_short_s49_dev_neg_0063,0.805,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.2082,0,0.2082,0,0.2082,0
+stage64_short_s49_dev_neg_0070,0.936,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.2096,0,0.2096,0,0.2096,0
+stage64_short_s49_dev_neg_0075,0.602,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.246,0,0.246,0,0.246,0
+stage64_short_s49_dev_neg_0076,0.819,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.204,0,0.204,0,0.204,0
+stage64_short_s49_dev_neg_0077,0.84,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.2301,0,0.2301,0,0.2301,0
+stage64_short_s49_dev_neg_0084,0.652,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.2355,0,0.2355,0,0.2355,0
+stage64_short_s49_dev_pos_0001,0.317,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_s49_dev_pos_0002,0.309,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_s49_dev_pos_0003,0.292,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s49_dev_pos_0004,0.387,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9987,1,0.9987,1,0.9987,1
+stage64_short_s49_dev_pos_0005,0.308,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_s49_dev_pos_0006,0.317,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_s49_dev_pos_0007,0.327,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_s49_dev_pos_0008,0.373,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.999,1,0.999,1,0.999,1
+stage64_short_s49_dev_pos_0009,0.363,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9992,1,0.9992,1,0.9992,1
+stage64_short_s49_dev_pos_0010,0.291,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s49_dev_pos_0011,0.362,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9992,1,0.9992,1,0.9992,1
+stage64_short_s49_dev_pos_0012,0.444,ultra_short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9967,1,0.9967,1,0.9967,1
+stage64_short_s49_dev_pos_0013,0.666,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9715,1,0.9715,1,0.9715,1
+stage64_short_s49_dev_pos_0014,0.885,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9162,1,0.9162,1,0.9162,1
+stage64_short_s49_dev_pos_0015,0.734,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9616,1,0.9616,1,0.9616,1
+stage64_short_s49_dev_pos_0016,0.84,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9173,1,0.9173,1,0.9173,1
+stage64_short_s49_dev_pos_0017,0.737,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9463,1,0.9463,1,0.9463,1
+stage64_short_s49_dev_pos_0018,0.796,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9191,1,0.9191,1,0.9191,1
+stage64_short_s49_dev_pos_0019,0.736,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9578,1,0.9578,1,0.9578,1
+stage64_short_s49_dev_pos_0020,0.963,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.8896,1,0.8896,1,0.8896,1
+stage64_short_s49_dev_pos_0021,0.93,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9096,1,0.9096,1,0.9096,1
+stage64_short_s49_dev_pos_0022,0.91,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9095,1,0.9095,1,0.9095,1
+stage64_short_s49_dev_pos_0023,0.82,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9327,1,0.9327,1,0.9327,1
+stage64_short_s49_dev_pos_0024,0.606,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9766,1,0.9766,1,0.9766,1
+stage64_short_s49_dev_pos_0025,0.872,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9138,1,0.9138,1,0.9138,1
+stage64_short_s49_dev_pos_0026,0.823,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9394,1,0.9394,1,0.9394,1
+stage64_short_s49_dev_pos_0027,0.968,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9068,1,0.9068,1,0.9068,1
+stage64_short_s49_dev_pos_0028,0.8,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9208,1,0.9208,1,0.9208,1
+stage64_short_s49_dev_pos_0029,0.556,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.989,1,0.989,1,0.989,1
+stage64_short_s49_dev_pos_0030,0.548,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9756,1,0.9756,1,0.9756,1
+stage64_short_s49_dev_pos_0031,0.673,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9694,1,0.9694,1,0.9694,1
+stage64_short_s49_dev_pos_0032,0.61,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9782,1,0.9782,1,0.9782,1
+stage64_short_s49_dev_pos_0033,0.675,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9626,1,0.9626,1,0.9626,1
+stage64_short_s49_dev_pos_0034,0.531,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9908,1,0.9908,1,0.9908,1
+stage64_short_s49_dev_pos_0035,0.773,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9362,1,0.9362,1,0.9362,1
+stage64_short_s49_dev_pos_0036,0.517,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9894,1,0.9894,1,0.9894,1
+stage64_short_s49_dev_pos_0069,0.969,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9468,1,0.9468,1,0.9468,1
+stage64_short_s49_dev_pos_0075,0.974,short,sg_short_s49,artist_s49_dev_,CC BY 4.0,0,0,0,0.9478,1,0.1896,0,0.9478,1
+stage64_short_s49_val_neg_0001,0.536,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_val_neg_0002,0.698,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_val_neg_0003,0.738,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9949,1,0.199,0,0.9949,1
+stage64_short_s49_val_neg_0004,0.779,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_s49_val_neg_0005,0.888,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9993,1,0.9993,1,0.9993,1
+stage64_short_s49_val_neg_0006,0.696,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.996,1,0.996,1,0.996,1
+stage64_short_s49_val_neg_0007,0.813,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9946,1,0.9946,1,0.9946,1
+stage64_short_s49_val_neg_0008,0.662,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0009,0.549,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9992,1,0.9992,1,0.9992,1
+stage64_short_s49_val_neg_0010,0.663,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9889,1,0.9889,1,0.9889,1
+stage64_short_s49_val_neg_0011,0.808,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9955,1,0.1991,0,0.9955,1
+stage64_short_s49_val_neg_0012,0.88,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.999,1,0.1998,0,0.999,1
+stage64_short_s49_val_neg_0013,0.57,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9989,1,0.9989,1,0.9989,1
+stage64_short_s49_val_neg_0014,0.37,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0015,0.816,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0016,0.399,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9998,1,0.2,0,0.9998,1
+stage64_short_s49_val_neg_0017,0.74,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0018,0.5,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9966,1,0.1993,0,0.9966,1
+stage64_short_s49_val_neg_0019,0.656,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0020,0.437,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0021,0.732,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0022,0.774,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0023,0.423,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0024,0.497,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0025,0.804,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0026,0.799,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0027,0.663,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0028,0.84,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0030,0.862,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0031,0.962,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0032,0.816,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0033,0.446,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0034,0.625,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0035,0.645,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0036,0.586,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,1.0,1,0.2,0,1.0,1
+stage64_short_s49_val_neg_0040,1.0,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.1967,0,0.1967,0,0.1967,0
+stage64_short_s49_val_neg_0047,0.712,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.2235,0,0.2235,0,0.2235,0
+stage64_short_s49_val_pos_0001,0.332,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_s49_val_pos_0002,0.31,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9998,1,0.9998,1,0.9998,1
+stage64_short_s49_val_pos_0003,0.303,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_s49_val_pos_0004,0.428,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9977,1,0.9977,1,0.9977,1
+stage64_short_s49_val_pos_0005,0.464,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9955,1,0.9955,1,0.9955,1
+stage64_short_s49_val_pos_0006,0.33,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_s49_val_pos_0007,0.399,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9987,1,0.9987,1,0.9987,1
+stage64_short_s49_val_pos_0008,0.477,ultra_short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9958,1,0.9958,1,0.9958,1
+stage64_short_s49_val_pos_0009,0.825,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9342,1,0.9342,1,0.9342,1
+stage64_short_s49_val_pos_0010,0.908,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.8986,1,0.8986,1,0.8986,1
+stage64_short_s49_val_pos_0011,0.863,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9156,1,0.9156,1,0.9156,1
+stage64_short_s49_val_pos_0012,0.683,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9682,1,0.9682,1,0.9682,1
+stage64_short_s49_val_pos_0013,0.588,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9803,1,0.9803,1,0.9803,1
+stage64_short_s49_val_pos_0014,0.728,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9612,1,0.9612,1,0.9612,1
+stage64_short_s49_val_pos_0015,0.543,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9897,1,0.9897,1,0.9897,1
+stage64_short_s49_val_pos_0016,0.526,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9878,1,0.9878,1,0.9878,1
+stage64_short_s49_val_pos_0017,0.972,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.8879,1,0.8879,1,0.8879,1
+stage64_short_s49_val_pos_0018,0.939,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.8259,1,0.8259,1,0.8259,1
+stage64_short_s49_val_pos_0019,0.636,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9773,1,0.9773,1,0.9773,1
+stage64_short_s49_val_pos_0020,0.818,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9119,1,0.9119,1,0.9119,1
+stage64_short_s49_val_pos_0021,0.662,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.969,1,0.969,1,0.969,1
+stage64_short_s49_val_pos_0022,0.914,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9154,1,0.9154,1,0.9154,1
+stage64_short_s49_val_pos_0036,0.995,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9569,1,0.9569,1,0.9569,1
+stage64_short_s49_val_pos_0042,0.821,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9514,1,0.9514,1,0.9514,1
+stage64_short_s49_val_pos_0046,0.793,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.9929,1,0.1986,0,0.9929,1
+stage64_short_s49_val_pos_0048,0.832,short,sg_short_s49,artist_s49_val_,CC BY 4.0,0,0,0,0.2287,0,0.0457,0,0.2287,0
+stage64_short_v3_synth_scream_006_snr-06db,0.761,short,sg_short_v3,artist_v3_synth,CC BY 4.0,0,0,0,0.9339,1,0.9339,1,0.9339,1
+stage64_short_v3_synth_scream_010_snr+06db,0.813,short,sg_short_v3,artist_v3_synth,CC BY 4.0,0,0,0,0.9092,1,0.9092,1,0.9092,1
+stage64_short_v3_synth_scream_048_snr+00db,0.81,short,sg_short_v3,artist_v3_synth,CC BY 4.0,0,0,0,0.91,1,0.91,1,0.91,1
+stage64_short_v2_nigens_220822__ericsueiro__woman-yelling-high-pitched-2,0.751,short,sg_short_v2,artist_v2_nigen,CC BY 4.0,0,0,0,0.9997,1,0.9997,1,0.9997,1
+stage64_short_v2_nigens_336537__chrillz3r__scream-frightened,0.878,short,sg_short_v2,artist_v2_nigen,CC BY 4.0,0,0,0,0.4358,0,0.4358,0,0.4358,0
+stage64_short_v2_nigens_58585__juskiddink__vocal-joy-and-excitement2,0.761,short,sg_short_v2,artist_v2_nigen,CC BY 4.0,0,0,0,0.8098,1,0.8098,1,0.8098,1
+stage64_short_v2_nigens_HUMAN-SCREAM_GEN-HDF-15246,0.499,ultra_short,sg_short_v2,artist_v2_nigen,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_v3_fsd50k_110140,0.951,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_v3_fsd50k_161360,0.81,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_v3_fsd50k_182924,0.54,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1
+stage64_short_v3_fsd50k_219453,0.939,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9714,1,0.9714,1,0.9714,1
+stage64_short_v3_fsd50k_220658,0.732,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9999,1,0.9999,1,0.9999,1
+stage64_short_v3_fsd50k_220660,0.871,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9946,1,0.9946,1,0.9946,1
+stage64_short_v3_fsd50k_252244,0.952,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9924,1,0.9924,1,0.9924,1
+stage64_short_v3_fsd50k_253771,0.813,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9894,1,0.9894,1,0.9894,1
+stage64_short_v3_fsd50k_316398,0.883,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.937,1,0.937,1,0.937,1
+stage64_short_v3_fsd50k_34283,0.601,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9961,1,0.9961,1,0.9961,1
+stage64_short_v3_fsd50k_343948,0.607,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9993,1,0.9993,1,0.9993,1
+stage64_short_v3_fsd50k_381801,0.731,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9859,1,0.9859,1,0.9859,1
+stage64_short_v3_fsd50k_381802,0.575,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9947,1,0.9947,1,0.9947,1
+stage64_short_v3_fsd50k_58803,0.743,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9707,1,0.9707,1,0.9707,1
+stage64_short_v3_fsd50k_68136,0.664,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,0.9679,1,0.9679,1,0.9679,1
+stage64_short_v3_fsd50k_9706,0.734,short,sg_short_v3,artist_v3_fsd50,CC BY 4.0,0,0,0,1.0,1,1.0,1,1.0,1

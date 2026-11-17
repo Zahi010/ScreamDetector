@@ -1,0 +1,8 @@
+candidate,overall_recall,shouted_fpr,hard_negative_fpr,short_scream_recall,heldout_short_recall,p95_latency_ms,g1_recall,g2_hn_fpr,g3_shout_fpr,g4_short_rec,g5_latency
+Candidate 65-F (Frozen Ref),86.87,48.86,59.68,97.44,98.13,0.812,FAIL,FAIL,FAIL,PASS,PASS
+Candidate 67-D (Frozen Champ),73.74,13.64,8.87,92.31,54.48,0.437,FAIL,FAIL,PASS,PASS,PASS
+Candidate 68-D (Calibrated Multi-Veto),74.75,13.64,7.26,92.31,58.58,0.437,FAIL,FAIL,PASS,PASS,PASS
+Candidate 69-A (HFCR Rescue),76.77,13.64,8.06,92.31,58.58,0.437,FAIL,FAIL,PASS,PASS,PASS
+Candidate 69-B (SNR-Adaptive Roughness),76.77,13.64,8.06,92.31,58.58,0.437,FAIL,FAIL,PASS,PASS,PASS
+Candidate 69-C (Noise-Robust Bypass),79.8,14.77,8.06,92.31,58.96,0.437,FAIL,FAIL,PASS,PASS,PASS
+Candidate 69-D (Champion Calibrated Multi-Resolution),79.8,13.64,8.06,92.31,58.21,0.437,FAIL,FAIL,PASS,PASS,PASS

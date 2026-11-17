@@ -1,0 +1,5 @@
+experiment_id,description,condition_code,val_auc,val_ap,selected_threshold,val_f1,val_scream_recall,val_hn_fpr,val_shouted_speech_fpr,seed
+Condition A,Authentic Positives Only (Baseline),A,0.9332,0.8562,0.89,0.7153,62.82,4.9,7.41,42
+Condition B,Gain (±4 dB) + Crowd Noise Mixing (SNR +6 to +12 dB),B,0.9028,0.7947,0.5,0.0,0.0,0.0,38.27,42
+Condition C,Mild Reverberation (150ms) + SpecAugment (Time/Freq Masking),C,0.9045,0.8376,0.5,0.0,0.0,0.0,55.56,42
+Condition D,Multi-Condition (Gain + Noise + Reverb + SpecAugment),D,0.8886,0.7388,0.83,0.5299,39.74,3.92,1.23,42

@@ -1,0 +1,6 @@
+metric_or_feature,screams_value,infant_crying_value,discriminative_power_auc,acoustic_mechanism
+Sample Count (N),99.0,20.0,N/A,Target signal vs vocal distress lookalike
+Auditory Roughness (30-150Hz),0.0924,0.0468,0.6045,Vocal fold chaos in screams vs periodic crying cry-bursts
+High-Frequency Energy Ratio,0.4039,0.2375,0.5823,Extreme high-frequency concentration in screams
+Spectral Flux Dynamics,0.1281,0.0497,0.8237,Rapid spectral evolution in screams vs rhythmic infant crying
+Harmonic-to-Noise Ratio (HNR dB),0.34,-0.89,0.4172,Lower HNR in chaotic screams due to turbulent aspiration

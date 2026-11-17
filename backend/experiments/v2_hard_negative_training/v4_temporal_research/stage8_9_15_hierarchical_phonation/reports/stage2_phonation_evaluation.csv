@@ -1,0 +1,5 @@
+model_id,selected_threshold,val_recall_pct,val_fpr_pct,val_shouted_speech_fpr_pct,val_short_scream_recall_pct,val_f1_score,val_feasibility
+Model_A_Compact_MLP,0.16,76.04,9.38,8.86,77.78,0.7684,INFEASIBLE
+Model_B_Temporal_CNN,0.61,86.46,15.18,16.46,100.0,0.7793,INFEASIBLE
+Model_C_Hybrid_Fusion,0.24,81.25,9.38,10.13,88.89,0.8,INFEASIBLE
+Model_C_Gated_Cascade,0.24,81.25,7.59,10.13,88.89,0.8168,INFEASIBLE

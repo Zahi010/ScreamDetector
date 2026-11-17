@@ -1,0 +1,661 @@
+<USER_REQUEST>
+# STAGE 8.9.55 — Fresh Independent Cohort Acquisition, Blind Evaluation & Candidate E1 vs Candidate B
+
+# MANDATORY DESIGNATION
+
+**RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE.**
+
+This is an experimental acoustic research system. It is not certified for emergency detection, life-safety alerting, autonomous dispatch, police response, active-shooter notification, or critical security deployment.
+
+Use only legally acquired recordings and safe recorded-audio playback protocols. No live-fire experiments, emergency dispatch, or autonomous external alerts.
+
+---
+
+# 1. MISSION
+
+Create a genuinely new, source-group-independent evaluation cohort and use it to compare:
+
+1. Candidate E1 — expanded-data, class-balanced Candidate E.
+2. Candidate B — frozen reference baseline.
+3. Candidate B + Intervention D — frozen reference configuration, if available.
+
+The primary research question:
+
+**Does Candidate E1's improvement on the Stage 8.9.54 validation partition generalize to previously unseen recordings and source groups?**
+
+This is an evaluation stage, not a training stage.
+
+Do not retrain, fine-tune, recalibrate, or modify any candidate during this stage.
+
+## 1.1 Target cohort
+
+Target:
+
+- 400–500 authentic recordings.
+- At least 150 independent source groups.
+- Positive scream-like recordings and hard negatives.
+- Explicit low-intensity, muffled, crowd-masked, distant, short, and ultra-short positive coverage.
+- Challenging negative categories including cheering, whistles, shouted speech, infant crying, sirens, music, and ordinary speech.
+
+These are acquisition targets, not fabricated quotas.
+
+If the target cannot be reached using eligible recordings, report the actual count and mark the evidence limitation.
+
+---
+
+# 2. FROZEN MODEL CONFIGURATIONS
+
+## Candidate E1
+
+- Checkpoint: `candidate_e_v954_weighted.pt`
+- Threshold: `0.6800`
+- Architecture: Stage 8.9.52 verified Candidate E dual-branch architecture, subject to verification against the actual implementation.
+- Training partition: Stage 8.9.52 `expansion_train`.
+- Validation partition: Stage 8.9.52 `expansion_val`.
+
+Verify the checkpoint's actual SHA-256 before beginning.
+
+Do not assume a hash or copy one from another experiment.
+
+## Candidate B
+
+- Checkpoint: `config_b_mask.pt`
+- Threshold: `0.8000`
+- Use the existing frozen preprocessing and inference configuration.
+
+## Candidate B + Intervention D
+
+Use the exact frozen Stage 8.9.49/8.9.50 configuration if its checkpoint, filter implementation, and metadata are available.
+
+Do not reconstruct missing components or approximate the original implementation.
+
+## Freeze requirements
+
+Record:
+
+- Checkpoint SHA-256.
+- Architecture version.
+- Preprocessing version.
+- Feature extraction version.
+- Normalization parameters.
+- Threshold.
+- Inference configuration.
+
+No threshold adjustment is allowed after the new cohort has been evaluated.
+
+---
+
+# 3. PRODUCTION ARTIFACT PROTECTION
+
+Preserve the production artifacts and their expected hashes:
+
+| Artifact | SHA-256 |
+|---|---|
+| `backend/models/scream_classifier.joblib` | `ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f` |
+| `backend/models/model_metadata.json` | `30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60` |
+| `backend/reports/test_predictions.csv` | `e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d` |
+| `backend/reports/stage5_test_evaluation.md` | `9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2` |
+
+Production threshold remains `0.3500`.
+
+Do not modify:
+
+- Production classifier.
+- Production metadata.
+- Historical production predictions.
+- Stage 5 evaluation.
+- Candidate E1 checkpoint.
+- Candidate B checkpoint.
+- Historical Stage 8.9.52 and 8.9.53 reports.
+- Stage 8.9.54 experimental artifacts.
+
+Verify hashes before and after each major phase.
+
+If any protected hash changes, stop and investigate.
+
+---
+
+# 4. PHASE A — HISTORICAL COHORT ISOLATION
+
+Before acquiring new recordings, build a historical exclusion registry.
+
+Include all available recording IDs, source IDs, source-group IDs, audio hashes, PCM hashes, and excerpt relationships from:
+
+- Original training data.
+- Original validation data.
+- Stage 8.9.47.
+- Stage 8.9.49.
+- Stage 8.9.50/8.9.51.
+- Stage 8.9.52 expansion dataset.
+- Stage 8.9.53 independent test.
+- Stage 8.9.54 training and validation.
+
+The historical Stage 8.9.53 cohort is already evaluated and must never be described as an untouched test set again.
+
+Verify that the new cohort has:
+
+- No exact recording overlap.
+- No SHA-256 overlap.
+- No PCM-identical audio.
+- No known excerpt leakage.
+- No known source-group overlap.
+- No known uploader/session/event overlap where provenance makes this identifiable.
+
+Use conservative duplicate detection.
+
+Near-duplicate similarity checks should identify candidates for manual review rather than automatically deleting recordings.
+
+Create:
+
+`stage_8_9_55/integrity/historical_exclusion_registry.csv`
+
+and:
+
+`stage_8_9_55/integrity/historical_cohort_isolation_report.md`
+
+If source independence cannot be verified, mark the affected records as uncertain and exclude them from the primary independent cohort.
+
+---
+
+# 5. PHASE B — NEW AUTHENTIC DATA ACQUISITION
+
+Acquire recordings from legally accessible sources.
+
+Prioritize source diversity over simply increasing the number of clips.
+
+Target the following categories:
+
+## Positive recordings
+
+- Confirmed scream-like vocalizations.
+- Low-intensity scream-like vocalizations.
+- Muffled scream-like vocalizations.
+- Crowd-masked scream-like vocalizations.
+- Distant scream-like vocalizations.
+- Reverberant scream-like vocalizations.
+- Short scream-like vocalizations.
+- Ultra-short scream-like vocalizations.
+- Sustained scream-like vocalizations.
+
+## Negative recordings
+
+- Cheering crowds.
+- Whistles and referee whistles.
+- Shouted speech.
+- Ordinary speech.
+- Infant crying.
+- Sirens.
+- Music.
+- Other vocalizations.
+- Environmental sounds.
+
+Acquire enough examples from each category to permit meaningful evaluation where possible.
+
+Do not create synthetic recordings to satisfy authentic acquisition targets.
+
+Synthetic augmentation may be studied separately but cannot count as independent authentic test recordings.
+
+## Licensing policy
+
+Commercial-intent licensing rules:
+
+- CC0/public domain: eligible.
+- CC BY: eligible with attribution.
+- CC BY-NC and CC BY-NC-ND: quarantine unless explicitly cleared.
+- Unknown or unverifiable license: quarantine.
+
+Record:
+
+- Recording ID.
+- Source URL.
+- Source ID.
+- Creator/uploader.
+- License.
+- Download date.
+- SHA-256.
+- Source-group ID.
+- Event/session relationship where available.
+- Duration.
+- Sample rate.
+- Label.
+- Subtype.
+- Review status.
+
+Do not bypass access controls or scrape prohibited sources.
+
+Create:
+
+- `stage_8_9_55/dataset/acquisition_manifest.csv`
+- `stage_8_9_55/dataset/license_audit.csv`
+- `stage_8_9_55/dataset/source_diversity_report.md`
+
+---
+
+# 6. PHASE C — LABEL ADJUDICATION
+
+Every recording used in the primary evaluation must have an adjudicated ground-truth label.
+
+Use the existing label taxonomy:
+
+- CONFIRMED_SCREAM_LIKE
+- SHOUTED_SPEECH
+- CHEERING
+- CRYING
+- WHISTLE
+- OTHER_VOCALIZATION
+- AMBIGUOUS
+- REVIEW_REQUIRED
+
+Maintain subtype labels separately:
+
+- LOW_INTENSITY
+- MUFFLED
+- CROWD_MASKED
+- DISTANT
+- REVERBERANT
+- SHORT
+- ULTRA_SHORT
+- SUSTAINED
+
+Multiple subtype labels are permitted.
+
+Do not automatically treat unintelligible vocalizations as screams.
+
+Where practical, use two independent reviewers for disputed recordings.
+
+Preserve disagreements and adjudication decisions.
+
+Exclude unresolved ambiguous recordings from the primary binary evaluation, but report their number and reasons.
+
+Create:
+
+- `stage_8_9_55/dataset/label_adjudication.csv`
+- `stage_8_9_55/dataset/label_quality_report.md`
+
+---
+
+# 7. PHASE D — COHORT QUARANTINE AND FREEZE
+
+The new cohort must remain isolated from model developers during acquisition and adjudication.
+
+Recommended procedure:
+
+1. Acquire and hash the recordings.
+2. Verify licenses.
+3. Assign source groups.
+4. Adjudicate labels.
+5. Perform duplicate and leakage checks.
+6. Freeze the manifest.
+7. Record manifest SHA-256.
+8. Record the cohort exclusion registry.
+9. Freeze the cohort before model inference.
+
+Where feasible, keep ground-truth labels separate from model prediction files until the evaluation run is complete.
+
+Do not expose individual test labels to training or model-development workflows.
+
+Once frozen, no recording may be added, removed, relabeled, or reassigned without a documented versioned amendment.
+
+Create:
+
+`stage_8_9_55/integrity/frozen_test_manifest.json`
+
+---
+
+# 8. PHASE E — FINAL MODEL FREEZE AND PRE-REGISTRATION
+
+Before test inference, create a signed-off evaluation configuration containing:
+
+- Candidate E1 checkpoint hash.
+- Candidate E1 threshold `0.6800`.
+- Candidate B checkpoint hash.
+- Candidate B threshold `0.8000`.
+- Candidate B + Intervention D configuration, if available.
+- Preprocessing versions.
+- Feature extraction versions.
+- Normalization parameters.
+- Cohort manifest hash.
+- Metric definitions.
+- Subgroup definitions.
+- Latency methodology.
+
+No changes to this configuration after the evaluation begins.
+
+Save:
+
+`stage_8_9_55/integrity/preregistered_evaluation_config.json`
+
+If a model or dependency cannot be verified, do not include it as a valid comparison candidate.
+
+---
+
+# 9. PHASE F — BLIND INDEPENDENT INFERENCE
+
+Run all eligible models on the exact same recordings.
+
+Use the frozen thresholds.
+
+Do not:
+
+- Retrain.
+- Fine-tune.
+- Recalibrate.
+- Adjust thresholds.
+- Modify feature extraction.
+- Change preprocessing.
+- Exclude difficult examples after viewing predictions.
+
+For every recording and model, save:
+
+- Recording ID.
+- Source-group ID.
+- Ground-truth label.
+- Subtype.
+- Raw probability.
+- Binary prediction.
+- Frozen threshold.
+- Checkpoint hash.
+- Preprocessing version.
+- Evaluation status.
+
+Save raw probabilities, not just binary decisions.
+
+Create:
+
+- `stage_8_9_55/evaluation/candidate_e1_predictions.csv`
+- `stage_8_9_55/evaluation/candidate_b_predictions.csv`
+- `stage_8_9_55/evaluation/candidate_b_intervention_d_predictions.csv`
+
+Only create the third file if that frozen configuration is successfully verified and evaluated.
+
+---
+
+# 10. PHASE G — PRIMARY METRICS
+
+For every model calculate:
+
+- TP.
+- FP.
+- TN.
+- FN.
+- Recall.
+- Precision.
+- Specificity.
+- F1.
+- Accuracy.
+- ROC-AUC.
+- PR-AUC.
+- Brier score.
+- Expected calibration error.
+
+For each metric, report:
+
+- Numerator.
+- Denominator.
+- Point estimate.
+- Wilson 95% confidence interval where applicable.
+- Number of independent source groups.
+
+Do not interpret zero observed false positives as proof of zero false-positive risk.
+
+---
+
+# 11. PHASE H — SUBGROUP EVALUATION
+
+## Positive subgroups
+
+Report:
+
+- Overall scream-like recall.
+- Short-scream recall.
+- Ultra-short recall.
+- Standard-short recall.
+- Low-intensity recall.
+- Muffled recall.
+- Crowd-masked recall.
+- Distant/reverb recall.
+- Sustained recall.
+
+## Negative subgroups
+
+Report:
+
+- Hard-negative FPR.
+- Shouted-speech FPR.
+- Cheering FPR.
+- Whistle FPR.
+- Infant-cry FPR.
+- Siren FPR.
+- Music FPR.
+- Ordinary-speech FPR.
+- Other-vocalization FPR.
+
+Subtype categories may overlap.
+
+Do not sum overlapping subtype counts as if they were mutually exclusive.
+
+For small groups, report INSUFFICIENT EVIDENCE.
+
+---
+
+# 12. PHASE I — PAIRED MODEL COMPARISON
+
+Compare Candidate E1 and Candidate B on identical recordings.
+
+Report:
+
+- Recording-level prediction disagreements.
+- Candidate E1 correct / Candidate B incorrect.
+- Candidate B correct / Candidate E1 incorrect.
+- Both correct.
+- Both incorrect.
+
+Use McNemar's test for paired binary outcomes where appropriate.
+
+Use source-group cluster bootstrap confidence intervals for recall and FPR comparisons.
+
+Resample source groups rather than individual recordings.
+
+Use at least 2,000 bootstrap replicates if computationally practical.
+
+Use a fixed random seed.
+
+If positive and negative source groups must be sampled separately, use a documented stratified cluster bootstrap.
+
+Report the resampling methodology and the number of independent source groups.
+
+Do not claim superiority from small point-estimate differences without uncertainty analysis.
+
+---
+
+# 13. PHASE J — ORIGINAL FIVE ACCEPTANCE GATES
+
+Preserve the original gates:
+
+| Gate | Requirement |
+|---|---:|
+| Overall scream recall | ≥96% |
+| Hard-negative FPR | ≤5% |
+| Shouted-speech FPR | ≤15% |
+| Short-scream recall | ≥90% |
+| Computational P95 inference latency | ≤25 ms |
+
+Evaluate all gates on the same independent cohort.
+
+Use the frozen validation-selected thresholds.
+
+Report point estimates, confidence intervals, and independent source-group counts.
+
+A point estimate passing a gate does not automatically establish statistical confidence.
+
+Do not mix results across models, thresholds, or cohorts.
+
+A candidate passes only if all five gates are satisfied by that same candidate on that same cohort.
+
+Passing all five makes the candidate eligible for separate research review only. It does not authorize production deployment.
+
+---
+
+# 14. PHASE K — LATENCY AUDIT
+
+Measure:
+
+- Model-only P50/P95/P99.
+- Feature-extraction P50/P95/P99.
+- Complete-pipeline P50/P95/P99.
+- Worst-case complete-pipeline latency.
+- Memory use.
+- Single-stream performance.
+- Concurrent-stream performance where supported.
+
+Do not report model-only latency as complete-pipeline latency.
+
+Do not use early-exit timing as the sole latency result.
+
+Distinguish computational inference latency from audio-window accumulation and operational onset-to-detection delay.
+
+Offline WAV evaluation does not establish real-time operational performance.
+
+---
+
+# 15. PHASE L — FINAL DECISION
+
+Select exactly one overall result:
+
+1. **CANDIDATE E1 INDEPENDENT GENERALIZATION SUPPORTED**
+2. **CANDIDATE B REMAINS THE STRONGER INDEPENDENT RESEARCH CANDIDATE**
+3. **CANDIDATE E1 AND CANDIDATE B SHOW COMPARABLE PERFORMANCE**
+4. **BOTH CANDIDATES FAIL THE ORIGINAL ACCEPTANCE GATES**
+5. **INSUFFICIENT EVIDENCE — COHORT OR SUBGROUPS TOO SMALL**
+6. **EVALUATION INVALID — INTEGRITY OR LEAKAGE FAILURE**
+
+The report must explicitly answer:
+
+- How many recordings were acquired?
+- How many were eligible?
+- How many independent source groups were verified?
+- Were all licenses eligible?
+- Were all labels adjudicated?
+- Was source-group independence established?
+- Were all historical overlaps excluded?
+- Was Candidate E1 evaluated at exactly `0.6800`?
+- Was Candidate B evaluated at exactly `0.8000`?
+- Which candidate performed better?
+- Were paired differences statistically meaningful?
+- Which acceptance gates passed or failed?
+- Did complete-pipeline latency meet the requirement?
+- Were all protected hashes preserved?
+
+Do not claim generalization if cohort integrity is uncertain.
+
+---
+
+# 16. REQUIRED DELIVERABLES
+
+Create:
+
+```text
+stage_8_9_55/
+├── README.md
+├── STAGE_PROGRESS.md
+├── dataset/
+│   ├── acquisition_manifest.csv
+│   ├── license_audit.csv
+│   ├── label_adjudication.csv
+│   ├── label_quality_report.md
+│   └── source_diversity_report.md
+├── integrity/
+│   ├── historical_exclusion_registry.csv
+│   ├── historical_cohort_isolation_report.md
+│   ├── frozen_test_manifest.json
+│   ├── preregistered_evaluation_config.json
+│   └── artifact_hash_audit.md
+├── evaluation/
+│   ├── candidate_e1_predictions.csv
+│   ├── candidate_b_predictions.csv
+│   ├── candidate_b_intervention_d_predictions.csv
+│   ├── independent_evaluation_report.md
+│   ├── subgroup_evaluation.md
+│   ├── paired_comparison.md
+│   └── acceptance_gate_report.md
+├── performance/
+│   ├── latency_report.md
+│   └── runtime_profile.csv
+├── tests/
+│   └── stage_8_9_55_test_report.md
+└── final_stage_report.md
+```
+
+If Intervention D is unavailable, document this and omit its prediction file rather than creating an empty artifact.
+
+---
+
+# 17. EXECUTION DISCIPLINE
+
+Execute in this order:
+
+1. Inspect repository and frozen checkpoints.
+2. Build historical exclusion registry.
+3. Acquire new recordings.
+4. Verify licenses and provenance.
+5. Assign source groups.
+6. Adjudicate labels.
+7. Run duplicate and leakage audits.
+8. Freeze cohort and manifest.
+9. Freeze and preregister model configurations.
+10. Run blind inference.
+11. Calculate primary and subgroup metrics.
+12. Run paired comparisons and cluster bootstrap.
+13. Measure latency.
+14. Run automated tests.
+15. Verify hashes and produce the final report.
+
+After each phase:
+
+- Save outputs.
+- Update `STAGE_PROGRESS.md`.
+- Run relevant tests.
+- Verify protected hashes.
+- Record unresolved issues.
+
+Do not launch unnecessary model training.
+
+Do not overwrite historical artifacts.
+
+Do not silently remove difficult recordings.
+
+Do not fabricate source groups, labels, counts, or results.
+
+Check available disk space before downloading or materializing audio.
+
+If the target of 400–500 eligible recordings across at least 150 source groups cannot be reached, stop and report the actual evidence.
+
+---
+
+# 18. FINAL RESEARCH PRINCIPLE
+
+Stage 8.9.54 showed that additional authentic training data substantially improved Candidate E's validation performance.
+
+Stage 8.9.55 must determine whether that improvement survives genuinely independent evaluation.
+
+The objective is not to make Candidate E win.
+
+The objective is to establish which frozen research candidate performs more reliably on unseen, independently sourced recordings.
+
+Do not promote either candidate to production.
+
+**RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE.**
+</USER_REQUEST>
+<ADDITIONAL_METADATA>
+The current local time is: 2026-11-06T01:18:30+05:30.
+
+The user's current state is as follows:
+Active Document: c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_43\STAGE_PROGRESS.md (LANGUAGE_UNSPECIFIED)
+Cursor is on line: 1
+Other open documents:
+- c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_30_2\test_results.txt (LANGUAGE_UNSPECIFIED)
+- c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_42\tests\test_stage_8_9_42.py (LANGUAGE_UNSPECIFIED)
+- c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_42\scripts\compare_candidates.py (LANGUAGE_UNSPECIFIED)
+- c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_42\scripts\benchmark_inference.py (LANGUAGE_UNSPECIFIED)
+- c:\Users\zahia\OneDrive\Desktop\ScreamDetector\festival-scream-detector\backend\research\stage_8_9_42\STAGE_PROGRESS.md (LANGUAGE_UNSPECIFIED)
+</ADDITIONAL_METADATA>

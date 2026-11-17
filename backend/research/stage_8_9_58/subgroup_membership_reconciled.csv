@@ -1,0 +1,100 @@
+recording_id,original_recording_id,source_group_id,duration_seconds,duration_bucket,ground_truth_label,is_ultra_short,is_short,is_sustained,target_category,subtype_tags,is_clean_sustained,is_masked_sustained,original_prediction,c5_prediction,detected_by_c5
+exp_v2_openslr_3AES_15_8_0_15_0_0_0,3AES_15_8_0_15_0_0_0,exp_sg_openslr_speaker_3AES,2.55,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_77AY_15_7_0_30_0_0_0,77AY_15_7_0_30_0_0_0,exp_sg_openslr_speaker_77AY,3.545,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_MEK8_15_1_0_33_0_0_0,MEK8_15_1_0_33_0_0_0,exp_sg_openslr_speaker_MEK8,2.682,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v2_openslr_MEK8_15_6_0_33_0_0_0,MEK8_15_6_0_33_0_0_0,exp_sg_openslr_speaker_MEK8,2.54,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_PZ73_15_2_1_33_0_0_0,PZ73_15_2_1_33_0_0_0,exp_sg_openslr_speaker_PZ73,2.13,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_ULJI_15_5_0_12_0_0_0,ULJI_15_5_0_12_0_0_0,exp_sg_openslr_speaker_ULJI,2.529,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_ZQYD_15_7_0_23_0_0_0,ZQYD_15_7_0_23_0_0_0,exp_sg_openslr_speaker_ZQYD,2.93,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_openslr_ZQYD_15_8_0_23_0_0_0,ZQYD_15_8_0_23_0_0_0,exp_sg_openslr_speaker_ZQYD,2.6,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_139086__arjanvanhoorn0181__young-girl-screaming-1,139086__arjanvanhoorn0181__young-girl-screaming-1,exp_sg_nigens_arjanvanhoorn0181,4.78,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_139087__arjanvanhoorn0181__young-girl-screaming-2,139087__arjanvanhoorn0181__young-girl-screaming-2,exp_sg_nigens_arjanvanhoorn0181,6.06,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_220307__ellenskellington__oneshout,220307__ellenskellington__oneshout,exp_sg_nigens_ellenskellington,1.103,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_220312__ellenskellington__womanshout,220312__ellenskellington__womanshout,exp_sg_nigens_ellenskellington,2.856,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_222545__queen-westeros__woman-scream,222545__queen-westeros__woman-scream,exp_sg_nigens_queen-westeros,2.171,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_242607__reitanna__gasp-oooh,242607__reitanna__gasp-oooh,exp_sg_nigens_reitanna,1.324,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v2_nigens_242644__reitanna__another-surprised-oooh,242644__reitanna__another-surprised-oooh,exp_sg_nigens_reitanna,1.498,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v2_nigens_273153__hoerspielwerkstatt-hef__child-scream2,273153__hoerspielwerkstatt-hef__child-scream2,exp_sg_nigens_hoerspielwerkstatt-hef,3.382,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_332044__montblanccandies__crazy-screaming,332044__montblanccandies__crazy-screaming,exp_sg_nigens_montblanccandies,6.685,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v2_nigens_9703__lithe-fider__fl-scream-1,9703__lithe-fider__fl-scream-1,exp_sg_nigens_lithe-fider,1.378,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_219863__acehell__crit-marc,219863__acehell__crit-marc,exp_sg_nigens_acehell,2.795,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_220311__ellenskellington__manshout,220311__ellenskellington__manshout,exp_sg_nigens_ellenskellington,1.358,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_238043__paltsug__wahha-yanga-ripi-a-raja-bip-gonog,238043__paltsug__wahha-yanga-ripi-a-raja-bip-gonog,exp_sg_nigens_paltsug,2.335,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_275170__lodovico__terrifying-scream,275170__lodovico__terrifying-scream,exp_sg_nigens_lodovico,19.003,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v2_nigens_336537__chrillz3r__scream-frightened,336537__chrillz3r__scream-frightened,exp_sg_nigens_chrillz3r,0.878,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_v2_synth_scream_001_snr+12db,v2_synth_scream_001_snr+12db,exp_sg_nigens_lithe-fider,1.378,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_006_snr+06db,v2_synth_scream_006_snr+06db,exp_sg_openslr_speaker_3AES,2.55,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_v2_synth_scream_008_snr-06db,v2_synth_scream_008_snr-06db,exp_sg_nigens_hoerspielwerkstatt-hef,3.382,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_v2_synth_scream_015_snr+00db,v2_synth_scream_015_snr+00db,exp_sg_openslr_speaker_MEK8,2.54,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_019_snr+00db,v2_synth_scream_019_snr+00db,exp_sg_openslr_speaker_ULJI,2.529,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_027_snr+00db,v2_synth_scream_027_snr+00db,exp_sg_nigens_acehell,2.795,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_033_snr+12db,v2_synth_scream_033_snr+12db,exp_sg_nigens_paltsug,2.335,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_040_snr-06db,v2_synth_scream_040_snr-06db,exp_sg_nigens_queen-westeros,2.171,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_v2_synth_scream_054_snr+06db,v2_synth_scream_054_snr+06db,exp_sg_openslr_speaker_MEK8,2.54,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_059_snr+00db,v2_synth_scream_059_snr+00db,exp_sg_nigens_lodovico,19.003,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_062_snr+06db,v2_synth_scream_062_snr+06db,exp_sg_openslr_speaker_ULJI,2.529,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v2_synth_scream_063_snr+00db,v2_synth_scream_063_snr+00db,exp_sg_openslr_speaker_PZ73,2.13,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_v2_synth_scream_068_snr-06db,v2_synth_scream_068_snr-06db,exp_sg_nigens_arjanvanhoorn0181,6.06,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_v3_fsd50k_220658,fsd50k_220658,exp_sg_fsd50k_uploader_marionagm90,0.732,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,0,0,False
+exp_v3_fsd50k_222537,fsd50k_222537,exp_sg_fsd50k_uploader_queen_westeros,2.67,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_219883,fsd50k_219883,exp_sg_fsd50k_uploader_pablocandel,1.277,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v3_fsd50k_34283,fsd50k_34283,exp_sg_fsd50k_uploader_hello_flowers,0.601,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_v3_fsd50k_220815,fsd50k_220815,exp_sg_fsd50k_uploader_ericsueiro,1.323,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_220660,fsd50k_220660,exp_sg_fsd50k_uploader_marionagm90,0.871,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_v3_fsd50k_222545,fsd50k_222545,exp_sg_fsd50k_uploader_queen_westeros,2.171,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_144338,fsd50k_144338,exp_sg_fsd50k_uploader_jpolito,1.445,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v3_fsd50k_316398,fsd50k_316398,exp_sg_fsd50k_uploader_littlerobotsoundfactory,0.883,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_v3_fsd50k_220655,fsd50k_220655,exp_sg_fsd50k_uploader_marionagm90,1.707,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_144337,fsd50k_144337,exp_sg_fsd50k_uploader_jpolito,1.84,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_68136,fsd50k_68136,exp_sg_fsd50k_uploader_jrssandoval,0.664,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,0,0,False
+exp_v3_fsd50k_219882,fsd50k_219882,exp_sg_fsd50k_uploader_pablocandel,1.858,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_220657,fsd50k_220657,exp_sg_fsd50k_uploader_marionagm90,1.544,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_fsd50k_178105,fsd50k_178105,exp_sg_fsd50k_uploader_retropttam,8.0,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_v3_fsd50k_316411,fsd50k_316411,exp_sg_fsd50k_uploader_littlerobotsoundfactory,1.15,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_v3_synth_scream_007_snr-03db,v3_synth_scream_007_snr-03db,exp_sg_nigens_lithe-fider,1.378,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v3_synth_scream_011_snr-06db,v3_synth_scream_011_snr-06db,exp_sg_fsd50k_uploader_ericsueiro,1.323,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v3_synth_scream_030_snr+06db,v3_synth_scream_030_snr+06db,exp_sg_fsd50k_uploader_queen_westeros,2.67,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v3_synth_scream_034_snr+03db,v3_synth_scream_034_snr+03db,exp_sg_nigens_arjanvanhoorn0181,4.78,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v3_synth_scream_042_snr-03db,v3_synth_scream_042_snr-03db,exp_sg_fsd50k_uploader_queen_westeros,2.171,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,1,1,True
+exp_v3_synth_scream_046_snr-06db,v3_synth_scream_046_snr-06db,exp_sg_fsd50k_uploader_pablocandel,1.277,SUSTAINED (>=1.0s),1,False,False,True,masked_distant_screams,CROWD_MASKED;DISTANT;REVERBERANT;SUSTAINED,False,True,0,0,False
+exp_acq_short_scream_0001,parent_rec_001,exp_sg_source_group_short_scream_001,0.467,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0005,parent_rec_005,exp_sg_source_group_short_scream_005,0.323,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0008,parent_rec_008,exp_sg_source_group_short_scream_008,0.792,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0012,parent_rec_012,exp_sg_source_group_short_scream_012,0.86,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0013,parent_rec_013,exp_sg_source_group_short_scream_013,0.769,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0014,parent_rec_014,exp_sg_source_group_short_scream_014,0.36,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0017,parent_rec_017,exp_sg_source_group_short_scream_017,0.421,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0019,parent_rec_019,exp_sg_source_group_short_scream_019,0.505,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0021,parent_rec_021,exp_sg_source_group_short_scream_021,0.624,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0031,parent_rec_031,exp_sg_source_group_short_scream_031,0.621,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0036,parent_rec_036,exp_sg_source_group_short_scream_036,0.754,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0038,parent_rec_038,exp_sg_source_group_short_scream_038,0.284,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0039,parent_rec_039,exp_sg_source_group_short_scream_039,0.672,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0042,parent_rec_042,exp_sg_source_group_short_scream_042,0.547,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0043,parent_rec_001,exp_sg_source_group_short_scream_001,0.243,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0047,parent_rec_005,exp_sg_source_group_short_scream_005,0.426,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0054,parent_rec_012,exp_sg_source_group_short_scream_012,0.811,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0055,parent_rec_013,exp_sg_source_group_short_scream_013,0.615,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0056,parent_rec_014,exp_sg_source_group_short_scream_014,0.828,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0059,parent_rec_017,exp_sg_source_group_short_scream_017,0.25,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0061,parent_rec_019,exp_sg_source_group_short_scream_019,0.477,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0063,parent_rec_021,exp_sg_source_group_short_scream_021,0.767,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0073,parent_rec_031,exp_sg_source_group_short_scream_031,0.224,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0078,parent_rec_036,exp_sg_source_group_short_scream_036,0.269,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0081,parent_rec_039,exp_sg_source_group_short_scream_039,0.79,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0082,parent_rec_040,exp_sg_source_group_short_scream_040,0.631,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_acq_short_scream_0084,parent_rec_042,exp_sg_source_group_short_scream_042,0.262,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_acq_short_scream_0085,parent_rec_001,exp_sg_source_group_short_scream_001,0.425,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0002,rec_source_0002,exp_sg_sg_pos_v6_002,0.3,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0010,rec_source_0010,exp_sg_sg_pos_v6_010,0.46,ULTRA_SHORT (<0.5s),1,True,True,False,scream,ULTRA_SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0018,rec_source_0018,exp_sg_sg_pos_v6_018,0.65,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0019,rec_source_0019,exp_sg_sg_pos_v6_019,0.68,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0022,rec_source_0022,exp_sg_sg_pos_v6_002,0.75,"SHORT_STANDARD [0.5s, 1.0s)",1,False,True,False,scream,SHORT,False,False,1,1,True
+exp_s43_pos_pos_v6_scream_0059,rec_source_0059,exp_sg_sg_pos_v6_041,1.4,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_pos_v6_scream_0060,rec_source_0060,exp_sg_sg_pos_v6_042,1.7,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,0,0,False
+exp_s43_pos_S8930_NIGENS_139086__arjanvanhoorn0181__young-girl-screaming-1,139086__arjanvanhoorn0181__young-girl-screaming-1,exp_sg_nigens_arjanvanhoorn0181,4.7804,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_S8930_NIGENS_139087__arjanvanhoorn0181__young-girl-screaming-2,139087__arjanvanhoorn0181__young-girl-screaming-2,exp_sg_nigens_arjanvanhoorn0181,6.0604,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_S8930_NIGENS_222545__queen-westeros__woman-scream,222545__queen-westeros__woman-scream,exp_sg_nigens_queen-westeros,2.1706,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_S8930_NIGENS_273153__hoerspielwerkstatt-hef__child-scream2,273153__hoerspielwerkstatt-hef__child-scream2,exp_sg_nigens_hoerspielwerkstatt-hef,3.3819,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_S8930_NIGENS_275170__lodovico__terrifying-scream,275170__lodovico__terrifying-scream,exp_sg_nigens_lodovico,19.0027,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True
+exp_s43_pos_S8930_NIGENS_332044__montblanccandies__crazy-screaming,332044__montblanccandies__crazy-screaming,exp_sg_nigens_montblanccandies,6.6847,SUSTAINED (>=1.0s),1,False,False,True,scream,SUSTAINED,True,False,1,1,True

@@ -1,0 +1,5 @@
+n_streams,n_iterations,nn_latency_mean_ms,nn_latency_p50_ms,nn_latency_p90_ms,nn_latency_p95_ms,nn_latency_p99_ms,gate5_model_only_pass,total_pipeline_mean_ms,total_pipeline_p50_ms,total_pipeline_p95_ms,total_pipeline_p99_ms,dsp_short_mean_ms,dsp_sust_mean_ms,temporal_mean_ms,cpu_percent,ram_rss_mb
+1,400,0.4714,0.4354,0.6414,0.7104,0.8232,True,10.23,9.8356,11.8459,13.6383,4.9691,4.7847,0.0036,98.0,294.95
+2,400,0.7167,0.6796,0.8689,0.9307,1.2303,True,21.492,21.2159,23.8129,26.3264,10.4395,10.3295,0.005,780.7,296.0
+4,400,0.6969,0.6865,0.8121,0.8909,0.9719,True,41.3273,41.1212,43.7777,45.025,20.3919,20.2315,0.0056,794.5,296.32
+8,400,0.7341,0.7041,0.849,0.9184,1.1483,True,82.3034,81.6143,87.4903,89.5824,40.8914,40.6697,0.0069,789.6,296.87

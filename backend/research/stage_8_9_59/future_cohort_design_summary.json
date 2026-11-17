@@ -1,0 +1,17 @@
+{
+  "recommended_future_cohort_design": {
+    "total_positive_recordings": 200,
+    "total_positive_source_groups": 120,
+    "total_negative_recordings": 500,
+    "total_negative_source_groups": 250,
+    "grand_total_recordings": 700,
+    "grand_total_source_groups": 370,
+    "quarantine_protocol": "Pre-freeze manifest with immutable SHA-256 digests; zero overlap with Train, Val, or Historical Cohorts",
+    "statistical_methods": [
+      "Clustered bootstrap resampling at source-group level (B=2,000 iterations)",
+      "Paired McNemar test on discordant pairs for candidate comparisons",
+      "Benjamini-Hochberg FDR correction for multiple subgroup hypothesis tests",
+      "Wilson score interval for bounded binomial endpoints"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+priority_tier,category_name,target_source_groups,verified_source_groups_acquired,target_recordings,verified_recordings_acquired,license_verified_count,annotation_complete_count,duplicate_quarantined_count,independent_creator_count,independent_session_count,missing_metadata_count,remaining_sg_gap,remaining_clip_gap,pct_sg_completion,pct_clip_completion,acquisition_status
+Priority 1,Low-Intensity & Muffled Screams,50,21,100,27,27,27,0,21,21,0,29,73,42.0,27.0,PARTIAL_REMAINING_GAP
+Priority 2,Crowd-Masked Screams (SNR < 10 dB),60,1,150,4,4,4,0,1,1,0,59,146,1.7,2.7,PARTIAL_REMAINING_GAP
+Priority 3,Diverse Shouted Speech,100,35,200,183,183,183,0,4,35,0,65,17,35.0,91.5,SUBSTANTIALLY_EXPANDED
+Priority 4,Sustained Screams (>=1.0s),80,162,160,211,211,211,0,25,162,0,0,0,202.5,131.9,TARGET_ACHIEVED
+Supplementary Confusers,Cheering & Crowd Chanting,40,10,80,51,51,51,0,3,10,0,30,29,25.0,63.7,SUBSTANTIALLY_EXPANDED
+Supplementary Confusers,Referee Whistles & Squeaks,30,31,60,69,69,69,0,2,31,0,0,0,103.3,115.0,TARGET_ACHIEVED
+Supplementary Confusers,Infant Crying,20,6,40,19,19,19,0,2,6,0,14,21,30.0,47.5,PARTIAL_REMAINING_GAP
+Supplementary Confusers,Environmental Noise & Sirens,50,336,100,342,342,342,0,3,336,0,0,0,672.0,342.0,TARGET_ACHIEVED

@@ -1,0 +1,7 @@
+snr_condition,noise_scale,overall_recall,masked_scream_recall,hard_negative_fpr
+Clean,0.0,90.20%,90.20%,15.18%
++10dB,0.05,92.16%,92.16%,16.75%
++5dB,0.1,89.22%,89.22%,15.71%
+0dB,0.2,87.25%,87.25%,17.80%
+-3dB,0.35,81.37%,81.37%,27.75%
+-5dB,0.5,74.51%,74.51%,25.13%

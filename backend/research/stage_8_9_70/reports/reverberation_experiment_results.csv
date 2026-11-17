@@ -1,0 +1,5 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+Baseline Candidate 69-D,79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+Exp B1: Asymmetric Onset-Burst Biasing (ratio_s_l > 1.05),79.8,79,20,13.64,12,8.06,10,92.31,36,58.21,156
+Exp B2: Reverberation Envelope De-Smearing,80.81,80,19,13.64,12,9.68,12,92.31,36,58.58,157
+Exp B3: Combined Dual-Branch Agreement Rescue (sim>0.76),82.83,82,17,17.05,15,10.48,13,94.87,37,60.45,162

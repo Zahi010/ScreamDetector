@@ -1,0 +1,166 @@
+{
+  "production_hashes": [
+    {
+      "path": "backend\\models\\scream_classifier.joblib",
+      "expected": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "actual": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "match": true
+    },
+    {
+      "path": "backend\\models\\model_metadata.json",
+      "expected": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "actual": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "match": true
+    },
+    {
+      "path": "backend\\reports\\test_predictions.csv",
+      "expected": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "actual": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "match": true
+    },
+    {
+      "path": "backend\\reports\\stage5_test_evaluation.md",
+      "expected": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "actual": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "match": true
+    }
+  ],
+  "split_stats": {
+    "v5_train": {
+      "total": 1198,
+      "pos": 401,
+      "neg": 797,
+      "source_groups": 436
+    },
+    "v5_validation": {
+      "total": 309,
+      "pos": 78,
+      "neg": 231,
+      "source_groups": 107
+    },
+    "v5_development_test": {
+      "total": 202,
+      "pos": 81,
+      "neg": 121,
+      "source_groups": 90
+    },
+    "v5_final_holdout": {
+      "total": 205,
+      "pos": 69,
+      "neg": 136,
+      "source_groups": 95
+    }
+  },
+  "overlaps": {
+    "v5_train_vs_v5_validation": 0,
+    "v5_train_vs_v5_development_test": 0,
+    "v5_train_vs_v5_final_holdout": 0,
+    "v5_validation_vs_v5_development_test": 0,
+    "v5_validation_vs_v5_final_holdout": 0,
+    "v5_development_test_vs_v5_final_holdout": 0
+  },
+  "stage_43_holdout_false_negatives": [
+    {
+      "file_id": "v2_nigens_242607__reitanna__gasp-oooh",
+      "prob": 0.1021,
+      "subtype": "scream",
+      "duration": 1.32
+    },
+    {
+      "file_id": "v2_nigens_242644__reitanna__another-surprised-oooh",
+      "prob": 0.1197,
+      "subtype": "scream",
+      "duration": 1.5
+    },
+    {
+      "file_id": "v2_nigens_141242__tarrei__desperate-scream",
+      "prob": 0.3327,
+      "subtype": "scream",
+      "duration": 3.17
+    },
+    {
+      "file_id": "v2_nigens_275170__lodovico__terrifying-scream",
+      "prob": 0.7206,
+      "subtype": "scream",
+      "duration": 19.0
+    },
+    {
+      "file_id": "v2_synth_scream_006_snr+06db",
+      "prob": 0.3944,
+      "subtype": "masked_distant_screams",
+      "duration": 2.55
+    },
+    {
+      "file_id": "v2_synth_scream_012_snr-06db",
+      "prob": 0.3153,
+      "subtype": "masked_distant_screams",
+      "duration": 6.6
+    },
+    {
+      "file_id": "v2_synth_scream_023_snr+00db",
+      "prob": 0.7573,
+      "subtype": "masked_distant_screams",
+      "duration": 2.09
+    },
+    {
+      "file_id": "v2_synth_scream_035_snr+00db",
+      "prob": 0.7925,
+      "subtype": "masked_distant_screams",
+      "duration": 3.17
+    },
+    {
+      "file_id": "v2_synth_scream_059_snr+00db",
+      "prob": 0.796,
+      "subtype": "masked_distant_screams",
+      "duration": 19.0
+    },
+    {
+      "file_id": "v2_synth_scream_064_snr-06db",
+      "prob": 0.4053,
+      "subtype": "masked_distant_screams",
+      "duration": 2.34
+    },
+    {
+      "file_id": "v2_synth_scream_068_snr-06db",
+      "prob": 0.4207,
+      "subtype": "masked_distant_screams",
+      "duration": 6.06
+    },
+    {
+      "file_id": "v3_fsd50k_175389",
+      "prob": 0.2599,
+      "subtype": "scream",
+      "duration": 6.09
+    },
+    {
+      "file_id": "v3_fsd50k_178105",
+      "prob": 0.2474,
+      "subtype": "scream",
+      "duration": 8.0
+    },
+    {
+      "file_id": "v3_synth_scream_018_snr+00db",
+      "prob": 0.4236,
+      "subtype": "masked_distant_screams",
+      "duration": 3.41
+    },
+    {
+      "file_id": "s43_pos_pos_v6_scream_0033",
+      "prob": 0.4177,
+      "subtype": "distant_scream",
+      "duration": 1.5
+    },
+    {
+      "file_id": "s43_pos_S8930_NIGENS_141242__tarrei__desperate-scream",
+      "prob": 0.2872,
+      "subtype": "sustained_scream",
+      "duration": 3.17
+    },
+    {
+      "file_id": "s43_pos_S8930_NIGENS_275170__lodovico__terrifying-scream",
+      "prob": 0.7173,
+      "subtype": "sustained_scream",
+      "duration": 19.0
+    }
+  ]
+}

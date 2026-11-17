@@ -1,0 +1,5 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+"Dist 0: Near-Field Direct Path (0m, Ref)",78.79,78,21,13.64,12,8.06,10,92.31,36,59.33,159
+"Dist 1: Medium Distance (10m, -6dB, 10% HF roll-off)",75.76,75,24,11.36,10,7.26,9,92.31,36,58.96,158
+"Dist 2: Distant Venue (20m, -12dB, 25% HF roll-off)",70.71,70,29,9.09,8,6.45,8,92.31,36,58.58,157
+"Dist 3: Extreme Field Distance (30m, -18dB, 45% HF roll-off)",68.69,68,31,7.95,7,6.45,8,92.31,36,57.84,155

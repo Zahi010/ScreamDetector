@@ -1,0 +1,5 @@
+concurrency_streams,iterations,model_only_p50_ms,model_only_p95_ms,model_only_p99_ms,model_only_max_ms,dsp_short_p95_ms,dsp_sust_p95_ms,temporal_p95_ms,complete_pipeline_p50_ms,complete_pipeline_p95_ms,complete_pipeline_p99_ms,complete_pipeline_max_ms,cpu_percent,memory_mb,dropped_windows,deadline_misses,gate_5_passed
+1,335,0.524,0.807,0.928,1.125,5.644,5.553,0.005,9.853,11.456,12.092,13.148,100.7,257.6,0,0,True
+2,335,0.645,0.917,1.224,6.841,10.857,10.699,0.006,19.854,21.927,22.531,53.676,789.6,258.7,0,0,True
+4,335,0.688,0.924,1.052,8.947,21.241,21.145,0.008,39.087,42.477,45.5,53.081,796.5,259.1,0,0,True
+8,335,0.697,0.929,1.116,1.399,41.829,41.841,0.01,77.195,83.094,86.24,108.002,788.7,259.5,0,0,True

@@ -1,0 +1,105 @@
+{
+  "logmel_extraction": {
+    "mean_ms": 1.922,
+    "std_ms": 0.338,
+    "p50_ms": 1.805,
+    "p90_ms": 2.42,
+    "p95_ms": 2.567,
+    "p99_ms": 2.949,
+    "max_ms": 3.715,
+    "min_ms": 1.523
+  },
+  "model_forward": {
+    "config_b": {
+      "mean_ms": 0.343,
+      "std_ms": 0.079,
+      "p50_ms": 0.305,
+      "p90_ms": 0.46,
+      "p95_ms": 0.518,
+      "p99_ms": 0.597,
+      "max_ms": 1.02,
+      "min_ms": 0.296
+    },
+    "cnn_logmel": {
+      "mean_ms": 1.614,
+      "std_ms": 0.194,
+      "p50_ms": 1.541,
+      "p90_ms": 1.853,
+      "p95_ms": 1.964,
+      "p99_ms": 2.217,
+      "max_ms": 3.346,
+      "min_ms": 1.317
+    },
+    "cnn_multiscale": {
+      "mean_ms": 3.535,
+      "std_ms": 0.739,
+      "p50_ms": 3.428,
+      "p90_ms": 3.892,
+      "p95_ms": 4.062,
+      "p99_ms": 4.571,
+      "max_ms": 17.475,
+      "min_ms": 2.841
+    }
+  },
+  "full_pipeline": {
+    "cnn_logmel": {
+      "mean_ms": 4.158,
+      "std_ms": 0.493,
+      "p50_ms": 4.138,
+      "p90_ms": 4.783,
+      "p95_ms": 5.016,
+      "p99_ms": 5.315,
+      "max_ms": 5.815,
+      "min_ms": 3.034
+    },
+    "cnn_multiscale": {
+      "mean_ms": 6.469,
+      "std_ms": 0.6,
+      "p50_ms": 6.425,
+      "p90_ms": 7.076,
+      "p95_ms": 7.317,
+      "p99_ms": 7.978,
+      "max_ms": 13.201,
+      "min_ms": 4.978
+    }
+  },
+  "stream_scalability": {
+    "1_streams": {
+      "n_streams": 1,
+      "p50_ms": 4.121,
+      "p95_ms": 4.856,
+      "p99_ms": 5.3,
+      "deadline_ms": 100.0,
+      "deadline_passed": true
+    },
+    "2_streams": {
+      "n_streams": 2,
+      "p50_ms": 8.085,
+      "p95_ms": 9.736,
+      "p99_ms": 10.363,
+      "deadline_ms": 100.0,
+      "deadline_passed": true
+    },
+    "4_streams": {
+      "n_streams": 4,
+      "p50_ms": 16.337,
+      "p95_ms": 18.664,
+      "p99_ms": 20.289,
+      "deadline_ms": 100.0,
+      "deadline_passed": true
+    },
+    "8_streams": {
+      "n_streams": 8,
+      "p50_ms": 32.653,
+      "p95_ms": 39.348,
+      "p99_ms": 40.153,
+      "deadline_ms": 100.0,
+      "deadline_passed": true
+    }
+  },
+  "resource_footprint": {
+    "ram_rss_mb": 364.22,
+    "cpu_percent": 715.9
+  },
+  "gate5_latency_25ms": "PASS"
+}

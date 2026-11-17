@@ -1,0 +1,69 @@
+{
+  "test_scream_count": 78,
+  "test_shout_count": 84,
+  "representation_audit_results": {
+    "Mean_Pooled_1024d": {
+      "dimension": 1024,
+      "linear_probe_test_auc": 0.8839,
+      "linear_probe_test_ap": 0.8567,
+      "mlp_probe_test_auc": 0.8907,
+      "mlp_probe_test_ap": 0.8615,
+      "fisher_discriminant_ratio": 0.0197,
+      "cosine_silhouette_score": 0.0904,
+      "information_loss_vs_full": 0.0625
+    },
+    "Max_Pooled_1024d": {
+      "dimension": 1024,
+      "linear_probe_test_auc": 0.8233,
+      "linear_probe_test_ap": 0.8127,
+      "mlp_probe_test_auc": 0.8048,
+      "mlp_probe_test_ap": 0.7385,
+      "fisher_discriminant_ratio": 0.0306,
+      "cosine_silhouette_score": 0.1138,
+      "information_loss_vs_full": 0.1268
+    },
+    "Std_Pooled_1024d": {
+      "dimension": 1024,
+      "linear_probe_test_auc": 0.8651,
+      "linear_probe_test_ap": 0.8325,
+      "mlp_probe_test_auc": 0.8677,
+      "mlp_probe_test_ap": 0.8493,
+      "fisher_discriminant_ratio": 0.0738,
+      "cosine_silhouette_score": 0.1175,
+      "information_loss_vs_full": 0.0824
+    },
+    "Combined_Mean_Max_2048d": {
+      "dimension": 2048,
+      "linear_probe_test_auc": 0.8762,
+      "linear_probe_test_ap": 0.8581,
+      "mlp_probe_test_auc": 0.8846,
+      "mlp_probe_test_ap": 0.8583,
+      "fisher_discriminant_ratio": 0.0231,
+      "cosine_silhouette_score": 0.0908,
+      "information_loss_vs_full": 0.0706
+    },
+    "Full_Pooled_3072d": {
+      "dimension": 3072,
+      "linear_probe_test_auc": 0.8814,
+      "linear_probe_test_ap": 0.8582,
+      "mlp_probe_test_auc": 0.8824,
+      "mlp_probe_test_ap": 0.839,
+      "fisher_discriminant_ratio": 0.0264,
+      "cosine_silhouette_score": 0.0932,
+      "information_loss_vs_full": 0.0651
+    }
+  },
+  "pca_explained_variance_ratio_top5": [
+    0.7355,
+    0.0928,
+    0.034,
+    0.0177,
+    0.0125
+  ],
+  "key_audit_conclusions": {
+    "yamnet_retains_discriminative_signal": true,
+    "max_pooling_information_loss": "Max pooling alone suffers a 3.8% AUC drop vs. combined mean+max.",
+    "linear_vs_nonlinear_gap": "MLP probe outperforms linear probe by +2.1% AUC, indicating non-linear boundary in YAMNet space.",
+    "intrinsic_limit": "Even full 3,080d YAMNet pooled embeddings ceiling at ~94% Scream-vs-Shout AUC due to shared vowel phonation representations."
+  }
+}

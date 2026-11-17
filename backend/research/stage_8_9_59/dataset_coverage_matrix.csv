@@ -1,0 +1,12 @@
+category_name,class_type,total_recordings,independent_source_groups,unique_parent_sources,expansion_train_count,expansion_val_count,expansion_test_count,duration_min_sec,duration_mean_sec,duration_max_sec,pct_commercially_eligible_license,target_min_source_groups,is_underrepresented,evidence_sufficiency_status,description
+Short Screams (<1.0s),Positive,135,82,99,74,39,22,0.22,0.59,0.98,100.0,50,False,SUFFICIENT FOR EXPLORATORY RESEARCH,Transient high-pitch screams under 1.0 second duration
+Ultra-Short Screams (<0.5s),Positive,52,40,40,29,15,8,0.22,0.36,0.5,100.0,30,False,SUFFICIENT FOR EXPLORATORY RESEARCH,Abrupt shrieks/yelps under 500 ms duration
+Sustained Screams (>=1.0s),Positive,469,150,424,329,60,80,1.0,4.15,94.49,100.0,80,False,SUFFICIENT FOR EXPLORATORY RESEARCH,Prolonged phonatory vocalizations 1.0s or longer
+Crowd-Masked / Distant Screams,Positive,140,91,140,90,19,31,0.76,3.74,94.49,100.0,50,False,SUFFICIENT FOR EXPLORATORY RESEARCH,Vocal screams embedded in heavy ambient crowd/festival noise
+Low-Intensity / Muffled Screams,Positive,10,7,10,7,0,3,0.65,1.18,1.8,100.0,40,True,CRITICALLY INSUFFICIENT,"Subdued, distant, or acoustically damped vocalizations"
+Shouted Speech,Negative,346,125,307,147,88,111,0.52,5.44,29.87,100.0,80,False,SUFFICIENT FOR EXPLORATORY RESEARCH,"Loud, high-effort human vocal speech without scream phonation"
+Cheering & Crowd Chanting,Negative,294,133,254,202,37,55,0.53,8.17,108.58,100.0,50,False,SUFFICIENT FOR EXPLORATORY RESEARCH,"Audience cheering, stadium chants, synchronized celebrations"
+Referee Whistles & Squeaks,Negative,171,101,165,117,22,32,0.13,3.57,20.23,100.0,40,False,SUFFICIENT FOR EXPLORATORY RESEARCH,"High-frequency whistles, referee acoustic bursts, mechanical squeaks"
+Infant Crying,Negative,87,54,80,41,20,26,0.7,7.89,27.46,100.0,30,False,SUFFICIENT FOR EXPLORATORY RESEARCH,High fundamental frequency acoustic wailing and crying
+Emergency Sirens & SFX,Negative,100,60,96,78,9,13,0.31,10.7,170.59,100.0,30,False,SUFFICIENT FOR EXPLORATORY RESEARCH,"Ambulance, police sirens, alarms, fireworks, synthetic sound effects"
+General Environmental / Noise,Negative,130,53,128,67,36,27,0.37,12.82,550.79,100.0,50,False,SUFFICIENT FOR EXPLORATORY RESEARCH,"Background festival park noise, traffic, music bleed, rain, wind"

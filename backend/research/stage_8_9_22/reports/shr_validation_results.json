@@ -1,0 +1,42 @@
+{
+  "pure_harmonic_modal": {
+    "true_f0": 300.0,
+    "legacy_shr_db": -50.0,
+    "robust_shr_db": -40.0,
+    "robust_shr_confidence": 1.0,
+    "robust_biphonic_fraction": 0.0,
+    "physical_interpretation": "MODAL_HARMONIC"
+  },
+  "period_doubled_biphonic": {
+    "true_f0": 300.0,
+    "legacy_shr_db": -3.76,
+    "robust_shr_db": -2.05,
+    "robust_shr_confidence": 1.0,
+    "robust_biphonic_fraction": 1.0,
+    "physical_interpretation": "HIGH_BIPHONATION"
+  },
+  "period_tripled_biphonic": {
+    "true_f0": 300.0,
+    "legacy_shr_db": -4.92,
+    "robust_shr_db": -11.76,
+    "robust_shr_confidence": 1.0,
+    "robust_biphonic_fraction": 0.0,
+    "physical_interpretation": "MODAL_HARMONIC"
+  },
+  "speech_shout_with_hum": {
+    "true_f0": 180.0,
+    "legacy_shr_db": -3.37,
+    "robust_shr_db": -7.88,
+    "robust_shr_confidence": 0.701,
+    "robust_biphonic_fraction": 0.294,
+    "physical_interpretation": "HIGH_BIPHONATION"
+  },
+  "unvoiced_noise_collapse": {
+    "true_f0": 0.0,
+    "legacy_shr_db": -30.0,
+    "robust_shr_db": -30.0,
+    "robust_shr_confidence": 0.0,
+    "robust_biphonic_fraction": 0.0,
+    "physical_interpretation": "UNVOICED_CHAOS_OR_NOISE"
+  }
+}

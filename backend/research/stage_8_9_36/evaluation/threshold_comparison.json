@@ -1,0 +1,69 @@
+{
+  "validation_selected_threshold": 0.43,
+  "selection_criterion": "Maximum Validation F1-Score (strictly validation partition)",
+  "test_labels_used_for_selection": false,
+  "validation_metrics": {
+    "threshold_0.35": {
+      "threshold": 0.35,
+      "tp": 69,
+      "fn": 10,
+      "fp": 32,
+      "tn": 182,
+      "recall": 87.34,
+      "hn_fpr": 14.95,
+      "precision": 68.32,
+      "specificity": 85.05,
+      "f1": 0.7667,
+      "shout_fpr": 13.51,
+      "cry_fpr": 5.26,
+      "cheer_fpr": 29.55
+    },
+    "threshold_0.43": {
+      "threshold": 0.43,
+      "tp": 68,
+      "fn": 11,
+      "fp": 26,
+      "tn": 188,
+      "recall": 86.08,
+      "hn_fpr": 12.15,
+      "precision": 72.34,
+      "specificity": 87.85,
+      "f1": 0.7861,
+      "shout_fpr": 12.16,
+      "cry_fpr": 5.26,
+      "cheer_fpr": 27.27
+    }
+  },
+  "test_metrics": {
+    "threshold_0.35": {
+      "threshold": 0.35,
+      "tp": 93,
+      "fn": 9,
+      "fp": 28,
+      "tn": 163,
+      "recall": 91.18,
+      "hn_fpr": 14.66,
+      "precision": 76.86,
+      "specificity": 85.34,
+      "f1": 0.8341,
+      "shout_fpr": 16.67,
+      "cry_fpr": 6.67,
+      "cheer_fpr": 16.67
+    },
+    "threshold_0.43": {
+      "threshold": 0.43,
+      "tp": 91,
+      "fn": 11,
+      "fp": 19,
+      "tn": 172,
+      "recall": 89.22,
+      "hn_fpr": 9.95,
+      "precision": 82.73,
+      "specificity": 90.05,
+      "f1": 0.8585,
+      "shout_fpr": 14.58,
+      "cry_fpr": 6.67,
+      "cheer_fpr": 16.67
+    }
+  }
+}

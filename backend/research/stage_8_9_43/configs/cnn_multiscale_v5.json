@@ -1,0 +1,12 @@
+{
+  "candidate_id": "CNN-MultiScale-v5",
+  "architecture": "CustomMultiScaleCNN",
+  "checkpoint": "cnn_multiscale_v5.pt",
+  "selected_threshold": 0.972,
+  "val_auc": 0.9494,
+  "val_ap": 0.8546,
+  "val_f1": 0.7194,
+  "val_recall": 64.1,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 4.4
+}

@@ -1,0 +1,6 @@
+file_id,category,duration_seconds,source_group_id,prob_config_a,prob_config_b,prob_config_c,prob_config_d
+v2_nigens_58585__juskiddink__vocal-joy-and-excitement2,scream,0.761,nigens_juskiddink,0.65879756,0.99446917,0.5867432,0.91730624
+v2_nigens_336537__chrillz3r__scream-frightened,scream,0.878,nigens_chrillz3r,0.657026,0.82237965,0.58852583,0.81701225
+v3_fsd50k_220658,scream,0.732,fsd50k_uploader_marionagm90,0.3396132,0.072139636,0.27348593,0.82175255
+v3_fsd50k_220660,scream,0.871,fsd50k_uploader_marionagm90,0.6072163,0.89897394,0.582152,0.89097697
+v3_synth_scream_006_snr-06db,masked_distant_screams,0.761,nigens_juskiddink,0.39771155,0.9966427,0.34492296,0.97787535

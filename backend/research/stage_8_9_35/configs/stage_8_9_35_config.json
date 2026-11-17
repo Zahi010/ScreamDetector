@@ -1,0 +1,73 @@
+{
+  "stage": "8.9.35",
+  "stage_name": "SPATIAL AUDIO RESEARCH, FREQUENCY-SUBBAND DISCRIMINATION & MULTI-PATHWAY FUSION",
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE",
+  "production_status": "STRICTLY FROZEN",
+  "production_threshold": 0.3500,
+  "frozen_artifacts_sha256": {
+    "scream_classifier.joblib": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "model_metadata.json": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "test_predictions.csv": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+    "stage5_test_evaluation.md": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "dataset_split": {
+    "train_samples": 739,
+    "val_samples": 293,
+    "test_samples": 293,
+    "test_screams": 102,
+    "test_hard_negatives": 191,
+    "source_group_isolation": true,
+    "source_groups_test": 111
+  },
+  "frequency_subbands": {
+    "filter_type": "Butterworth IIR 4th-order SOS",
+    "sample_rate_hz": 16000,
+    "bands": [
+      {"name": "Band1_300_800Hz", "low_hz": 300, "high_hz": 800, "description": "Low speech fundamental / male vowels"},
+      {"name": "Band2_800_1500Hz", "low_hz": 800, "high_hz": 1500, "description": "Vowel formants / scream core"},
+      {"name": "Band3_1500_2000Hz", "low_hz": 1500, "high_hz": 2000, "description": "Transition band"},
+      {"name": "Band4_2000_3000Hz", "low_hz": 2000, "high_hz": 3000, "description": "Primary scream resonance"},
+      {"name": "Band5_3000_4000Hz", "low_hz": 3000, "high_hz": 4000, "description": "Secondary scream resonance"},
+      {"name": "Band6_4000_6000Hz", "low_hz": 4000, "high_hz": 6000, "description": "High-frequency whistle / siren / noise"}
+    ],
+    "subband_feature_dimension": 11
+  },
+  "spatial_audio_audit": {
+    "hardware_mic_configuration": "Single INMP441 omnidirectional I2S MEMS microphone",
+    "hardware_physical_channels": 1,
+    "corpus_channel_distribution": {
+      "total_recordings": 1328,
+      "mono_recordings": 1328,
+      "multichannel_recordings": 0
+    },
+    "physical_beamforming_status": "PHYSICALLY IMPOSSIBLE ON SINGLE-MICROPHONE HARDWARE",
+    "independent_test_evaluation_status": "NOT EVALUABLE ON PHYSICAL MULTICHANNEL DATA",
+    "track_b_simulation": {
+      "array_type": "2-element linear MEMS array",
+      "element_spacing_m": 0.05,
+      "algorithms": ["GCC-PHAT TDoA", "Delay-and-Sum Beamforming"],
+      "designation": "SYNTHETIC_SIMULATION_ONLY"
+    }
+  },
+  "multi_pathway_architecture": {
+    "candidate_name": "MultiPathwayFusionModel (MP-FS-DualEncoder)",
+    "pathways": {
+      "path_a_semantic": {"in_dim": 1024, "hidden_dim": 256, "proj_dim": 128, "l2_norm": true},
+      "path_b_phonation": {"in_dim": 6, "mask_dim": 6, "hidden_dim": 64, "proj_dim": 32, "l2_norm": true},
+      "path_c_subband": {"in_dim": 11, "hidden_dim": 32, "proj_dim": 16, "l2_norm": true}
+    },
+    "fusion_mlp": {"in_dim": 176, "hidden_dim": 64, "out_dim": 1},
+    "loss": "BCEWithLogitsLoss + 0.3 * SupConLoss",
+    "optimizer": "AdamW (lr=0.001, weight_decay=1e-4)",
+    "epochs": 35,
+    "batch_size": 32,
+    "frozen_threshold": 0.43
+  },
+  "acceptance_gates": {
+    "gate_1_overall_recall_min": 0.9600,
+    "gate_2_hn_fpr_max": 0.0500,
+    "gate_3_shout_fpr_max": 0.1500,
+    "gate_4_short_scream_recall_min": 0.9000,
+    "gate_5_p95_latency_max_ms": 25.00
+  }
+}

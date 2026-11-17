@@ -1,0 +1,28 @@
+{
+  "stage": "8.9.36",
+  "stage_name": "Deep Error Forensics, Baseline Reconciliation, Threshold Audit & Dataset Evidence Quality",
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE",
+  "production_status": "STRICTLY FROZEN",
+  "production_threshold": 0.3500,
+  "frozen_production_hashes": {
+    "scream_classifier.joblib": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+    "model_metadata.json": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+    "test_predictions.csv": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+    "stage5_test_evaluation.md": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "dataset": {
+    "corpus_manifest": "backend/experiments/v2_hard_negative_training/manifests/dataset_manifest_v3.csv",
+    "feature_npz": "backend/experiments/v2_hard_negative_training/features/yamnet_features_v3.npz",
+    "subband_features": "backend/research/stage_8_9_35/frequency_analysis/subband_feature_analysis.csv",
+    "test_cohort_size": 293,
+    "test_screams": 102,
+    "test_hard_negatives": 191
+  },
+  "acceptance_gates": {
+    "gate_1_overall_recall_min": 0.9600,
+    "gate_2_hn_fpr_max": 0.0500,
+    "gate_3_shout_fpr_max": 0.1500,
+    "gate_4_short_scream_recall_min": 0.9000,
+    "gate_5_p95_latency_max_ms": 25.00
+  }
+}

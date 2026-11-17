@@ -1,0 +1,13 @@
+{
+  "total_shouted_speech_validation": 88,
+  "shouted_speech_fp_count": 10,
+  "shouted_speech_fpr": 11.36,
+  "source_groups_represented": 3,
+  "source_group_counts": {
+    "exp_sg_stage8_9_reitanna": 5,
+    "exp_sg_fsd50k_uploader_ericsueiro": 4,
+    "exp_sg_fsd50k_uploader_11linda": 1
+  },
+  "mean_duration": 1.24,
+  "mean_probability": 0.9065
+}

@@ -1,0 +1,7 @@
+pilot_task_id,recording_id,assigned_rater,task_status,submitted,submission_timestamp,primary_label,subcategory,binary_label,confidence_rating,event_start_timestamp,event_end_timestamp,pilot_qc_verdict,notes
+PILOT_TASK_001,fs_cand_166619,RATER_A,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.
+PILOT_TASK_002,fs_cand_166619,RATER_B,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.
+PILOT_TASK_003,fs_cand_844113,RATER_A,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.
+PILOT_TASK_004,fs_cand_844113,RATER_B,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.
+PILOT_TASK_005,fs_cand_667199,RATER_A,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.
+PILOT_TASK_006,fs_cand_667199,RATER_B,AWAITING_PILOT_REVIEWER,0,,,,,,,,PENDING_REVIEW,Pilot task ready for physical reviewer execution on shared laptop.

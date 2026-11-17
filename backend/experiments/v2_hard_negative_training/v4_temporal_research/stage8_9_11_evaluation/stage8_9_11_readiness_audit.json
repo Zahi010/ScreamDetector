@@ -1,0 +1,158 @@
+{
+  "stage10_artifacts_present": {
+    "stage8_9_10_readiness_report.md": {
+      "exists": true,
+      "size_bytes": 20390
+    },
+    "restricted_recordings_audit.csv": {
+      "exists": true,
+      "size_bytes": 64109
+    },
+    "commercially_eligible_manifest.json": {
+      "exists": true,
+      "size_bytes": 1415061
+    },
+    "category_balance_before_after.csv": {
+      "exists": true,
+      "size_bytes": 745
+    },
+    "targeted_data_acquisition_plan.md": {
+      "exists": true,
+      "size_bytes": 7351
+    },
+    "next_experiment_preregistration.md": {
+      "exists": true,
+      "size_bytes": 8700
+    },
+    "end_to_end_latency_protocol.md": {
+      "exists": true,
+      "size_bytes": 6332
+    },
+    "artifact_integrity_audit.json": {
+      "exists": true,
+      "size_bytes": 1734
+    }
+  },
+  "production_freeze": {
+    "models/scream_classifier.joblib": {
+      "expected": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "actual": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "status": "EXACT_MATCH"
+    },
+    "models/model_metadata.json": {
+      "expected": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "actual": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "status": "EXACT_MATCH"
+    },
+    "reports/test_predictions.csv": {
+      "expected": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "actual": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "status": "EXACT_MATCH"
+    },
+    "reports/stage5_test_evaluation.md": {
+      "expected": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "actual": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "status": "EXACT_MATCH"
+    },
+    "threshold": 0.35,
+    "database": {
+      "status_counts": {
+        "AMBIGUOUS": 3,
+        "APPROVED_NON_SCREAM": 338,
+        "SCREAM_PRESENT": 2,
+        "UNREVIEWED": 27
+      },
+      "anchor_fsd50k_349401": "SCREAM_PRESENT",
+      "total_reviewed": 343
+    }
+  },
+  "manifest_licensing_audit": {
+    "total_records": 1167,
+    "license_breakdown": {
+      "http://creativecommons.org/publicdomain/zero/1.0/": 499,
+      "http://creativecommons.org/licenses/by/4.0/": 6,
+      "http://creativecommons.org/licenses/by/3.0/": 422,
+      "CC0 1.0 Universal (Public Domain Dedication)": 9,
+      "CC-BY 4.0": 91,
+      "CC0 1.0": 140
+    },
+    "quarantine_leakage": 0,
+    "prohibited_licenses_found": 0
+  },
+  "split_disjointness_audit": {
+    "train_groups": 276,
+    "val_groups": 91,
+    "test_groups": 101,
+    "total_unique_groups": 468,
+    "train_val_overlap": 0,
+    "train_test_overlap": 0,
+    "val_test_overlap": 0
+  },
+  "stage5_quarantine_audit": {
+    "stage5_total_test_files": 243,
+    "stage5_total_test_groups": 108,
+    "stage5_files_in_train": 0,
+    "stage5_files_in_val": 0,
+    "stage5_groups_in_train": 0,
+    "stage5_groups_in_val": 0
+  },
+  "category_balance_verified": {
+    "split_totals": {
+      "train": 626,
+      "val": 275,
+      "test": 266,
+      "total": 1167
+    },
+    "category_totals": {
+      "whistles_and_squeaks": {
+        "train": 82,
+        "val": 29,
+        "test": 30,
+        "total": 141
+      },
+      "crowd_chant_cheering": {
+        "train": 128,
+        "val": 38,
+        "test": 38,
+        "total": 204
+      },
+      "general_environmental": {
+        "train": 54,
+        "val": 35,
+        "test": 26,
+        "total": 115
+      },
+      "shouting_and_speech": {
+        "train": 132,
+        "val": 67,
+        "test": 33,
+        "total": 232
+      },
+      "sfx_sirens_fireworks": {
+        "train": 39,
+        "val": 12,
+        "test": 27,
+        "total": 78
+      },
+      "scream": {
+        "train": 102,
+        "val": 49,
+        "test": 64,
+        "total": 215
+      },
+      "infant_crying": {
+        "train": 32,
+        "val": 17,
+        "test": 12,
+        "total": 61
+      },
+      "masked_distant_screams": {
+        "train": 57,
+        "val": 28,
+        "test": 36,
+        "total": 121
+      }
+    }
+  },
+  "gate_passed": true
+}

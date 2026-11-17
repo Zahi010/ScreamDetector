@@ -1,0 +1,36 @@
+
+test_01_production_model_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_01_production_model_immutability)
+1. Production scream classifier joblib SHA-256 immutability. ... ok
+test_02_production_metadata_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_02_production_metadata_immutability)
+2. Production metadata JSON SHA-256 immutability. ... ok
+test_03_production_historical_predictions_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_03_production_historical_predictions_immutability)
+3. Production test predictions CSV SHA-256 immutability. ... ok
+test_04_production_historical_evaluation_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_04_production_historical_evaluation_immutability)
+4. Production Stage 5 test evaluation MD SHA-256 immutability. ... ok
+test_05_config_b_checkpoint_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_05_config_b_checkpoint_immutability)
+5. Candidate B PyTorch checkpoint SHA-256 preservation. ... ok
+test_06_config_d_checkpoint_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_06_config_d_checkpoint_immutability)
+6. Candidate D PyTorch checkpoint SHA-256 preservation. ... ok
+test_07_frozen_thresholds_preservation (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_07_frozen_thresholds_preservation)
+7. Frozen thresholds (0.24 for Config B, 0.34 for Config D) preservation. ... ok
+test_08_expansion_benchmark_snapshot_immutability (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_08_expansion_benchmark_snapshot_immutability)
+8. Expansion benchmark snapshot (N=102) SHA-256 verification. ... ok
+test_09_new_cohort_physical_audio_existence (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_09_new_cohort_physical_audio_existence)
+9. New independent cohort (N=145) manifest and physical audio file integrity. ... ok
+test_10_new_cohort_cross_partition_isolation (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_10_new_cohort_cross_partition_isolation)
+10. Complete source-group and file isolation from train, val, hist_test, exp_test. ... ok
+test_11_new_cohort_quarantine_isolation (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_11_new_cohort_quarantine_isolation)
+11. Absolute isolation between new active cohort and quarantine manifests. ... ok
+test_12_no_hash_collisions (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_12_no_hash_collisions)
+12. Zero SHA-256 duplicate collisions within new cohort. ... ok
+test_13_license_compliance_commercial_eligibility (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_13_license_compliance_commercial_eligibility)
+13. Strict license compliance: zero CC BY-NC licenses in active cohort. ... ok
+test_14_wilson_score_interval_math (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_14_wilson_score_interval_math)
+14. Mathematical bounds of 95% Wilson score confidence intervals. ... ok
+test_15_latency_deadlines_and_gate_5 (backend.research.stage_8_9_40.tests.test_stage_8_9_40.TestStage8940Verification.test_15_latency_deadlines_and_gate_5)
+15. Audio-hop deadline compliance (100 ms) and Gate 5 (<= 25 ms) verification. ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 3.173s
+
+OK

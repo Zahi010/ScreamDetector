@@ -1,0 +1,7 @@
+recording_id,duration_sec,historical_8_9_30_result,stage_8_9_31_multi_res,stage_8_9_33_dual_encoder,detection_status
+S8930_FS_686340,0.395,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)
+S8930_FS_222582,0.719,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)
+S8930_FS_382990,0.421,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)
+S8930_FS_547188,0.766,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)
+S8930_FS_788867,0.650,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)
+S8930_NIGENS_15246,0.499,MISSED (0.0000 - Buffer Underflow),RECOVERED (0.4285 - 0.7578),DETECTED (0.7420 - Valid EOF Flush),DETECTED (Meets 0.3500 threshold)

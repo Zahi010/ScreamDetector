@@ -1,0 +1,45 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.80",
+  "timestamp_before": "2026-11-17T10:19:11.570945+00:00",
+  "timestamp_after": "2026-11-17T10:39:01.678430+00:00",
+  "verification_verdict": "ALL_PROTECTED_ASSETS_IMMUTABLE_AND_IDENTICAL",
+  "assets": {
+    "scream_classifier.joblib": {
+      "path": "backend/models/scream_classifier.joblib",
+      "sha256_before": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "sha256_after": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "bit_for_bit_match": true
+    },
+    "model_metadata.json": {
+      "path": "backend/models/model_metadata.json",
+      "sha256_before": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "sha256_after": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "bit_for_bit_match": true
+    },
+    "test_predictions.csv": {
+      "path": "backend/reports/test_predictions.csv",
+      "sha256_before": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "sha256_after": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "bit_for_bit_match": true
+    },
+    "stage5_test_evaluation.md": {
+      "path": "backend/reports/stage5_test_evaluation.md",
+      "sha256_before": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "sha256_after": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "bit_for_bit_match": true
+    },
+    "future_evaluation_manifest.json": {
+      "path": "backend/research/stage_8_9_60/future_evaluation_manifest.json",
+      "sha256_before": "9dfa4ced3620e568a6c4b247eabab76a94fff655c367b918f97d5d875b4e32cd",
+      "sha256_after": "9dfa4ced3620e568a6c4b247eabab76a94fff655c367b918f97d5d875b4e32cd",
+      "bit_for_bit_match": true
+    },
+    "candidate_71_frozen.pt": {
+      "path": "backend/research/stage_8_9_80/models/candidate_71_frozen.pt",
+      "sha256_before": "e4314990f1314402f885878818651a0efb8aa5c75eaf51487f684356b0835d6b",
+      "sha256_after": "e4314990f1314402f885878818651a0efb8aa5c75eaf51487f684356b0835d6b",
+      "bit_for_bit_match": true
+    }
+  }
+}

@@ -1,0 +1,8 @@
+implementation_id,description,speedup_vs_baseline_p95,mean_ms,std_ms,min_ms,p50_ms,p90_ms,p95_ms,p99_ms,max_ms
+Original_E1_DSP,Original filtfilt + list comprehension + on-the-fly design,1.0,10.1739,1.2793,8.3371,9.9062,11.7503,12.4094,14.4119,16.398
+C1_Vector_Filterbank,Vectorized sliding window RMS + eliminated dead temporal variance,1.76,5.6549,0.7314,4.7564,5.4487,6.6873,7.0687,7.763,8.3156
+C2_Streaming_Filter_Reset,Persistent SOS forward filtering with per-window reset,2.26,4.0987,0.7015,3.2987,3.8876,5.1909,5.4901,6.1577,6.3196
+C2_Streaming_Filter_Continuous,Persistent SOS forward filtering in continuous stream,5.09,1.6123,0.3864,1.3239,1.4775,2.0084,2.4399,3.0539,4.4559
+C3_Precomputed_Filters,"Precomputed polynomial b, a coefficients (sr=16000)",1.31,7.5541,1.2134,6.3062,7.1967,8.8728,9.4665,11.899,16.906
+C4_Memory_Optimization,Precomputed filters + pre-allocated float32 arrays,1.54,6.0755,0.9308,5.1618,5.7554,7.3501,8.0362,8.8165,10.5608
+C5_Combined_Optimized,Combined C3 + C1 + C4: Precomputed filters + vectorized RMS + contiguous memory,2.21,4.6495,2.1643,3.7612,4.4009,5.2817,5.6081,6.2475,40.9445

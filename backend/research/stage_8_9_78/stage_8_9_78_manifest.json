@@ -1,0 +1,73 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.78",
+  "timestamp_utc": "2026-11-14T15:35:00Z",
+  "total_deliverables": 14,
+  "deliverables": {
+    "STAGE_8_9_78_COMPLETION_REPORT.md": {
+      "relative_path": "backend/research/stage_8_9_78/STAGE_8_9_78_COMPLETION_REPORT.md",
+      "size_bytes": 16241,
+      "sha256": "3684d5f315fc9be216a893f9f84d1806fc949e8f8b0cfedb6e1e10eb57ed44f7"
+    },
+    "STAGE_PROGRESS.md": {
+      "relative_path": "backend/research/stage_8_9_78/STAGE_PROGRESS.md",
+      "size_bytes": 4115,
+      "sha256": "b1fee8ba5fbaacf0c5b4db63e95a52cc4db67e2c927614861c99d7136f663259"
+    },
+    "reviewer_onboarding_status.csv": {
+      "relative_path": "backend/research/stage_8_9_78/reviewer_onboarding_status.csv",
+      "size_bytes": 530,
+      "sha256": "ca91b801639300253f32ceccfe232848b4aacfa7efb9876040d128627be2e8d2"
+    },
+    "annotation_submission_status.csv": {
+      "relative_path": "backend/research/stage_8_9_78/annotation_submission_status.csv",
+      "size_bytes": 4038,
+      "sha256": "cf4f7aedc8925299ca4073324435a5d122e08315531cb517d964062ef5f9faa3"
+    },
+    "paired_annotation_status.csv": {
+      "relative_path": "backend/research/stage_8_9_78/paired_annotation_status.csv",
+      "size_bytes": 6828,
+      "sha256": "9149b729757b7df9df57102511d623db1d8e23a80c16dee2ccb600d266e95118"
+    },
+    "inter_rater_agreement_report.md": {
+      "relative_path": "backend/research/stage_8_9_78/inter_rater_agreement_report.md",
+      "size_bytes": 5514,
+      "sha256": "b796d7a014313cefc0904c6998c0524b318159f437806c0bfad4005fef86ef22"
+    },
+    "disagreement_analysis.csv": {
+      "relative_path": "backend/research/stage_8_9_78/disagreement_analysis.csv",
+      "size_bytes": 201,
+      "sha256": "ec2d66e26f6c10ba0505b328d9b727c1be5af858579266fc04cf05839b850d79"
+    },
+    "adjudication_status.csv": {
+      "relative_path": "backend/research/stage_8_9_78/adjudication_status.csv",
+      "size_bytes": 5257,
+      "sha256": "0f814f5908a8cc206d44db54fa819dff2e001d683690fc7b943448cbf25389dd"
+    },
+    "annotation_quality_control_report.md": {
+      "relative_path": "backend/research/stage_8_9_78/annotation_quality_control_report.md",
+      "size_bytes": 4551,
+      "sha256": "fef2df5e9d054f8c7f867a762a24fd1823bfaa8329b7b5eae3467c2c4599c55e"
+    },
+    "prospective_eligibility_audit.csv": {
+      "relative_path": "backend/research/stage_8_9_78/prospective_eligibility_audit.csv",
+      "size_bytes": 6104,
+      "sha256": "46e394c62b1d62229b9e571e4db96320cd4d38ea306f1bd3fc789b9820ae3515"
+    },
+    "prospective_evaluation_manifest.json": {
+      "relative_path": "backend/research/stage_8_9_78/prospective_evaluation_manifest.json",
+      "size_bytes": 589,
+      "sha256": "3f37dd16a1e316ecb8b0735df38879d8d8bceb378e02ab05385eb2d517067efc"
+    },
+    "protected_asset_hashes_before_after.json": {
+      "relative_path": "backend/research/stage_8_9_78/protected_asset_hashes_before_after.json",
+      "size_bytes": 2236,
+      "sha256": "f99706831c17275c37f5c1e52d98a4d76a116f36b2db9378f468ddc8a1cc420d"
+    },
+    "test_results.md": {
+      "relative_path": "backend/research/stage_8_9_78/test_results.md",
+      "size_bytes": 4214,
+      "sha256": "76f66dc91ced082831fae633e5c62b01dc91f8ca88fd73778f4bf32f0092e0a8"
+    }
+  }
+}

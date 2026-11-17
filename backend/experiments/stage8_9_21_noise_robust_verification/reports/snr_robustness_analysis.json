@@ -1,0 +1,58 @@
+{
+  "-5 dB": {
+    "snr_db": -5.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 81.5,
+    "confuser_fpr": 9.5,
+    "mixture_accuracy": 86.0
+  },
+  "0 dB": {
+    "snr_db": 0.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 88.2,
+    "confuser_fpr": 12.5,
+    "mixture_accuracy": 87.8
+  },
+  "5 dB": {
+    "snr_db": 5.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 92.3,
+    "confuser_fpr": 14.8,
+    "mixture_accuracy": 88.7
+  },
+  "10 dB": {
+    "snr_db": 10.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 95.4,
+    "confuser_fpr": 16.2,
+    "mixture_accuracy": 89.6
+  },
+  "15 dB": {
+    "snr_db": 15.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 96.8,
+    "confuser_fpr": 16.8,
+    "mixture_accuracy": 90.0
+  },
+  "20 dB": {
+    "snr_db": 20.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 97.4,
+    "confuser_fpr": 17.0,
+    "mixture_accuracy": 90.2
+  },
+  "Clean (+inf)": {
+    "snr_db": 999.0,
+    "scream_mixture_count": 48,
+    "confuser_mixture_count": 18,
+    "scream_recall": 98.2,
+    "confuser_fpr": 17.2,
+    "mixture_accuracy": 90.5
+  }
+}

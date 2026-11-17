@@ -1,0 +1,29 @@
+=== STAGE 8.9.23 PRODUCTION ARTIFACT SHA-256 HASH VERIFICATION ===
+Timestamp: 2026-10-31T14:17:34+05:30
+Verified by: Antigravity AI Engineering & Acoustics Research Team
+Status: 100% MATCH — ZERO MODIFICATION — STRICTLY FROZEN
+
+Artifact 1: backend/models/scream_classifier.joblib
+Authoritative: ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f
+Computed:      ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f
+Match: TRUE
+
+Artifact 2: backend/models/model_metadata.json
+Authoritative: 30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60
+Computed:      30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60
+Match: TRUE
+
+Artifact 3: backend/reports/test_predictions.csv
+Authoritative: e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d
+Computed:      e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d
+Match: TRUE
+
+Artifact 4: backend/reports/stage5_test_evaluation.md
+Authoritative: 9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2
+Computed:      9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2
+Match: TRUE
+
+Operating Decision Threshold: 0.3500 (STRICTLY FROZEN)
+Inference Logic: backend/src/detector/engine.py (STRICTLY PRESERVED)
+Historical Stage 5 Test Split: ISOLATED (NEVER USED FOR TRAINING OR TUNING)
+Research Directory: backend/research/stage_8_9_23/ (STRICTLY QUARANTINED)

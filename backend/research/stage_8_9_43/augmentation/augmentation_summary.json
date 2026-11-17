@@ -1,0 +1,62 @@
+{
+  "safety_designation": "RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE.",
+  "stage": "8.9.43",
+  "phase": "Phase 5 — Controlled Augmentation Study",
+  "dataset": "v5_train (N=1198) and v5_validation (N=309)",
+  "experiments": [
+    {
+      "experiment_id": "Condition A",
+      "description": "Authentic Positives Only (Baseline)",
+      "condition_code": "A",
+      "val_auc": 0.9332,
+      "val_ap": 0.8562,
+      "selected_threshold": 0.89,
+      "val_f1": 0.7153,
+      "val_scream_recall": 62.82,
+      "val_hn_fpr": 4.90,
+      "val_shouted_speech_fpr": 7.41,
+      "seed": 42
+    },
+    {
+      "experiment_id": "Condition B",
+      "description": "Gain (±4 dB) + Crowd Noise Mixing (SNR +6 to +12 dB)",
+      "condition_code": "B",
+      "val_auc": 0.9028,
+      "val_ap": 0.7947,
+      "selected_threshold": 0.50,
+      "val_f1": 0.0000,
+      "val_scream_recall": 0.00,
+      "val_hn_fpr": 0.00,
+      "val_shouted_speech_fpr": 38.27,
+      "seed": 42
+    },
+    {
+      "experiment_id": "Condition C",
+      "description": "Mild Reverberation (150ms) + SpecAugment (Time/Freq Masking)",
+      "condition_code": "C",
+      "val_auc": 0.9045,
+      "val_ap": 0.8376,
+      "selected_threshold": 0.50,
+      "val_f1": 0.0000,
+      "val_scream_recall": 0.00,
+      "val_hn_fpr": 0.00,
+      "val_shouted_speech_fpr": 55.56,
+      "seed": 42
+    },
+    {
+      "experiment_id": "Condition D",
+      "description": "Multi-Condition (Gain + Noise + Reverb + SpecAugment)",
+      "condition_code": "D",
+      "val_auc": 0.8886,
+      "val_ap": 0.7388,
+      "selected_threshold": 0.83,
+      "val_f1": 0.5299,
+      "val_scream_recall": 39.74,
+      "val_hn_fpr": 3.92,
+      "val_shouted_speech_fpr": 1.23,
+      "seed": 42
+    }
+  ],
+  "recommendation": "Condition A (Authentic Positives Only) demonstrates superior feature fidelity and discriminability (AUC 0.9332 vs 0.8886-0.9045), confirming that authentic diverse field recordings provide higher learning signal than synthetic distortion."
+}
+

@@ -1,0 +1,6 @@
+feature_component,expected_dim,offline_dim,live_dim,max_abs_diff,parity_tolerance,parity_passed
+"YAMNet Multi-Pool (max, p10, mean)",3072,3072,3072,0.0,0.0001,True
+Acoustic Discriminability 30 Features,30,30,30,0.0,0.0001,True
+Family A (Harmonicity & Turbulence 8 Dims),8,8,8,0.0,0.0001,True
+Complete D_v4_Family_A Input Vector,3080,3080,3080,0.0,0.0001,True
+End-to-End Prediction Score (D_v4_Family_A),1,0.1421,0.1421,1.6217585498440323e-05,0.0001,True

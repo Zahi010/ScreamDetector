@@ -1,0 +1,5 @@
+metric,observed_value,bootstrap_mean,bootstrap_std,ci_95_lower,bootstrap_median,ci_95_upper
+overall_recall,0.9436,0.9435,0.0167,0.9086,0.9436,0.974
+hard_neg_fpr,0.0598,0.0596,0.0219,0.0213,0.0586,0.1053
+short_scream_recall,0.985,0.9849,0.0108,0.9603,0.9856,1.0
+shouted_speech_fpr,0.2,0.1887,0.1942,0.0,0.1667,0.6667

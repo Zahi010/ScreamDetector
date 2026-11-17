@@ -1,0 +1,13 @@
+candidate,classifier,policy,feasibility,locked_threshold,val_recall,val_fpr,val_shout_fpr,val_f1,val_median_delay_sec,val_duplicate_alerts,val_short_recall,val_hourly_false_alerts
+D_v4_Single_Window,D_v4,Single_Window,INFEASIBLE,0.78,82.29,27.68,13.92,0.6667,1.0,3.97,33.33,498.2
+D_v4_Consecutive_2,D_v4,Consecutive_2,INFEASIBLE,0.66,72.92,26.34,8.86,0.6222,1.5,1.66,0.0,474.1
+D_v4_Consecutive_3,D_v4,Consecutive_3,INFEASIBLE,0.52,70.83,29.02,12.66,0.5939,2.0,1.3,0.0,522.3
+D_v4_Voting_2_of_3,D_v4,Voting_2_of_3,INFEASIBLE,0.7,67.71,21.88,8.86,0.619,1.5,1.45,0.0,393.8
+D_v4_Voting_3_of_5,D_v4,Voting_3_of_5,INFEASIBLE,0.52,70.83,30.36,13.92,0.5862,2.0,0.93,0.0,546.4
+D_v4_Hysteresis_Cooldown,D_v4,Hysteresis_Cooldown,INFEASIBLE,0.66,72.92,26.34,8.86,0.6222,1.5,0.93,0.0,474.1
+H_v5_SNR_Single_Window,H_v5_SNR,Single_Window,INFEASIBLE,0.56,82.29,22.77,12.66,0.6991,1.0,3.56,44.44,409.8
+H_v5_SNR_Consecutive_2,H_v5_SNR,Consecutive_2,INFEASIBLE,0.38,77.08,24.11,13.92,0.6607,1.5,1.4,0.0,433.9
+H_v5_SNR_Consecutive_3,H_v5_SNR,Consecutive_3,INFEASIBLE,0.28,70.83,28.57,12.66,0.5965,2.0,1.27,0.0,514.3
+H_v5_SNR_Voting_2_of_3,H_v5_SNR,Voting_2_of_3,INFEASIBLE,0.38,80.21,25.45,15.19,0.6696,1.5,1.33,0.0,458.0
+H_v5_SNR_Voting_3_of_5,H_v5_SNR,Voting_3_of_5,INFEASIBLE,0.38,65.62,20.98,11.39,0.6117,2.0,0.95,0.0,377.7
+H_v5_SNR_Hysteresis_Cooldown,H_v5_SNR,Hysteresis_Cooldown,INFEASIBLE,0.38,77.08,24.11,13.92,0.6607,1.5,1.27,0.0,433.9

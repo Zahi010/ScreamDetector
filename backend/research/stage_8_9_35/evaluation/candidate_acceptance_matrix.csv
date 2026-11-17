@@ -1,0 +1,5 @@
+Candidate,Recall,HN-FPR,Shout-FPR,Short Recall,P95,Final Status
+Dual-Encoder Baseline (Stage 8.9.33),82.35%,6.28%,8.33%,80.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate B (Subband Random Forest),73.53%,14.14%,16.67%,40.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate C (Subband Logistic Regression),77.45%,24.08%,18.75%,60.00%,18.57 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY
+Candidate D (Multi-Pathway MP-FS-DualEncoder),89.22%,9.95%,14.58%,100.00%,19.31 ms,REJECTED FOR PRODUCTION — RESEARCH ONLY

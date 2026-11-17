@@ -1,0 +1,11 @@
+recording_id,source_group_id,ground_truth_category,raw_neural_prob,final_prob,threshold,branch_similarity,active_vetoes,spectral_flux,roughness_30_150hz,hf_ratio,recording_duration_s,estimated_snr,primary_failure_mechanism,is_excerpt_or_duplicate
+fs_369001,exp_sg_stage8_9_synth_lab,general_environmental,0.5627,0.5627,0.492,0.712,none,0.0046,0.2631,0.0245,20.02,Ambient (Unknown),environmental_broadband_noise,Unique independent clip
+fsd50k_184623,exp_sg_stage8_9_landub,sfx_sirens_fireworks,0.5365,0.5365,0.492,0.755,none,0.1285,0.2706,0.0288,19.04,Ambient (Unknown),sustained_siren_modulation_overlap,Unique independent clip
+fsd50k_34280,exp_sg_stage8_9_hello_flowers,sfx_sirens_fireworks,0.6258,0.6258,0.492,0.644,none,0.0597,0.2875,0.0007,8.55,Ambient (Unknown),sustained_siren_modulation_overlap,Unique independent clip
+fsd50k_154428,exp_sg_stage8_9_ecfike,infant_crying,0.5632,0.5632,0.492,0.742,none,0.0436,0.0227,0.1742,7.51,Ambient (Unknown),infant_cry_vocal_roughness_overlap,Unique independent clip
+fsd50k_343976,exp_sg_stage8_9_reitanna,infant_crying,0.5844,0.5844,0.492,0.702,none,0.0765,0.0309,0.1075,18.63,Ambient (Unknown),infant_cry_vocal_roughness_overlap,Unique independent clip
+fsd50k_344030,exp_sg_stage8_9_reitanna,infant_crying,0.6787,0.6787,0.492,0.611,none,0.1758,0.0558,0.1009,3.6,Ambient (Unknown),infant_cry_vocal_roughness_overlap,Unique independent clip
+fsd50k_83199,exp_sg_fsd50k_uploader_miastodzwiekow,crowd_chant_cheering,0.5046,0.5046,0.492,0.755,none,0.053,0.1376,0.0334,17.62,Ambient (Unknown),high_intensity_cheer_transient,Unique independent clip
+src_v5_parent_0104,exp_sg_source_group_v5_whistle_008,whistles_and_squeaks,0.6061,0.6061,0.492,0.55,none,0.3389,0.0027,43.7013,1.48,Ambient (Unknown),narrowband_whistle_burst_leakage,Unique independent clip
+src_v5_parent_0108,exp_sg_source_group_v5_whistle_012,whistles_and_squeaks,0.5876,0.5876,0.492,0.58,none,0.3419,0.003,43.6244,1.04,Ambient (Unknown),narrowband_whistle_burst_leakage,Unique independent clip
+src_v5_parent_0116,exp_sg_source_group_v5_whistle_008,whistles_and_squeaks,0.5898,0.5898,0.492,0.578,none,0.3476,0.0025,43.7974,2.68,Ambient (Unknown),narrowband_whistle_burst_leakage,Unique independent clip

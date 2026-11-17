@@ -1,0 +1,35 @@
+test_01_production_artifact_immutability (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_01_production_artifact_immutability)
+Test 1: Verify all 4 production artifacts remain byte-for-byte identical. ... ok
+test_02_correct_training_partition_loading (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_02_correct_training_partition_loading)
+Test 2: Verify v4_train has exactly 820 active records (180 screams, 640 non-screams). ... ok
+test_03_validation_partition_isolation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_03_validation_partition_isolation)
+Test 3: Verify v4_val has exactly 339 active records and 0 file_id overlap with v4_train. ... ok
+test_04_reserved_test_cohort_isolation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_04_reserved_test_cohort_isolation)
+Test 4: Verify v4_reserved_expansion_test has 102 active records, 65 screams, 37 negs, and zero training overlap. ... ok
+test_05_historical_test_cohort_isolation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_05_historical_test_cohort_isolation)
+Test 5: Verify v4_historical_test has exactly 293 records and zero training overlap. ... ok
+test_06_source_group_separation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_06_source_group_separation)
+Test 6: Verify all 6 active pairwise split comparisons in source_group_split_manifest are clean isolated. ... ok
+test_07_parent_recording_separation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_07_parent_recording_separation)
+Test 7: Verify no parent recording excerpts cross train and test split boundaries. ... ok
+test_08_license_quarantine (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_08_license_quarantine)
+Test 8: Verify exactly 24 quarantined records (21 CC-NC, 3 ambiguous) and complete isolation. ... ok
+test_09_normalization_fitted_on_training_only (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_09_normalization_fitted_on_training_only)
+Test 9: Verify normalization parameters were fitted strictly on v4_train only. ... ok
+test_10_checkpoint_selection_using_validation_only (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_10_checkpoint_selection_using_validation_only)
+Test 10: Verify checkpoints for both models were selected strictly using validation F1. ... ok
+test_11_threshold_selection_using_validation_only (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_11_threshold_selection_using_validation_only)
+Test 11: Verify threshold sweeps and operating points were computed exclusively on validation. ... ok
+test_12_calibration_fitting_using_validation_only (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_12_calibration_fitting_using_validation_only)
+Test 12: Verify Platt scaling was fit exclusively on validation cohort. ... ok
+test_13_frozen_test_evaluation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_13_frozen_test_evaluation)
+Test 13: Verify predictions exist for both models across both frozen test benchmarks. ... ok
+test_14_metric_and_subgroup_calculation (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_14_metric_and_subgroup_calculation)
+Test 14: Verify Wilson score intervals and subgroup metrics are mathematically sound. ... ok
+test_15_expansion_gate_reporting (backend.research.stage_8_9_39.tests.test_stage_8_9_39.TestStage8939RetrainingAndAudit.test_15_expansion_gate_reporting)
+Test 15: Verify all five research acceptance gates are documented with numerators and denominators. ... ok
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.038s
+
+OK

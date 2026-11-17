@@ -1,0 +1,3 @@
+session_id,rater_id,created_timestamp_utc,assigned_recordings_count,completed_recordings_count,session_status
+SESS_20261114_RATER_A,RATER_A,2026-11-14T14:46:44Z,26,0,PENDING_HUMAN_REVIEWER_LOGIN
+SESS_20261114_RATER_B,RATER_B,2026-11-14T14:46:44Z,26,0,PENDING_HUMAN_REVIEWER_LOGIN

@@ -1,0 +1,162 @@
+[
+  {
+    "candidate_id": "Candidate A (Config-B-v5-baseline)",
+    "candidate_tag": "config_b_v5_baseline",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.396,
+    "p50_latency_ms": 0.381,
+    "p95_latency_ms": 0.539,
+    "p99_latency_ms": 0.606,
+    "max_latency_ms": 1.118,
+    "peak_ram_mb": 308.91,
+    "ram_delta_mb": 1.47,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "batch_latency_ms": 0.4,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "batch_latency_ms": 0.79,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "batch_latency_ms": 1.59,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "batch_latency_ms": 3.17,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate B (Config-B-RIR)",
+    "candidate_tag": "config_b_rir",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.425,
+    "p50_latency_ms": 0.439,
+    "p95_latency_ms": 0.586,
+    "p99_latency_ms": 0.669,
+    "max_latency_ms": 1.204,
+    "peak_ram_mb": 309.43,
+    "ram_delta_mb": 0.0,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "batch_latency_ms": 0.42,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "batch_latency_ms": 0.85,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "batch_latency_ms": 1.7,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "batch_latency_ms": 3.4,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate C (Config-B-Atten)",
+    "candidate_tag": "config_b_atten",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.37,
+    "p50_latency_ms": 0.375,
+    "p95_latency_ms": 0.503,
+    "p99_latency_ms": 0.609,
+    "max_latency_ms": 0.883,
+    "peak_ram_mb": 309.43,
+    "ram_delta_mb": 0.0,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "batch_latency_ms": 0.37,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "batch_latency_ms": 0.74,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "batch_latency_ms": 1.48,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "batch_latency_ms": 2.96,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate D (Config-B-Mask)",
+    "candidate_tag": "config_b_mask",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.386,
+    "p50_latency_ms": 0.386,
+    "p95_latency_ms": 0.53,
+    "p99_latency_ms": 0.59,
+    "max_latency_ms": 0.655,
+    "peak_ram_mb": 309.44,
+    "ram_delta_mb": 0.0,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "batch_latency_ms": 0.39,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "batch_latency_ms": 0.77,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "batch_latency_ms": 1.54,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "batch_latency_ms": 3.08,
+        "deadline_100ms_met": true
+      }
+    }
+  },
+  {
+    "candidate_id": "Candidate E (Config-B-EnvCombined)",
+    "candidate_tag": "config_b_env_combined",
+    "n_iterations": 600,
+    "mean_latency_ms": 0.396,
+    "p50_latency_ms": 0.383,
+    "p95_latency_ms": 0.541,
+    "p99_latency_ms": 0.601,
+    "max_latency_ms": 0.686,
+    "peak_ram_mb": 309.45,
+    "ram_delta_mb": 0.0,
+    "cpu_percent": 0.0,
+    "gate5_p95_le_25ms": "PASS",
+    "concurrency": {
+      "1_streams": {
+        "batch_latency_ms": 0.4,
+        "deadline_100ms_met": true
+      },
+      "2_streams": {
+        "batch_latency_ms": 0.79,
+        "deadline_100ms_met": true
+      },
+      "4_streams": {
+        "batch_latency_ms": 1.58,
+        "deadline_100ms_met": true
+      },
+      "8_streams": {
+        "batch_latency_ms": 3.16,
+        "deadline_100ms_met": true
+      }
+    }
+  }
+]

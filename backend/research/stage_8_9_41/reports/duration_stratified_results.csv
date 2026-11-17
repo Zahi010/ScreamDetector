@@ -1,0 +1,5 @@
+stratum,total_clips,detected_tp,recall,ci95_low,ci95_high,fraction
+<0.5s (Ultra-short),11,0,0.0,0.0,0.2588,0/11
+0.5s-1.0s (Short),20,2,0.1,0.0279,0.301,2/20
+1.0s-2.0s (Medium),23,16,0.6957,0.4913,0.844,16/23
+>2.0s (Sustained),3,2,0.6667,0.2077,0.9385,2/3

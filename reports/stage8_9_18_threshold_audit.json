@@ -1,0 +1,82 @@
+{
+  "Ref_D_v4_Calibrated": {
+    "selected_threshold": 0.43,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9231,
+    "val_hard_negative_fpr": 0.0136,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.9351
+  },
+  "Model_A_Temporal_Baseline": {
+    "selected_threshold": 0.53,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.7564,
+    "val_hard_negative_fpr": 0.0237,
+    "val_shouted_speech_fpr": 0.0,
+    "val_f1": 0.8194
+  },
+  "Model_B_Temporal_CNN": {
+    "selected_threshold": 0.36,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.8846,
+    "val_hard_negative_fpr": 0.0203,
+    "val_shouted_speech_fpr": 0.0,
+    "val_f1": 0.902
+  },
+  "Model_C_YAMNet_Temporal_Sequence": {
+    "selected_threshold": 0.49,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9231,
+    "val_hard_negative_fpr": 0.0169,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.929
+  },
+  "Model_D_Hybrid_Fusion": {
+    "selected_threshold": 0.37,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9231,
+    "val_hard_negative_fpr": 0.0136,
+    "val_shouted_speech_fpr": 0.0312,
+    "val_f1": 0.9351
+  },
+  "Ablation_E1_No_Phonation_Continuity": {
+    "selected_threshold": 0.44,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.8974,
+    "val_hard_negative_fpr": 0.0203,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.9091
+  },
+  "Ablation_E2_No_Subband_Turbulence": {
+    "selected_threshold": 0.42,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9231,
+    "val_hard_negative_fpr": 0.0203,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.9231
+  },
+  "Ablation_E3_No_Energy_Modulation": {
+    "selected_threshold": 0.35,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9359,
+    "val_hard_negative_fpr": 0.0203,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.9299
+  },
+  "Ablation_E4_No_Spectral_Dynamics": {
+    "selected_threshold": 0.4,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.9359,
+    "val_hard_negative_fpr": 0.0203,
+    "val_shouted_speech_fpr": 0.0625,
+    "val_f1": 0.9299
+  },
+  "Ablation_E5_Temporal_Alone_32": {
+    "selected_threshold": 0.53,
+    "validation_feasibility": "INFEASIBLE",
+    "val_recall": 0.7564,
+    "val_hard_negative_fpr": 0.0237,
+    "val_shouted_speech_fpr": 0.0,
+    "val_f1": 0.8194
+  }
+}

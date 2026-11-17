@@ -1,0 +1,5 @@
+streams,windows_processed,mean_compute_ms,p50_compute_ms,p95_compute_ms,p99_compute_ms,max_compute_ms,computational_deadline_25ms_misses,computational_deadline_25ms_miss_pct,computational_gate_p95_le_25ms,physical_hop_250ms_deadline_misses,physical_hop_250ms_deadline_miss_pct,physical_hop_gate_p99_le_250ms,aggregate_throughput_hops_per_sec,per_stream_throughput_hops_per_sec,per_stream_rtf_mean,schedulability_classification
+1,101,14.904,13.298,15.446,16.282,149.576,1,0.99,PASSED,0,0.0,PASSED,68.84,68.84,0.06,Deterministic Real-Time Compliant (Single Stream)
+2,202,28.192,27.941,31.731,33.665,35.406,198,98.02,FAILED,0,0.0,PASSED,72.28,36.14,0.113,Physical Schedulability Compliant (Misses 25ms Computational Gate)
+4,404,62.865,62.97,70.309,73.984,76.109,403,99.75,FAILED,0,0.0,PASSED,65.16,16.29,0.251,Physical Schedulability Compliant (Misses 25ms Computational Gate)
+8,808,129.098,128.237,149.368,161.615,176.669,808,100.0,FAILED,0,0.0,PASSED,63.24,7.91,0.516,Physical Schedulability Compliant (Misses 25ms Computational Gate)

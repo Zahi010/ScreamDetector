@@ -1,0 +1,7 @@
+architecture_id,fusion_type,threshold,overall_recall,fpr_dev,shouted_speech_fpr,short_scream_recall,ultra_short_recall,sustained_recall,f1_score,roc_auc,pr_auc,tp,fp,fn,tn,gate1_pass,gate2_pass,gate3_pass,gate4_pass
+Sust_A_Center_Window_Gated,gated,0.5,0.9436,0.2137,1.0,0.985,1.0,0.8548,0.9109,0.9194,0.9203,184,25,11,92,False,False,False,True
+Sust_B_MultiWindow_Max_Gated,gated,0.5,0.9333,0.3333,1.0,0.9624,0.9804,0.871,0.875,0.8878,0.8912,182,39,13,78,False,False,False,True
+Sust_C_MultiWindow_Mean_Gated,gated,0.5,0.9231,0.2308,1.0,0.9624,0.9804,0.8387,0.8955,0.9142,0.904,180,27,15,90,False,False,False,True
+Sust_D_Center_Window_Confidence_Or,confidence_soft_or,0.5,0.9846,0.5812,1.0,1.0,1.0,0.9516,0.844,0.9131,0.9102,192,68,3,49,True,False,False,True
+Sust_E_MultiWindow_Max_Confidence_Max,confidence_max,0.5,0.9487,0.4274,0.8,0.9774,1.0,0.8871,0.8605,0.9043,0.9175,185,50,10,67,False,False,False,True
+Sust_F_MultiWindow_Max_Confidence_Or,confidence_soft_or,0.5,0.9744,0.5897,0.8,1.0,1.0,0.9194,0.837,0.9215,0.9413,190,69,5,48,True,False,False,True

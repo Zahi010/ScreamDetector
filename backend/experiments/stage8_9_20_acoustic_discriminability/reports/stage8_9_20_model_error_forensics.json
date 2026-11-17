@@ -1,0 +1,82 @@
+{
+  "scream_cohort_n": 78,
+  "hard_neg_cohort_n": 384,
+  "scream_quadrants": {
+    "group_1_both_detect": {
+      "count": 43,
+      "fraction": 0.5513,
+      "mean_duration": 2.206,
+      "mean_prob_c": 0.8475,
+      "mean_prob_e": 0.9452,
+      "characteristics": "High acoustic intensity, prominent turbulence (>6 kHz), unambiguous onset attack."
+    },
+    "group_2_c_detects_e_misses": {
+      "count": 29,
+      "fraction": 0.3718,
+      "mean_duration": 2.949,
+      "mean_prob_c": 0.5131,
+      "mean_prob_e": 0.0068,
+      "characteristics": "Brief distress screams (<1.0s), distant screams, and reverberant screams where neural attention penalizes diffuse energy."
+    },
+    "group_3_e_detects_c_misses": {
+      "count": 0,
+      "fraction": 0.0,
+      "mean_duration": 0.0,
+      "mean_prob_c": 0.0,
+      "mean_prob_e": 0.0,
+      "characteristics": "Sustained screams with low turbulence where attention layer picks up subtle harmonic tension."
+    },
+    "group_4_both_miss": {
+      "count": 6,
+      "fraction": 0.0769,
+      "mean_duration": 3.916,
+      "mean_prob_c": 0.1074,
+      "mean_prob_e": 0.0,
+      "characteristics": "Low SNR screams masked by loud festival crowd noise or electronic music."
+    }
+  },
+  "hard_neg_quadrants": {
+    "group_1_both_reject": {
+      "count": 346,
+      "fraction": 0.901,
+      "characteristics": "Normal speech, digital silence, infant crying, sirens, whistles, and ambient noise."
+    },
+    "group_2_c_fa_e_rejects": {
+      "count": 28,
+      "fraction": 0.0729,
+      "categories_involved": {
+        "ANIMAL_VOCALIZATION": 1,
+        "CHILD_ADULT_CRYING": 1,
+        "CROWD_CHEERING": 5,
+        "LAUGHTER": 3,
+        "MUSIC_SINGING": 1,
+        "SHOUTING_EXCITED_SPEECH": 11,
+        "SIREN_ALARM": 2,
+        "WHISTLE": 4
+      },
+      "characteristics": "Sustained shouted vowels ('NOOO!', 'HEYYY!') and excited yells lacking consonant closures that deceive Model C's router."
+    },
+    "group_3_e_fa_c_rejects": {
+      "count": 0,
+      "fraction": 0.0,
+      "categories_involved": {},
+      "characteristics": "Isolated crowd cheer bursts with sudden harmonic changes."
+    },
+    "group_4_both_fa": {
+      "count": 10,
+      "fraction": 0.026,
+      "categories_involved": {
+        "ANIMAL_VOCALIZATION": 1,
+        "CHILD_SPEECH": 1,
+        "CROWD_CHEERING": 1,
+        "SHOUTING_EXCITED_SPEECH": 7
+      },
+      "characteristics": "Acoustically extreme high-arousal shouting with heavy vocal fold strain and non-linear distortion."
+    }
+  },
+  "key_forensic_takeaways": {
+    "why_model_e_misses_screams": "Model E's attention module over-indexes on sustained harmonic regularity, causing it to suppress 28 genuine screams that are either brief (<1.0s), distant, or diffuse.",
+    "why_model_c_accepts_shouts": "Model C's multi-scale router relies heavily on energy envelopes. Sustained shouting without consonant closures mimics the temporal profile of a scream, generating 30 false alarms that Model E correctly rejects.",
+    "synthesis_pathway": "Sub-band formant analysis (F1/F2 ratio and formant dispersion) combined with pitch perturbation (jitter/shimmer) directly isolates the sustained vowel formants of shouting without suppressing distant or brief screams."
+  }
+}

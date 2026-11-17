@@ -1,0 +1,5 @@
+candidate_1,candidate_2,sample_size_positives,both_detect,cand1_detect_cand2_miss_b,cand1_miss_cand2_detect_c,both_miss,cand1_recall,cand2_recall,recall_diff_pct,recall_diff_ci_low_pct,recall_diff_ci_high_pct,mcnemar_chi2,mcnemar_continuity_p,mcnemar_exact_binomial_p,statistically_significant_05
+Candidate_E1_Rolling_C5_EMA,Candidate_E1_Static_C5,200,114,26,2,58,0.7,0.58,12.0,7.09,16.91,18.8929,1.4e-05,3e-06,True
+Candidate_E1_Rolling_C5_EMA,Candidate_B_Baseline,200,109,31,6,54,0.7,0.575,12.5,6.8,18.2,15.5676,8e-05,4.1e-05,True
+Candidate_E1_Static_C5,Candidate_B_Baseline,200,101,15,14,70,0.58,0.575,0.5,-4.78,5.78,0.0,1.0,1.0,False
+Candidate_E1_Rolling_C5_EMA,Candidate_B_Intervention_D,200,108,32,6,54,0.7,0.57,13.0,7.23,18.77,16.4474,5e-05,2.4e-05,True

@@ -1,0 +1,66 @@
+{
+  "stage": "8.9.25",
+  "task": "Acoustic Architecture Benchmark & Phonetic Discriminability Research",
+  "status": "RESEARCH_ONLY",
+  "timestamp": "2026-10-31T15:18:00+05:30",
+  "global_fixed_decision_threshold": 0.35,
+  "candidate_architectures": {
+    "Model_A": {
+      "name": "Frozen YAMNet Max-Pool Baseline",
+      "backbone": "YAMNet (1024-dim frame embeddings)",
+      "pooling": "Global Max Pooling across time frames",
+      "classifier": "LogisticRegression(C=0.1, max_iter=1000)",
+      "parameter_count": 3400000,
+      "model_size_mb": 14.5,
+      "input_shape": [15600],
+      "input_sample_rate": 16000,
+      "artifact_path": "backend/research/stage_8_9_25/models/model_a_yamnet_baseline.joblib"
+    },
+    "Model_B": {
+      "name": "Custom 2D CNN on Log-Mel Spectrograms",
+      "backbone": "3-layer 2D CNN with BatchNorm and MaxPool2D",
+      "input_shape": [64, 128, 1],
+      "input_features": "64-band Mel filterbank (50-8000 Hz, 512 FFT, 128 hop)",
+      "regularization": "L2(0.001) + Dropout(0.4)",
+      "head": "Dense(32, relu) -> Dense(1, sigmoid)",
+      "parameter_count": 25857,
+      "model_size_mb": 0.28,
+      "artifact_path": "backend/research/stage_8_9_25/models/model_b_2d_cnn.keras"
+    },
+    "Model_C": {
+      "name": "Temporal 1D Dilated CNN",
+      "backbone": "3-layer Dilated 1D CNN (kernel=3, dilations=[1, 2, 4])",
+      "input_shape": [70, 16],
+      "input_features": "16-dim frame acoustic descriptors @ 20ms frame hop",
+      "pooling": "GlobalMaxPooling1D",
+      "head": "Dense(32, relu) -> Dense(1, sigmoid)",
+      "parameter_count": 22625,
+      "model_size_mb": 0.12,
+      "artifact_path": "backend/research/stage_8_9_25/models/model_c_temporal_1d_cnn.keras"
+    },
+    "Model_D": {
+      "name": "YAMNet + Temporal 1D CNN Fusion",
+      "backbone": "YAMNet Max-Pool (1024) concatenated with Model C temporal probability",
+      "classifier": "LogisticRegression(C=0.1, max_iter=1000)",
+      "parameter_count": 3422625,
+      "model_size_mb": 14.7,
+      "artifact_path": "backend/research/stage_8_9_25/models/model_d_yamnet_temporal_fusion.joblib"
+    },
+    "Model_E": {
+      "name": "Hybrid Multimodal Acoustic-Temporal Model",
+      "backbone": "Fusion of YAMNet (1024), 2D CNN LogMel Prob, 1D CNN Temp Prob, and 32-dim Phonetic/Resonance/Cadence descriptors",
+      "classifier": "LogisticRegression(C=0.05, max_iter=1000)",
+      "parameter_count": 3448482,
+      "model_size_mb": 15.1,
+      "artifact_path": "backend/research/stage_8_9_25/models/model_e_hybrid_multimodal.joblib"
+    },
+    "Model_F": {
+      "name": "Candidate G Reference (Dual-Pathway TMSCV)",
+      "backbone": "Stage 8.9.24 Dual-Pathway Temporal Modulation & Syllabic Cadence Verifier",
+      "frozen_reference": true,
+      "parameter_count": 3445000,
+      "model_size_mb": 14.8,
+      "artifact_path": "backend/research/stage_8_9_24/temporal_candidate_prediction_comparison.csv"
+    }
+  }
+}

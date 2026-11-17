@@ -1,0 +1,4 @@
+source_id,name,repository_url,description,auth_type,allowed_licenses,restricted_licenses,rate_limit_seconds,status
+freesound_api_v2,Freesound.org API v2,https://freesound.org,"Collaborative database of Creative Commons licensed sounds, queries filtered for human screams.",Token Authentication (Authorization Header),"CC0-1.0, CC-BY-3.0, CC-BY-4.0","CC-BY-NC, CC-BY-NC-ND, Sampling+, All Rights Reserved",1.0,ACTIVE_AUTHENTICATED
+fsd50k_dev,FSD50K Research Dataset (AudioSet Ontology),https://fsannotator.upf.edu/fsd/release/FSD50K/,Curated open research dataset based on Freesound with ground-truth ontology labels.,Local Permissive Extraction,"CC0-1.0, CC-BY-3.0, CC-BY-4.0",CC-BY-NC,0.0,LOCAL_ARCHIVAL_REFERENCE
+nigens_clean,NIGENS General Sound Events Database,https://zenodo.org/record/3835682,Isolated acoustic sound event database containing human screams and non-screams.,Local Permissive Extraction,CC-BY-4.0,None,0.0,LOCAL_ARCHIVAL_REFERENCE

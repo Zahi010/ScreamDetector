@@ -1,0 +1,13 @@
+candidate,classifier,policy,threshold,event_recall_pct,recall_95_ci,event_fpr_pct,fpr_95_ci,shout_fpr_pct,precision,f1_score,median_delay_sec,p95_delay_sec,short_event_recall_pct,avg_duplicate_alerts,hourly_false_alerts,mcnemar_chi2,mcnemar_p_val,gate_recall_96,gate_fpr_5,gate_shout_15,acceptance_verdict
+D_v4_Single_Window,D_v4,Single_Window,0.78,71.56,"[59.8%, 84.1%]",37.37,"[27.2%, 48.1%]",40.48,0.5132,0.5977,1.0,2.0,20.0,2.25,672.7,100000.0,0.0,FAIL,FAIL,FAIL,NOT CERTIFIED
+D_v4_Consecutive_2,D_v4,Consecutive_2,0.66,66.97,"[53.2%, 81.3%]",35.86,"[26.5%, 45.7%]",38.1,0.5069,0.5771,1.5,2.0,0.0,0.77,645.5,0.0217,0.8828,FAIL,FAIL,FAIL,NOT CERTIFIED
+D_v4_Consecutive_3,D_v4,Consecutive_3,0.52,58.72,"[44.5%, 74.2%]",38.89,"[28.6%, 49.8%]",38.1,0.4539,0.512,2.0,2.0,0.0,0.61,700.0,4.1967,0.0405,FAIL,FAIL,FAIL,NOT CERTIFIED
+D_v4_Voting_2_of_3,D_v4,Voting_2_of_3,0.7,62.39,"[48.5%, 76.5%]",30.81,"[21.9%, 40.7%]",26.19,0.5271,0.5714,1.5,2.0,0.0,0.68,554.5,0.093,0.7604,FAIL,FAIL,FAIL,NOT CERTIFIED
+D_v4_Voting_3_of_5,D_v4,Voting_3_of_5,0.52,60.55,"[46.9%, 76.5%]",40.91,"[30.2%, 51.7%]",38.1,0.449,0.5156,2.0,2.5,0.0,0.61,736.4,5.1429,0.0233,FAIL,FAIL,FAIL,NOT CERTIFIED
+D_v4_Hysteresis_Cooldown,D_v4,Hysteresis_Cooldown,0.66,66.97,"[53.2%, 81.3%]",35.86,"[26.5%, 45.7%]",38.1,0.5069,0.5771,1.5,2.0,0.0,0.68,645.5,0.0217,0.8828,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Single_Window,H_v5_SNR,Single_Window,0.56,75.23,"[66.3%, 84.5%]",32.32,"[22.6%, 42.2%]",38.1,0.5616,0.6431,1.0,2.0,20.0,2.48,581.8,2.7258,0.0987,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Consecutive_2,H_v5_SNR,Consecutive_2,0.38,68.81,"[55.1%, 82.1%]",33.33,"[23.9%, 43.8%]",30.95,0.5319,0.6,1.5,2.15,0.0,0.75,600.0,0.2909,0.5896,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Consecutive_3,H_v5_SNR,Consecutive_3,0.28,63.3,"[49.5%, 78.1%]",35.35,"[24.9%, 46.2%]",30.95,0.4964,0.5565,2.0,2.3,0.0,0.65,636.4,0.2388,0.6251,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Voting_2_of_3,H_v5_SNR,Voting_2_of_3,0.38,69.72,"[55.7%, 84.1%]",35.35,"[25.1%, 46.0%]",30.95,0.5205,0.5961,1.5,2.0,0.0,0.73,636.4,0.0185,0.8918,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Voting_3_of_5,H_v5_SNR,Voting_3_of_5,0.38,56.88,"[44.3%, 70.6%]",25.25,"[15.8%, 34.8%]",26.19,0.5536,0.5611,2.0,2.5,0.0,0.57,454.5,0.6622,0.4158,FAIL,FAIL,FAIL,NOT CERTIFIED
+H_v5_SNR_Hysteresis_Cooldown,H_v5_SNR,Hysteresis_Cooldown,0.38,68.81,"[55.1%, 82.1%]",33.33,"[23.9%, 43.8%]",30.95,0.5319,0.6,1.5,2.15,0.0,0.7,600.0,0.2909,0.5896,FAIL,FAIL,FAIL,NOT CERTIFIED

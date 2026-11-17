@@ -1,0 +1,6 @@
+ablation_condition,description,overall_recall_pct,hard_neg_fpr_pct,shouting_fpr_pct,short_scream_recall_pct
+E0_Full_Hybrid_Multimodal,Complete Model E (YAMNet + LogMel + Cadence + Resonance),80.77,5.47,15.48,90.91
+E1_No_Acoustic_Phonetic,Without 32-dim handcrafted acoustic & resonance features,76.92,5.47,16.67,81.82
+E2_No_CNN_Branches,Without Log-Mel 2D CNN and Temporal 1D CNN probabilities,70.51,8.59,21.43,72.73
+E3_No_YAMNet_Backbone,Without pretrained YAMNet representations (Custom CNNs + Handcrafted),69.23,4.43,11.9,86.36
+E4_YAMNet_Max_Alone,Pretrained YAMNet alone with simple Logistic Regression,67.95,6.25,20.24,77.27

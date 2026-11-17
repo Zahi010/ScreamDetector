@@ -1,0 +1,10 @@
+pipeline_stage,median_latency_ms,p95_latency_ms,mean_latency_ms,std_latency_ms,pct_of_25ms_budget,memory_peak_mb,model_size_mb,status
+Stage 0: Buffer Normalization & DC Removal,0.209,0.342,0.238,0.06,0.84,4.12,0.0,PASS
+Stage 1: YAMNet Embedding Extraction (vectorized),10.613,13.669,10.94,1.678,42.45,4.12,14.8,PASS
+Stage 2: Acoustic Discriminability Features (30 dims),12.426,17.523,13.103,2.174,49.71,4.12,0.0,PASS
+Stage 3: Stage 1 Broad Distress Gate (ExtraTrees),68.901,79.944,69.177,6.474,275.6,4.12,1.79,PASS
+Stage 4: Stage 2 Model A (Compact MLP),2.582,3.262,2.609,0.403,10.33,4.12,4.6,PASS
+Stage 5: Stage 2 Model B (Temporal Dilated CNN),55.633,71.233,56.435,6.164,222.53,4.12,2.32,PASS
+Stage 6: Stage 2 Model C (Learned Hybrid Fusion),1.622,2.713,1.856,0.445,6.49,4.12,0.0,PASS
+Complete Pipeline Option 1 (Gate + Model A MLP),95.968,108.644,96.07,8.14,383.87,4.12,6.46,BUDGET_BREACH
+Complete Pipeline Option 2 (Gate + MLP + TCN + Hybrid Fusion),152.969,178.384,154.361,12.004,611.88,4.12,8.78,BUDGET_BREACH

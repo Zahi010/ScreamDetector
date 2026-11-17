@@ -1,0 +1,22 @@
+============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 13 items
+
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_production_artifact_immutability PASSED [  7%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_candidate_checkpoint_integrity PASSED [ 15%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_frozen_threshold_enforcement PASSED [ 23%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_reproducible_prediction_loading PASSED [ 30%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_confusion_matrix_arithmetic PASSED [ 38%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_wilson_interval_correctness PASSED [ 46%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_mcnemar_paired_test PASSED [ 53%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_source_group_bootstrap_report PASSED [ 61%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_subgroup_denominators PASSED [ 69%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_zero_leakage PASSED [ 76%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_short_recording_eof_handling PASSED [ 84%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_latency_measurement_boundaries PASSED [ 92%]
+festival-scream-detector/backend/research/stage_8_9_48/tests/test_stage_8_9_48.py::test_prior_stage_artifacts_immutability PASSED [100%]
+
+============================= 13 passed in 3.44s ==============================

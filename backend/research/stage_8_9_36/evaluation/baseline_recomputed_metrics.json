@@ -1,0 +1,32 @@
+{
+  "threshold_0.35": {
+    "threshold": 0.35,
+    "tp": 86,
+    "fn": 16,
+    "fp": 15,
+    "tn": 176,
+    "recall": 84.31,
+    "hn_fpr": 7.85,
+    "shout_fpr": 8.33,
+    "shout_fp": 4,
+    "shout_total": 48,
+    "precision": 85.15,
+    "specificity": 92.15,
+    "f1": 0.8473
+  },
+  "threshold_0.43": {
+    "threshold": 0.43,
+    "tp": 84,
+    "fn": 18,
+    "fp": 12,
+    "tn": 179,
+    "recall": 82.35,
+    "hn_fpr": 6.28,
+    "shout_fpr": 8.33,
+    "shout_fp": 4,
+    "shout_total": 48,
+    "precision": 87.5,
+    "specificity": 93.72,
+    "f1": 0.8485
+  }
+}

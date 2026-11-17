@@ -1,0 +1,5 @@
+component,p50_ms,p95_ms,p99_ms,worst_case_ms,memory_mb
+Model-Only Candidate E1,0.242,0.421,0.537,0.823,0.79
+Model-Only Candidate B,0.514,0.831,0.992,1.334,0.79
+Subband Feature Extraction,33.188,38.863,45.971,102.682,0.79
+Complete Pipeline (E1),33.506,39.189,46.339,102.915,0.79

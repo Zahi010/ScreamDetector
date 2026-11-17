@@ -1,0 +1,6 @@
+configuration,true_positives,false_negatives,overall_recall,hard_neg_false_positives,hard_neg_fpr,shouted_speech_false_positives,shouted_speech_fpr,short_scream_recall,recovered_child_screams,notes
+A_full_candidate_71d,82,17,82.83,10,8.06,13,14.77,94.87,0,Candidate 71-D baseline: 3 vetoes + flux-conditioned rescue
+B_no_distress_veto,84,15,84.85,10,8.06,15,17.05,94.87,2,"Recovers 2 child screams (+2 TP, 84.85%), but Shout FP rises to 15 (17.05% - Fails Gate 3)"
+C_no_flux_veto,82,17,82.83,12,9.68,20,22.73,94.87,0,Shout FP collapses to 20 (22.73% FPR - Severe Gate 3 failure)
+D_no_resonance_rescue,79,20,79.8,10,8.06,12,13.64,92.31,0,Loses 3 true screams (79.80% recall); short recall collapses to 92.31%
+F_hierarchical_no_vetoes,81,18,81.82,13,10.48,24,27.27,92.31,0,Hierarchical neural routing without vetoes: Shout FP rises to 24 (27.27%)

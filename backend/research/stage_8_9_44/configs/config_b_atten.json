@@ -1,0 +1,18 @@
+{
+  "candidate_id": "Candidate C (Config-B-Atten)",
+  "candidate_tag": "config_b_atten",
+  "architecture": "DualEncoderAcousticModel",
+  "checkpoint": "config_b_atten.pt",
+  "selected_threshold": 0.93,
+  "val_auc": 0.939,
+  "val_ap": 0.8128,
+  "val_f1": 0.6617,
+  "val_recall": 56.41,
+  "val_hn_fpr": 4.76,
+  "val_shouted_speech_fpr": 9.89,
+  "val_brier_score": 0.095,
+  "val_ece": 0.0836,
+  "train_samples": 1599,
+  "train_pos": 802,
+  "train_neg": 797
+}

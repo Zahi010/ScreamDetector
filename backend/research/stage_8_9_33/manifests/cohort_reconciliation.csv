@@ -1,0 +1,6 @@
+cohort_identifier,historical_stage,total_recordings,positive_screams,hard_negatives,source_group_count,primary_role,cross_cohort_overlap,status
+STAGE_8_9_27_BLIND_COHORT,Stage 8.9.27,295,55,240,272,Early blind validation benchmark (evaluated in Stage 8.9.27),Disjoint (Separate evaluation manifest),RECONCILED
+STAGE_8_9_30_RAW_COHORT,Stage 8.9.30,204,137,67,49,Initial expansion cohort before label audit (contained 31 mislabeled screams),0 overlapping files with Test 293,SUPERSEDED_BY_STAGE_8_9_30_1
+STAGE_8_9_30_1_AUDITED_COHORT,Stage 8.9.30.1 / Stage 8.9.31,204,106,98,83,Audited ground truth cohort: 106 genuine screams + 98 hard negatives (reclassified 31 mislabeled),0 overlapping files with Test 293,ACTIVE_BENCHMARK_COHORT
+STAGE_8_9_32_INDEPENDENT_TEST_PARTITION,Stage 8.9.32 / Stage 8.9.33,293,102,191,111,"Source-group-isolated held-out test split (102 screams, 191 hard negatives across 142 source groups)",0 overlapping files with Audited 204,PRIMARY_INDEPENDENT_TEST_SET
+SHORT_SCREAM_FORENSIC_COHORT,Stage 8.9.30.2 / 8.9.31 / 8.9.32,6,6,0,6,Diagnostic forensic cohort (<0.8s) for ring-buffer EOF flush validation,Subset of 8.9.30.1 audited cohort,DIAGNOSTIC_ONLY

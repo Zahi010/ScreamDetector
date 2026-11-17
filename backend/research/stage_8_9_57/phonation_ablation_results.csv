@@ -1,0 +1,14 @@
+ablation_id,description,features_neutralized,prediction_agreement,max_prob_diff,recall,precision,f1,roc_auc,pr_auc,hn_fpr,shouted_fpr,whistle_fpr,short_recall
+REF_FULL_PHONATION,Full 6-d Phonation + 11-d Subband (Reference E1),None,100.0,0.0,82.83,89.13,85.86,0.967,0.9224,4.72,10.23,0.0,94.87
+D3_REMOVE_MAX_VOCAL_PROB,Remove max_vocal_prob (Maximum vocal frame probability across speech/singing),Feature 0 (max_vocal_prob),99.36,0.0756,80.81,88.89,84.66,0.9666,0.9218,4.72,10.23,0.0,94.87
+D3_REMOVE_MEAN_VOCAL_PROB,Remove mean_vocal_prob (Mean vocal frame probability across speech/singing),Feature 1 (mean_vocal_prob),99.36,0.0978,80.81,88.89,84.66,0.9666,0.9227,4.72,10.23,0.0,94.87
+D3_REMOVE_MAX_CROWD_PROB,Remove max_crowd_prob (Maximum crowd frame probability across cheering/applause),Feature 2 (max_crowd_prob),100.0,0.0217,82.83,89.13,85.86,0.9666,0.9206,4.72,10.23,0.0,94.87
+D3_REMOVE_MEAN_CROWD_PROB,Remove mean_crowd_prob (Mean crowd frame probability across cheering/applause),Feature 3 (mean_crowd_prob),100.0,0.0252,82.83,89.13,85.86,0.9664,0.9225,4.72,10.23,0.0,94.87
+D3_REMOVE_MAX_SCREAM_PROB,Remove max_scream_prob (Maximum scream frame probability (YAMNet class 14)),Feature 4 (max_scream_prob),99.36,0.0691,80.81,88.89,84.66,0.9662,0.9222,4.72,10.23,0.0,94.87
+D3_REMOVE_MEAN_SCREAM_PROB,Remove mean_scream_prob (Mean scream frame probability (YAMNet class 14)),Feature 5 (mean_scream_prob),100.0,0.0261,82.83,89.13,85.86,0.9672,0.9235,4.72,10.23,0.0,94.87
+D4_VOCAL_ONLY,Vocal Features Only (Features 0 & 1),"Phonation: [2, 3, 4, 5], Subband: NONE",99.36,0.1072,80.81,88.89,84.66,0.9654,0.9213,4.72,10.23,0.0,94.87
+D4_CROWD_ONLY,Crowd Features Only (Features 2 & 3),"Phonation: [0, 1, 4, 5], Subband: NONE",98.71,0.2059,78.79,88.64,83.42,0.9664,0.9218,4.72,10.23,0.0,94.87
+D4_SCREAM_ONLY,Scream Features Only (Features 4 & 5),"Phonation: [0, 1, 2, 3], Subband: NONE",99.36,0.1456,80.81,88.89,84.66,0.9661,0.922,4.72,10.23,0.0,94.87
+D4_VOCAL_AND_SCREAM,Vocal + Scream Features (Crowd Zeroed),"Phonation: [2, 3], Subband: NONE",99.68,0.0402,81.82,89.01,85.26,0.9663,0.9226,4.72,10.23,0.0,94.87
+D4_ALL_PHONATION_ZEROED,All 6 Phonation Features Zeroed (Subbands Active),"Phonation: [0, 1, 2, 3, 4, 5], Subband: NONE",98.71,0.2,78.79,88.64,83.42,0.9657,0.9217,4.72,10.23,0.0,94.87
+D4_ALL_ACOUSTIC_ZEROED,All Acoustic Zeroed (Phonation + Subband Zeroed),"Phonation: [0, 1, 2, 3, 4, 5], Subband: ALL",98.39,0.271,78.79,87.64,82.98,0.9588,0.9117,5.19,10.23,4.55,94.87

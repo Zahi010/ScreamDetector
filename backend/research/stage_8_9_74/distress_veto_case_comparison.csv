@@ -1,0 +1,5 @@
+recording_id,category,source_group,duration_seconds,raw_probability,roughness,hf_ratio,flux,hnr_db,flatness,prob_under_71d_standard,pred_under_71d_standard,prob_under_73c_no_distress_veto,pred_under_73c_no_distress_veto,case_classification
+273153__hoerspielwerkstatt-hef__child-scream2,scream,exp_sg_nigens_hoerspielwerkstatt-hef,3.38,0.574,0.0189,0.013,0.0892,12.34,0.004201,0.1148,0,0.574,1,Target Child Scream (Recovered by 73-C)
+273153__hoerspielwerkstatt-hef__child-scream2,scream,exp_sg_nigens_hoerspielwerkstatt-hef,3.38,0.5722,0.0189,0.013,0.084,12.34,0.003317,0.1144,0,0.5722,1,Target Child Scream (Recovered by 73-C)
+fsd50k_220823,shouting_and_speech,exp_sg_fsd50k_uploader_ericsueiro,0.7,0.5703,0.01,0.041,0.4179,-3.21,0.048975,0.1141,0,0.5703,1,Added Shouted-Speech False Alarm (Induced by 73-C)
+fsd50k_220822,shouting_and_speech,exp_sg_fsd50k_uploader_ericsueiro,0.75,0.7548,0.0211,0.0425,0.2726,6.02,0.027397,0.151,0,0.7548,1,Added Shouted-Speech False Alarm (Induced by 73-C)

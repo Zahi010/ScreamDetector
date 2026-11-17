@@ -1,0 +1,5 @@
+model_name,architecture,input_feature_dim,decision_threshold,train_samples,val_samples,test_samples,artifact_path
+Baseline_A_LogisticRegression,LogisticRegression,1024,0.35,739,293,293,backend/research/stage_8_9_32/models/baselines/Baseline_A_LogisticRegression.joblib
+Baseline_B_ClassWeighted_LR,LogisticRegression,1024,0.35,739,293,293,backend/research/stage_8_9_32/models/baselines/Baseline_B_ClassWeighted_LR.joblib
+Baseline_C_RandomForest,RandomForestClassifier,1024,0.35,739,293,293,backend/research/stage_8_9_32/models/baselines/Baseline_C_RandomForest.joblib
+Baseline_D_MLP,MLPClassifier,1024,0.35,739,293,293,backend/research/stage_8_9_32/models/baselines/Baseline_D_MLP.joblib

@@ -1,0 +1,27 @@
+recording_id,source_group_id,creator_uploader,license,license_verified,metadata_preserved,blacklist_checked,file_integrity_verified,source_group_isolated,lineage_checked,no_historical_overlap,two_human_annotations_complete,disagreements_adjudicated,ambiguous_quarantined,partition_reviewed,prospective_eligible,eligibility_verdict
+fs_cand_166619,sg_stage76_j.zazvurek,J.Zazvurek,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_166624,sg_stage76_j.zazvurek,J.Zazvurek,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_166620,sg_stage76_j.zazvurek,J.Zazvurek,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_166622,sg_stage76_j.zazvurek,J.Zazvurek,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_428508,sg_stage76_santiaro99,Santiaro99,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_222588,sg_stage76_queen_westeros,queen_westeros,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_697453,sg_stage76_blocksworldanimate,BlocksworldAnimate,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_397686,sg_stage76_piermic,piermic,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_421832,sg_stage76_rivercold,rivercold,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_844113,sg_stage76_perspektywa_tn,perspektywa_tn,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_492493,sg_stage76_soundflakes,SoundFlakes,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_356313,sg_stage76_esmayorga,esmayorga,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_336841,sg_stage76_borque,borQue,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_492494,sg_stage76_soundflakes,SoundFlakes,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_492500,sg_stage76_soundflakes,SoundFlakes,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_492495,sg_stage76_soundflakes,SoundFlakes,CC BY 4.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_789680,sg_stage76_davidkronberg,DavidKronberg,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_667199,sg_stage76_mbpl,MBPL,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_668793,sg_stage76_mbpl,MBPL,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_582341,sg_stage76_mellun,Mellun,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_536806,sg_stage76_egomassive,egomassive,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_50665,sg_stage76_boilingsand,BoilingSand,CC BY 3.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_50666,sg_stage76_boilingsand,BoilingSand,CC BY 3.0,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_725043,sg_stage76_countrygirls13,Countrygirls13,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_686364,sg_stage76_randewd,randewd,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION
+fs_cand_857247,sg_stage76_inspire153,inspire153,CC0 1.0 Universal,1,1,1,1,1,1,1,0,0,0,0,0,QUARANTINED_PENDING_HUMAN_ANNOTATION

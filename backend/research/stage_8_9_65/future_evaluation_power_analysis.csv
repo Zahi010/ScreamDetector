@@ -1,0 +1,5 @@
+n_nominal,cluster_size_m,icc_rho,design_effect,n_effective,p_null,p_alt,alpha,power,gate_target
+550,1.35,0.06,1.021,538.7,0.93,0.96,0.05,0.921,Gate_1_Overall_Recall
+500,1.15,0.04,1.006,497.0,0.075,0.04,0.05,0.9617,Gate_2_Hard_Negative_FPR
+120,1.2,0.05,1.01,118.8,0.2,0.1,0.05,0.9251,Gate_3_Shouted_Speech_FPR
+350,1.3,0.06,1.018,343.8,0.9,0.96,0.05,0.9992,Gate_4_Short_Scream_Recall

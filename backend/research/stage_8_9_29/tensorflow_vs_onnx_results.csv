@@ -1,0 +1,13 @@
+metric,tensorflow,onnx_runtime,difference_or_ratio
+model_load_time_ms,173.953,8.678,20.05x faster load
+warmup_time_50_iters_ms,178.499,4.612,38.70x
+mean_inference_latency_ms,0.892,0.129,6.91x speedup
+p50_inference_latency_ms,0.841,0.118,7.13x
+p95_inference_latency_ms,1.160,0.179,6.48x
+p99_inference_latency_ms,1.410,0.239,5.90x
+min_inference_latency_ms,0.774,0.111,6.97x
+max_inference_latency_ms,1.509,0.287,5.26x
+process_memory_mb,410.64,413.38,2.74 MB delta
+max_absolute_output_diff,0.0,5.9604644775e-07,5.9604644775e-07
+mean_absolute_output_diff,0.0,7.6686094268e-08,7.6686094268e-08
+decision_agreement_pct,100.0%,100.00%,0 mismatches

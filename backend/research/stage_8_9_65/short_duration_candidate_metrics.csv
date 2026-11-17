@@ -1,0 +1,11 @@
+horizon_id,duration_min_sec,duration_max_sec,sample_count,baseline_recall,variant6_recall,candidate_65f_recall,delta_recall_65f_minus_v6,gate4_pass_65f,bin_id
+H3_300ms,0.0,0.3,20,1.0,1.0,1.0,0.0,True,
+H4_400ms,0.0,0.4,68,0.9853,0.9559,0.9853,0.0294,True,
+H5_500ms_UltraShort,0.0,0.5,119,0.9916,0.916,0.9916,0.0756,True,
+H6_750ms,0.0,0.75,272,0.9816,0.8382,0.9816,0.1434,True,
+H7_900ms,0.0,0.9,365,0.9671,0.8082,0.9671,0.1589,True,
+H8_1000ms_AllShort,0.0,1.0,401,0.9651,0.8055,0.9651,0.1596,True,
+,0.0,0.25,6,1.0,1.0,1.0,0.0,True,Bin_0_to_250ms
+,0.25,0.5,116,0.9914,0.9138,0.9914,0.0776,True,Bin_250_to_500ms
+,0.5,0.75,155,0.9742,0.7806,0.9742,0.1935,True,Bin_500_to_750ms
+,0.75,1.0,133,0.9323,0.7293,0.9323,0.203,True,Bin_750_to_1000ms

@@ -1,0 +1,5 @@
+model_id,operating_threshold,event_recall_pct,event_fpr_pct,missed_events_count,false_alarm_events_count,hourly_false_alert_rate,duplicate_alerts_per_event,median_detection_delay_sec,p95_detection_delay_sec,overall_status
+Model_A_Compact_MLP,0.16,86.24,5.56,15,11,100.1,0.0,1.0,1.5,REJECTED
+Model_B_Temporal_CNN,0.61,94.5,17.17,6,34,309.1,0.0,1.0,1.5,REJECTED
+Model_C_Hybrid_Fusion,0.24,92.66,9.09,8,18,163.6,0.0,1.0,1.5,REJECTED
+Model_C_Gated_Cascade,0.24,90.83,8.59,10,17,154.6,0.0,1.0,1.5,REJECTED

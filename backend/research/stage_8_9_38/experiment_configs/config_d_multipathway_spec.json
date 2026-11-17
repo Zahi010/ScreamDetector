@@ -1,0 +1,30 @@
+{
+  "model_code": "Config_D",
+  "model_name": "MultiPathwayFusionModel",
+  "historical_stage": "Stage 8.9.35 / Stage 8.9.37",
+  "input_features": {
+    "semantic_path": {
+      "feature_type": "YAMNet mean embeddings",
+      "dimension": 1024,
+      "normalization": "L2 unit norm"
+    },
+    "phonation_path": {
+      "feature_type": "Acoustic vocal phonation (pitch, voicing, jitter, shimmer, HNR, F0 mean) + validity mask",
+      "dimension": 12,
+      "normalization": "NaN to 0.0 + concatenated binary validity mask"
+    },
+    "subband_path": {
+      "feature_type": "11-band spectral energy, temporal variance, and scream/whistle resonance ratios",
+      "dimension": 11,
+      "normalization": "NaN to 0.0 + L2 unit norm"
+    }
+  },
+  "projection_architecture": {
+    "semantic_head": "Linear(1024, 256) -> BatchNorm1d -> ReLU -> Dropout(0.15) -> Linear(256, 128) -> L2_norm",
+    "phonation_head": "Linear(12, 64) -> BatchNorm1d -> ReLU -> Dropout(0.10) -> Linear(64, 32) -> L2_norm",
+    "subband_head": "Linear(11, 32) -> BatchNorm1d -> ReLU -> Dropout(0.10) -> Linear(32, 16) -> L2_norm",
+    "fusion_classifier": "Linear(176, 64) -> ReLU -> Dropout(0.10) -> Linear(64, 1)"
+  },
+  "loss_definition": "BCEWithLogitsLoss(y_pred, y_true) + 0.5 * SupConLoss(z_sem, z_subband)",
+  "baseline_checkpoint": "backend/research/stage_8_9_35/models/mp_fs_dual_encoder_model.pt"
+}

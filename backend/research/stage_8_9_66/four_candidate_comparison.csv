@@ -1,0 +1,5 @@
+candidate_name,fusion_architecture,suppression_policy,tp,fp,fn,tn,overall_recall,gate1_pass,dev_fpr,gate2_pass,shouted_speech_fpr,gate3_pass,short_scream_recall,gate4_pass,ultra_short_recall,sustained_recall,f1_score,model_p95_latency_ms,gate5_pass,all_gates_pass
+Baseline Dual-Resolution,Gated Blending (Learned Weight),None,184,25,11,92,0.9436,False,0.2137,False,1.0,False,0.985,True,1.0,0.8548,0.9109,0.807,True,False
+Variant 6 Full-Stack,Gated Blending (Learned Weight),Crude HNR Veto + Contrastive Weighting,171,5,24,112,0.8769,False,0.0427,True,0.0,True,0.9398,True,1.0,0.7419,0.9218,0.82,True,False
+Candidate 65-F (Lead),Gated Blending (Learned Weight),Bypass + Agreement + Narrow-band Veto,184,7,11,110,0.9436,False,0.0598,False,0.2,False,0.985,True,1.0,0.8548,0.9534,0.918,True,False
+Sust_D Dual-Branch,Independent Heads (Confidence Soft-OR),None,192,68,3,49,0.9846,True,0.5812,False,1.0,False,1.0,True,1.0,0.9516,0.844,0.835,True,False

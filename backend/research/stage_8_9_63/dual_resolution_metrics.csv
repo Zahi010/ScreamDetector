@@ -1,0 +1,6 @@
+architecture_mode,tp,fn,fp,tn,overall_recall,short_scream_recall,sustained_recall,hard_negative_fpr,shouted_speech_fpr,precision,f1,roc_auc,pr_auc,brier_score,model_only_p95_ms,complete_pipeline_p95_ms,description
+short_only,184,11,41,76,0.9436,0.9624,0.9032,0.3504,1.0,0.8178,0.8762,0.8995,0.9128,0.1248,0.003,12.305,Short-Event Branch Alone (250 ms)
+sust_only,179,16,33,84,0.9179,0.9549,0.8387,0.2821,1.0,0.8443,0.8796,0.8965,0.8953,0.1157,0.003,12.305,Sustained-Event Branch Alone (1000 ms)
+concat,180,15,31,86,0.9231,0.9699,0.8226,0.265,1.0,0.8531,0.8867,0.9107,0.9199,0.1047,0.006,12.308,Dual-Resolution Linear Concatenation
+late_fusion,178,17,28,89,0.9128,0.9474,0.8387,0.2393,1.0,0.8641,0.8878,0.8996,0.9118,0.1114,0.005,12.307,Dual-Resolution Late Probability Fusion
+gated,184,11,31,86,0.9436,0.985,0.8548,0.265,1.0,0.8558,0.8976,0.9193,0.9333,0.1046,0.008,12.31,Dual-Resolution Gated Feature Fusion

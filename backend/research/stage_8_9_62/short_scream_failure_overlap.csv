@@ -1,0 +1,12 @@
+metric_name,count,percentage
+total_short_screams,69,100.0
+detected_by_candidate_e1_static,25,36.23
+detected_by_candidate_b_baseline,27,39.13
+detected_by_candidate_b_interv_d,26,37.68
+detected_by_candidate_e1_rolling,27,39.13
+missed_by_every_candidate,40,57.97
+detected_by_every_candidate,22,31.88
+recovered_by_rolling_missed_by_static_e1,2,2.9
+detected_by_static_e1_missed_by_rolling,0,0.0
+detected_only_by_candidate_b,2,2.9
+detected_only_by_candidate_e1_rolling,0,0.0

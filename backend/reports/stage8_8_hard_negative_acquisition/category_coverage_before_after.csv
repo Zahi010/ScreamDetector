@@ -1,0 +1,10 @@
+category_id,category_name,priority,stage8_7_baseline_count,target_count,newly_discovered_count,newly_acquired_audio_count,post_acquisition_potential_total,net_coverage_delta,gap_status
+whistles_and_squeaks,Whistles and High-Pitched Squeaks,1,2,30,52,22,24,+22,IN_PROGRESS
+crowd_cheering_applause,"Crowd Cheering, Chanting & Applause",2,1,40,48,21,22,+21,IN_PROGRESS
+edm_and_synthesizers,"EDM, Synthesizer Risers & Bass Drops",3,0,35,44,21,21,+21,IN_PROGRESS
+shouting_and_speech,"Shouting, Excited Speech & MC Vocals",4,1,25,37,20,21,+20,IN_PROGRESS
+vuvuzelas_and_horns,"Vuvuzelas, Stadium Horns & Party Blowers",5,0,20,40,21,21,+21,TARGET_REACHED
+fireworks_pyrotechnics,"Fireworks, Screechers & Pyrotechnics",6,0,20,38,20,20,+20,TARGET_REACHED
+wind_and_mic_noise,Microphone Wind Noise & Handling,7,4,20,39,21,25,+21,TARGET_REACHED
+infant_crying_archival,Infant Crying & Tantrums (Ethical Archival),8,64,15,35,20,84,+20,TARGET_REACHED
+sfx_sirens_ringing,"Sirens, Bells & Electronic Ringing",9,6,15,37,19,25,+19,TARGET_REACHED

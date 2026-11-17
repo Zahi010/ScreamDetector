@@ -1,0 +1,9 @@
+category,ground_truth,total_samples,cand_a_tp,cand_a_fn,cand_a_fp,cand_a_tn,cand_a_metric_pct,cand_c_tp,cand_c_fn,cand_c_fp,cand_c_tn,cand_c_metric_pct,cand_f_tp,cand_f_fn,cand_f_fp,cand_f_tn,cand_f_metric_pct
+BABY_CRYING,NON_SCREAM (0),14,0,0,12,2,85.71% (FPR),0,0,12,2,85.71% (FPR),0,0,9,5,64.29% (FPR)
+GENUINE_SCREAM,SCREAM (1),106,92,14,0,0,86.79% (Recall),95,11,0,0,89.62% (Recall),89,17,0,0,83.96% (Recall)
+HARD_NEGATIVE_CONTROL,NON_SCREAM (0),14,0,0,13,1,92.86% (FPR),0,0,13,1,92.86% (FPR),0,0,13,1,92.86% (FPR)
+NON_VOCAL_NOISE,NON_SCREAM (0),1,0,0,1,0,100.00% (FPR),0,0,1,0,100.00% (FPR),0,0,1,0,100.00% (FPR)
+NORMAL_SPEECH,NON_SCREAM (0),26,0,0,1,25,3.85% (FPR),0,0,1,25,3.85% (FPR),0,0,1,25,3.85% (FPR)
+SHOUTING_COMMAND,NON_SCREAM (0),2,0,0,2,0,100.00% (FPR),0,0,2,0,100.00% (FPR),0,0,1,1,50.00% (FPR)
+SIREN_ALARM,NON_SCREAM (0),13,0,0,5,8,38.46% (FPR),0,0,5,8,38.46% (FPR),0,0,3,10,23.08% (FPR)
+STADIUM_CHEERING,NON_SCREAM (0),28,0,0,22,6,78.57% (FPR),0,0,22,6,78.57% (FPR),0,0,19,9,67.86% (FPR)

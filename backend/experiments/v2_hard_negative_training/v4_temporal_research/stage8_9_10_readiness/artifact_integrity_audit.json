@@ -1,0 +1,44 @@
+{
+  "scream_classifier.joblib": {
+    "path": "models/scream_classifier.joblib",
+    "expected_sha256": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+    "actual_sha256": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+    "status": "EXACT_MATCH"
+  },
+  "model_metadata.json": {
+    "path": "models/model_metadata.json",
+    "expected_sha256": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+    "actual_sha256": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+    "status": "EXACT_MATCH"
+  },
+  "test_predictions.csv": {
+    "path": "reports/test_predictions.csv",
+    "expected_sha256": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+    "actual_sha256": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+    "status": "EXACT_MATCH"
+  },
+  "stage5_test_evaluation.md": {
+    "path": "reports/stage5_test_evaluation.md",
+    "expected_sha256": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+    "actual_sha256": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+    "status": "EXACT_MATCH"
+  },
+  "stage8_9_reviews.db": {
+    "path": "backend/database/stage8_9_reviews.db",
+    "file_sha256": "246EF48741732F11A7560E8B69CECA75015CE1A0DD1C153B4F14C6B74BCB0E66",
+    "human_review_counts": {
+      "AMBIGUOUS": 3,
+      "APPROVED_NON_SCREAM": 338,
+      "SCREAM_PRESENT": 2,
+      "UNREVIEWED": 27
+    },
+    "anchor_fsd50k_349401": "SCREAM_PRESENT",
+    "total_reviewed": 343,
+    "status": "VERIFIED_BIT_IDENTICAL_RECORDS"
+  },
+  "production_threshold": {
+    "value": 0.35,
+    "expected": 0.35,
+    "status": "EXACT_MATCH"
+  }
+}

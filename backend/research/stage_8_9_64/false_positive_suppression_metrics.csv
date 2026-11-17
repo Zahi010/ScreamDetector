@@ -1,0 +1,7 @@
+variant_id,overall_recall,gate1_pass,fpr_dev,gate2_pass,f1_score,short_scream_recall,gate4_pass,ultra_short_recall,sustained_recall,hard_neg_fpr,whistle_fpr,shout_fpr,friction_fpr,roc_auc,pr_auc,tp,fp,fn,tn
+V1_Baseline_Dual_Resolution,0.9231,False,0.265,False,0.8867,0.9624,True,1.0,0.8387,0.265,1.0,0.0,0.0,0.8932,0.8814,180,31,15,86
+V2_Dual_Res_Plus_HNR_Veto,0.8872,False,0.2308,False,0.8759,0.9624,True,1.0,0.7258,0.2308,0.5,0.0,0.0,0.9047,0.9311,173,27,22,90
+V3_Dual_Res_Plus_Contrastive_HN,0.9179,False,0.1966,False,0.9018,0.9549,True,0.9804,0.8387,0.1966,0.0,0.0,0.0,0.9196,0.9327,179,23,16,94
+V4_Dual_Res_Plus_Both_HNR_Contrastive,0.8923,False,0.2393,False,0.8766,0.9624,True,1.0,0.7419,0.2393,0.5,0.0,0.0,0.9127,0.9454,174,28,21,89
+V5_Dual_Res_Plus_Temporal_K2,0.9436,False,0.1453,False,0.9293,0.9774,True,0.9804,0.871,0.1453,0.5,0.0,0.0,0.9362,0.9378,184,17,11,100
+V6_Dual_Res_Full_Suppression_Stack,0.8769,False,0.0427,True,0.9218,0.9474,True,0.9804,0.7258,0.0427,0.0,0.0,0.0,0.9299,0.9631,171,5,24,112

@@ -1,0 +1,10 @@
+metric_name,target_gate,historical_stage71,historical_stage72,historical_stage73,reproduced_stage74,discrepancy_explanation,reconciliation_verdict
+Overall Scream Recall (Gate 1),>= 96.0%,82.83% (82/99),82.83% (82/99),82.83% (82/99),82.83% (82/99),Zero discrepancy. Bit-for-bit exact across all stages.,RECONCILED_EXACT
+Real Scream Recall,Informational,Not Disentangled,Not Disentangled,88.75% (71/80),88.75% (71/80),Disentangled in Stage 73; confirmed exact in Stage 74.,RECONCILED_EXACT
+Synthetic Masked Scream Recall,Informational,Not Disentangled,Not Disentangled,57.89% (11/19),57.89% (11/19),Disentangled in Stage 73; confirmed exact in Stage 74.,RECONCILED_EXACT
+Hard-Negative FPR (Gate 2),<= 5.0%,8.06% (10/124),8.06% (10/124),8.06% (10/124),8.06% (10/124),Zero discrepancy. Bit-for-bit exact across all stages.,RECONCILED_EXACT
+Shouted-Speech FPR (Gate 3),<= 15.0%,14.77% (13/88),14.77% (13/88),14.77% (13/88),14.77% (13/88),Zero discrepancy. Bit-for-bit exact across all stages.,RECONCILED_EXACT
+Short-Scream Recall (Gate 4),>= 90.0%,94.87% (37/39),94.87% (37/39),94.87% (37/39),94.87% (37/39),Zero discrepancy on exposed development cohort (N=39).,RECONCILED_EXACT
+Model-Only CPU Latency P95 (Gate 5),<= 25.0 ms,0.417 ms,0.417 ms,0.370 ms,0.370 ms - 0.417 ms,"Host CPU background load variance (0.245ms mean, P95 0.370ms-0.417ms). Both pass Gate 5 with > 59x headroom.",RECONCILED_SYSTEM_NOISE
+Complete Pipeline Latency P95,<= 250.0 ms,17.22 ms,17.22 ms,17.14 ms,17.14 ms - 17.22 ms,Host CPU timing jitter across 150 audio-hop iterations. Both pass with > 14.5x headroom.,RECONCILED_SYSTEM_NOISE
+Source Group Count (Pos / HN / Shout),Informational,47 / 68 / 23,47 / 68 / 23,47 / 68 / 23,47 / 69 / 28,"Historical tables reported disjoint subset counts after subtracting 1 overlap with Pos and 5 overlaps between HN and Shout. Direct partition counts are 47 Pos, 69 HN, 28 Shout (total 138 unique).",RECONCILED_ACCOUNTING

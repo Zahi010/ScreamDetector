@@ -1,0 +1,12 @@
+feature,scream_median,scream_iqr,shout_median,shout_iqr,cliffs_delta,p_value,roc_auc
+Scream_Horn_Resonance_Ratio (1.5-3.5k),-0.0014,0.0061,-0.0048,0.0095,0.3132,0.0005870620865414301,0.6566
+Low_Vocal_Energy_Ratio (<800Hz),0.933,0.3817,1.0,0.1377,-0.4194,4.1438438565425406e-06,0.7097
+Formant_Dispersion_Proxy_Hz,516.0,103.7143,709.2857,176.7857,-0.6712,1.6999408458162362e-13,0.8356
+High_Frequency_Turbulence_Ratio (>4k),0.0015,0.0012,0.0017,0.0007,-0.1993,0.028727230423468055,0.5997
+HNR_Mean_dB,13.8947,49.0265,22.4533,24.9712,-0.1277,0.16030041053228772,0.5639
+Subharmonic_Ratio_dB (SHR),-4.5,0.0,-4.5,0.0,0.0,1.0,0.5
+High_Energy_Pitch_Failure_Rate,1.0,0.0,1.0,0.0,0.0,1.0,0.5
+Burst_Continuity_Ratio,0.9993,0.1535,0.3152,0.4206,0.7268,7.235972374346956e-16,0.8634
+Vocal_Closure_Gap_Count,2.0,1.75,9.5,8.25,-0.6795,5.379736130910111e-14,0.8397
+Energy_Modulation_Depth,2.362,1.7464,6.4383,6.7683,-0.5894,9.72769406781106e-11,0.7947
+Syllabic_Modulation_Ratio (2-8Hz),0.2163,0.1799,0.4143,0.3189,-0.4536,6.376085426685622e-07,0.7268

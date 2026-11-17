@@ -1,0 +1,102 @@
+{
+  "production_hashes": {
+    "backend/models/scream_classifier.joblib": {
+      "expected": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "actual": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "match": true
+    },
+    "backend/models/model_metadata.json": {
+      "expected": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "actual": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "match": true
+    },
+    "backend/reports/test_predictions.csv": {
+      "expected": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "actual": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "match": true
+    },
+    "backend/reports/stage5_test_evaluation.md": {
+      "expected": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "actual": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "match": true
+    }
+  },
+  "production_threshold_verified": true,
+  "database_audit": {
+    "total_reviewed": 343,
+    "decision_counts": {
+      "AMBIGUOUS": 3,
+      "APPROVED_NON_SCREAM": 338,
+      "SCREAM_PRESENT": 2,
+      "UNREVIEWED": 27
+    },
+    "anchor_file_id": "fsd50k_349401",
+    "anchor_decision": "SCREAM_PRESENT",
+    "status": "PASSED"
+  },
+  "stage11_model_artifacts": {
+    "D_v4": {
+      "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\experiments\\v2_hard_negative_training\\v4_temporal_research\\stage8_9_11_evaluation\\models\\model_d_v4.joblib",
+      "exists": true,
+      "size_bytes": 87701
+    },
+    "T1_v4": {
+      "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\experiments\\v2_hard_negative_training\\v4_temporal_research\\stage8_9_11_evaluation\\models\\model_t1_v4.weights.h5",
+      "exists": true,
+      "size_bytes": 1478616
+    },
+    "H_v4_Commercial": {
+      "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\experiments\\v2_hard_negative_training\\v4_temporal_research\\stage8_9_11_evaluation\\models\\model_h_v4_commercial.joblib",
+      "exists": true,
+      "size_bytes": 145717
+    },
+    "H_v5_SNR": {
+      "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\experiments\\v2_hard_negative_training\\v4_temporal_research\\stage8_9_11_evaluation\\models\\model_h_v5_snr.joblib",
+      "exists": true,
+      "size_bytes": 145829
+    }
+  },
+  "stage11_reproduced_metrics": {
+    "D_v4": {
+      "locked_threshold": 0.38,
+      "recall": 0.8991,
+      "fpr": 0.0707,
+      "shout_fpr": 0.119,
+      "precision": 0.875,
+      "f1": 0.8869,
+      "pr_auc": 0.9198,
+      "roc_auc": 0.9564
+    },
+    "T1_v4": {
+      "locked_threshold": 0.53,
+      "recall": 0.8532,
+      "fpr": 0.0808,
+      "shout_fpr": 0.119,
+      "precision": 0.8532,
+      "f1": 0.8532,
+      "pr_auc": 0.8847,
+      "roc_auc": 0.9578
+    },
+    "H_v4_Commercial": {
+      "locked_threshold": 0.42,
+      "recall": 0.789,
+      "fpr": 0.0707,
+      "shout_fpr": 0.0952,
+      "precision": 0.86,
+      "f1": 0.823,
+      "pr_auc": 0.8949,
+      "roc_auc": 0.9316
+    },
+    "H_v5_SNR": {
+      "locked_threshold": 0.51,
+      "recall": 0.7798,
+      "fpr": 0.0505,
+      "shout_fpr": 0.0952,
+      "precision": 0.8947,
+      "f1": 0.8333,
+      "pr_auc": 0.9272,
+      "roc_auc": 0.9569
+    }
+  },
+  "all_checks_passed": true
+}

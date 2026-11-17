@@ -1,0 +1,6 @@
+duration_bracket,duration_range_sec,sample_count,detected_count,recall_rate,evidence_status
+<0.5s,"[0.0, 0.5)",0,0,N/A (0 samples),INSUFFICIENT SAMPLE SIZE (0 samples)
+0.5-0.8s,"[0.5, 0.8)",3,2,66.67%,INSUFFICIENT SAMPLE SIZE
+0.8-1.0s,"[0.8, 1.0)",2,1,50.00%,INSUFFICIENT SAMPLE SIZE
+1.0-1.5s,"[1.0, 1.5)",20,18,90.00%,ADEQUATE
+>1.5s,"[1.5, 999.0)",77,61,79.22%,ADEQUATE

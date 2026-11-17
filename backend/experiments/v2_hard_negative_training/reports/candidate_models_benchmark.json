@@ -1,0 +1,207 @@
+{
+  "Model_A_Baseline_LR": {
+    "description": "Baseline LogisticRegression(C=10.0, balanced) on 1024-d max-pooled YAMNet embeddings",
+    "val_metrics": {
+      "tp": 24,
+      "fp": 11,
+      "fn": 14,
+      "tn": 175,
+      "accuracy": 0.8884,
+      "precision": 0.6857,
+      "recall": 0.6316,
+      "specificity": 0.9409,
+      "fpr": 0.0591,
+      "f1": 0.6575,
+      "roc_auc": 0.9348,
+      "pr_auc": 0.7259,
+      "threshold": 0.35
+    },
+    "test_metrics": {
+      "tp": 42,
+      "fp": 21,
+      "fn": 17,
+      "tn": 109,
+      "accuracy": 0.7989,
+      "precision": 0.6667,
+      "recall": 0.7119,
+      "specificity": 0.8385,
+      "fpr": 0.1615,
+      "f1": 0.6885,
+      "roc_auc": 0.8651,
+      "pr_auc": 0.7539,
+      "threshold": 0.35
+    },
+    "test_category_fpr": {
+      "crowd_chant_cheering": 0.4,
+      "general_environmental": 0.0,
+      "infant_crying": 0.1667,
+      "sfx_sirens_fireworks": 0.0,
+      "shouting_and_speech": 0.2093,
+      "whistles_and_squeaks": 0.1034
+    }
+  },
+  "Model_B_Regularized_LR": {
+    "description": "Calibrated L2 Regularized LR (C=0.05) on 1024-d max-pooled YAMNet embeddings",
+    "val_metrics": {
+      "tp": 32,
+      "fp": 17,
+      "fn": 6,
+      "tn": 169,
+      "accuracy": 0.8973,
+      "precision": 0.6531,
+      "recall": 0.8421,
+      "specificity": 0.9086,
+      "fpr": 0.0914,
+      "f1": 0.7356,
+      "roc_auc": 0.9431,
+      "pr_auc": 0.783,
+      "threshold": 0.35
+    },
+    "test_metrics": {
+      "tp": 50,
+      "fp": 26,
+      "fn": 9,
+      "tn": 104,
+      "accuracy": 0.8148,
+      "precision": 0.6579,
+      "recall": 0.8475,
+      "specificity": 0.8,
+      "fpr": 0.2,
+      "f1": 0.7407,
+      "roc_auc": 0.8923,
+      "pr_auc": 0.775,
+      "threshold": 0.35
+    },
+    "test_category_fpr": {
+      "crowd_chant_cheering": 0.4667,
+      "general_environmental": 0.0,
+      "infant_crying": 0.2222,
+      "sfx_sirens_fireworks": 0.0625,
+      "shouting_and_speech": 0.2558,
+      "whistles_and_squeaks": 0.1034
+    }
+  },
+  "Model_C_P90_LR": {
+    "description": "90th Percentile temporal pooling to suppress transient squeaks/whistles",
+    "val_metrics": {
+      "tp": 30,
+      "fp": 16,
+      "fn": 8,
+      "tn": 170,
+      "accuracy": 0.8929,
+      "precision": 0.6522,
+      "recall": 0.7895,
+      "specificity": 0.914,
+      "fpr": 0.086,
+      "f1": 0.7143,
+      "roc_auc": 0.9472,
+      "pr_auc": 0.8264,
+      "threshold": 0.35
+    },
+    "test_metrics": {
+      "tp": 48,
+      "fp": 26,
+      "fn": 11,
+      "tn": 104,
+      "accuracy": 0.8042,
+      "precision": 0.6486,
+      "recall": 0.8136,
+      "specificity": 0.8,
+      "fpr": 0.2,
+      "f1": 0.7218,
+      "roc_auc": 0.8721,
+      "pr_auc": 0.7717,
+      "threshold": 0.35
+    },
+    "test_category_fpr": {
+      "crowd_chant_cheering": 0.3333,
+      "general_environmental": 0.1111,
+      "infant_crying": 0.1111,
+      "sfx_sirens_fireworks": 0.0625,
+      "shouting_and_speech": 0.2558,
+      "whistles_and_squeaks": 0.2069
+    }
+  },
+  "Model_D_Concat_LR": {
+    "description": "Concatenated [max, p90, mean] multi-pooling representation (3072-dim)",
+    "val_metrics": {
+      "tp": 29,
+      "fp": 12,
+      "fn": 9,
+      "tn": 174,
+      "accuracy": 0.9062,
+      "precision": 0.7073,
+      "recall": 0.7632,
+      "specificity": 0.9355,
+      "fpr": 0.0645,
+      "f1": 0.7342,
+      "roc_auc": 0.9488,
+      "pr_auc": 0.8201,
+      "threshold": 0.35
+    },
+    "test_metrics": {
+      "tp": 45,
+      "fp": 21,
+      "fn": 14,
+      "tn": 109,
+      "accuracy": 0.8148,
+      "precision": 0.6818,
+      "recall": 0.7627,
+      "specificity": 0.8385,
+      "fpr": 0.1615,
+      "f1": 0.72,
+      "roc_auc": 0.8931,
+      "pr_auc": 0.7878,
+      "threshold": 0.35
+    },
+    "test_category_fpr": {
+      "crowd_chant_cheering": 0.3333,
+      "general_environmental": 0.0,
+      "infant_crying": 0.1111,
+      "sfx_sirens_fireworks": 0.0625,
+      "shouting_and_speech": 0.2093,
+      "whistles_and_squeaks": 0.1379
+    }
+  },
+  "Model_E_Hierarchical": {
+    "description": "Two-stage hierarchical classifier (Vocal Gater -> Scream Detector)",
+    "val_metrics": {
+      "tp": 26,
+      "fp": 14,
+      "fn": 12,
+      "tn": 172,
+      "accuracy": 0.8839,
+      "precision": 0.65,
+      "recall": 0.6842,
+      "specificity": 0.9247,
+      "fpr": 0.0753,
+      "f1": 0.6667,
+      "roc_auc": 0.937,
+      "pr_auc": 0.7292,
+      "threshold": 0.25
+    },
+    "test_metrics": {
+      "tp": 42,
+      "fp": 24,
+      "fn": 17,
+      "tn": 106,
+      "accuracy": 0.7831,
+      "precision": 0.6364,
+      "recall": 0.7119,
+      "specificity": 0.8154,
+      "fpr": 0.1846,
+      "f1": 0.672,
+      "roc_auc": 0.858,
+      "pr_auc": 0.7191,
+      "threshold": 0.25
+    },
+    "test_category_fpr": {
+      "crowd_chant_cheering": 0.4,
+      "general_environmental": 0.0,
+      "infant_crying": 0.2778,
+      "sfx_sirens_fireworks": 0.0,
+      "shouting_and_speech": 0.2791,
+      "whistles_and_squeaks": 0.0345
+    }
+  }
+}

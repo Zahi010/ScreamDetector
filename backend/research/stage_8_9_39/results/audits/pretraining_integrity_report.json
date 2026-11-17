@@ -1,0 +1,175 @@
+{
+  "production_integrity": {
+    "backend/models/scream_classifier.joblib": {
+      "status": "MATCH",
+      "expected": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "actual": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f",
+      "match": true
+    },
+    "backend/models/model_metadata.json": {
+      "status": "MATCH",
+      "expected": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "actual": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60",
+      "match": true
+    },
+    "backend/reports/test_predictions.csv": {
+      "status": "MATCH",
+      "expected": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "actual": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d",
+      "match": true
+    },
+    "backend/reports/stage5_test_evaluation.md": {
+      "status": "MATCH",
+      "expected": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "actual": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2",
+      "match": true
+    }
+  },
+  "section_3_1_reserved_expansion_reconciliation": {
+    "reserved_short_scream_source_groups_count": 35,
+    "total_clips_in_reserved_groups": 71,
+    "active_short_screams_in_expansion_test": 65,
+    "quarantined_clips_in_reserved_groups": 6,
+    "quarantined_clips_accounting_for_diff": [
+      {
+        "file_id": "acq_short_scream_0010",
+        "source_group_id": "source_group_short_scream_010",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      },
+      {
+        "file_id": "acq_short_scream_0020",
+        "source_group_id": "source_group_short_scream_020",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      },
+      {
+        "file_id": "acq_short_scream_0030",
+        "source_group_id": "source_group_short_scream_030",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      },
+      {
+        "file_id": "acq_short_scream_0050",
+        "source_group_id": "source_group_short_scream_008",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      },
+      {
+        "file_id": "acq_short_scream_0060",
+        "source_group_id": "source_group_short_scream_018",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      },
+      {
+        "file_id": "acq_short_scream_0070",
+        "source_group_id": "source_group_short_scream_028",
+        "license": "CC BY-NC 4.0",
+        "quarantine_reason": "CC BY-NC 4.0 Non-Commercial Clause",
+        "binary_label": "scream"
+      }
+    ],
+    "full_expansion_test_cohort": {
+      "total_clips": 102,
+      "screams": 65,
+      "hard_negatives": 37
+    },
+    "reconciliation_verified": true
+  },
+  "section_3_2_quarantine_accounting": {
+    "total_quarantined": 24,
+    "cc_nc_count": 21,
+    "cc_nc_file_ids": [
+      "acq_hn_0012",
+      "acq_hn_0024",
+      "acq_hn_0036",
+      "acq_hn_0048",
+      "acq_hn_0060",
+      "acq_hn_0072",
+      "acq_hn_0084",
+      "acq_hn_0096",
+      "acq_hn_0108",
+      "acq_hn_0120",
+      "acq_hn_0132",
+      "acq_hn_0144",
+      "acq_hn_0156",
+      "acq_short_scream_0010",
+      "acq_short_scream_0020",
+      "acq_short_scream_0030",
+      "acq_short_scream_0040",
+      "acq_short_scream_0050",
+      "acq_short_scream_0060",
+      "acq_short_scream_0070",
+      "acq_short_scream_0080"
+    ],
+    "ambiguous_count": 3,
+    "ambiguous_file_ids": [
+      "v2_fsd50k_184833",
+      "v2_fsd50k_267984",
+      "v2_fsd50k_343955"
+    ],
+    "disjoint": true,
+    "excluded_from_training": true,
+    "excluded_from_validation": true,
+    "quarantine_verified": true
+  },
+  "section_3_3_label_adjudication": {
+    "clip_1": {
+      "file_id": "v2_nigens_242607__reitanna__gasp-oooh",
+      "original_label": "scream",
+      "adjudicated_label": "non_scream",
+      "auditor_agreement": "Unanimous (2/2)",
+      "split": "v4_historical_test"
+    },
+    "clip_2": {
+      "file_id": "v2_nigens_242644__reitanna__another-surprised-oooh",
+      "original_label": "scream",
+      "adjudicated_label": "non_scream",
+      "auditor_agreement": "Unanimous (2/2)",
+      "split": "v4_historical_test"
+    },
+    "view_a_original_denominators": {
+      "total": 293,
+      "screams": 102,
+      "non_screams": 191
+    },
+    "view_b_adjudicated_denominators": {
+      "total": 293,
+      "screams": 100,
+      "non_screams": 193
+    },
+    "excluded_from_training": true,
+    "excluded_from_validation": true,
+    "included_in_historical_test": true,
+    "adjudication_verified": true
+  },
+  "section_3_4_dataset_consistency": {
+    "total_records": 1578,
+    "missing_audio_count": 0,
+    "corrupted_files_count": 0,
+    "acq_hash_mismatches_count": 0,
+    "manifest_sha_duplicates": 0,
+    "manifest_pcm_duplicates": 0,
+    "source_group_isolation_clean": true,
+    "source_group_overlap_sum": 0,
+    "parent_excerpt_collisions": {
+      "train_vs_val": 0,
+      "train_vs_hist": 0,
+      "train_vs_exp": 0,
+      "val_vs_hist": 0,
+      "val_vs_exp": 0,
+      "hist_vs_exp": 0
+    },
+    "duration_min": 0.1313125,
+    "duration_max": 550.79,
+    "duration_mean": 6.51622746356147,
+    "dataset_consistency_verified": true
+  },
+  "blockers": [],
+  "overall_status": "PASSED"
+}

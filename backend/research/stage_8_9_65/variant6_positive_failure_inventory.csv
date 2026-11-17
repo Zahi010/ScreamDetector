@@ -1,0 +1,14 @@
+recording_id,source_group_id,duration_seconds,duration_category,baseline_prob,v6_prob,delta_prob,gating_weight_short,hnr_db,spectral_flatness,rms_energy,subcategory,failure_mechanism,remedy_recommendation
+s63_short_0002,nigens_juskiddink,0.761,short_scream,0.8098,0.2892,-0.5206,0.803,7.75,0.00963,0.16088,short_scream,Contrastive_Hyperplane_Retraction,Confidence_Aware_Fusion_And_Adaptive_Gating
+s63_short_0122,sg_pos_v6_029,0.65,short_scream,0.5262,0.0865,-0.4397,0.762,9.96,3e-05,0.49729,short_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s63_short_0123,sg_pos_v6_030,0.75,short_scream,0.5093,0.1162,-0.3931,0.4125,10.04,3e-05,0.49351,short_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s63_short_0124,sg_pos_v6_031,0.85,short_scream,0.8981,0.1834,-0.7147,0.0968,10.63,3e-05,0.51297,short_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s63_short_0125,sg_pos_v6_032,0.95,short_scream,0.5582,0.0939,-0.4643,0.5144,10.2,3e-05,0.51199,short_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s63_short_0132,sg_s60_s20_336004,0.96,short_scream,0.9975,0.4783,-0.5192,0.7947,-3.56,0.02481,0.05272,short_scream,Contrastive_Hyperplane_Retraction,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0492,sg_s60_NIGENS_16872,1.437,sustained_scream,0.5378,0.2449,-0.2929,0.7184,2.96,0.01528,0.1715,sustained_scream,Contrastive_Hyperplane_Retraction,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0523,sg_s60_NIGENS_35716,7.108,sustained_scream,0.9562,0.1853,-0.7708,0.1547,13.3,0.00155,0.12911,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0713,s49_sg_dev_pos_030,1.346,sustained_scream,0.9658,0.1864,-0.7794,0.7695,8.57,2e-05,0.28141,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0728,s49_sg_dev_pos_037,2.149,sustained_scream,0.9073,0.1648,-0.7426,0.282,7.1,0.00011,0.37824,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0732,s49_sg_dev_pos_039,1.388,sustained_scream,0.9537,0.1798,-0.7739,0.1871,13.55,0.0,0.56605,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0733,s49_sg_dev_pos_040,1.477,sustained_scream,0.9384,0.1916,-0.7468,0.1619,12.58,0.0,0.55569,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating
+s60_rec_0734,s49_sg_dev_pos_040,1.156,sustained_scream,0.9611,0.1848,-0.7763,0.1591,13.57,0.0,0.57224,sustained_scream,HNR_Tonal_Veto_False_Attenuation,Confidence_Aware_Fusion_And_Adaptive_Gating

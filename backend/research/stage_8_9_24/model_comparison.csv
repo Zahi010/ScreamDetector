@@ -1,0 +1,8 @@
+candidate,overall_recall_pct,hard_neg_fpr_pct,shouting_fpr_pct,short_scream_recall_pct,roc_auc,pr_auc,precision,f1_score,specificity_pct,engineering_gate_status
+Candidate A (Baseline Frozen),78.21,7.03,20.24,86.36,0.951,0.6734,0.6932,0.7349,92.97,REJECTED (Research Only)
+Candidate B (Temporal LogReg),75.64,18.49,25.0,95.45,0.858,0.4725,0.4538,0.5673,81.51,REJECTED (Research Only)
+Candidate C (Temporal RF),88.46,19.79,22.62,95.45,0.8971,0.6428,0.4759,0.6188,80.21,REJECTED (Research Only)
+Candidate D (Temporal GB),58.97,6.77,10.71,72.73,0.8822,0.611,0.6389,0.6133,93.23,REJECTED (Research Only)
+Candidate E (Short Pathway),35.9,11.72,15.48,36.36,0.6342,0.3021,0.3836,0.3709,88.28,REJECTED (Research Only)
+Candidate F (Long Pathway),58.97,6.77,10.71,72.73,0.8822,0.611,0.6389,0.6133,93.23,REJECTED (Research Only)
+Candidate G (Dual-Pathway TMSCV),80.77,5.99,15.48,86.36,0.9561,0.6935,0.7326,0.7683,94.01,REJECTED (Research Only)

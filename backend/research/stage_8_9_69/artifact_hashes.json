@@ -1,0 +1,47 @@
+{
+  "production_classifier_joblib": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\models\\scream_classifier.joblib",
+    "sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f"
+  },
+  "production_model_metadata": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\models\\model_metadata.json",
+    "sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60"
+  },
+  "production_test_predictions": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\reports\\test_predictions.csv",
+    "sha256": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d"
+  },
+  "production_stage5_eval_report": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\reports\\stage5_test_evaluation.md",
+    "sha256": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "candidate_65f_frozen": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_66\\models\\candidate_65f_frozen.pt",
+    "sha256": "06a98025dbdabf462bec305b0cfe8455dd137b3d515cafca8811606865bacfab"
+  },
+  "candidate_67_frozen": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_67\\models\\candidate_67_frozen.pt",
+    "sha256": "8fc2255a337f1375870370216416b94d9c2003a2b8939dbee1301115f53a7b18"
+  },
+  "candidate_68_frozen": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_68\\models\\candidate_68_frozen.pt",
+    "sha256": "8a3b425a2885cfeeb4d9e6a64c04619949978cad5b55a8a5f60b5ee379949dc4"
+  },
+  "stage60_sealed_evaluation_manifest": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_60\\future_evaluation_manifest.json",
+    "sha256": "9dfa4ced3620e568a6c4b247eabab76a94fff655c367b918f97d5d875b4e32cd"
+  },
+  "candidate_69_frozen": {
+    "status": "VERIFIED",
+    "path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\research\\stage_8_9_69\\models\\candidate_69_frozen.pt",
+    "sha256": "d468b75ab12d5ef2b8577c18304e8c4ddaf78f3059b2c0395a1a3263ac6dd92c"
+  }
+}

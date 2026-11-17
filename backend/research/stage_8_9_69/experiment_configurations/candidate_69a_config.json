@@ -1,0 +1,23 @@
+{
+  "experiment_id": "Candidate_69_A",
+  "name": "Candidate 69-A (Veto Agreement Ceiling & HFCR Rescue Policy)",
+  "description": "Conditions the dedicated HFCR roll-off veto on vocal roughness < 0.050 to rescue high-roughness screams with high-frequency attenuation.",
+  "base_model": "backend/research/stage_8_9_67/models/candidate_67_frozen.pt",
+  "in_features": 22,
+  "operating_threshold": 0.490,
+  "suppression_heuristics": {
+    "use_selective_veto": true,
+    "use_vocal_veto": true,
+    "use_hf_rolloff_veto": true,
+    "use_flux_speech_veto": true,
+    "narrowband_hnr_db": 12.0,
+    "narrowband_flatness": 0.001,
+    "hf_cutoff": 0.008,
+    "hf_roughness_condition": 0.050,
+    "flux_cutoff": 0.038,
+    "vocal_roughness_min": 0.045,
+    "vocal_hf_ratio_min": 0.050,
+    "veto_attenuation": 0.20
+  }
+}
+

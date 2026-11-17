@@ -1,0 +1,22 @@
+{
+  "total_manifest_clips": 1328,
+  "train_clips": 741,
+  "val_clips": 293,
+  "test_clips": 294,
+  "train_source_groups": 294,
+  "val_source_groups": 98,
+  "test_source_groups": 111,
+  "total_unique_source_groups": 503,
+  "source_group_disjointness": true,
+  "pcm_sha256_unique_count": 1328,
+  "stage5_test_in_train": 0,
+  "stage5_test_in_val": 0,
+  "stage5_test_in_test": 33,
+  "license_distribution": {
+    "CC0 / Public Domain": 499,
+    "CC BY (Permissive)": 428,
+    "Other / Unclear": 249,
+    "CC BY-NC (Non-Commercial Only)": 152
+  },
+  "commercial_readiness": "NOT READY (152 non-commercial recordings present)"
+}

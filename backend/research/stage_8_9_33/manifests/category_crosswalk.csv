@@ -1,0 +1,10 @@
+semantic_category,audited_204_category_name,audited_204_sample_count,test_293_category_name,test_293_sample_count,explanation_of_count_difference
+Stadium Cheering & Crowd Chanting,STADIUM_CHEERING,28,crowd_chant_cheering,42,"Different cohorts: Audited 204 cohort has 28 Freesound cheering clips; Test 293 partition has 42 held-out crowd clips from 1,325-sample dataset."
+Infant & Child Crying,BABY_CRYING,14,infant_crying,15,Audited 204 cohort has 14 NIGENS baby cry clips; Test 293 partition has 15 held-out infant cry clips.
+Shouted Speech & Commands,SHOUTING_COMMAND,2,shouting_and_speech,48,Audited 204 cohort has 2 reclassified shouted commands; Test 293 partition includes 48 shouted speech samples from v2 dataset.
+"Sirens, Alarms & Pyrotechnics",SIREN_ALARM,13,sfx_sirens_fireworks,28,Audited 204 cohort has 13 siren clips; Test 293 partition has 28 siren and firework sounds.
+Whistles & High Squeaks,N/A (Grouped in Control),0,whistles_and_squeaks,32,Audited 204 cohort did not have an explicit whistle category; Test 293 partition has 32 whistle clips.
+General Environmental & Ambience,NON_VOCAL_NOISE,1,general_environmental,26,Audited 204 cohort has 1 noise clip; Test 293 partition has 26 environmental noise samples.
+Normal Conversational Speech,NORMAL_SPEECH,26,Included in shouting_and_speech,0,Audited 204 cohort contains 26 pure conversational dialogue clips.
+Benchmark Control Negatives,HARD_NEGATIVE_CONTROL,14,Distributed across categories,0,Audited 204 cohort contains 14 NIGENS control clips.
+TOTAL HARD NEGATIVES,ALL_HARD_NEGATIVES,98,ALL_HARD_NEGATIVES,191,28+14+2+13+1+26+14 = 98 for Audited 204; 42+15+48+28+32+26 = 191 for Test 293.

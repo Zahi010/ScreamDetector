@@ -1,0 +1,5 @@
+architecture,taxonomy_classes,parameter_count,inference_latency_ms,overall_recall,hard_negative_fpr,shouted_speech_fpr,gate_status,notes
+Single-Stage Baseline (Candidate 71-D),Binary (Scream vs Non-Scream),2945,0.417,82.83% (82/99),8.06% (10/124),14.77% (13/88),"FAIL (Gates 1, 2)",Current champion; relies on 3 calibrated vetoes & flux rescue.
+Hierarchical Raw (No Vetoes),"3-Class (Non-Vocal, Vocal Non-Scream, Scream)",3316,0.465,81.82% (81/99),10.48% (13/124),27.27% (24/88),"FAIL (Gates 1, 2, 3)",Severe shouted-speech leakage; neural hierarchy alone fails Gate 3.
+Hierarchical + Calibrated Vetoes,3-Class + 3 Vetoes & Flux Rescue,3316,0.542,82.83% (82/99),8.06% (10/124),14.77% (13/88),"FAIL (Gates 1, 2)",+30% latency overhead for identical classification outcome.
+Multi-Task Shared Encoder,8-Class Auxiliary Head + Binary Head,3425,0.48,80.81% (80/99),7.26% (9/124),13.64% (12/88),"FAIL (Gates 1, 2)","Reduces infant crying false alarms, but loses 2 true positive screams."

@@ -1,0 +1,14 @@
+file_id,target_category,duration_sec,model_probability,source_group_id,hnr_db,scream_resonance_ratio,subharmonic_ratio,spectral_centroid_hz,f0_hz,log_attack_time,spectral_flatness,primary_acoustic_cause
+v2_fsd50k_100357,sfx_sirens_fireworks,12.748,0.5414,stage8_9_zozu,10.82,0.0,0.003,847.8,748.4,3.28,0.0,"Sustained sinusoidal pitch (HNR=10.8dB, centroid=848Hz) crossing YAMNet scream threshold"
+v2_fsd50k_169811,shouting_and_speech,1.971,0.9603,fsd50k_uploader_missozzy,8.14,0.891,0.537,1610.7,717.4,2.39,0.0422,Elevated vocal pitch (F0=717.4Hz) and vocal strain causing high subharmonic ratio (0.537)
+v2_fsd50k_23499,whistles_and_squeaks,5.26,0.987,fsd50k_uploader_schulze,9.85,0.037,0.0,1129.2,721.1,2.38,0.0128,High spectral centroid (1129Hz) and rapid onset attack (log_attack=2.38)
+v2_fsd50k_168725,shouting_and_speech,1.405,0.8608,fsd50k_uploader_11linda,3.86,0.873,0.11,1949.5,739.3,2.41,0.0215,Elevated vocal pitch (F0=739.3Hz) and vocal strain causing high subharmonic ratio (0.110)
+v2_fsd50k_9429,infant_crying,2.875,0.9717,fsd50k_uploader_thanvannispen,4.06,0.224,3.684,1543.4,565.9,3.31,0.0304,High infant fundamental frequency (F0=565.9Hz) and distress vocalization roughness
+v2_fsd50k_169810,shouting_and_speech,7.069,0.9949,fsd50k_uploader_missozzy,8.9,0.262,0.211,1381.4,721.9,2.31,0.0249,Elevated vocal pitch (F0=721.9Hz) and vocal strain causing high subharmonic ratio (0.211)
+v3_fsd50k_366060,crowd_chant_cheering,4.702,0.9013,fsd50k_uploader_univ_lyon3,-5.91,0.343,0.156,2885.3,792.4,3.48,0.3418,Persistent crowd resonance in 1.5-3.5 kHz band (ratio=0.343) mimicking scream formant
+v3_fsd50k_367636,crowd_chant_cheering,7.166,0.565,fsd50k_uploader_univ_lyon3,-6.53,0.319,0.18,2564.1,667.9,3.48,0.3159,Persistent crowd resonance in 1.5-3.5 kHz band (ratio=0.319) mimicking scream formant
+v3_fsd50k_150961,crowd_chant_cheering,7.001,0.966,fsd50k_uploader_unchaz,0.67,0.307,0.038,1365.3,507.8,3.53,0.0199,Persistent crowd resonance in 1.5-3.5 kHz band (ratio=0.307) mimicking scream formant
+stage11_fsd50k_265359,shouting_and_speech,4.545,0.3736,fsd50k_user_ryanconway,1.98,0.013,15.133,472.2,804.2,1.41,0.0155,Elevated vocal pitch (F0=804.2Hz) and vocal strain causing high subharmonic ratio (15.133)
+stage11_fsd50k_117289,whistles_and_squeaks,0.894,0.741,fsd50k_user_alexsani,7.19,0.079,0.294,304.0,939.0,2.23,0.0302,High spectral centroid (304Hz) and rapid onset attack (log_attack=2.23)
+stage11_fsd50k_148266,sfx_sirens_fireworks,4.547,0.376,fsd50k_user_thejrb,0.96,0.683,2.416,1477.6,976.5,3.35,0.0501,"Sustained sinusoidal pitch (HNR=1.0dB, centroid=1478Hz) crossing YAMNet scream threshold"
+stage11_fsd50k_402814,infant_crying,0.58,0.5065,fsd50k_user_klankbeeld,6.23,0.711,0.001,1535.5,714.1,2.26,0.0226,High infant fundamental frequency (F0=714.1Hz) and distress vocalization roughness

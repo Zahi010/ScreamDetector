@@ -1,0 +1,70 @@
+{
+  "classification": "RESEARCH DEMONSTRATION PROTOTYPE \u2014 NOT FOR LIFE-SAFETY USE",
+  "stage": "8.9.80",
+  "title": "Live Microphone Candidate 71-D Dashboard Integration Deliverables Manifest",
+  "timestamp": "2026-11-17T10:40:18.765713+00:00",
+  "final_acceptance_status": "LIVE MICROPHONE VERIFIED \u2014 CANDIDATE 71-D INFERENCE WORKING",
+  "total_deliverables": 12,
+  "deliverables": {
+    "candidate_71d_integration_design.md": {
+      "relative_path": "backend/research/stage_8_9_80/candidate_71d_integration_design.md",
+      "size_bytes": 13363,
+      "sha256": "a293fc89bae8ebdf4e928f3c921dae141006a7e1e13139fc33608d037af8679c"
+    },
+    "inference_performance_report.md": {
+      "relative_path": "backend/research/stage_8_9_80/inference_performance_report.md",
+      "size_bytes": 5173,
+      "sha256": "f1946339fa5d068a8d7564d1d9f06e8d28f97e53d259c681ca7919ec65edc196"
+    },
+    "live_audio_pipeline_validation.md": {
+      "relative_path": "backend/research/stage_8_9_80/live_audio_pipeline_validation.md",
+      "size_bytes": 6120,
+      "sha256": "0410a32237a7a0ce09c5624f4efa9e7a541736afd32afd60b18dc2915634daa3"
+    },
+    "microphone_smoke_test.md": {
+      "relative_path": "backend/research/stage_8_9_80/microphone_smoke_test.md",
+      "size_bytes": 4876,
+      "sha256": "c55b0aa298f58d8dfa7a09f632839bb1685000e9e0f826e6ab2c3985851bd5b3"
+    },
+    "models/candidate_71_frozen.pt": {
+      "relative_path": "backend/research/stage_8_9_80/models/candidate_71_frozen.pt",
+      "size_bytes": 23299,
+      "sha256": "e4314990f1314402f885878818651a0efb8aa5c75eaf51487f684356b0835d6b"
+    },
+    "protected_asset_hashes_before_after.json": {
+      "relative_path": "backend/research/stage_8_9_80/protected_asset_hashes_before_after.json",
+      "size_bytes": 2260,
+      "sha256": "6301a93fc043a7f2b86b4a1569ace09abe1f0296d61965feae362562b632cac2"
+    },
+    "security_validation.md": {
+      "relative_path": "backend/research/stage_8_9_80/security_validation.md",
+      "size_bytes": 3933,
+      "sha256": "1b7af6337387d642fef865c2b6f0a37cd6062d73064b3c9f87a65cba2c23faf9"
+    },
+    "STAGE_8_9_80_COMPLETION_REPORT.md": {
+      "relative_path": "backend/research/stage_8_9_80/STAGE_8_9_80_COMPLETION_REPORT.md",
+      "size_bytes": 12398,
+      "sha256": "b325ea7e061f61f220f66f1e753f875f1508d2e62722da4c077d4831cbd6b3c0"
+    },
+    "STAGE_PROGRESS.md": {
+      "relative_path": "backend/research/stage_8_9_80/STAGE_PROGRESS.md",
+      "size_bytes": 6746,
+      "sha256": "8dbf0a6f2d548c281019483b4e1359a7de9ab63c0c0ce2597729e47d1e5e6485"
+    },
+    "test_results.md": {
+      "relative_path": "backend/research/stage_8_9_80/test_results.md",
+      "size_bytes": 7194,
+      "sha256": "77c8a73b05197d512139412b9db55de5e5d8922263a3edcef2c82bdce6e16734"
+    },
+    "tests/test_stage_8_9_80.py": {
+      "relative_path": "backend/research/stage_8_9_80/tests/test_stage_8_9_80.py",
+      "size_bytes": 12249,
+      "sha256": "6523db6431e5f43a99d675e725b2e30a14da7135b18f315d0c0153e59603e718"
+    },
+    "websocket_validation.md": {
+      "relative_path": "backend/research/stage_8_9_80/websocket_validation.md",
+      "size_bytes": 6744,
+      "sha256": "689174faa05a6a45efb3aff1938744296109a1d1d2073a466372b8dec7170150"
+    }
+  }
+}

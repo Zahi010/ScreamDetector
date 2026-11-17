@@ -1,0 +1,25 @@
+{
+  "branch_name": "macro_resolution_branch",
+  "sample_rate": 16000,
+  "window_sec": 0.975,
+  "window_samples": 15600,
+  "hop_sec": 0.25,
+  "hop_samples": 4000,
+  "min_valid_sec": 0.2,
+  "min_valid_samples": 3200,
+  "feature_extractors": [
+    "AcousticPreScreener",
+    "TemporalPhonationExtractor (70 frames x 16-dim)",
+    "TemporalModulationExtractor (context_sec=0.5s)",
+    "TemporalPhonationGlobal (32-dim vector)",
+    "ResonancePeakProminence"
+  ],
+  "models": [
+    "Model C (Compiled TensorFlow 1D-CNN)",
+    "Candidate G (Candidate E short pathway)",
+    "Model E (Multimodal 1058-dim classifier)",
+    "Asymmetric Confidence Fusion E"
+  ],
+  "target_events": "Sustained screams, terror cries, complex acoustic context (> 800ms)",
+  "memory_allocation_bytes": 62400
+}

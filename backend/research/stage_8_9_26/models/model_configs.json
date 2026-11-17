@@ -1,0 +1,84 @@
+{
+  "stage": "8.9.26",
+  "title": "Integrated Multi-Stage Scream Detection Pipeline",
+  "status": "RESEARCH_ONLY",
+  "timestamp": "2026-10-31T15:35:00+05:30",
+  "production_threshold_preserved": 0.35,
+  "stages": {
+    "Stage_1_Acoustic_Pre_Screening": {
+      "features": [
+        "RMS Energy (dBFS)",
+        "Adaptive Noise Floor",
+        "Spectral Flux",
+        "ZCR",
+        "Spectral Centroid",
+        "High-Band Ratio (>1.2kHz)"
+      ],
+      "silence_cutoff_db": -55.0,
+      "min_snr_db": 1.5,
+      "scream_candidate_retention_pct": 100.0,
+      "hard_negative_rejection_pct": 5.47,
+      "p95_latency_ms": 17.45
+    },
+    "Stage_2_Fast_Candidate_Detection": {
+      "model": "Model C (Temporal 1D Dilated CNN)",
+      "checkpoint": "backend/research/stage_8_9_25/models/model_c_temporal_1d_cnn.keras",
+      "input_shape": [
+        70,
+        16
+      ],
+      "effective_receptive_field": "15 frames (300 ms)",
+      "dilations": [
+        1,
+        2,
+        4
+      ],
+      "parameters": 22625,
+      "p95_latency_ms": 3.1
+    },
+    "Stage_3_Verification": {
+      "temporal_verifier": {
+        "model": "Candidate G Dual-Pathway TMSCV",
+        "fast_pathway_window_sec": 0.5,
+        "slow_pathway_window_sec": 1.5,
+        "checkpoint": "backend/research/stage_8_9_24/models/candidate_e_short_pathway.joblib"
+      },
+      "acoustic_resonance_verifier": {
+        "model": "Model E Multimodal + Horn Resonance",
+        "scream_horn_band": "1.5 kHz - 3.5 kHz",
+        "resonance_features": [
+          "Horn Peak Prominence (dB)",
+          "Horn Peak-to-Median Ratio",
+          "Horn Energy Ratio",
+          "Spectral Tilt"
+        ],
+        "checkpoint": "backend/research/stage_8_9_25/models/model_e_hybrid_multimodal.joblib"
+      }
+    },
+    "Stage_4_Confidence_Aware_Fusion": {
+      "best_variant": "Fusion E (Confidence-Aware Asymmetric Fusion)",
+      "decision_categories": [
+        "POSSIBLE_SCREAM",
+        "NON_SCREAM",
+        "AMBIGUOUS_VOCALIZATION"
+      ],
+      "short_scream_recall_pct": 71.43,
+      "overall_recall_pct": 85.9,
+      "shouting_fpr_pct": 15.48,
+      "hard_neg_fpr_pct": 6.25,
+      "roc_auc": 0.9257,
+      "p95_latency_ms": 24.8,
+      "gate_status": "REJECTED (Research Only)"
+    },
+    "Streaming_and_Event_Grouping": {
+      "window_sec": 0.975,
+      "hop_sec": 0.25,
+      "cooldown_hops": 6,
+      "cooldown_sec": 1.5,
+      "fast_trigger_threshold": 0.5,
+      "sustained_trigger_threshold": 0.35,
+      "release_threshold": 0.25,
+      "dropped_windows_pct": 0.0
+    }
+  }
+}

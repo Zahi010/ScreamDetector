@@ -1,0 +1,23 @@
+{
+  "manifest_file": "rolling_window_development_manifest.csv",
+  "sha256": "bdf27fdf663c722c4f312ab273839629884892b2ae1d17fa47e70981400d6e1c",
+  "total_recordings": 187,
+  "positive_recordings": 70,
+  "negative_recordings": 117,
+  "unique_source_groups": 180,
+  "unique_creators": 8,
+  "category_distribution": {
+    "environmental_sound": 114,
+    "scream": 70,
+    "referee_whistle": 2,
+    "shouted_speech": 1
+  },
+  "subcategory_distribution": {
+    "environmental_noise": 114,
+    "sustained_scream": 62,
+    "short_scream": 9,
+    "whistle_acoustic_tone": 2
+  },
+  "source_group_overlap_with_sealed": 0,
+  "recording_overlap_with_sealed": 0
+}

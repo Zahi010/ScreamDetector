@@ -1,0 +1,6 @@
+recording_id,source_group_id,description,duration_seconds,baseline_prob,baseline_pred,gating_weight_short,is_nominal_shouted
+s60_rec_0054,sg_s60_162880,Infant crying / child vocalization outcries,2.0477777777777777,0.999,1,0.2059,False
+s60_rec_0100,sg_s60_196156,Sobbing and heavy breathing outcries,15.470045351473924,0.6603,1,0.6541,False
+s60_rec_0231,sg_s60_350438,Kid chorus shouting / singing,2.203582766439909,0.8942,1,0.7842,False
+s60_rec_0236,sg_s60_350452,Kid chorus group singing / shouting,2.8888208616780044,0.7347,1,0.5005,False
+s60_rec_0332,sg_s60_NIGENS_13575,NIGENS victim gasping / non-scream vocal outcry,1.2606875,0.9599,1,0.8167,True

@@ -1,0 +1,80 @@
+[
+  {
+    "model_pair": "Model H_v4 vs Baseline_Frozen",
+    "b_hv4_only": 24,
+    "c_comp_only": 7,
+    "mcnemar_chi2_cc": 8.2581,
+    "p_mcnemar_cc": 0.004057,
+    "p_exact_binomial": 0.003327,
+    "delta_pr_auc_mean": 0.1513,
+    "delta_pr_auc_ci_95": "[0.0923, 0.2176]",
+    "p_boot_pr_auc": 0.0,
+    "sig_unadjusted_05": true,
+    "sig_bonferroni_01": true
+  },
+  {
+    "model_pair": "Model H_v4 vs Model_D_v3 (at 0.37)",
+    "b_hv4_only": 10,
+    "c_comp_only": 10,
+    "mcnemar_chi2_cc": 0.05,
+    "p_mcnemar_cc": 0.823063,
+    "p_exact_binomial": 1.0,
+    "delta_pr_auc_mean": 0.0167,
+    "delta_pr_auc_ci_95": "[-0.0060, 0.0428]",
+    "p_boot_pr_auc": 0.144,
+    "sig_unadjusted_05": false,
+    "sig_bonferroni_01": false
+  },
+  {
+    "model_pair": "Model H_v4 vs Model_D_v3 (at 0.35)",
+    "b_hv4_only": 10,
+    "c_comp_only": 10,
+    "mcnemar_chi2_cc": 0.05,
+    "p_mcnemar_cc": 0.823063,
+    "p_exact_binomial": 1.0,
+    "delta_pr_auc_mean": 0.0167,
+    "delta_pr_auc_ci_95": "[-0.0060, 0.0428]",
+    "p_boot_pr_auc": 0.144,
+    "sig_unadjusted_05": false,
+    "sig_bonferroni_01": false
+  },
+  {
+    "model_pair": "Model H_v4 vs Model_H_Calibrated (at 0.39)",
+    "b_hv4_only": 8,
+    "c_comp_only": 9,
+    "mcnemar_chi2_cc": 0.0,
+    "p_mcnemar_cc": 1.0,
+    "p_exact_binomial": 1.0,
+    "delta_pr_auc_mean": 0.0154,
+    "delta_pr_auc_ci_95": "[-0.0076, 0.0438]",
+    "p_boot_pr_auc": 0.214,
+    "sig_unadjusted_05": false,
+    "sig_bonferroni_01": false
+  },
+  {
+    "model_pair": "Model H_v4 vs Model_T1_1D_TCN",
+    "b_hv4_only": 14,
+    "c_comp_only": 10,
+    "mcnemar_chi2_cc": 0.375,
+    "p_mcnemar_cc": 0.540291,
+    "p_exact_binomial": 0.541256,
+    "delta_pr_auc_mean": 0.0093,
+    "delta_pr_auc_ci_95": "[-0.0292, 0.0535]",
+    "p_boot_pr_auc": 0.682,
+    "sig_unadjusted_05": false,
+    "sig_bonferroni_01": false
+  },
+  {
+    "model_pair": "Model H_v4 vs Model_T3_TemporalPooling",
+    "b_hv4_only": 13,
+    "c_comp_only": 5,
+    "mcnemar_chi2_cc": 2.7222,
+    "p_mcnemar_cc": 0.09896,
+    "p_exact_binomial": 0.096252,
+    "delta_pr_auc_mean": 0.0256,
+    "delta_pr_auc_ci_95": "[0.0043, 0.0502]",
+    "p_boot_pr_auc": 0.014,
+    "sig_unadjusted_05": true,
+    "sig_bonferroni_01": false
+  }
+]

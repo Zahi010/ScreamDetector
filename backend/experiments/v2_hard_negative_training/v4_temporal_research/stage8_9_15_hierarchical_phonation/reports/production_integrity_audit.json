@@ -1,0 +1,110 @@
+{
+  "production_hashes": {
+    "backend/models/scream_classifier.joblib": {
+      "expected": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "actual": "AD6E428D05D2359DA73B6DEE7CFDCEC646C87390B496B59CAD5F46B5A452851F",
+      "match": true
+    },
+    "backend/models/model_metadata.json": {
+      "expected": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "actual": "30C1C75D81AD61B1D0CACB70B221D034840888C7BFEDE949A15D47B139699F60",
+      "match": true
+    },
+    "backend/reports/test_predictions.csv": {
+      "expected": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "actual": "E93BE4550F97FE2CFE6BC0F2366650833D96F284C45CD1EB6026FBA0DB98449D",
+      "match": true
+    },
+    "backend/reports/stage5_test_evaluation.md": {
+      "expected": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "actual": "9E55B1F574E18BC4623A871D58926FEFCCD29F4C4E3EE22010A4A54A4E4CD1D2",
+      "match": true
+    }
+  },
+  "production_threshold_verified": true,
+  "database_audit": {
+    "database_path": "C:\\Users\\zahia\\OneDrive\\Desktop\\ScreamDetector\\festival-scream-detector\\backend\\database\\stage8_9_reviews.db",
+    "total_reviewed": 343,
+    "status_counts": {
+      "AMBIGUOUS": 3,
+      "APPROVED_NON_SCREAM": 338,
+      "SCREAM_PRESENT": 2,
+      "UNREVIEWED": 27
+    },
+    "anchor_fsd50k_349401": "SCREAM_PRESENT",
+    "status": "PASSED"
+  },
+  "stage14_artifacts_present": {
+    "stage8_9_14_acoustic_discriminability_report.md": {
+      "exists": true,
+      "size_bytes": 28196
+    },
+    "short_event_dataset_audit.csv": {
+      "exists": true,
+      "size_bytes": 61448
+    },
+    "annotation_protocol.md": {
+      "exists": true,
+      "size_bytes": 8267
+    },
+    "feature_ablation_results.csv": {
+      "exists": true,
+      "size_bytes": 887
+    },
+    "category_feature_analysis.csv": {
+      "exists": true,
+      "size_bytes": 5544
+    },
+    "false_positive_forensics.csv": {
+      "exists": true,
+      "size_bytes": 2827
+    },
+    "source_group_split_audit.json": {
+      "exists": true,
+      "size_bytes": 421
+    },
+    "held_out_test_metrics.csv": {
+      "exists": true,
+      "size_bytes": 1769
+    },
+    "latency_benchmark_results.csv": {
+      "exists": true,
+      "size_bytes": 371
+    },
+    "production_integrity_audit.json": {
+      "exists": true,
+      "size_bytes": 3020
+    },
+    "acoustic_discriminability_features.py": {
+      "exists": true,
+      "size_bytes": 16410
+    },
+    "test_stage8_9_14_regression.py": {
+      "exists": true,
+      "size_bytes": 7051
+    },
+    "stage8_9_14_acoustic_features.npz": {
+      "exists": true,
+      "size_bytes": 7038776
+    }
+  },
+  "stage14_reproduced_metrics": {
+    "D_v4_Baseline": {
+      "recall": 89.91,
+      "fpr": 7.07,
+      "shout_fpr": 11.9,
+      "short_recall": 100.0
+    },
+    "D_v4_plus_Family_B": {
+      "recall": 81.65,
+      "fpr": 4.55,
+      "shout_fpr": 7.14
+    },
+    "F_v6_Acoustic_Full": {
+      "recall": 87.16,
+      "fpr": 6.57
+    },
+    "verified": true
+  },
+  "all_checks_passed": true
+}

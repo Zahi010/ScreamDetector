@@ -1,0 +1,5 @@
+concurrent_streams,total_hops_processed,wall_clock_sec,throughput_hops_per_sec,p50_latency_ms,p95_latency_ms,p99_latency_ms,max_latency_ms,hop_deadline_100ms_misses,deadline_miss_rate_pct,meets_p95_25ms_target
+1,25,0.659,37.94,8.129,40.752,104.560,123.951,1,4.00%,False
+2,50,1.198,41.74,17.880,57.059,216.410,220.573,2,4.00%,False
+4,100,2.269,44.06,35.065,127.503,426.639,454.076,26,26.00%,False
+8,200,4.462,44.83,72.955,252.022,837.166,851.811,60,30.00%,False

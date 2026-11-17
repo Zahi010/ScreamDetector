@@ -1,0 +1,26 @@
+﻿============================= test session starts =============================
+platform win32 -- Python 3.13.3, pytest-9.1.1, pluggy-1.6.0 -- C:\Users\zahia\AppData\Local\Programs\Python\Python313\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\zahia\OneDrive\Desktop\ScreamDetector
+plugins: anyio-4.14.1, langsmith-0.10.5, platformdirs-4.12.4
+collecting ... collected 17 items
+
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_production_freeze_hashes PASSED [  5%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_manifest_v5_schema_and_count PASSED [ 11%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_source_group_isolation PASSED [ 17%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_positive_dataset_audit PASSED [ 23%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_acquisition_provenance PASSED [ 29%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_annotation_review PASSED [ 35%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_logmel_cache PASSED [ 41%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_yamnet_cache PASSED [ 47%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_model_checkpoints PASSED [ 52%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_model_configs PASSED [ 58%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_forward_pass_shapes PASSED [ 64%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_wilson_ci_bounds PASSED [ 70%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_augmentation_study_results PASSED [ 76%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_latency_benchmark_gate5 PASSED [ 82%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_candidate_comparison_csv PASSED [ 88%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_mandatory_safety_designations PASSED [ 94%]
+festival-scream-detector/backend/research/stage_8_9_43/tests/test_stage_8_9_43.py::test_production_classifier_unmodified PASSED [100%]
+
+============================= 17 passed in 3.74s ==============================

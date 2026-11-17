@@ -1,0 +1,105 @@
+# RESEARCH DEMONSTRATION PROTOTYPE — NOT FOR LIFE-SAFETY USE.
+
+# STAGE 8.9.62 — Artifact Cryptographic Hash Audit
+
+**MANDATORY SAFETY DESIGNATION:**
+*This system is an experimental acoustic research prototype. It is not certified for emergency detection, life-safety alerting, autonomous dispatch, police response, active-shooter notification, or critical security deployment. All experiments must use legally acquired recorded audio datasets and safe recorded-audio playback protocols only.*
+
+---
+
+## 1. Executive Summary
+
+This audit confirms that all 15 protected baseline assets, models, metadata files, historical prediction logs, and Stage 8.9.61 evaluation artifacts have been verified via SHA-256 cryptographic digests.
+
+Zero files were modified, retrained, or overwritten.
+
+---
+
+## 2. Hash Verification Ledger
+
+```json
+{
+  "production_classifier": {
+    "path": "backend/models/scream_classifier.joblib",
+    "status": "OK",
+    "sha256": "ad6e428d05d2359da73b6dee7cfdcec646c87390b496b59cad5f46b5a452851f"
+  },
+  "model_metadata": {
+    "path": "backend/models/model_metadata.json",
+    "status": "OK",
+    "sha256": "30c1c75d81ad61b1d0cacb70b221d034840888c7bfede949a15d47b139699f60"
+  },
+  "test_predictions": {
+    "path": "backend/reports/test_predictions.csv",
+    "status": "OK",
+    "sha256": "e93be4550f97fe2cfe6bc0f2366650833d96f284c45cd1eb6026fba0db98449d"
+  },
+  "stage5_evaluation": {
+    "path": "backend/reports/stage5_test_evaluation.md",
+    "status": "OK",
+    "sha256": "9e55b1f574e18bc4623a871d58926fefccd29f4c4e3ee22010a4a54a4e4cd1d2"
+  },
+  "candidate_e1_checkpoint": {
+    "path": "backend/research/stage_8_9_54/training/candidate_e_v954_weighted.pt",
+    "status": "OK",
+    "sha256": "37fa77b4cd4cb04c5035e31263c3ec62b4e8015fbd1e01f30877f76872277564"
+  },
+  "candidate_b_checkpoint": {
+    "path": "backend/research/stage_8_9_44/models/config_b_mask.pt",
+    "status": "OK",
+    "sha256": "f40c8342ae1b2ff588d8a6649fc5e5c2a19d1db6ae3e4f5cc894f1e3353c1378"
+  },
+  "intervention_d_code": {
+    "path": "backend/research/stage_8_9_49/scripts/whistle_discriminator.py",
+    "status": "OK",
+    "sha256": "3d98aa7496c6ba89066cfa345a6d0c1ee3605c30821f869a049001c4ad4a8bd2"
+  },
+  "c5_combined_dsp": {
+    "path": "backend/research/stage_8_9_57/dsp_implementations/c5_combined.py",
+    "status": "OK",
+    "sha256": "d73cd3bf4d3d1debbaa75b9e57c82d113c3abc500d7ab9b5868b14aa608a9d58"
+  },
+  "original_e1_dsp": {
+    "path": "backend/research/stage_8_9_57/scripts/benchmark_original_dsp.py",
+    "status": "OK",
+    "sha256": "192e928c6ea427737ef8a3ec4449c890c1d41f01d71c80cefde3f2a0363f5905"
+  },
+  "stage54_partition_manifest": {
+    "path": "backend/research/stage_8_9_54/dataset/partition_manifest_verified.csv",
+    "status": "OK",
+    "sha256": "10563efcd5d607d1395f9db5ab1aa805a0d9ca39b9b4a64a710816d334caeb9e"
+  },
+  "future_evaluation_manifest": {
+    "path": "backend/research/stage_8_9_60/future_evaluation_manifest.json",
+    "status": "OK",
+    "sha256": "9dfa4ced3620e568a6c4b247eabab76a94fff655c367b918f97d5d875b4e32cd"
+  },
+  "duplicate_relationships": {
+    "path": "backend/research/stage_8_9_60/duplicate_and_excerpt_relationships.csv",
+    "status": "OK",
+    "sha256": "f0e602520e2678b317c0cf82f15cb99304b965e477cec3abe21c6561a18d6dea"
+  },
+  "stage61_dev_manifest": {
+    "path": "backend/research/stage_8_9_61/rolling_window_development_manifest.csv",
+    "status": "OK",
+    "sha256": "bdf27fdf663c722c4f312ab273839629884892b2ae1d17fa47e70981400d6e1c"
+  },
+  "stage61_candidate_freeze": {
+    "path": "backend/research/stage_8_9_61/rolling_window_candidate_freeze.json",
+    "status": "OK",
+    "sha256": "a56982b014e12697982d927c917f1039de35c72b1dc20a1c9ac61dc74e2275df"
+  },
+  "stage61_preregistration": {
+    "path": "backend/research/stage_8_9_61/independent_evaluation_preregistration.md",
+    "status": "OK",
+    "sha256": "f6a3c14a1ecd11d783d76f8f27352b577cdb3b6a3f9e4b0724e19f2d58b4248c"
+  }
+}
+```
+
+---
+
+## 3. Governance Conclusion
+
+Integrity audit certified. Baseline assets remain unmodified.
+

@@ -1,0 +1,30 @@
+{
+  "stage": "8.9.34",
+  "operating_mode": "TEMPORAL_CONTEXT_MODELING_AND_SNR_ADAPTATION",
+  "production_status": "STRICTLY_FROZEN",
+  "production_threshold": 0.3500,
+  "research_frozen_threshold": 0.3500,
+  "temporal_context": {
+    "evaluated_windows_sec": [0.5, 1.0, 2.0, 3.0, 5.0],
+    "causal_frames_used": 3,
+    "frame_representations": ["f_p10_floor", "f_mean_central", "f_max_peak"]
+  },
+  "snr_adaptive_conditioning": {
+    "snr_indicator": "mean(f_max - f_p10)",
+    "training_noise_levels": ["Clean", "+10dB", "+5dB", "0dB", "-3dB", "-5dB"],
+    "noise_injection_curriculum": [0.0, 0.05, 0.15, 0.30]
+  },
+  "architectures": {
+    "Candidate_B": "Causal GRU Temporal Aggregator (input_dim=160, hidden_dim=64)",
+    "Candidate_C": "Causal Temporal Convolutional Network (TCN, dilations=[1, 2], hidden_dim=64)",
+    "Candidate_D": "Lightweight Gated Temporal Aggregator (GLU over 3-window context)",
+    "Combined_TSA": "Joint Temporal SNR-Adaptive Dual-Encoder with Infant-Cry Suppression Gating"
+  },
+  "acceptance_gates": {
+    "overall_recall_min": 0.96,
+    "hard_negative_fpr_max": 0.05,
+    "shouted_speech_fpr_max": 0.15,
+    "short_scream_recall_min": 0.90,
+    "computational_p95_latency_max_ms": 25.0
+  }
+}

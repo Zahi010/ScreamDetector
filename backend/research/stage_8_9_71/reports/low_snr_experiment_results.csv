@@ -1,0 +1,5 @@
+experiment,overall_recall,tp,fn,shouted_fpr,shout_fp,hard_neg_fpr,hn_fp,short_scream_recall,short_tp,held_out_short_recall,held_out_tp
+Exp A0: Candidate 70-D Baseline,82.83,82,17,14.77,13,9.68,12,94.87,37,58.96,158
+Exp A1: Adaptive Spectral Contrast Scaling,82.83,82,17,15.91,14,9.68,12,94.87,37,60.07,161
+Exp A2: SNR Dynamic Range Expansion (HNR < 0dB),82.83,82,17,27.27,24,10.48,13,94.87,37,59.33,159
+Exp A3: Noise-Robust Subband Roughness Scaling,83.84,83,16,17.05,15,10.48,13,94.87,37,60.45,162

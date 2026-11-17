@@ -1,0 +1,38 @@
+
+test_01_production_model_immutability (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_01_production_model_immutability)
+1. Production scream classifier joblib SHA-256 immutability. ... ok
+test_02_production_metadata_immutability (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_02_production_metadata_immutability)
+2. Production metadata JSON SHA-256 immutability. ... ok
+test_03_production_historical_predictions_immutability (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_03_production_historical_predictions_immutability)
+3. Production test predictions CSV SHA-256 immutability. ... ok
+test_04_production_historical_evaluation_immutability (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_04_production_historical_evaluation_immutability)
+4. Production Stage 5 test evaluation MD SHA-256 immutability. ... ok
+test_05_frozen_config_b_checkpoint_hash (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_05_frozen_config_b_checkpoint_hash)
+5. Candidate B PyTorch checkpoint SHA-256 preservation. ... ok
+test_06_frozen_config_b_calibrator_hash (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_06_frozen_config_b_calibrator_hash)
+6. Candidate B Platt calibrator SHA-256 preservation. ... ok
+test_07_frozen_threshold_preservation (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_07_frozen_threshold_preservation)
+7. Frozen threshold 0.24 preserved in config and evaluation. ... ok
+test_08_expansion_benchmark_snapshot_immutability (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_08_expansion_benchmark_snapshot_immutability)
+8. Expansion benchmark snapshot (N=102) SHA-256 verification. ... ok
+test_09_positive_cohort_physical_audio_existence (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_09_positive_cohort_physical_audio_existence)
+9. Positive evaluation cohort (N=57) physical audio files existence and format. ... ok
+test_10_cross_partition_source_group_isolation (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_10_cross_partition_source_group_isolation)
+10. Zero source-group leakage across dataset v4, stage 8.9.40, and stage 8.9.41. ... ok
+test_11_quarantine_manifest_isolation (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_11_quarantine_manifest_isolation)
+11. Absolute isolation between active positive manifest and quarantine manifest. ... ok
+test_12_no_hash_collisions (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_12_no_hash_collisions)
+12. Zero SHA-256 and PCM collisions within new positive cohort. ... ok
+test_13_license_eligibility_commercial (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_13_license_eligibility_commercial)
+13. All active positive recordings are commercially eligible (no CC BY-NC). ... ok
+test_14_prediction_accounting_integrity (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_14_prediction_accounting_integrity)
+14. Prediction accounting exactly matches manifest records. ... ok
+test_15_wilson_confidence_interval_bounds (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_15_wilson_confidence_interval_bounds)
+15. Wilson score confidence interval mathematical soundness. ... ok
+test_16_latency_and_gate_5 (backend.research.stage_8_9_41.tests.test_stage_8_9_41.TestStage8941Verification.test_16_latency_and_gate_5)
+16. Computational P95 latency is <= 25 ms. ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 3.087s
+
+OK

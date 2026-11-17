@@ -1,0 +1,13 @@
+recording_id,source_group_id,ground_truth_category,duration_sec,estimated_snr_db,raw_neural_probability,final_calibrated_probability,operating_threshold,active_vetoes,roughness,hf_ratio,flux,flatness,branch_similarity,source_provenance,is_duplicate_or_excerpt
+fs_369001,exp_sg_stage8_9_synth_lab,general_environmental,20.024,-4.54,0.5627,0.5627,0.492,none,0.26312,0.0245,0.0046,0.038564,0.7118,Stage 54 Validation (FSD50K/Synthetic),Synthetic variant or FSD50K excerpt
+fsd50k_323723,exp_sg_stage8_9_reitanna,whistles_and_squeaks,0.569,-0.6,0.4666,0.5016,0.492,resonance_rescue,0.07712,0.6166,0.0091,0.110602,0.7967,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_184623,exp_sg_stage8_9_landub,sfx_sirens_fireworks,19.04,-4.03,0.5365,0.5365,0.492,none,0.27057,0.0288,0.1285,0.028735,0.7555,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_34280,exp_sg_stage8_9_hello_flowers,sfx_sirens_fireworks,8.549,0.1,0.6258,0.6258,0.492,none,0.28746,0.0007,0.0597,0.000207,0.6438,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_424603,exp_sg_stage8_9_fiddlingaround121,general_environmental,19.749,6.38,0.4611,0.4961,0.492,resonance_rescue,0.03406,0.1505,0.0371,0.030116,0.7856,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_154428,exp_sg_stage8_9_ecfike,infant_crying,7.506,-2.5,0.5632,0.5632,0.492,none,0.02269,0.1742,0.0436,0.134825,0.7418,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_343976,exp_sg_stage8_9_reitanna,infant_crying,18.634,-3.41,0.5844,0.5844,0.492,none,0.03092,0.1075,0.0765,0.098509,0.7018,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_344030,exp_sg_stage8_9_reitanna,infant_crying,3.599,0.83,0.6787,0.6787,0.492,none,0.0558,0.1009,0.1758,0.081979,0.6106,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+fsd50k_83199,exp_sg_fsd50k_uploader_miastodzwiekow,crowd_chant_cheering,17.616,-5.66,0.5046,0.5046,0.492,none,0.13758,0.0334,0.053,0.046637,0.7553,Stage 54 Validation (FSD50K/Synthetic),Distinct upload
+src_v5_parent_0104,exp_sg_source_group_v5_whistle_008,whistles_and_squeaks,1.479,8.27,0.6061,0.6061,0.492,none,0.00274,43.7013,0.3389,0.004006,0.5503,Stage 54 Validation (FSD50K/Synthetic),Synthetic variant or FSD50K excerpt
+src_v5_parent_0108,exp_sg_source_group_v5_whistle_012,whistles_and_squeaks,1.039,8.26,0.5876,0.5876,0.492,none,0.00299,43.6244,0.3419,0.00428,0.5797,Stage 54 Validation (FSD50K/Synthetic),Synthetic variant or FSD50K excerpt
+src_v5_parent_0116,exp_sg_source_group_v5_whistle_008,whistles_and_squeaks,2.679,8.27,0.5898,0.5898,0.492,none,0.00249,43.7974,0.3476,0.003764,0.5777,Stage 54 Validation (FSD50K/Synthetic),Synthetic variant or FSD50K excerpt

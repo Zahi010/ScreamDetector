@@ -1,0 +1,7 @@
+target_category,total_clips,source_groups_count,eligible_clips,quarantined_clips,mean_duration,min_duration,max_duration
+crowd_chant_cheering,65,20,60,5,2.437,0.528,4.387
+general_environmental,5,3,5,0,3.812,2.213,4.367
+infant_crying,12,4,11,1,2.493,0.875,4.392
+sfx_sirens_fireworks,8,3,7,1,2.521,0.562,4.316
+shouting_and_speech,65,21,60,5,2.471,0.52,4.443
+whistles_and_squeaks,10,3,9,1,2.693,1.281,4.068

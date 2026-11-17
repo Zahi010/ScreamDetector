@@ -1,0 +1,40 @@
+{
+  "candidate_id": "Candidate_65_F_Combined_Selective",
+  "checkpoint_file": "candidate_65f_frozen.pt",
+  "checkpoint_sha256": "06a98025dbdabf462bec305b0cfe8455dd137b3d515cafca8811606865bacfab",
+  "architecture_class": "DualResolutionGatedModel",
+  "features": {
+    "short_branch": "250ms high-energy slice, tiled x4, C5 DSP (6 subbands, 11 phonation)",
+    "sustained_branch": "1000ms centered window, C5 DSP (6 subbands, 11 phonation)"
+  },
+  "operating_hyperparameters": {
+    "decision_threshold": 0.48,
+    "high_confidence_bypass": 0.8,
+    "branch_cosine_agreement_threshold": 0.4,
+    "whistle_hnr_threshold_db": 12.0,
+    "whistle_flatness_threshold": 0.001,
+    "whistle_attenuation_multiplier": 0.15
+  },
+  "development_performance": {
+    "overall_recall": 0.9436,
+    "hard_negative_fpr": 0.0598,
+    "shouted_speech_fpr": 0.2,
+    "short_scream_recall": 0.985,
+    "ultra_short_recall": 1.0,
+    "sustained_recall": 0.8548,
+    "f1_score": 0.9534,
+    "roc_auc": 0.9622,
+    "pr_auc": 0.9785,
+    "model_p95_latency_ms": 0.918
+  },
+  "gate_status_summary": {
+    "gate1_recall_ge_96": false,
+    "gate2_fpr_le_5": false,
+    "gate3_shouted_fpr_le_15": false,
+    "gate4_short_recall_ge_90": true,
+    "gate5_latency_p95_le_25ms": true,
+    "all_gates_pass": false
+  },
+  "evaluation_readiness_recommendation": "NOT READY FOR INDEPENDENT EVALUATION",
+  "freeze_timestamp_utc": "2026-11-12T08:05:15Z"
+}

@@ -1,0 +1,9 @@
+pipeline_component,iterations,p50_ms,p90_ms,p95_ms,p99_ms,max_ms,overhead_share_percent
+1. Window Assembly & Normalization,300,0.0377,0.0474,0.065,0.0831,0.1284,0.14
+2. Resampling & Rate Conditioning,300,0.0156,0.0215,0.0305,0.044,0.125,0.07
+3. Phonation Feature Extraction (6-d),300,4.4282,5.9033,6.4353,7.0567,9.6268,13.97
+4. Subband Filterbank Synthesis (11-d),300,33.9552,37.8765,39.3885,45.2328,50.8771,85.5
+5. Candidate E1 Model-Only Forward Pass,300,0.3264,0.4956,0.7067,1.1317,11.6431,1.53
+6. Candidate B Model-Only Forward Pass,300,0.6133,0.8334,0.9564,1.1557,1.237,2.08
+7. Intervention D Acoustic Modulation Filter,300,2.0654,2.8484,3.088,3.4296,3.7556,6.7
+8. Decision Thresholding & Output Logic,300,0.0069,0.0073,0.0094,0.0144,1.4588,0.02

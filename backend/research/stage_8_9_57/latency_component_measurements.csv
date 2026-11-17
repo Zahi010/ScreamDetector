@@ -1,0 +1,15 @@
+pipeline_id,component_name,mean_ms,std_ms,min_ms,p50_ms,p90_ms,p95_ms,p99_ms,max_ms
+Original_E1_Pipeline,Normalization,0.0337,0.008,0.0268,0.0314,0.0411,0.0441,0.0574,0.1281
+Original_E1_Pipeline,Phonation_DSP,1.1625,0.3035,0.923,1.0088,1.6263,1.8732,2.0815,2.4731
+Original_E1_Pipeline,Subband_DSP,10.3525,1.1772,8.6145,10.1739,12.0167,12.5145,13.3857,15.5957
+Original_E1_Pipeline,Tensor_Formatting,0.1052,0.0269,0.0521,0.1076,0.1301,0.144,0.1654,0.3227
+Original_E1_Pipeline,Model_Forward,0.2936,0.0641,0.1845,0.2783,0.3755,0.4188,0.49,0.6197
+Original_E1_Pipeline,Sigmoid_Threshold,0.0162,0.0063,0.0089,0.0154,0.0196,0.0218,0.0344,0.0939
+Original_E1_Pipeline,Complete_Pipeline_Direct,11.9696,1.3013,9.9773,11.8239,13.633,14.0828,15.6896,17.947
+C5_Optimized_Pipeline,Normalization,0.032,0.0058,0.0269,0.0297,0.038,0.0421,0.059,0.0709
+C5_Optimized_Pipeline,Phonation_DSP,0.1278,0.0343,0.1076,0.1145,0.1552,0.1698,0.3156,0.3992
+C5_Optimized_Pipeline,Subband_DSP,4.5743,0.5776,3.8144,4.4078,5.1737,5.5256,6.4114,8.4547
+C5_Optimized_Pipeline,Tensor_Formatting,0.0762,0.0294,0.0506,0.065,0.1198,0.1301,0.1679,0.241
+C5_Optimized_Pipeline,Model_Forward,0.2518,0.0702,0.1756,0.2325,0.3409,0.4054,0.4825,0.6894
+C5_Optimized_Pipeline,Sigmoid_Threshold,0.0123,0.0058,0.0078,0.0111,0.0171,0.0206,0.0251,0.0758
+C5_Optimized_Pipeline,Complete_Pipeline_Direct,5.0795,0.6506,4.2241,4.8809,5.8748,6.1437,7.0307,9.1081
